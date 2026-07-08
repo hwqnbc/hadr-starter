@@ -51,9 +51,10 @@ world.
    prominently, so that a Green-turned-Red event isn't buried as a footnote.
 8. As a reader, I want retractions stated explicitly ("previously reported
    M5.2 was deleted by USGS"), so that corrections are as visible as claims.
-9. As a reader, I want a flash alert on the dashboard when a new Red-level
-   event occurs between editions, so that catastrophic events reach me the
-   same hour, not the next morning.
+9. As a reader, I want a flash alert on the dashboard when any event crosses
+   into Red level between editions — whether newly detected at Red or a
+   tracked event escalating into Red — so that catastrophic events reach me
+   within the hour they are detected, not the next morning.
 10. As a reader, I want the dashboard to always show the current best-known
     state of tracked events, so that I'm never acting on superseded data.
 11. As a reader, I want an explicit coverage warning when a feed is down or
@@ -98,15 +99,44 @@ world.
   `eventid`, all USGS `ids` entries, GLIDE, ReliefWeb disaster ID). Join
   order: GLIDE → USGS IDs from GDACS per-event detail → heuristic (hazard
   type + origin time ±30 min + distance ≤250 km). GDACS keyed on `eventid`;
-  a new `episodeid` is an update.
+  a new `episodeid` is an update. The heuristic is the **last resort**, used
+  only when no shared identifier links the records; it **never merges records
+  that already carry distinct same-source identifiers** (two different USGS
+  `ids`, two different GDACS `eventid`s are distinct events). This is what
+  keeps an aftershock sequence separate: each significant aftershock has its
+  own USGS id and its own GDACS event, so they join by ID, not by the
+  proximity window they happen to share with the mainshock. When several
+  candidates *do* fall in the heuristic window, the nearest in combined
+  time-and-space wins; a genuinely ambiguous match **stays separate rather
+  than merging** — a missed merge is recoverable and visible, a false merge
+  hides a disaster.
+- **Join corrections are first-class** (resolves issue #4): a join is a
+  revisable belief, not a permanent fact. If later evidence shows a merge was
+  wrong the canonical event is **split**; if a shared GLIDE or preferred-ID
+  flip later links two separate events they are **merged**. Split and merge
+  are part of the update policy alongside escalation, downgrade, revision and
+  retraction, and each is surfaced in the edition changelog so a correction is
+  as visible as the original claim (US6–US8).
+
 - **Threshold** (ADR-0002): reportable = GDACS Orange/Red, or PAGER
   yellow/orange/red, or escalation of a tracked event, or a ReliefWeb
   disaster entry for an unreported event. GDACS alert level and PAGER level
   are kept as separate fields, never merged.
 - **Cadence** (ADR-0003): hourly poll; daily edition at 08:30 SGT (00:30
-  UTC cron); new Red event → intraday flash re-render. Every morning
-  publishes; quiet editions are template-only with no model call. The model
-  is invoked only to assess and phrase reportable material.
+  UTC cron); **any event crossing into Red since the last edition — newly
+  detected at Red or a tracked event escalating into Red — triggers an
+  intraday flash re-render** (resolves issue #5: escalation-to-Red is the very
+  scenario the reconciler exists to catch, so it must flash, not wait for
+  morning). A flash fires once per Red spell: the `flash_published` guard is
+  set on the flash and cleared when the event drops below Red, so a
+  downgrade-then-re-escalation flashes again while sustained Red does not
+  re-flash every poll. Detection latency is bounded by the hourly poll and
+  best-effort Actions cron — the flash reaches the reader within roughly an
+  hour of detection (up to ~2 h from occurrence); the cadence stays hourly
+  deliberately (polite to SLA-free feeds; Red impact estimates develop over
+  hours anyway). Every morning publishes; quiet editions are template-only
+  with no model call. The model is invoked only to assess and phrase
+  reportable material.
 - **Persistence** (ADR-0004): single schema-versioned JSON state file,
   committed by the workflow, never hand-edited.
 - **Stack** (ADR-0005): Python 3.12+/uv/pytest/ruff, httpx; the dashboard
@@ -141,7 +171,13 @@ world.
 - Scenario fixtures to cover at minimum: same quake from three feeds
   (dedup), Green→Red escalation, magnitude revision, USGS deletion
   (retraction), preferred-ID flip within `ids`, quiet morning, one feed
-  stale, ReliefWeb entry arriving days late for an already-reported event.
+  stale, ReliefWeb entry arriving days late for an already-reported event,
+  a tracked Orange event escalating to Red between editions (asserts a flash
+  re-render is emitted, and that a downgrade-then-re-escalation flashes again
+  while sustained Red does not), a mainshock plus an M5+ aftershock inside the
+  ±30 min / ≤250 km window each carrying its own USGS id (asserts they remain
+  distinct canonical events), and a wrong heuristic merge later split apart
+  (asserts the split produces a changelog entry).
 
 ## Out of Scope
 

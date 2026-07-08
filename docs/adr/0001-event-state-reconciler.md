@@ -15,5 +15,17 @@ escalations, double-reports revisions, and cannot handle retractions.
   USGS IDs exposed by the GDACS per-event detail → heuristic (hazard type +
   origin time ±30 min + distance ≤ 250 km).
 - GDACS records are keyed on `eventid`; a new `episodeid` is an update.
+- The heuristic is a **last-resort** join, used only when no shared
+  identifier links the records. It never merges records carrying distinct
+  same-source identifiers (two USGS `ids`, two GDACS `eventid`s ⇒ distinct
+  events), so an aftershock sequence — each shock with its own USGS id —
+  stays separate despite falling inside the proximity window. Multiple
+  in-window candidates are broken by nearest-in-time-and-space; ambiguous
+  matches stay separate rather than merge.
+- **Joins are revisable.** A wrong merge is **split**, and two events later
+  found to be one (shared GLIDE, preferred-ID flip) are **merged**. Split and
+  merge sit in the update policy beside escalation / downgrade / revision /
+  retraction, and each appears in the changelog so a correction is as visible
+  as the original claim.
 - The dashboard shows current best-known state; each edition additionally
   carries a changelog of what changed since the previous edition.

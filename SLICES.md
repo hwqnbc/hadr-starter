@@ -31,7 +31,7 @@ then unattended scheduling.
 | V5 | Editions + changelog | B5 (edition logic), S3 | N12, N13, S3, U1/U3/U4, U9/U10/U11 | Escalate an event between runs → it appears prominently in the changelog; a run with nothing reportable renders the one-line quiet edition |
 | V6 | Model assessment + `/sitrep` skill | B5 (model step) | N14, `skills/sitrep/` | Reportable events carry model-written what/where/how-bad/who prose; quiet editions still make **no** model call |
 | V7 | Coverage + staleness | B6, S2 | N11, S2, U12, U13 | Point a fetcher at a dead URL → dashboard shows "GDACS unreachable since HH:MM SGT; EQ coverage via USGS only" |
-| V8 | Unattended scheduling + flash | B4, B7 | N1, N2, N3, N10, N16, S5 | Enable `sitrep.yml`; hourly + 08:30 SGT runs commit state and dashboard unattended; a new Red event triggers an off-cycle flash re-render |
+| V8 | Unattended scheduling + flash | B4, B7 | N1, N2, N3, N10, N16, S5 | Enable `sitrep.yml`; hourly + 08:30 SGT runs commit state and dashboard unattended; an event crossing into Red (new or escalating) triggers an off-cycle flash re-render |
 
 Eight slices (≤9 cap). V1–V7 are runnable locally via a `run` entrypoint
 with `--now`/`--fixture` flags; V8 wraps that entrypoint in the scheduled
@@ -91,14 +91,16 @@ place (same canonical id) and the second marked retracted, not duplicated.
 | N4 | scripts/fetch_gdacs.py | `snapshot()` — GET `EVENTS4APP`; event-level + episode alert fields; glide; key on `eventid`, new `episodeid` = update | call | — | → N7 |
 | N8 | scripts/fetch_gdacs.py | `event_detail(eventid)` — GET `geteventdata`, extract `properties.sourceid`; cached per new/changed EQ (SPIKE-1) | call | — | → N7 |
 | N6 | scripts/fetch_reliefweb.py | `snapshot()` — GET disasters RSS, parse GLIDE from description; API client behind same interface when appname approved | call | — | → N7 |
-| N7 | scripts/reconcile.py | join order: shared GLIDE → GDACS `sourceid` ∈ USGS alias set → heuristic (same hazard, origin ±30 min, ≤250 km haversine) | call | → S1 | → N15 |
+| N7 | scripts/reconcile.py | join order: shared GLIDE → GDACS `sourceid` ∈ USGS alias set → heuristic (same hazard, origin ±30 min, ≤250 km haversine) **as last resort only**; never merges records with distinct same-source IDs; nearest-in-time-space tie-break; ambiguous stays separate; joins are revisable (split/merge → changelog) | call | → S1 | → N15 |
 
 **Out of scope:** threshold, editions, model.
 **Demo:** fixtures where one M6 quake appears in USGS and GDACS (and a late
 ReliefWeb entry) → a single card with GDACS colour chip, magnitude, and all
 three source links.
 **Tests:** each join path in isolation (GLIDE match; sourceid match;
-heuristic when both absent); episode fold; GDACS-ingests-USGS no-double.
+heuristic when both absent); episode fold; GDACS-ingests-USGS no-double;
+mainshock + M5+ aftershock in the join window (distinct USGS ids) stay
+distinct; a wrong heuristic merge is split back apart with a changelog entry.
 
 ## V4 — Impact threshold
 
@@ -107,7 +109,7 @@ heuristic when both absent); episode fold; GDACS-ingests-USGS no-double.
 
 | # | Component | Affordance | Control | Wires Out | Returns To |
 |---|-----------|------------|---------|-----------|------------|
-| N9 | scripts/gate.py | `gate(change_set, state) → (reportables, flash_trigger)` per ADR-0002: GDACS Orange/Red ∨ PAGER yellow+ ∨ escalation ∨ ReliefWeb-for-unreported; `flash_trigger` = newly Red & not yet flashed | call | — | → N15 |
+| N9 | scripts/gate.py | `gate(change_set, state) → (reportables, flash_trigger)` per ADR-0002: GDACS Orange/Red ∨ PAGER yellow+ ∨ escalation ∨ ReliefWeb-for-unreported; `flash_trigger` = event crosses into Red (new *or* escalating) & no flash outstanding for the current Red spell | call | — | → N15 |
 | U8 | events-board | hazard-type filter chips (EQ/TC/FL/VO/DR/WF) | click | → N20 | — |
 | N20 | dashboard inline `<script>` | `applyFilter(hazard)` — toggle card visibility | call | — | → U5 |
 
@@ -117,7 +119,9 @@ heuristic when both absent); episode fold; GDACS-ingests-USGS no-double.
 card shows; the Green is present in `state.json` with `reported:false`.
 Filter chips hide/show by hazard.
 **Tests:** each threshold arm true/false; escalation of a tracked event is
-reportable; `flash_trigger` set exactly when an event first reaches Red.
+reportable; `flash_trigger` set when an event crosses into Red — first sight
+at Red *or* escalation into Red — and clear once a flash is outstanding for
+that Red spell.
 
 ## V5 — Editions + changelog
 
@@ -197,7 +201,7 @@ enabling the scaffold's `.github/workflows/sitrep.yml.disabled`.
 | N1 | sitrep.yml | hourly cron `0 * * * *` | trigger | → N3 | — |
 | N2 | sitrep.yml | edition cron `30 0 * * *` (08:30 SGT) + `workflow_dispatch` | trigger | → N3 | — |
 | N3 | sitrep.yml | trigger branch: fetch+reconcile+gate always; edition build only on edition/dispatch | conditional | → fetch/reconcile/gate, → N12 | — |
-| N10 | sitrep.yml | flash branch: `flash_trigger` on an hourly run → render with flash banner, set `flash_published` | conditional | → N15, → S1 | — |
+| N10 | sitrep.yml | flash branch: `flash_trigger` on an hourly run → render with flash banner, set `flash_published` (cleared when the event drops below Red) | conditional | → N15, → S1 | — |
 | N16 | sitrep.yml | commit `data/state.json` + `dashboard.html` `[skip ci]`; `ANTHROPIC_API_KEY` exposed only to N14 | call | → S5 | — |
 | S5 | git repository | committed state + dashboard; history = audit log | write | — | — |
 
@@ -205,12 +209,13 @@ Also: `concurrency` group serialises runs (B7.2); rename
 `sitrep.yml.disabled` → `sitrep.yml`; `goal.md` (agent's standing
 objective, expected artifact) committed.
 **Demo:** trigger via `workflow_dispatch` → Action fetches, reconciles,
-renders, and commits with no local involvement; feed a fixture with a new
-Red event on an hourly run → an off-cycle flash commit re-renders the
-dashboard with the banner (U3) before the next 08:30 edition folds it into
-the changelog.
-**Tests:** trigger routing (hourly vs edition vs dispatch); flash fires once
-per event (`flash_published` guard); the model secret is unreferenced in
+renders, and commits with no local involvement; feed a fixture with a
+tracked Orange event escalating to Red on an hourly run → an off-cycle flash
+commit re-renders the dashboard with the banner (U3) before the next 08:30
+edition folds it into the changelog.
+**Tests:** trigger routing (hourly vs edition vs dispatch); escalation-into-Red
+triggers a flash; flash fires once per Red spell (`flash_published` guard,
+cleared on drop below Red); the model secret is unreferenced in
 fetch/reconcile steps.
 
 ---

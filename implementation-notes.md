@@ -28,6 +28,29 @@ Kept by the agent, reviewed by you. One entry per working block.
   needs auth); slicing was done directly from the breadboarding skill's
   slicing methodology, which is its substance.
 
+### 2026-07-08 — Resolved PRD challenges (GitHub issues #4, #5)
+
+- **#5 flash trigger.** Redefined the intraday flash from "new Red event" to
+  "any event crossing into Red since the last edition — newly detected *or* a
+  tracked event escalating into Red." Escalation-to-Red is the scenario the
+  reconciler (ADR-0001) exists to catch, so deferring it to 08:30 was a bug.
+  `flash_published` now means "fired this Red spell" and clears when the event
+  drops below Red, so re-escalation flashes again but sustained Red does not
+  re-flash each poll. Hourly cadence kept (defended, ADR-0003); US9's "same
+  hour" wording corrected to "within the hour of detection" (~2 h from
+  occurrence). Updated: `docs/PRD.md` (US9, Cadence, Testing), ADR-0003,
+  `SLICES.md` (V4/V8), `prd.html`.
+- **#4 dedup.** Headline aftershock false-merge is prevented by the existing
+  tiered join (distinct shocks carry distinct USGS ids → join at tier 2, never
+  reaching the heuristic) — defended, not re-architected. Added the explicit
+  safeguards the spec lacked: the heuristic is last-resort, never merges
+  records with distinct same-source IDs, breaks in-window ties by
+  nearest-in-time-space, and leaves ambiguous matches separate. Made join
+  corrections first-class: split (wrong merge) and merge (later-found link)
+  join escalation/downgrade/revision/retraction in the update policy and the
+  changelog. Updated: `docs/PRD.md` (Canonical events, Testing), ADR-0001,
+  `SLICES.md` (V3).
+
 ## Open questions
 
 - Q16 in `QUESTIONS.md`: backfill strategy after a pipeline outage longer
