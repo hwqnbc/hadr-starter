@@ -1,0 +1,227 @@
+"""Dashboard renderer (B5-render / N15).
+
+Writes a single self-contained ``dashboard.html``: inline CSS/JS, with the full
+event state embedded as a JSON island at render time (ADR-0005). No build
+toolchain, no backend. All timestamps in the island are UTC ISO strings; the
+inline bootstrap (N21) converts them to Singapore time (UTC+8) at display time.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Any
+
+DEFAULT_OUTPUT = "dashboard.html"
+
+# The inline bootstrap: parse the JSON island, render cards, convert UTC->SGT.
+_BOOTSTRAP = r"""
+const SGT_OFFSET_MIN = 8 * 60; // Singapore is UTC+8, no DST.
+
+function toSGT(iso) {
+  if (!iso) return "—";
+  const utc = new Date(iso);
+  if (isNaN(utc)) return iso;
+  const sgt = new Date(utc.getTime() + SGT_OFFSET_MIN * 60000);
+  const p = (n) => String(n).padStart(2, "0");
+  return `${sgt.getUTCFullYear()}-${p(sgt.getUTCMonth() + 1)}-${p(sgt.getUTCDate())} ` +
+         `${p(sgt.getUTCHours())}:${p(sgt.getUTCMinutes())} SGT`;
+}
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+function magnitudeLabel(m) {
+  if (!m || m.value == null) return "";
+  const type = m.type ? ` ${m.type}` : "";
+  const depth = m.depth_km != null ? ` · depth ${m.depth_km} km` : "";
+  return `M ${m.value}${type}${depth}`;
+}
+
+function alertChip(kind, level) {
+  const chip = el("span", `chip chip-${kind} chip-${String(level).toLowerCase()}`,
+                  `${kind.toUpperCase()} ${level}`);
+  return chip;
+}
+
+function sourceLinks(refs) {
+  const wrap = el("div", "sources");
+  const labels = { usgs: "USGS", gdacs: "GDACS", reliefweb: "ReliefWeb" };
+  for (const key of Object.keys(labels)) {
+    if (!refs || !refs[key]) continue;
+    const a = el("a", "source-link", labels[key]);
+    a.href = refs[key];
+    a.target = "_blank";
+    a.rel = "noopener";
+    wrap.appendChild(a);
+  }
+  return wrap;
+}
+
+function eventCard(ev) {
+  const card = el("article", `card status-${ev.status || "active"}`);
+  card.dataset.hazard = ev.hazard || "";
+
+  const head = el("div", "card-head");
+  head.appendChild(el("span", "hazard-tag", ev.hazard || "?"));
+  head.appendChild(el("h2", "card-title", ev.name || "(untitled event)"));
+  if (ev.status && ev.status !== "active") {
+    head.appendChild(el("span", `state-badge state-${ev.status}`, ev.status.replace("_", " ")));
+  }
+  card.appendChild(head);
+
+  const chips = el("div", "chips");
+  if (ev.gdacs_alert) chips.appendChild(alertChip("gdacs", ev.gdacs_alert));
+  if (ev.pager_alert) chips.appendChild(alertChip("pager", ev.pager_alert));
+  if (chips.childNodes.length) card.appendChild(chips);
+
+  const mag = magnitudeLabel(ev.magnitude);
+  if (mag) card.appendChild(el("div", "magnitude", mag));
+
+  const loc = (ev.location && ev.location.place) || "";
+  if (loc) card.appendChild(el("div", "place", loc));
+
+  card.appendChild(el("div", "origin-time", `Origin: ${toSGT(ev.origin_time)}`));
+  card.appendChild(sourceLinks(ev.source_refs));
+  return card;
+}
+
+function boot() {
+  const state = JSON.parse(document.getElementById("hadr-state").textContent);
+  const edition = state.edition || {};
+  document.getElementById("edition-title").textContent = edition.title || "HADR Monitor";
+  document.getElementById("edition-date").textContent = toSGT(edition.generated_at);
+  document.getElementById("as-of").textContent = `as of ${toSGT(edition.generated_at)}`;
+
+  const board = document.getElementById("events-board");
+  const events = state.events || [];
+  if (!events.length) {
+    board.appendChild(el("p", "empty", "No events in the current window."));
+  } else {
+    for (const ev of events) board.appendChild(eventCard(ev));
+  }
+  document.getElementById("event-count").textContent =
+    `${events.length} event${events.length === 1 ? "" : "s"}`;
+}
+
+document.addEventListener("DOMContentLoaded", boot);
+"""
+
+_STYLE = r"""
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; font: 15px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #f6f7f9; color: #1b1f24;
+}
+header {
+  padding: 1.5rem 2rem; background: #12233b; color: #fff;
+  display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap;
+}
+header h1 { margin: 0; font-size: 1.4rem; }
+header .edition-date { font-size: 1rem; opacity: .9; }
+header .as-of { margin-left: auto; font-size: .85rem; opacity: .75; }
+main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
+.board-meta { color: #566; font-size: .85rem; margin-bottom: 1rem; }
+#events-board {
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+.card {
+  background: #fff; border: 1px solid #dfe3e8; border-radius: 10px; padding: 1rem 1.1rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+.card-head { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.hazard-tag {
+  font-size: .7rem; font-weight: 700; letter-spacing: .05em; background: #12233b; color: #fff;
+  padding: .15rem .4rem; border-radius: 4px;
+}
+.card-title { font-size: 1.05rem; margin: 0; flex: 1; }
+.state-badge {
+  font-size: .65rem; text-transform: uppercase; letter-spacing: .04em; padding: .15rem .4rem;
+  border-radius: 4px; font-weight: 700;
+}
+.state-retracted { background: #b3261e; color: #fff; }
+.state-aged_out { background: #8a8f98; color: #fff; }
+.card.status-retracted { opacity: .7; }
+.chips { display: flex; gap: .4rem; margin: .5rem 0; flex-wrap: wrap; }
+.chip {
+  font-size: .7rem; font-weight: 700; padding: .15rem .45rem;
+  border-radius: 999px; color: #fff;
+}
+.chip-green { background: #1e8e3e; }
+.chip-orange { background: #e8710a; }
+.chip-red { background: #b3261e; }
+.chip-yellow { background: #c9a900; }
+.chip-null { background: #8a8f98; }
+.magnitude { font-weight: 600; margin-top: .3rem; }
+.place { color: #445; }
+.origin-time { color: #667; font-size: .85rem; margin-top: .3rem; }
+.sources { margin-top: .7rem; display: flex; gap: .5rem; flex-wrap: wrap; }
+.source-link {
+  font-size: .8rem; text-decoration: none; color: #12233b; border: 1px solid #c3ccd6;
+  padding: .2rem .55rem; border-radius: 6px;
+}
+.source-link:hover { background: #eef2f6; }
+.empty { color: #667; }
+@media (prefers-color-scheme: dark) {
+  body { background: #12151a; color: #e7ebef; }
+  main { color: #e7ebef; }
+  .card { background: #1b1f26; border-color: #2b313b; box-shadow: none; }
+  .card-title { color: #f2f5f8; }
+  .place { color: #b6bfc9; } .origin-time { color: #9aa4af; } .board-meta { color: #9aa4af; }
+  .source-link { color: #cfd8e2; border-color: #39414d; }
+  .source-link:hover { background: #232a33; }
+}
+"""
+
+
+def build_html(events: list[dict[str, Any]], edition_content: dict[str, Any]) -> str:
+    """Pure: (events, edition) -> the full self-contained HTML string."""
+    island = json.dumps(
+        {"events": events, "edition": edition_content},
+        ensure_ascii=False,
+        indent=2,
+    )
+    title = edition_content.get("title", "HADR Monitor")
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{title}</title>
+<style>{_STYLE}</style>
+</head>
+<body>
+<header>
+  <h1 id="edition-title">{title}</h1>
+  <span class="edition-date" id="edition-date"></span>
+  <span class="as-of" id="as-of"></span>
+</header>
+<main>
+  <div class="board-meta" id="event-count"></div>
+  <section id="events-board" aria-label="events board"></section>
+</main>
+<script type="application/json" id="hadr-state">
+{island}
+</script>
+<script>{_BOOTSTRAP}</script>
+</body>
+</html>
+"""
+
+
+def render(
+    events: list[dict[str, Any]],
+    edition_content: dict[str, Any],
+    *,
+    output: str | Path = DEFAULT_OUTPUT,
+) -> str:
+    """Render the dashboard to ``output`` and return the HTML string."""
+    html = build_html(events, edition_content)
+    Path(output).write_text(html, encoding="utf-8")
+    return html
