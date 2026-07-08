@@ -10,13 +10,14 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+from dataclasses import replace
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from scripts import fetch_usgs, reconcile
+from scripts import fetch_gdacs, fetch_usgs, reconcile
 from scripts import state as state_store
-from scripts.feeds import FeedSnapshot, iso_utc
+from scripts.feeds import HAZARD_EQ, FeedSnapshot, iso_utc
 from scripts.render import DEFAULT_OUTPUT, render
 
 # Render newest origin first; a stable sort keyed on origin_time.
@@ -30,13 +31,56 @@ def _events_for_render(state: dict[str, Any]) -> list[dict[str, Any]]:
     return events
 
 
-def run(*, fixture: str | None, output: str | Path, state_path: str | Path) -> int:
-    """Fetch USGS (live or fixture), reconcile into state, persist, render."""
-    now = datetime.now(tz=UTC)
-    usgs_fixture = str(Path(fixture) / "usgs_all_day.json") if fixture else None
-    snapshots: list[FeedSnapshot] = [fetch_usgs.snapshot(fixture=usgs_fixture)]
+def _already_joined(prior: dict[str, Any], eventid: object) -> bool:
+    """True if a prior canonical event already carries this GDACS id + a USGS alias.
 
+    When so, the sourceid is cached on the event and the detail call is skipped
+    (SPIKE-1: re-fetch only when the episode changes).
+    """
+    gdacs_alias = f"gdacs:{eventid}"
+    for event in prior["events"].values():
+        aliases = event["aliases"]
+        if gdacs_alias in aliases and any(a.startswith("usgs:") for a in aliases):
+            return True
+    return False
+
+
+def _enrich_gdacs(snap: FeedSnapshot, prior: dict[str, Any], fixture: str | None) -> FeedSnapshot:
+    """Fold each new/changed GDACS earthquake's USGS sourceid in as an alias (N8)."""
+    records = []
+    for record in snap.records:
+        eventid = record.extra.get("eventid")
+        needs_detail = (
+            record.hazard == HAZARD_EQ
+            and eventid is not None
+            and not _already_joined(prior, eventid)
+        )
+        if needs_detail:
+            detail_fixture = (
+                str(Path(fixture) / f"gdacs_detail_{eventid}.json") if fixture else None
+            )
+            missing = detail_fixture is not None and not Path(detail_fixture).exists()
+            sourceid = (
+                None if missing else fetch_gdacs.event_detail(eventid, fixture=detail_fixture)
+            )
+            if sourceid:
+                record = replace(record, aliases=[*record.aliases, f"usgs:{sourceid}"])
+        records.append(record)
+    return replace(snap, records=records)
+
+
+def run(*, fixture: str | None, output: str | Path, state_path: str | Path) -> int:
+    """Fetch USGS + GDACS (live or fixture), reconcile into state, persist, render."""
+    now = datetime.now(tz=UTC)
     prior = state_store.load(state_path)
+
+    usgs_fixture = str(Path(fixture) / "usgs_all_day.json") if fixture else None
+    gdacs_fixture = str(Path(fixture) / "gdacs_events4app.json") if fixture else None
+
+    usgs_snap = fetch_usgs.snapshot(fixture=usgs_fixture)
+    gdacs_snap = _enrich_gdacs(fetch_gdacs.snapshot(fixture=gdacs_fixture), prior, fixture)
+    # USGS first so a GDACS earthquake joins onto the existing USGS event.
+    snapshots: list[FeedSnapshot] = [usgs_snap, gdacs_snap]
     new_state, change_set = reconcile.reconcile(snapshots, prior, now=now)
     state_store.save(new_state, state_path)
 

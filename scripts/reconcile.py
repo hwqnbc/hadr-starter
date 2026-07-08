@@ -13,20 +13,35 @@ takes a *list* of snapshots so that slice is an extension, not a rewrite.
 from __future__ import annotations
 
 import copy
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any
 
 from scripts.feeds import FeedSnapshot, SourceRecord, iso_utc
+from scripts.geo import haversine_km
 from scripts.state import next_canonical_id
 
 # A magnitude change below this is instrument noise, not a revision worth telling.
 MAG_NOISE = 0.1
+
+# Last-resort proximity join tolerances (ADR-0001): same hazard within this
+# window of time and distance may be the same occurrence seen by two feeds.
+HEURISTIC_TIME = timedelta(minutes=30)
+HEURISTIC_KM = 250.0
+
+# For a merged earthquake, USGS owns the descriptive fields (precise magnitude,
+# location, title); GDACS contributes its alert level. A lower-priority source
+# never overwrites these — it only adds aliases, its alert, and its source link.
+DESCRIPTIVE_OWNER = "usgs"
 
 # Change kinds emitted into the change set.
 NEW = "new"
 REVISION = "revision"
 RETRACTION = "retraction"
 AGED_OUT = "aged_out"
+
+
+def _parse_iso(value: str) -> datetime:
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
 def _event_from_record(record: SourceRecord, now: datetime) -> dict[str, Any]:
@@ -94,15 +109,23 @@ def _apply_update(event: dict[str, Any], record: SourceRecord, now: datetime) ->
         return None
 
     kind: str | None = None
-    if _magnitude_revised(event.get("magnitude"), record.magnitude):
-        kind = REVISION
+    owns_description = record.source == DESCRIPTIVE_OWNER or not event.get("name")
 
-    # Latest feed values win; the card always shows current best-known state.
-    event["name"] = record.name
-    event["magnitude"] = record.magnitude
-    event["location"] = {"lat": record.lat, "lon": record.lon, "place": record.place}
+    # Magnitude: only a source that carries one may set it (GDACS EQ often has none,
+    # and must never wipe the USGS value). A change beyond noise is a revision.
+    if record.magnitude and record.magnitude.get("value") is not None:
+        if _magnitude_revised(event.get("magnitude"), record.magnitude):
+            kind = REVISION
+        event["magnitude"] = record.magnitude
+
+    # Descriptive fields follow source precedence; alerts are per-model, kept apart.
+    if owns_description:
+        event["name"] = record.name or event["name"]
+        event["location"] = {"lat": record.lat, "lon": record.lon, "place": record.place}
     if record.pager_alert is not None:
         event["pager_alert"] = record.pager_alert
+    if record.gdacs_alert is not None:
+        event["gdacs_alert"] = record.gdacs_alert
 
     # A previously aged-out/retracted event reappearing in the window is active again.
     if event["status"] != "active":
@@ -112,6 +135,46 @@ def _apply_update(event: dict[str, Any], record: SourceRecord, now: datetime) ->
     if kind:
         event["last_changed"] = iso_utc(now)
     return kind
+
+
+def _same_source_conflict(record: SourceRecord, event: dict[str, Any]) -> bool:
+    """True if the event carries a *different* id in a source the record also uses.
+
+    Two USGS ids (a mainshock and its aftershock) or two GDACS eventids are, by
+    definition, distinct events — the heuristic must never merge them.
+    """
+    rec_sources = {a.split(":", 1)[0] for a in record.aliases}
+    for alias in event["aliases"]:
+        src = alias.split(":", 1)[0]
+        if src in rec_sources and alias not in record.aliases:
+            return True
+    return False
+
+
+def _heuristic_match(record: SourceRecord, state: dict[str, Any]) -> str | None:
+    """Last-resort join: nearest active same-hazard event within the tolerances.
+
+    Returns a match only when exactly one candidate qualifies; multiple candidates
+    are ambiguous and stay separate (a false merge hides a disaster; a missed one
+    is visible and recoverable).
+    """
+    candidates: list[tuple[float, float, str]] = []
+    for eid, event in state["events"].items():
+        if event["status"] == "retracted" or event["hazard"] != record.hazard:
+            continue
+        if _same_source_conflict(record, event):
+            continue
+        dt = abs(_parse_iso(event["origin_time"]) - record.origin_time)
+        if dt > HEURISTIC_TIME:
+            continue
+        loc = event["location"]
+        dist = haversine_km(loc["lat"], loc["lon"], record.lat, record.lon)
+        if dist > HEURISTIC_KM:
+            continue
+        candidates.append((dt.total_seconds(), dist, eid))
+    if len(candidates) == 1:
+        return candidates[0][2]
+    return None
 
 
 def reconcile(
@@ -131,7 +194,9 @@ def reconcile(
             continue  # A failed fetch is no news — never a retraction or aging signal.
         for record in snap.records:
             index = _alias_index(state)
-            eid = _match(record, index)
+            # Join order (ADR-0001): shared alias (GLIDE or the GDACS sourceid
+            # folded into the USGS alias set) first, then the proximity heuristic.
+            eid = _match(record, index) or _heuristic_match(record, state)
             if eid is None:
                 origin_year = record.origin_time.year
                 eid = next_canonical_id(state, origin_year)
