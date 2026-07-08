@@ -51,6 +51,40 @@ Kept by the agent, reviewed by you. One entry per working block.
   changelog. Updated: `docs/PRD.md` (Canonical events, Testing), ADR-0001,
   `SLICES.md` (V3).
 
+### 2026-07-08 — Slice 1 build (issue #6, branch `feat/slice-1-skeleton`)
+
+Built the headline Slice 1 (detailed slices V1–V3) as three staged commits:
+page-from-USGS + renderer → canonical state + reconcile → GDACS + cross-source
+dedup. All 24 tests, `ruff check`, and `ruff format --check` pass.
+
+Deviations / decisions worth recording:
+
+- **Physical layout — `scripts/` is an importable package imported by `hadr/`.**
+  CLAUDE.md and the breadboard name modules as `scripts/fetch_usgs.py` etc. and
+  the CLI as `python -m hadr`. Resolved by making `scripts/` a package (pure
+  deterministic logic) that `hadr/__main__.py` orchestrates. `pyproject.toml`
+  declares both packages. No departure from intent, just a layout the docs
+  left implicit.
+- **Feed scope: USGS + GDACS only; ReliefWeb deferred.** Issue #6's DoD names
+  only USGS and GDACS and its one-card demo is USGS+GDACS, but the "composed of
+  V1–V3" reference includes ReliefWeb. Scoped to the DoD (confirmed with the
+  maintainer). The GLIDE join path is built and unit-tested; ReliefWeb's fetcher
+  (N6) lands in a follow-up behind the same `snapshot()` interface — no
+  reconciler change needed.
+- **GDACS fetcher returns all hazards, not just EQ.** Matches B1.1 and the
+  feed's real content; non-EQ events render as their own cards (V1–V3 shows
+  everything the feeds return — the impact threshold is V4). Earthquakes are the
+  only cross-source dedup case in this slice because USGS is EQ-only.
+- **USGS is the descriptive owner for merged earthquakes.** On a merge, USGS
+  magnitude/location/title win and GDACS contributes only its alert level; a
+  GDACS record never overwrites USGS data (its EQ magnitude is often absent).
+  PAGER and GDACS alerts are stored in separate fields, never merged (ADR-0002).
+- **`data/state.json` is a runtime artifact, not committed on this branch.** The
+  scheduled workflow (V8) commits state + dashboard; committing a
+  fixture-derived state now would just be churn the workflow overwrites. The
+  committed `dashboard.html` is rendered from the scenario-A fixtures as the
+  reviewer's demo surface.
+
 ## Open questions
 
 - Q16 in `QUESTIONS.md`: backfill strategy after a pipeline outage longer
