@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1783478943000,
+    "title": "USGS All Earthquakes, Past Day",
+    "count": 4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.0,
+        "place": "15 km NNE of Xunchang, China",
+        "time": 1783476528000,
+        "updated": 1783477200000,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "ids": ",us6000taui,",
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - 15 km NNE of Xunchang, China"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.7549, 28.5871, 10] },
+      "id": "us6000taui"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.2,
+        "place": "Banda Sea",
+        "time": 1783470600000,
+        "updated": 1783470900000,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 591,
+        "ids": ",us7000abcd,",
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.2 - Banda Sea"
+      },
+      "geometry": { "type": "Point", "coordinates": [126.42, -6.51, 35.0] },
+      "id": "us7000abcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "9 km NNE of Avalon, CA",
+        "time": 1783472400000,
+        "updated": 1783472700000,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 143,
+        "ids": ",ci41287863,us6000tafd,",
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.0 - 9 km NNE of Avalon, CA"
+      },
+      "geometry": { "type": "Point", "coordinates": [-118.3, 33.4, 12.1] },
+      "id": "ci41287863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "12 km E of Mining Town, NV",
+        "time": 1783465200000,
+        "updated": 1783465300000,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "ids": ",nn00987654,",
+        "magType": "ml",
+        "type": "quarry blast",
+        "title": "M 1.8 Quarry Blast - 12 km E of Mining Town, NV"
+      },
+      "geometry": { "type": "Point", "coordinates": [-117.1, 39.2, 0.5] },
+      "id": "nn00987654"
+    }
+  ]
+}

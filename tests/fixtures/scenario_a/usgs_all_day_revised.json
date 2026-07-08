@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1783481400000,
+    "title": "USGS All Earthquakes, Past Day",
+    "count": 4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "15 km NNE of Xunchang, China",
+        "time": 1783476528000,
+        "updated": 1783477800000,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 449,
+        "ids": ",us7000zzzz,us6000taui,",
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.4 - 15 km NNE of Xunchang, China"
+      },
+      "geometry": { "type": "Point", "coordinates": [104.7549, 28.5871, 10] },
+      "id": "us7000zzzz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.2,
+        "place": "Banda Sea",
+        "time": 1783470600000,
+        "updated": 1783477800000,
+        "alert": "yellow",
+        "status": "deleted",
+        "tsunami": 0,
+        "sig": 591,
+        "ids": ",us7000abcd,",
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.2 - Banda Sea"
+      },
+      "geometry": { "type": "Point", "coordinates": [126.42, -6.51, 35.0] },
+      "id": "us7000abcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Kepulauan Talaud, Indonesia",
+        "time": 1783480200000,
+        "updated": 1783480400000,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 369,
+        "ids": ",us6000tnew,",
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Kepulauan Talaud, Indonesia"
+      },
+      "geometry": { "type": "Point", "coordinates": [126.65, 4.05, 45.0] },
+      "id": "us6000tnew"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.8,
+        "place": "12 km E of Mining Town, NV",
+        "time": 1783465200000,
+        "updated": 1783465300000,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 50,
+        "ids": ",nn00987654,",
+        "magType": "ml",
+        "type": "quarry blast",
+        "title": "M 1.8 Quarry Blast - 12 km E of Mining Town, NV"
+      },
+      "geometry": { "type": "Point", "coordinates": [-117.1, 39.2, 0.5] },
+      "id": "nn00987654"
+    }
+  ]
+}

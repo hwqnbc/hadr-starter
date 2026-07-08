@@ -1,0 +1,19 @@
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [104.7549, 28.5871] },
+  "properties": {
+    "eventtype": "EQ",
+    "eventid": 1550709,
+    "episodeid": 1716999,
+    "name": "Earthquake in China",
+    "alertlevel": "Green",
+    "country": "China",
+    "fromdate": "2026-07-08T02:08:48",
+    "source": "NEIC",
+    "sourceid": "us6000taui",
+    "magnitude": "5",
+    "images": {
+      "neic": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taui/shakemap/intensity"
+    }
+  }
+}
