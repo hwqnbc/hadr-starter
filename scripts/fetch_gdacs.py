@@ -89,6 +89,12 @@ def snapshot(
         resp = client.get(EVENT_LIST_URL)
         resp.raise_for_status()
         return parse(resp.json(), fetched_at=fetched_at)
+    except httpx.HTTPError as exc:
+        # Graceful degradation: reconciler treats ok=False as "no news" (V7 covers
+        # the visible coverage warning). One dead feed must not crash the run.
+        return FeedSnapshot(
+            source="gdacs", records=[], fetched_at=fetched_at, ok=False, error=str(exc)
+        )
     finally:
         if owns_client:
             client.close()
@@ -118,6 +124,10 @@ def event_detail(
         resp = client.get(EVENT_DETAIL_URL, params={"eventtype": "EQ", "eventid": eventid})
         resp.raise_for_status()
         return sourceid_from_detail(resp.json())
+    except httpx.HTTPError:
+        # No sourceid available this run — the reconciler falls back to the
+        # proximity heuristic, and a later run can still establish the alias.
+        return None
     finally:
         if owns_client:
             client.close()

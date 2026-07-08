@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
+import httpx
+
 from scripts import fetch_usgs
 
 
@@ -39,3 +41,10 @@ def test_snapshot_converts_epoch_ms_to_utc(scenario_a):
     xunchang = next(r for r in snap.records if "usgs:us6000taui" in r.aliases)
     assert xunchang.origin_time == datetime(2026, 7, 8, 2, 8, 48, tzinfo=UTC)
     assert snap.feed_generated_at == datetime(2026, 7, 8, 2, 49, 3, tzinfo=UTC)
+
+
+def test_snapshot_returns_not_ok_on_http_error():
+    # A feed outage degrades gracefully rather than raising out of the run.
+    client = httpx.Client(transport=httpx.MockTransport(lambda _req: httpx.Response(503)))
+    snap = fetch_usgs.snapshot(client=client)
+    assert snap.ok is False and snap.records == [] and snap.error

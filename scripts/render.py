@@ -187,6 +187,14 @@ def build_html(events: list[dict[str, Any]], edition_content: dict[str, Any]) ->
         ensure_ascii=False,
         indent=2,
     )
+    # Keep the embedded JSON from breaking out of its <script> element: escape "<"
+    # (covers </script> and <!--) and the JS line/paragraph separators, which are
+    # valid in JSON strings but illegal in JavaScript source.
+    island = (
+        island.replace("<", r"\u003c")
+        .replace(chr(0x2028), r"\u2028")
+        .replace(chr(0x2029), r"\u2029")
+    )
     title = edition_content.get("title", "HADR Monitor")
     return f"""<!doctype html>
 <html lang="en">

@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
+import httpx
+
 from scripts import fetch_gdacs
 
 
@@ -57,3 +59,14 @@ def test_sourceid_from_detail(scenario_a):
 
 def test_sourceid_from_detail_empty_is_none():
     assert fetch_gdacs.sourceid_from_detail({"properties": {"sourceid": ""}}) is None
+
+
+def test_snapshot_returns_not_ok_on_http_error():
+    client = httpx.Client(transport=httpx.MockTransport(lambda _req: httpx.Response(500)))
+    snap = fetch_gdacs.snapshot(client=client)
+    assert snap.ok is False and snap.records == []
+
+
+def test_event_detail_returns_none_on_http_error():
+    client = httpx.Client(transport=httpx.MockTransport(lambda _req: httpx.Response(500)))
+    assert fetch_gdacs.event_detail(1550709, client=client) is None

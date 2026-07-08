@@ -117,6 +117,37 @@ def test_ambiguous_heuristic_stays_separate():
     assert len(state["events"]) == 3  # the GDACS record stays on its own
 
 
+def test_heuristic_nearest_wins_when_one_is_clearly_closer():
+    # ADR-0001: the nearest in combined time-and-space wins even when a second,
+    # distant event is also inside the tolerance window.
+    usgs = [
+        usgs_rec("us7000near", lat=-6.50, lon=126.40, at=T0),
+        usgs_rec("us7000far", lat=-7.80, lon=127.60, at=T0.replace(minute=2)),
+    ]
+    gdacs = [gdacs_rec(1550802, lat=-6.52, lon=126.42, at=T0.replace(minute=1))]
+    state, _ = _reconcile(usgs, gdacs)
+
+    assert len(state["events"]) == 2  # GDACS merged into the near one; far stays alone
+    near = next(e for e in state["events"].values() if "usgs:us7000near" in e["aliases"])
+    assert "gdacs:1550802" in near["aliases"]
+
+
+def test_gdacs_episode_is_update_not_new_event():
+    # A new episodeid for the same eventid is an update; alias keys on eventid.
+    state1, _ = _reconcile([], [gdacs_rec(1550900, lat=64.9, lon=-18.6, alert="Green")])
+    assert len(state1["events"]) == 1
+
+    later = FeedSnapshot(
+        source="gdacs",
+        records=[gdacs_rec(1550900, lat=64.9, lon=-18.6, alert="Orange")],
+        fetched_at=NOW,
+        ok=True,
+    )
+    state2, _ = reconcile.reconcile([later], state1, now=NOW)
+    assert len(state2["events"]) == 1
+    assert next(iter(state2["events"].values()))["gdacs_alert"] == "Orange"
+
+
 def test_full_scenario_through_fetchers(scenario_a):
     """Integration: real fixtures + pipeline enrichment -> deduped state."""
     usgs_snap = fetch_usgs.snapshot(fixture=scenario_a / "usgs_all_day.json")

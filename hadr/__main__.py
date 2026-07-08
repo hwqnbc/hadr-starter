@@ -15,6 +15,8 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+import httpx
+
 from scripts import fetch_gdacs, fetch_usgs, reconcile
 from scripts import state as state_store
 from scripts.feeds import HAZARD_EQ, FeedSnapshot, iso_utc
@@ -25,7 +27,11 @@ _RENDER_ORDER = "origin_time"
 
 
 def _events_for_render(state: dict[str, Any]) -> list[dict[str, Any]]:
-    """Project committed events into render-ready dicts (id folded in)."""
+    """Project committed events into render-ready dicts (id folded in).
+
+    Every tracked event renders, including ``retracted`` and ``aged_out`` (this
+    slice shows all current state; the impact threshold that hides events is V4).
+    """
     events = [{"id": eid, **event} for eid, event in state["events"].items()]
     events.sort(key=lambda e: e[_RENDER_ORDER], reverse=True)
     return events
@@ -45,7 +51,13 @@ def _already_joined(prior: dict[str, Any], eventid: object) -> bool:
     return False
 
 
-def _enrich_gdacs(snap: FeedSnapshot, prior: dict[str, Any], fixture: str | None) -> FeedSnapshot:
+def _enrich_gdacs(
+    snap: FeedSnapshot,
+    prior: dict[str, Any],
+    fixture: str | None,
+    *,
+    client: httpx.Client | None = None,
+) -> FeedSnapshot:
     """Fold each new/changed GDACS earthquake's USGS sourceid in as an alias (N8)."""
     records = []
     for record in snap.records:
@@ -61,7 +73,9 @@ def _enrich_gdacs(snap: FeedSnapshot, prior: dict[str, Any], fixture: str | None
             )
             missing = detail_fixture is not None and not Path(detail_fixture).exists()
             sourceid = (
-                None if missing else fetch_gdacs.event_detail(eventid, fixture=detail_fixture)
+                None
+                if missing
+                else fetch_gdacs.event_detail(eventid, client=client, fixture=detail_fixture)
             )
             if sourceid:
                 record = replace(record, aliases=[*record.aliases, f"usgs:{sourceid}"])
@@ -77,8 +91,21 @@ def run(*, fixture: str | None, output: str | Path, state_path: str | Path) -> i
     usgs_fixture = str(Path(fixture) / "usgs_all_day.json") if fixture else None
     gdacs_fixture = str(Path(fixture) / "gdacs_events4app.json") if fixture else None
 
-    usgs_snap = fetch_usgs.snapshot(fixture=usgs_fixture)
-    gdacs_snap = _enrich_gdacs(fetch_gdacs.snapshot(fixture=gdacs_fixture), prior, fixture)
+    # One pooled client for the whole live run (list + per-EQ detail calls); the
+    # fixture path makes no requests, so no client is created.
+    client = None if fixture else httpx.Client(follow_redirects=True, timeout=30.0)
+    try:
+        usgs_snap = fetch_usgs.snapshot(client=client, fixture=usgs_fixture)
+        gdacs_snap = _enrich_gdacs(
+            fetch_gdacs.snapshot(client=client, fixture=gdacs_fixture),
+            prior,
+            fixture,
+            client=client,
+        )
+    finally:
+        if client is not None:
+            client.close()
+
     # USGS first so a GDACS earthquake joins onto the existing USGS event.
     snapshots: list[FeedSnapshot] = [usgs_snap, gdacs_snap]
     new_state, change_set = reconcile.reconcile(snapshots, prior, now=now)

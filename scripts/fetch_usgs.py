@@ -99,6 +99,12 @@ def snapshot(
         resp = client.get(FEED_URL)
         resp.raise_for_status()
         return parse(resp.json(), fetched_at=fetched_at)
+    except httpx.HTTPError as exc:
+        # A feed outage must degrade gracefully: the reconciler treats ok=False as
+        # "no news" (never a retraction). Coverage/staleness reporting lands in V7.
+        return FeedSnapshot(
+            source="usgs", records=[], fetched_at=fetched_at, ok=False, error=str(exc)
+        )
     finally:
         if owns_client:
             client.close()

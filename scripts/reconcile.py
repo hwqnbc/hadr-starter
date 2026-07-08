@@ -28,6 +28,12 @@ MAG_NOISE = 0.1
 HEURISTIC_TIME = timedelta(minutes=30)
 HEURISTIC_KM = 250.0
 
+# When two candidates both qualify, the nearer in combined (normalised) time-and-
+# space wins (ADR-0001). Only a near-tie within this margin is "genuinely
+# ambiguous" and left unmerged — a false merge hides a disaster, a missed one is
+# visible and recoverable.
+HEURISTIC_TIE_MARGIN = 0.15
+
 # For a merged earthquake, USGS owns the descriptive fields (precise magnitude,
 # location, title); GDACS contributes its alert level. A lower-priority source
 # never overwrites these — it only adds aliases, its alert, and its source link.
@@ -111,12 +117,18 @@ def _apply_update(event: dict[str, Any], record: SourceRecord, now: datetime) ->
     kind: str | None = None
     owns_description = record.source == DESCRIPTIVE_OWNER or not event.get("name")
 
-    # Magnitude: only a source that carries one may set it (GDACS EQ often has none,
-    # and must never wipe the USGS value). A change beyond noise is a revision.
-    if record.magnitude and record.magnitude.get("value") is not None:
-        if _magnitude_revised(event.get("magnitude"), record.magnitude):
+    # Magnitude: the descriptive owner (USGS) sets it; a lower-priority source may
+    # only fill a value we don't yet have, and must never wipe the owner's value
+    # (GDACS EQ magnitudes are coarse and often absent). A change beyond noise is
+    # a revision.
+    new_mag = record.magnitude
+    has_new_mag = bool(new_mag) and new_mag.get("value") is not None
+    old_mag = event.get("magnitude")
+    event_has_mag = bool(old_mag) and old_mag.get("value") is not None
+    if has_new_mag and (owns_description or not event_has_mag):
+        if _magnitude_revised(old_mag, new_mag):
             kind = REVISION
-        event["magnitude"] = record.magnitude
+        event["magnitude"] = new_mag
 
     # Descriptive fields follow source precedence; alerts are per-model, kept apart.
     if owns_description:
@@ -152,13 +164,14 @@ def _same_source_conflict(record: SourceRecord, event: dict[str, Any]) -> bool:
 
 
 def _heuristic_match(record: SourceRecord, state: dict[str, Any]) -> str | None:
-    """Last-resort join: nearest active same-hazard event within the tolerances.
+    """Last-resort join: the nearest active same-hazard event within tolerance.
 
-    Returns a match only when exactly one candidate qualifies; multiple candidates
-    are ambiguous and stay separate (a false merge hides a disaster; a missed one
-    is visible and recoverable).
+    Scores each candidate by combined normalised time-and-space distance and takes
+    the closest (ADR-0001). Two candidates that score within ``HEURISTIC_TIE_MARGIN``
+    of each other are genuinely ambiguous and stay separate rather than risk a false
+    merge.
     """
-    candidates: list[tuple[float, float, str]] = []
+    scored: list[tuple[float, str]] = []
     for eid, event in state["events"].items():
         if event["status"] == "retracted" or event["hazard"] != record.hazard:
             continue
@@ -171,10 +184,15 @@ def _heuristic_match(record: SourceRecord, state: dict[str, Any]) -> str | None:
         dist = haversine_km(loc["lat"], loc["lon"], record.lat, record.lon)
         if dist > HEURISTIC_KM:
             continue
-        candidates.append((dt.total_seconds(), dist, eid))
-    if len(candidates) == 1:
-        return candidates[0][2]
-    return None
+        score = dt / HEURISTIC_TIME + dist / HEURISTIC_KM
+        scored.append((score, eid))
+
+    if not scored:
+        return None
+    scored.sort()
+    if len(scored) >= 2 and scored[1][0] - scored[0][0] <= HEURISTIC_TIE_MARGIN:
+        return None  # nearest two are indistinguishable -> ambiguous, stay separate
+    return scored[0][1]
 
 
 def reconcile(
