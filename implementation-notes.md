@@ -18,6 +18,16 @@ Kept by the agent, reviewed by you. One entry per working block.
   M5.0 China quake); the list payload carries the key but empty — one
   cached detail call per new/changed GDACS earthquake is required.
 
+### 2026-07-08 — Slicing block
+
+- Sliced Shape B into 8 vertical slices V1–V8 in `SLICES.md`. Renderer is
+  built in V1 so every later slice demos by changing the published page.
+  Order: page-from-one-feed → state → 3-feed dedup → threshold → editions
+  → model assessment → coverage → unattended scheduling+flash.
+- `build-plan-specs` skill is not publicly installable (its source repo
+  needs auth); slicing was done directly from the breadboarding skill's
+  slicing methodology, which is its substance.
+
 ## Open questions
 
 - Q16 in `QUESTIONS.md`: backfill strategy after a pipeline outage longer
