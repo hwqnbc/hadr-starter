@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HADR Monitor — PRD</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --panel: #f6f7f9;
+    --panel-2: #eef0f4;
+    --ink: #1a1c20;
+    --ink-soft: #565b66;
+    --line: #e0e3e9;
+    --accent: #b3391f;      /* GDACS-red, restrained */
+    --accent-soft: #fbe9e5;
+    --green: #2e7d32;
+    --orange: #e08a00;
+    --red: #c62828;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a; --panel: #1c1f25; --panel-2: #232730;
+      --ink: #e8eaed; --ink-soft: #a2a8b4; --line: #2c313b;
+      --accent: #ff7a5c; --accent-soft: #2a1a15;
+      --green: #7bc97f; --orange: #f0b34d; --red: #ef6d6d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--sans); line-height: 1.6;
+    font-size: 16px; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 48px 24px 96px; }
+  header.masthead { border-bottom: 2px solid var(--accent); padding-bottom: 20px; margin-bottom: 8px; }
+  .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin: 8px 0 6px; letter-spacing: -.02em; }
+  .tagline { color: var(--ink-soft); font-size: 1.05rem; margin: 0; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .chip { font-size: 12px; font-family: var(--mono); background: var(--panel);
+    border: 1px solid var(--line); border-radius: 999px; padding: 4px 11px; color: var(--ink-soft); }
+  section { margin-top: 44px; scroll-margin-top: 20px; }
+  h2 { font-size: 1.35rem; letter-spacing: -.01em; margin: 0 0 4px;
+    display: flex; align-items: baseline; gap: 10px; }
+  h2 .n { font-family: var(--mono); font-size: .8rem; color: var(--accent); font-weight: 700; }
+  .lead { color: var(--ink-soft); margin: 0 0 18px; }
+  .goal {
+    background: var(--accent-soft); border: 1px solid var(--line);
+    border-left: 4px solid var(--accent); border-radius: 10px;
+    padding: 22px 24px; font-size: 1.18rem; line-height: 1.5;
+  }
+  .goal strong { color: var(--accent); }
+  .slices { display: grid; gap: 16px; }
+  .slice {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 12px; padding: 20px 22px; position: relative;
+  }
+  .slice .tag { font-family: var(--mono); font-size: 11px; font-weight: 700;
+    color: var(--accent); letter-spacing: .08em; }
+  .slice h3 { margin: 4px 0 8px; font-size: 1.12rem; }
+  .slice p { margin: 0 0 12px; color: var(--ink); }
+  .slice .demo {
+    font-size: .92rem; background: var(--panel-2); border-radius: 8px;
+    padding: 10px 13px; color: var(--ink-soft); border: 1px solid var(--line);
+  }
+  .slice .demo b { color: var(--ink); font-weight: 600; }
+  .slice .maps { margin-top: 10px; font-family: var(--mono); font-size: 11px; color: var(--ink-soft); }
+  pre {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 18px 20px; overflow-x: auto; font-family: var(--mono);
+    font-size: 12.5px; line-height: 1.55; margin: 0;
+  }
+  pre .k { color: var(--accent); }
+  pre .c { color: var(--ink-soft); font-style: italic; }
+  .dm-note { color: var(--ink-soft); font-size: .95rem; margin: 14px 0 0; }
+  ul.oos { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  ul.oos li {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 13px 16px; padding-left: 42px; position: relative;
+  }
+  ul.oos li::before {
+    content: "\00d7"; position: absolute; left: 15px; top: 11px;
+    color: var(--red); font-weight: 700; font-size: 1.15rem; line-height: 1.3;
+  }
+  ul.oos li b { font-weight: 600; }
+  ul.oos li span { color: var(--ink-soft); }
+  .callout-line { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .alert-chip { font-size: 11px; font-family: var(--mono); border-radius: 6px; padding: 2px 8px; border: 1px solid var(--line); }
+  .a-green { color: var(--green); } .a-orange { color: var(--orange); } .a-red { color: var(--red); }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line);
+    color: var(--ink-soft); font-size: .88rem; }
+  footer code { font-family: var(--mono); background: var(--panel); padding: 1px 6px; border-radius: 5px; border: 1px solid var(--line); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Product Requirements</div>
+    <h1>HADR Monitor</h1>
+    <p class="tagline">An unattended agent that watches three disaster feeds and publishes one trustworthy morning situation report.</p>
+    <div class="meta">
+      <span class="chip">Shape B · 9/9 fit</span>
+      <span class="chip">Stack: Python · uv · GitHub Actions</span>
+      <span class="chip">Source: docs/PRD.md</span>
+      <span class="chip">Dated 2026-07-08</span>
+    </div>
+  </header>
+
+  <section id="goal">
+    <h2><span class="n">01</span> Goal</h2>
+    <div class="goal">
+      Every morning at <strong>08:30 Singapore time</strong>, publish a single self-contained dashboard
+      carrying every <strong>reportable</strong> disaster event — deduplicated across GDACS, USGS and
+      ReliefWeb, filtered to what actually matters, with what happened, where, how bad, and who is
+      affected. It runs <strong>unattended</strong>, stays honest when a feed is down, corrects itself
+      when events change, and is <strong>quiet on quiet mornings</strong> — without a language model ever
+      deciding whether to wake up.
+    </div>
+    <p class="dm-note">
+      The problem it removes: staying aware today means watching three noisy, differently-shaped,
+      SLA-free feeds that double-report the same event, revise or retract it after publication, and
+      emit far more noise than signal. There is no low-effort way to get a once-a-day picture that
+      distinguishes a calm world from a dead feed.
+    </p>
+  </section>
+
+  <section id="slices">
+    <h2><span class="n">02</span> Three vertical slices</h2>
+    <p class="lead">
+      Each slice ends in a demo-able dashboard — no horizontal “build all the models first” layers.
+      The renderer ships in slice 1 so every later slice proves itself by changing the published page.
+      (The full eight-step breakdown lives in <code style="font-family:var(--mono)">SLICES.md</code>; these are its three headline increments.)
+    </p>
+    <div class="slices">
+
+      <div class="slice">
+        <div class="tag">SLICE 1 · THE SKELETON</div>
+        <h3>Live earthquakes, deduplicated, on the page</h3>
+        <p>
+          Fetch USGS and GDACS, reconcile their records into canonical events with our own IDs
+          (dedup via the live-verified GDACS <code style="font-family:var(--mono)">sourceid</code> → USGS
+          alias join), persist to <code style="font-family:var(--mono)">data/state.json</code>, and render
+          the self-contained dashboard.
+        </p>
+        <div class="demo"><b>Demo:</b> the same quake reported by USGS <em>and</em> GDACS shows as one card with both source links — and a revised magnitude updates that card instead of adding a second.</div>
+        <div class="maps">maps to V1–V3 · mechanisms B1, B2</div>
+      </div>
+
+      <div class="slice">
+        <div class="tag">SLICE 2 · THE DECISION</div>
+        <h3>Report only what matters, and record what changed</h3>
+        <p>
+          Apply the impact-based threshold — GDACS Orange/Red, USGS PAGER yellow+, an escalation of a
+          tracked event, or a human-curated ReliefWeb entry. Everything below the bar is tracked in state
+          but hidden. Each run produces a dated edition with a changelog of escalations, downgrades and
+          retractions; a run with nothing reportable renders a one-line quiet edition.
+        </p>
+        <div class="callout-line">
+          <span class="alert-chip a-green">Green M4.6 → tracked, hidden</span>
+          <span class="alert-chip a-orange">Orange flood → reported</span>
+          <span class="alert-chip a-red">Green→Red → leads changelog</span>
+        </div>
+        <div class="demo" style="margin-top:12px"><b>Demo:</b> escalate a tracked event between runs → it leads the next changelog; an empty morning → the deterministic quiet edition, no model call.</div>
+        <div class="maps">maps to V4–V5 · mechanisms B3, B5</div>
+      </div>
+
+      <div class="slice">
+        <div class="tag">SLICE 3 · TRUSTWORTHY &amp; UNATTENDED</div>
+        <h3>Assessment, coverage honesty, and a schedule</h3>
+        <p>
+          Add model-written assessments for reportable events (skipped entirely on quiet mornings), explicit
+          coverage warnings when a feed is stale or down, and the hourly + 08:30 SGT schedule — plus an
+          intraday flash re-render when a new Red-level event appears between editions.
+        </p>
+        <div class="demo"><b>Demo:</b> it runs itself on the schedule and commits the result; a dead feed shows “GDACS unreachable since 03:10 SGT”; a new Red event flashes to the dashboard within the hour, not the next morning.</div>
+        <div class="maps">maps to V6–V8 · mechanisms B4, B6, B7</div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="data-model">
+    <h2><span class="n">03</span> Data model</h2>
+    <p class="lead">
+      One schema-versioned JSON file, committed to the repo by the workflow (never hand-edited). Its git
+      history is the audit log of what the agent believed and when. A <em>canonical event</em> merges all
+      source records for one real-world occurrence and keeps every source alias so matching survives
+      preferred-ID flips. GDACS alert level and USGS PAGER level are kept as <em>separate</em> fields — they
+      are different impact models and are never merged.
+    </p>
+<pre><span class="c">// data/state.json</span>
+{
+  <span class="k">"version"</span>: 1,
+
+  <span class="k">"events"</span>: {                        <span class="c">// keyed by our own canonical id</span>
+    "evt-2026-0714": {
+      <span class="k">"hazard"</span>: "EQ",               <span class="c">// EQ | TC | FL | VO | DR | WF</span>
+      <span class="k">"name"</span>: "M5.0 — 15 km NNE of Xunchang, China",
+      <span class="k">"aliases"</span>: [                  <span class="c">// every identifier any feed used</span>
+        "usgs:us6000taui", "gdacs:1550709", "glide:EQ-2026-000093-CHN"
+      ],
+      <span class="k">"location"</span>: { "lat": 28.5871, "lon": 104.7549, "place": "China" },
+      <span class="k">"origin_time"</span>: "2026-07-08T02:08:48Z",   <span class="c">// UTC; SGT only at render</span>
+      <span class="k">"magnitude"</span>: { "value": 5.0, "type": "mw", "depth_km": 10 },  <span class="c">// EQ only</span>
+      <span class="k">"gdacs_alert"</span>: "Green",       <span class="c">// Green|Orange|Red|null — impact model A</span>
+      <span class="k">"pager_alert"</span>: null,          <span class="c">// green|yellow|orange|red|null — impact model B</span>
+      <span class="k">"reported"</span>: false,            <span class="c">// has it ever cleared the threshold?</span>
+      <span class="k">"flash_published"</span>: false,     <span class="c">// has a Red flash already fired?</span>
+      <span class="k">"status"</span>: "active",           <span class="c">// active | aged_out | retracted</span>
+      <span class="k">"first_seen"</span>: "2026-07-08T02:49:03Z",
+      <span class="k">"last_changed"</span>: "2026-07-08T02:49:03Z",
+      <span class="k">"source_refs"</span>: {
+        "usgs": "https://earthquake.usgs.gov/.../us6000taui",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1550709"
+      }
+    }
+  },
+
+  <span class="k">"feed_status"</span>: {                   <span class="c">// per feed, tracked independently</span>
+    "gdacs":     { "last_success": "...", "feed_generated_at": "...", "consecutive_failures": 0 },
+    "usgs":      { "last_success": "...", "feed_generated_at": "...", "consecutive_failures": 0 },
+    "reliefweb": { "last_success": "...", "feed_generated_at": "...", "consecutive_failures": 0 }
+  },
+
+  <span class="k">"edition_marker"</span>: {                <span class="c">// what the reader has already been told</span>
+    "last_edition_at": "2026-07-07T00:30:00Z",
+    "acknowledged_changes": ["evt-2026-0712:escalation", "..."]
+  }
+}</pre>
+    <p class="dm-note">
+      Join order for merging records into one event: shared <b>GLIDE</b> number → GDACS detail
+      <code style="font-family:var(--mono)">sourceid</code> matched into the USGS alias set → heuristic
+      (same hazard, origin time within ±30&nbsp;min, epicentres ≤&nbsp;250&nbsp;km). Absence from a feed’s
+      rolling window is <b>aged out</b>, never a retraction — only an explicit deletion signal retracts.
+    </p>
+  </section>
+
+  <section id="out-of-scope">
+    <h2><span class="n">04</span> Out of scope</h2>
+    <p class="lead">Deliberate exclusions — as much a decision as what’s in.</p>
+    <ul class="oos">
+      <li><b>Hazards without a source in the stack</b> <span>— conflict, displacement, epidemics, tsunami warnings, landslides, heatwaves. Drought is in only as far as GDACS itself raises it.</span></li>
+      <li><b>Feeds beyond GDACS, USGS and ReliefWeb</b> <span>— no ACLED, WHO, NOAA/PTWC, FIRMS, etc., however useful.</span></li>
+      <li><b>Notification channels beyond the dashboard</b> <span>— no email, Slack or outbound RSS. The committed <code style="font-family:var(--mono)">dashboard.html</code> is the only surface.</span></li>
+      <li><b>Intraday alerting below Red level</b> <span>— sub-daily publishing fires only for new Red events; everything else waits for the 08:30 edition.</span></li>
+      <li><b>Historical backfill / archive queries</b> <span>— state tracks the active window, not a research archive.</span></li>
+      <li><b>Region-specific weighting</b> <span>— global scope; severity does the filtering, not geography.</span></li>
+      <li><b>Document-volume as a severity signal</b> <span>— report count tracks international attention, not impact.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    Rendering of <code>docs/PRD.md</code>. Full detail: requirements &amp; shapes in <code>SHAPING.md</code>,
+    affordances &amp; wiring in <code>BREADBOARD.md</code>, decisions in <code>docs/adr/</code>, slice plan in
+    <code>SLICES.md</code>. Deviations from the starter brief are recorded in <code>implementation-notes.md</code>.
+  </footer>
+
+</div>
+</body>
+</html>
