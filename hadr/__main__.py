@@ -1,58 +1,55 @@
 """CLI entry point: ``python -m hadr run [--now | --fixture DIR]``.
 
-V1 wiring: fetch USGS -> render dashboard. Later slices insert reconcile/state
-and additional feeds between the fetch and the render without changing this
+Pipeline: fetch USGS -> reconcile against committed state -> persist state ->
+render the dashboard from the current best-known event state. Later slices add
+feeds and a gated model step between reconcile and render without changing this
 surface.
 """
 
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from scripts import fetch_usgs
-from scripts.feeds import FeedSnapshot, SourceRecord
+from scripts import fetch_usgs, reconcile
+from scripts import state as state_store
+from scripts.feeds import FeedSnapshot, iso_utc
 from scripts.render import DEFAULT_OUTPUT, render
 
-
-def iso_utc(dt: datetime) -> str:
-    """UTC datetime -> ISO string with a trailing ``Z`` (state.json convention)."""
-    return dt.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+# Render newest origin first; a stable sort keyed on origin_time.
+_RENDER_ORDER = "origin_time"
 
 
-def _record_to_event(record: SourceRecord) -> dict[str, Any]:
-    """Project a source record into a render-ready event dict (V1: one feed)."""
-    return {
-        "id": record.aliases[0] if record.aliases else record.name,
-        "hazard": record.hazard,
-        "name": record.name,
-        "magnitude": record.magnitude,
-        "location": {"lat": record.lat, "lon": record.lon, "place": record.place},
-        "origin_time": iso_utc(record.origin_time),
-        "gdacs_alert": record.gdacs_alert,
-        "pager_alert": record.pager_alert,
-        "status": "active",
-        "source_refs": {"usgs": record.source_ref},
-    }
+def _events_for_render(state: dict[str, Any]) -> list[dict[str, Any]]:
+    """Project committed events into render-ready dicts (id folded in)."""
+    events = [{"id": eid, **event} for eid, event in state["events"].items()]
+    events.sort(key=lambda e: e[_RENDER_ORDER], reverse=True)
+    return events
 
 
-def run(*, fixture: str | None, output: str | Path) -> int:
-    """Fetch USGS (live or fixture), render the dashboard, report a summary."""
+def run(*, fixture: str | None, output: str | Path, state_path: str | Path) -> int:
+    """Fetch USGS (live or fixture), reconcile into state, persist, render."""
+    now = datetime.now(tz=UTC)
     usgs_fixture = str(Path(fixture) / "usgs_all_day.json") if fixture else None
-    snapshot: FeedSnapshot = fetch_usgs.snapshot(fixture=usgs_fixture)
+    snapshots: list[FeedSnapshot] = [fetch_usgs.snapshot(fixture=usgs_fixture)]
 
-    events = [_record_to_event(r) for r in snapshot.records]
-    # Most recent origin first.
-    events.sort(key=lambda e: e["origin_time"], reverse=True)
+    prior = state_store.load(state_path)
+    new_state, change_set = reconcile.reconcile(snapshots, prior, now=now)
+    state_store.save(new_state, state_path)
 
     edition_content = {
         "title": "HADR Monitor — Earthquakes",
-        "generated_at": iso_utc(datetime.now(tz=UTC)),
+        "generated_at": iso_utc(now),
     }
+    events = _events_for_render(new_state)
     render(events, edition_content, output=output)
-    print(f"Rendered {len(events)} event(s) to {output}")
+
+    counts = Counter(c["kind"] for c in change_set)
+    summary = ", ".join(f"{kind}×{n}" for kind, n in counts.items()) or "no changes"
+    print(f"Rendered {len(events)} event(s) to {output} ({summary})")
     return 0
 
 
@@ -60,15 +57,16 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="hadr", description="HADR Monitor pipeline")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    run_p = sub.add_parser("run", help="fetch feeds and render the dashboard")
+    run_p = sub.add_parser("run", help="fetch feeds, reconcile, and render the dashboard")
     mode = run_p.add_mutually_exclusive_group()
     mode.add_argument("--now", action="store_true", help="fetch live feeds (default)")
     mode.add_argument("--fixture", metavar="DIR", help="read recorded fixtures from DIR")
     run_p.add_argument("--output", default=DEFAULT_OUTPUT, help="dashboard output path")
+    run_p.add_argument("--state", default=state_store.DEFAULT_PATH, help="path to state.json")
 
     args = parser.parse_args(argv)
     if args.command == "run":
-        return run(fixture=args.fixture, output=args.output)
+        return run(fixture=args.fixture, output=args.output, state_path=args.state)
     return 1
 
 

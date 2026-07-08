@@ -20,7 +20,10 @@ header .edition-date { font-size: 1rem; opacity: .9; }
 header .as-of { margin-left: auto; font-size: .85rem; opacity: .75; }
 main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 .board-meta { color: #566; font-size: .85rem; margin-bottom: 1rem; }
-#events-board { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+#events-board {
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
 .card {
   background: #fff; border: 1px solid #dfe3e8; border-radius: 10px; padding: 1rem 1.1rem;
   box-shadow: 0 1px 2px rgba(0,0,0,.04);
@@ -39,9 +42,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 .state-aged_out { background: #8a8f98; color: #fff; }
 .card.status-retracted { opacity: .7; }
 .chips { display: flex; gap: .4rem; margin: .5rem 0; flex-wrap: wrap; }
-.chip { font-size: .7rem; font-weight: 700; padding: .15rem .45rem; border-radius: 999px; color: #fff; }
-.chip-green { background: #1e8e3e; } .chip-orange { background: #e8710a; } .chip-red { background: #b3261e; }
-.chip-yellow { background: #c9a900; } .chip-null { background: #8a8f98; }
+.chip {
+  font-size: .7rem; font-weight: 700; padding: .15rem .45rem;
+  border-radius: 999px; color: #fff;
+}
+.chip-green { background: #1e8e3e; }
+.chip-orange { background: #e8710a; }
+.chip-red { background: #b3261e; }
+.chip-yellow { background: #c9a900; }
+.chip-null { background: #8a8f98; }
 .magnitude { font-weight: 600; margin-top: .3rem; }
 .place { color: #445; }
 .origin-time { color: #667; font-size: .85rem; margin-top: .3rem; }
@@ -77,67 +86,119 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 {
   "events": [
     {
-      "id": "usgs:us6000taui",
+      "id": "evt-2026-0004",
       "hazard": "EQ",
-      "name": "M 5.0 - 15 km NNE of Xunchang, China",
-      "magnitude": {
-        "value": 5.0,
-        "type": "mww",
-        "depth_km": 10
+      "name": "M 4.9 - Kepulauan Talaud, Indonesia",
+      "aliases": [
+        "usgs:us6000tnew"
+      ],
+      "location": {
+        "lat": 4.05,
+        "lon": 126.65,
+        "place": "Kepulauan Talaud, Indonesia"
       },
+      "origin_time": "2026-07-08T03:10:00Z",
+      "magnitude": {
+        "value": 4.9,
+        "type": "mb",
+        "depth_km": 45.0
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-08T06:54:34Z",
+      "last_changed": "2026-07-08T06:54:34Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnew"
+      }
+    },
+    {
+      "id": "evt-2026-0001",
+      "hazard": "EQ",
+      "name": "M 5.4 - 15 km NNE of Xunchang, China",
+      "aliases": [
+        "usgs:us6000taui",
+        "usgs:us7000zzzz"
+      ],
       "location": {
         "lat": 28.5871,
         "lon": 104.7549,
         "place": "15 km NNE of Xunchang, China"
       },
       "origin_time": "2026-07-08T02:08:48Z",
+      "magnitude": {
+        "value": 5.4,
+        "type": "mww",
+        "depth_km": 10
+      },
       "gdacs_alert": null,
       "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
       "status": "active",
+      "first_seen": "2026-07-08T06:54:34Z",
+      "last_changed": "2026-07-08T06:54:34Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taui"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000zzzz"
       }
     },
     {
-      "id": "usgs:ci41287863",
+      "id": "evt-2026-0003",
       "hazard": "EQ",
       "name": "M 3.0 - 9 km NNE of Avalon, CA",
-      "magnitude": {
-        "value": 3.04,
-        "type": "ml",
-        "depth_km": 12.1
-      },
+      "aliases": [
+        "usgs:ci41287863",
+        "usgs:us6000tafd"
+      ],
       "location": {
         "lat": 33.4,
         "lon": -118.3,
         "place": "9 km NNE of Avalon, CA"
       },
       "origin_time": "2026-07-08T01:00:00Z",
+      "magnitude": {
+        "value": 3.04,
+        "type": "ml",
+        "depth_km": 12.1
+      },
       "gdacs_alert": null,
       "pager_alert": null,
-      "status": "active",
+      "reported": false,
+      "flash_published": false,
+      "status": "aged_out",
+      "first_seen": "2026-07-08T06:54:34Z",
+      "last_changed": "2026-07-08T06:54:34Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41287863"
       }
     },
     {
-      "id": "usgs:us7000abcd",
+      "id": "evt-2026-0002",
       "hazard": "EQ",
       "name": "M 6.2 - Banda Sea",
-      "magnitude": {
-        "value": 6.2,
-        "type": "mww",
-        "depth_km": 35.0
-      },
+      "aliases": [
+        "usgs:us7000abcd"
+      ],
       "location": {
         "lat": -6.51,
         "lon": 126.42,
         "place": "Banda Sea"
       },
       "origin_time": "2026-07-08T00:30:00Z",
+      "magnitude": {
+        "value": 6.2,
+        "type": "mww",
+        "depth_km": 35.0
+      },
       "gdacs_alert": null,
       "pager_alert": "yellow",
-      "status": "active",
+      "reported": false,
+      "flash_published": false,
+      "status": "retracted",
+      "first_seen": "2026-07-08T06:54:34Z",
+      "last_changed": "2026-07-08T06:54:34Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000abcd"
       }
@@ -145,7 +206,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-07-08T06:49:02Z"
+    "generated_at": "2026-07-08T06:54:34Z"
   }
 }
 </script>

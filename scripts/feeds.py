@@ -9,11 +9,16 @@ current window into ``SourceRecord``s plus fetch metadata.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import UTC, datetime
 from typing import Any
 
 # Hazard type codes shared across feeds (CONTEXT.md): EQ | TC | FL | VO | DR | WF.
 HAZARD_EQ = "EQ"
+
+
+def iso_utc(dt: datetime) -> str:
+    """UTC datetime -> ISO string with a trailing ``Z`` (state.json convention)."""
+    return dt.astimezone(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 @dataclass(frozen=True)
