@@ -1,0 +1,7 @@
+# Normalise all text files to LF in the repo and in working copies,
+# so Windows checkouts don't produce LF→CRLF conversion churn.
+* text=auto eol=lf
+
+# Windows scripts that genuinely require CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
