@@ -90,6 +90,81 @@ function eventCard(ev) {
   return card;
 }
 
+// U8 + N20: hazard-type filter chips. Click toggles which hazards show; the
+// active hazard is held in a closure and applied to every card's visibility.
+const HAZARD_LABELS = { EQ: "Earthquake", TC: "Cyclone", FL: "Flood",
+                        VO: "Volcano", DR: "Drought", WF: "Wildfire" };
+let activeHazard = "ALL";
+
+function applyFilter(hazard) {
+  activeHazard = hazard;
+  for (const card of document.querySelectorAll("#events-board .card")) {
+    const show = hazard === "ALL" || card.dataset.hazard === hazard;
+    card.style.display = show ? "" : "none";
+  }
+  for (const chip of document.querySelectorAll("#hazard-filter .filter-chip")) {
+    chip.classList.toggle("active", chip.dataset.hazard === hazard);
+  }
+}
+
+function renderFilterChips(events) {
+  const bar = document.getElementById("hazard-filter");
+  const present = [...new Set(events.map((e) => e.hazard).filter(Boolean))].sort();
+  if (present.length < 2) return; // one hazard: nothing to filter between
+  const mk = (hazard, text) => {
+    const chip = el("button", "filter-chip", text);
+    chip.dataset.hazard = hazard;
+    chip.type = "button";
+    chip.addEventListener("click", () => applyFilter(hazard));
+    return chip;
+  };
+  bar.appendChild(mk("ALL", "All"));
+  for (const h of present) bar.appendChild(mk(h, HAZARD_LABELS[h] || h));
+  bar.querySelector('[data-hazard="ALL"]').classList.add("active");
+}
+
+function changeLine(entry) {
+  const name = entry.name || entry.id;
+  if (entry.kind === "escalation" || entry.kind === "downgrade") {
+    return `${name}: ${entry.from} → ${entry.to}`;
+  }
+  if (entry.kind === "revision") {
+    const mag = entry.magnitude != null ? ` (now M ${entry.magnitude})` : "";
+    return `${name}: revised${mag}`;
+  }
+  if (entry.kind === "retraction") {
+    return `${name}: retracted by source`;
+  }
+  return name;
+}
+
+function renderChangelog(changelog) {
+  const wrap = document.getElementById("changelog");
+  if (!changelog) return;
+  // Order is the render order: escalations lead (US7), retractions close (US8).
+  const sections = [
+    ["escalations", "Escalations", changelog.escalations],
+    ["downgrades", "Downgrades", changelog.downgrades],
+    ["revisions", "Revisions", changelog.revisions],
+    ["retractions", "Retractions", changelog.retractions],
+  ];
+  const built = [];
+  for (const [key, heading, entries] of sections) {
+    if (!entries || !entries.length) continue;
+    const sec = el("div", `changelog-section changelog-${key}`);
+    sec.appendChild(el("h3", "changelog-heading", heading));
+    const ul = el("ul", "changelog-list");
+    for (const entry of entries) {
+      ul.appendChild(el("li", `change change-${entry.kind}`, changeLine(entry)));
+    }
+    sec.appendChild(ul);
+    built.push(sec);
+  }
+  if (!built.length) return;
+  wrap.appendChild(el("h2", "changelog-title", "Updates since last edition"));
+  for (const sec of built) wrap.appendChild(sec);
+}
+
 function boot() {
   const state = JSON.parse(document.getElementById("hadr-state").textContent);
   const edition = state.edition || {};
@@ -97,15 +172,31 @@ function boot() {
   document.getElementById("edition-date").textContent = toSGT(edition.generated_at);
   document.getElementById("as-of").textContent = `as of ${toSGT(edition.generated_at)}`;
 
+  // U1: edition type badge (regular / quiet / flash).
+  const type = edition.type || "regular";
+  const badge = document.getElementById("edition-badge");
+  badge.textContent = type;
+  badge.className = `edition-badge badge-${type}`;
+
+  // U4: quiet edition line.
+  if (edition.quiet_line) {
+    document.getElementById("quiet-line").textContent = edition.quiet_line;
+  }
+
   const board = document.getElementById("events-board");
   const events = state.events || [];
   if (!events.length) {
-    board.appendChild(el("p", "empty", "No events in the current window."));
+    if (!edition.quiet_line) {
+      board.appendChild(el("p", "empty", "No reportable events in the current window."));
+    }
   } else {
     for (const ev of events) board.appendChild(eventCard(ev));
   }
   document.getElementById("event-count").textContent =
-    `${events.length} event${events.length === 1 ? "" : "s"}`;
+    `${events.length} reportable event${events.length === 1 ? "" : "s"}`;
+
+  renderFilterChips(events);          // U8 + N20
+  renderChangelog(edition.changelog); // U9 / U10 / U11
 }
 
 document.addEventListener("DOMContentLoaded", boot);
@@ -127,6 +218,32 @@ header .edition-date { font-size: 1rem; opacity: .9; }
 header .as-of { margin-left: auto; font-size: .85rem; opacity: .75; }
 main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 .board-meta { color: #566; font-size: .85rem; margin-bottom: 1rem; }
+.edition-badge {
+  font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  padding: .2rem .5rem; border-radius: 999px; background: #2e7d32; color: #fff;
+}
+.edition-badge.badge-quiet { background: #5c6470; }
+.edition-badge.badge-flash { background: #b3261e; }
+.quiet-line { color: #445; font-size: 1.05rem; margin: 0 0 1rem; }
+.quiet-line:empty { display: none; }
+.changelog:empty { display: none; }
+.changelog { margin: 0 0 1.5rem; }
+.changelog-title { font-size: 1rem; margin: 0 0 .6rem; color: #12233b; }
+.changelog-section { margin-bottom: .8rem; }
+.changelog-heading {
+  font-size: .8rem; text-transform: uppercase; letter-spacing: .04em;
+  margin: 0 0 .3rem; color: #566;
+}
+.changelog-list { margin: 0; padding-left: 1.1rem; }
+.changelog-escalations .changelog-heading { color: #b3261e; }
+.change-escalation { font-weight: 600; }
+.hazard-filter { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.hazard-filter:empty { display: none; }
+.filter-chip {
+  font: inherit; font-size: .78rem; cursor: pointer; padding: .25rem .7rem;
+  border: 1px solid #c3ccd6; border-radius: 999px; background: #fff; color: #12233b;
+}
+.filter-chip.active { background: #12233b; color: #fff; border-color: #12233b; }
 #events-board {
   display: grid; gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -176,6 +293,11 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   .place { color: #b6bfc9; } .origin-time { color: #9aa4af; } .board-meta { color: #9aa4af; }
   .source-link { color: #cfd8e2; border-color: #39414d; }
   .source-link:hover { background: #232a33; }
+  .quiet-line { color: #b6bfc9; }
+  .changelog-title { color: #f2f5f8; }
+  .changelog-heading { color: #9aa4af; }
+  .filter-chip { background: #1b1f26; color: #cfd8e2; border-color: #39414d; }
+  .filter-chip.active { background: #cfd8e2; color: #12151a; border-color: #cfd8e2; }
 }
 """
 
@@ -207,11 +329,15 @@ def build_html(events: list[dict[str, Any]], edition_content: dict[str, Any]) ->
 <body>
 <header>
   <h1 id="edition-title">{title}</h1>
+  <span class="edition-badge" id="edition-badge"></span>
   <span class="edition-date" id="edition-date"></span>
   <span class="as-of" id="as-of"></span>
 </header>
 <main>
+  <p class="quiet-line" id="quiet-line"></p>
+  <section class="changelog" id="changelog" aria-label="updates since last edition"></section>
   <div class="board-meta" id="event-count"></div>
+  <nav class="hazard-filter" id="hazard-filter" aria-label="filter by hazard type"></nav>
   <section id="events-board" aria-label="events board"></section>
 </main>
 <script type="application/json" id="hadr-state">
