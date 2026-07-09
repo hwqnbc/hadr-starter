@@ -6501,9 +6501,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-09T05:50:31Z",
-      "last_changed": "2026-07-09T05:50:31Z",
+      "last_changed": "2026-07-09T05:52:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94295493"
       }
@@ -8604,20 +8604,20 @@
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-07-09T05:50:31Z",
-      "last_success": "2026-07-09T05:50:31Z",
-      "feed_generated_at": "2026-07-09T05:50:00Z",
+      "last_attempt": "2026-07-09T05:52:45Z",
+      "last_success": "2026-07-09T05:52:45Z",
+      "feed_generated_at": "2026-07-09T05:52:22Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-07-09T05:50:31Z",
-      "last_success": "2026-07-09T05:50:31Z",
+      "last_attempt": "2026-07-09T05:52:45Z",
+      "last_success": "2026-07-09T05:52:45Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
   },
   "edition_marker": {
-    "last_edition_at": "2026-07-09T05:50:31Z",
+    "last_edition_at": "2026-07-09T05:52:45Z",
     "acknowledged_changes": [],
     "baseline": {
       "evt-2026-0001": {
@@ -9773,7 +9773,7 @@
       "evt-2026-0231": {
         "level": 0,
         "magnitude": 0.33,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-0232": {
         "level": 3,
@@ -10212,7 +10212,5 @@
       }
     }
   },
-  "flash_pending": [
-    "evt-2026-0232"
-  ]
+  "flash_pending": []
 }
