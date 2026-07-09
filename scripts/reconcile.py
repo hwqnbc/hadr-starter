@@ -134,6 +134,13 @@ def _apply_update(event: dict[str, Any], record: SourceRecord, now: datetime) ->
     if owns_description:
         event["name"] = record.name or event["name"]
         event["location"] = {"lat": record.lat, "lon": record.lon, "place": record.place}
+    # An alert-level change (escalation/downgrade) is a change to tell, even though
+    # it is not a magnitude revision: bump last_changed so the edition marker
+    # (scripts/edition.py) sees it. The change *kind* is classified downstream from
+    # the level delta; the change_set kinds here stay magnitude/status only.
+    alert_changed = (
+        record.pager_alert is not None and record.pager_alert != event.get("pager_alert")
+    ) or (record.gdacs_alert is not None and record.gdacs_alert != event.get("gdacs_alert"))
     if record.pager_alert is not None:
         event["pager_alert"] = record.pager_alert
     if record.gdacs_alert is not None:
@@ -144,7 +151,7 @@ def _apply_update(event: dict[str, Any], record: SourceRecord, now: datetime) ->
         event["status"] = "active"
         kind = kind or REVISION
 
-    if kind:
+    if kind or alert_changed:
         event["last_changed"] = iso_utc(now)
     return kind
 

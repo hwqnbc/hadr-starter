@@ -26,6 +26,9 @@ def empty_state() -> dict[str, Any]:
         "events": {},
         "feed_status": {},
         "edition_marker": {"last_edition_at": None, "acknowledged_changes": []},
+        # Events crossing into Red this run, computed by the gate and consumed by
+        # V8's flash branch. Stored, not acted on, in this slice (ADR-0003).
+        "flash_pending": [],
     }
 
 
