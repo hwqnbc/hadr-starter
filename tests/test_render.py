@@ -57,6 +57,16 @@ def test_empty_state_still_renders():
     assert island["events"] == []
 
 
+def test_page_auto_refreshes_in_the_browser():
+    # A left-open tab reloads itself so it picks up the workflow's re-deploys
+    # without a manual refresh; the interval is the renderer's REFRESH_SECONDS.
+    from scripts.render import REFRESH_SECONDS
+
+    html = build_html(EVENTS, EDITION)
+    assert f'<meta http-equiv="refresh" content="{REFRESH_SECONDS}">' in html
+    assert REFRESH_SECONDS == 1800  # 30 min (plan default)
+
+
 def test_island_carries_edition_type_and_changelog():
     # V5: edition type badge (U1), quiet line (U4) and changelog (U9/U10/U11)
     # travel in the island; assertions are on the JSON, not the markup.

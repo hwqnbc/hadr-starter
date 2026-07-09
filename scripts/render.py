@@ -14,6 +14,11 @@ from typing import Any
 
 DEFAULT_OUTPUT = "dashboard.html"
 
+# An open dashboard tab reloads itself on this cadence so a left-open page picks
+# up the workflow's hourly/daily re-deploys without a manual refresh. 30 min sits
+# just above the hourly poll cadence and clears the Pages CDN cache (~10 min).
+REFRESH_SECONDS = 1800
+
 # The inline bootstrap: parse the JSON island, render cards, convert UTC->SGT.
 _BOOTSTRAP = r"""
 const SGT_OFFSET_MIN = 8 * 60; // Singapore is UTC+8, no DST.
@@ -395,6 +400,7 @@ def build_html(
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="{REFRESH_SECONDS}">
 <title>{title}</title>
 <style>{_STYLE}</style>
 </head>
