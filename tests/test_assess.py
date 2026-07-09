@@ -91,3 +91,32 @@ def test_default_client_shells_out_to_claude_p():
     assert seen["argv"][0] == "claude" and "-p" in seen["argv"] and "/sitrep" in seen["argv"]
     assert "reportables" in seen["input"]
     assert out["edition_summary"] == "y"
+
+
+_OBJ = '{"event_assessments": {"evt-1": "x"}, "edition_summary": "y"}'
+
+
+@pytest.mark.parametrize(
+    "wrapped",
+    [
+        _OBJ,  # bare object
+        f"```json\n{_OBJ}\n```",  # fenced code block
+        f"Here is the assessment:\n{_OBJ}\nThanks!",  # prose-wrapped
+        f"```\n{_OBJ}\n```",  # unlabelled fence
+    ],
+)
+def test_default_client_tolerates_fenced_or_prose_wrapped_json(wrapped):
+    # A model that wraps its JSON in a fence or a sentence must not break the
+    # edition — the client extracts the outermost object.
+    client = assess.default_client(runner=lambda argv, *, input: wrapped)
+    out = client({"reportables": REPORTABLES, "changelog": CHANGELOG})
+    assert out["event_assessments"]["evt-1"] == "x"
+    assert out["edition_summary"] == "y"
+
+
+def test_default_client_raises_cleanly_on_no_json():
+    # A hopeless reply (no object at all) fails with ValueError so the workflow's
+    # non-fatal model step falls through to publish the deterministic edition.
+    client = assess.default_client(runner=lambda argv, *, input: "I could not help.")
+    with pytest.raises(ValueError):
+        client({"reportables": REPORTABLES, "changelog": CHANGELOG})

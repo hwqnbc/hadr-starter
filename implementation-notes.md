@@ -213,6 +213,19 @@ Deviations / decisions worth recording:
 - **Default `run` mode is `edition`**, so the existing local `python -m hadr run
   --fixture …` demo still builds an edition exactly as before Slice 3.
 
+### Post-review fixes (PR #11 code review)
+
+- **Model step is non-fatal (`continue-on-error: true`).** The deterministic
+  dashboard + state are rendered by the `run` step *before* the guarded model
+  step, so a missing `ANTHROPIC_API_KEY` or a bad model reply no longer aborts
+  the job before the commit — the edition still publishes, prose-less
+  (ADR-0003 always-publish). Locked by `test_workflow.py`.
+- **Tolerant model-output parsing.** `assess.default_client` now extracts the
+  outermost `{...}` from `claude -p` stdout, so a fenced or prose-wrapped JSON
+  reply is parsed rather than crashing the assess step; a reply with no object
+  raises `ValueError` cleanly (and, being non-fatal, still publishes). Covered
+  by new `test_assess.py` cases.
+
 ## Open questions
 
 - Q16 in `QUESTIONS.md`: backfill strategy after a pipeline outage longer

@@ -59,8 +59,15 @@ jobs:
       # N14 — guarded model step. Runs ONLY on an edition that produced reportables
       # (the run step writes data/assessment_input.json in that case). This is the
       # only step that sees ANTHROPIC_API_KEY; fetch/reconcile/gate above never do.
+      #
+      # continue-on-error: the deterministic dashboard + state were already rendered
+      # by the run step above. The model only *phrases* that decided material, so a
+      # missing secret or a bad model reply must NOT suppress the edition — we fall
+      # through to the commit step and publish the prose-less dashboard (ADR-0003:
+      # always publish; the model never decides whether we wake up).
       - name: Assess reportables (/sitrep)
         if: steps.route.outputs.mode == 'edition' && hashFiles('data/assessment_input.json') != ''
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |

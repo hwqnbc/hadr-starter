@@ -47,6 +47,22 @@ def _run_claude(argv: list[str], *, input: str) -> str:  # noqa: A002
     return proc.stdout
 
 
+def _extract_json_object(text: str) -> str:
+    """Pull the JSON object out of a model reply that may be fenced or prose-wrapped.
+
+    The skill is told to emit a bare JSON object, but models sometimes wrap it in a
+    ```json fence or a sentence. We take the outermost ``{...}`` span, which handles
+    both. Raises ``ValueError`` if no object is present, so a hopeless reply fails
+    cleanly (and the workflow's non-fatal model step still publishes the
+    deterministic edition).
+    """
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        raise ValueError(f"no JSON object found in model output: {text[:200]!r}")
+    return text[start : end + 1]
+
+
 def default_client(*, runner: _CommandRunner = _run_claude) -> AssessClient:
     """The production client: shell out to ``claude -p`` running ``/sitrep``.
 
@@ -59,12 +75,13 @@ def default_client(*, runner: _CommandRunner = _run_claude) -> AssessClient:
     def _client(payload: dict[str, Any]) -> dict[str, Any]:
         # `-p` is headless (print) mode; the prompt invokes the /sitrep skill and
         # the JSON payload is fed on stdin. The skill is instructed to emit a bare
-        # JSON object, which we parse back out.
+        # JSON object; we extract it tolerantly in case the reply is fenced or
+        # wrapped in prose.
         out = runner(
             ["claude", "-p", "/sitrep", "--output-format", "text"],
             input=json.dumps(payload, ensure_ascii=False),
         )
-        return json.loads(out)
+        return json.loads(_extract_json_object(out))
 
     return _client
 

@@ -66,3 +66,13 @@ def test_model_secret_is_referenced_only_in_the_guarded_step():
     for step in pipeline_steps:
         assert "ANTHROPIC_API_KEY" not in step
         assert "claude" not in step
+
+
+def test_model_step_is_non_fatal_so_editions_still_publish():
+    # ADR-0003 always-publish: the deterministic dashboard is rendered before the
+    # model step, so a failing model call must not abort the job before the commit.
+    # The guarded model step must be continue-on-error.
+    steps = _text_no_comments().split("\n      - ")
+    guarded = [s for s in steps if "hadr assess" in s]
+    assert len(guarded) == 1, "expected exactly one guarded model step"
+    assert "continue-on-error: true" in guarded[0]
