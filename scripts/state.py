@@ -25,7 +25,14 @@ def empty_state() -> dict[str, Any]:
         "version": SCHEMA_VERSION,
         "events": {},
         "feed_status": {},
-        "edition_marker": {"last_edition_at": None, "acknowledged_changes": []},
+        # ``baseline`` snapshots each event's alert level/magnitude/status as of the
+        # last edition, so the next edition's changelog reflects changes accumulated
+        # across the intervening hourly polls (S3 / V8), not just the last run.
+        "edition_marker": {
+            "last_edition_at": None,
+            "acknowledged_changes": [],
+            "baseline": {},
+        },
         # Events crossing into Red this run, computed by the gate and consumed by
         # V8's flash branch. Stored, not acted on, in this slice (ADR-0003).
         "flash_pending": [],

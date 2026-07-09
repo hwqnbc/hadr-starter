@@ -205,6 +205,13 @@ function boot() {
   badge.textContent = type;
   badge.className = `edition-badge badge-${type}`;
 
+  // U3: flash banner — an off-cycle Red re-render names the crossing event(s).
+  if (edition.flash && edition.flash.events && edition.flash.events.length) {
+    const names = edition.flash.events.map((e) => e.name || e.id).join(", ");
+    document.getElementById("flash-banner").textContent =
+      `FLASH — crossed into Red level: ${names}`;
+  }
+
   // U4: quiet edition line.
   if (edition.quiet_line) {
     document.getElementById("quiet-line").textContent = edition.quiet_line;
@@ -258,6 +265,11 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 }
 .edition-badge.badge-quiet { background: #5c6470; }
 .edition-badge.badge-flash { background: #b3261e; }
+.flash-banner {
+  background: #b3261e; color: #fff; padding: .7rem 1rem; border-radius: 8px;
+  margin: 0 0 1.2rem; font-weight: 700; letter-spacing: .01em;
+}
+.flash-banner:empty { display: none; }
 .quiet-line { color: #445; font-size: 1.05rem; margin: 0 0 1rem; }
 .quiet-line:empty { display: none; }
 .edition-summary { color: #2a3340; font-size: 1rem; margin: 0 0 1.2rem; max-width: 60ch; }
@@ -394,6 +406,7 @@ def build_html(
   <span class="as-of" id="as-of"></span>
 </header>
 <main>
+  <p class="flash-banner" id="flash-banner"></p>
   <p class="quiet-line" id="quiet-line"></p>
   <p class="edition-summary" id="edition-summary"></p>
   <section class="changelog" id="changelog" aria-label="updates since last edition"></section>

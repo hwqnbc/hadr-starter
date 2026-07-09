@@ -1,0 +1,81 @@
+# HADR Monitor — unattended sitrep (B4 + B7).
+#
+# The shape the scaffold insisted on is preserved: a deterministic script decides
+# what changed and whether anything is reportable; a headless model call runs
+# only if it did. The model never decides whether to wake up (ADR-0003).
+#
+#   N1  hourly cron          -> poll: fetch + reconcile + gate, re-render on flash
+#   N2  daily 08:30 SGT cron -> edition: changelog build + guarded model assessment
+#   N3  routing (which trigger fired?) -> scripts/schedule.run_mode, one source of truth
+#   N10 flash: an event crossing into Red on an hourly poll re-renders immediately
+#   N14 guarded model step: `claude -p` /sitrep; ANTHROPIC_API_KEY to THIS step only
+#   N16 commit state.json + dashboard.html with [skip ci]; concurrency serialises runs
+
+name: HADR Monitor sitrep
+
+on:
+  schedule:
+    - cron: "0 * * * *" # N1 — hourly poll
+    - cron: "30 0 * * *" # N2 — daily edition, 08:30 Asia/Singapore (00:30 UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# B7.2 — all N1/N2/dispatch runs share one group so a long run never races a
+# later trigger into a dirty commit.
+concurrency:
+  group: hadr-sitrep
+  cancel-in-progress: false
+
+jobs:
+  sitrep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up uv + Python
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync
+
+      # N3 — which trigger fired? Resolve the mode from the event + cron via the
+      # pure router (scripts/schedule.py) so YAML and tests never drift.
+      - id: route
+        name: Resolve run mode
+        run: |
+          mode="$(uv run python -m hadr mode --event '${{ github.event_name }}' --cron '${{ github.event.schedule }}')"
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "Resolved mode: $mode"
+
+      # Fetch -> reconcile -> gate -> (edition changelog | flash) render. Fully
+      # deterministic. NO model, NO ANTHROPIC_API_KEY in this step.
+      - name: Run pipeline
+        run: uv run python -m hadr run --now --mode "${{ steps.route.outputs.mode }}"
+
+      # N14 — guarded model step. Runs ONLY on an edition that produced reportables
+      # (the run step writes data/assessment_input.json in that case). This is the
+      # only step that sees ANTHROPIC_API_KEY; fetch/reconcile/gate above never do.
+      - name: Assess reportables (/sitrep)
+        if: steps.route.outputs.mode == 'edition' && hashFiles('data/assessment_input.json') != ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          uv run python -m hadr assess --input data/assessment_input.json
+
+      # N16 — commit the audit trail with [skip ci] so the push doesn't re-trigger.
+      - name: Commit state + dashboard
+        run: |
+          git config user.name "hadr-bot"
+          git config user.email "hadr-bot@users.noreply.github.com"
+          git add data/state.json dashboard.html
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(sitrep): ${{ steps.route.outputs.mode }} run [skip ci]"
+            git push
+          fi

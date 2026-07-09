@@ -9,6 +9,10 @@ reports/
 .env
 .env.*
 
+# Transient sidecar: the edition run writes the reportables payload for the
+# guarded model step to read; it is regenerated every run, never committed.
+data/assessment_input.json
+
 # Language debris — extend for whichever toolchain you pick in CLAUDE.md.
 __pycache__/
 .venv/

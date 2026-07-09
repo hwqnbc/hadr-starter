@@ -174,3 +174,27 @@ def test_first_ever_edition_has_no_prior_marker():
     )
     assert content["type"] == "regular"
     assert st["edition_marker"]["last_edition_at"] == "2026-07-09T00:30:00Z"
+
+
+# --- V8: changelog accumulates across polls (compares to the last edition) --
+
+
+def test_changelog_compares_against_baseline_not_the_last_poll():
+    # Edition 1 snapshots a baseline at Green. Between editions, hourly polls move
+    # the event Green -> Orange -> Red (the *last poll* saw Orange->Red only). The
+    # next edition must report the full crossing since edition 1: Green -> Red.
+    st = _state({"evt-1": _event(gdacs_alert="Green", last_changed="2026-07-08T00:31:00Z")})
+    marker = _marker()
+    edition.build_edition(st, marker, [], st, now=NOW, reportable_ids=[])
+    assert marker["baseline"]["evt-1"]["level"] == 0  # Green captured at edition 1
+
+    # ... polls advance the event to Red without touching the marker/baseline ...
+    st2 = _state({"evt-1": _event(gdacs_alert="Red", last_changed="2026-07-09T12:00:00Z")})
+    st2["edition_marker"] = marker  # same persisted marker (carries the baseline)
+    later = datetime(2026, 7, 10, 0, 30, 0, tzinfo=UTC)
+    content = edition.build_edition(st2, marker, [], st2, now=later, reportable_ids=["evt-1"])
+    escs = content["changelog"]["escalations"]
+    assert [e["id"] for e in escs] == ["evt-1"]
+    assert escs[0]["from"] == "Green" and escs[0]["to"] == "Red"  # full crossing, not Orange->Red
+    # Baseline advances to Red for the following edition.
+    assert marker["baseline"]["evt-1"]["level"] == 3
