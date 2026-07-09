@@ -18,10 +18,11 @@ from typing import Any
 import httpx
 
 from scripts import edition as edition_builder
-from scripts import fetch_gdacs, fetch_usgs, gate, reconcile
+from scripts import fetch_gdacs, fetch_usgs, gate, reconcile, staleness
 from scripts import state as state_store
 from scripts.feeds import HAZARD_EQ, FeedSnapshot
 from scripts.render import DEFAULT_OUTPUT, render
+from scripts.retry import fetch_with_retry
 
 # Render newest origin first; a stable sort keyed on origin_time.
 _RENDER_ORDER = "origin_time"
@@ -97,9 +98,13 @@ def run(*, fixture: str | None, output: str | Path, state_path: str | Path) -> i
     # fixture path makes no requests, so no client is created.
     client = None if fixture else httpx.Client(follow_redirects=True, timeout=30.0)
     try:
-        usgs_snap = fetch_usgs.snapshot(client=client, fixture=usgs_fixture)
+        # Polite retry-with-backoff within the run (B7.4); a fixture read never
+        # fails, so live runs are the only ones that actually back off.
+        usgs_snap = fetch_with_retry(
+            lambda: fetch_usgs.snapshot(client=client, fixture=usgs_fixture)
+        )
         gdacs_snap = _enrich_gdacs(
-            fetch_gdacs.snapshot(client=client, fixture=gdacs_fixture),
+            fetch_with_retry(lambda: fetch_gdacs.snapshot(client=client, fixture=gdacs_fixture)),
             prior,
             fixture,
             client=client,
@@ -111,6 +116,18 @@ def run(*, fixture: str | None, output: str | Path, state_path: str | Path) -> i
     # USGS first so a GDACS earthquake joins onto the existing USGS event.
     snapshots: list[FeedSnapshot] = [usgs_snap, gdacs_snap]
     new_state, change_set = reconcile.reconcile(snapshots, prior, now=now)
+
+    # Record per-feed success/failure into state (S2); a failed fetch keeps the
+    # last known success — staleness is not retraction (V7).
+    for snap in snapshots:
+        staleness.record(
+            new_state["feed_status"],
+            snap.source,
+            ok=snap.ok,
+            now=now,
+            feed_generated_at=snap.feed_generated_at,
+        )
+    coverage = staleness.coverage(new_state["feed_status"], now)
 
     # Impact gate (V4): decide reportables + flash trigger, annotate state.
     reportable_ids, flash_trigger = gate.gate(change_set, new_state, prior)
@@ -128,7 +145,7 @@ def run(*, fixture: str | None, output: str | Path, state_path: str | Path) -> i
     state_store.save(new_state, state_path)
 
     events = _events_for_render(new_state, reportable_ids)
-    render(events, edition_content, output=output)
+    render(events, edition_content, coverage=coverage, output=output)
 
     counts = Counter(c["kind"] for c in change_set)
     summary = ", ".join(f"{kind}×{n}" for kind, n in counts.items()) or "no changes"

@@ -28,6 +28,9 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 .edition-badge.badge-flash { background: #b3261e; }
 .quiet-line { color: #445; font-size: 1.05rem; margin: 0 0 1rem; }
 .quiet-line:empty { display: none; }
+.edition-summary { color: #2a3340; font-size: 1rem; margin: 0 0 1.2rem; max-width: 60ch; }
+.edition-summary:empty { display: none; }
+.assessment { color: #2a3340; font-size: .9rem; margin: .6rem 0 0; }
 .changelog:empty { display: none; }
 .changelog { margin: 0 0 1.5rem; }
 .changelog-title { font-size: 1rem; margin: 0 0 .6rem; color: #12233b; }
@@ -87,6 +90,19 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 }
 .source-link:hover { background: #eef2f6; }
 .empty { color: #667; }
+.coverage-banner {
+  background: #8a3b00; color: #fff; padding: .6rem .9rem; border-radius: 8px;
+  margin: 0 0 1rem; font-size: .9rem; font-weight: 600;
+}
+.coverage-banner:empty { display: none; }
+.coverage { margin-top: 1.5rem; border-top: 1px solid #dfe3e8; padding-top: .8rem; }
+.coverage-rows { list-style: none; margin: 0; padding: 0; font-size: .82rem; color: #566; }
+.coverage-row { display: flex; gap: .6rem; align-items: baseline; padding: .15rem 0; }
+.coverage-feed { font-weight: 700; min-width: 5rem; }
+.coverage-state { text-transform: uppercase; letter-spacing: .04em; font-size: .7rem; }
+.coverage-row.fresh .coverage-state { color: #1e8e3e; }
+.coverage-row.stale .coverage-state { color: #b3261e; }
+.coverage-since { color: #889; }
 @media (prefers-color-scheme: dark) {
   body { background: #12151a; color: #e7ebef; }
   main { color: #e7ebef; }
@@ -96,10 +112,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   .source-link { color: #cfd8e2; border-color: #39414d; }
   .source-link:hover { background: #232a33; }
   .quiet-line { color: #b6bfc9; }
+  .edition-summary { color: #c8d1db; }
+  .assessment { color: #c8d1db; }
   .changelog-title { color: #f2f5f8; }
   .changelog-heading { color: #9aa4af; }
   .filter-chip { background: #1b1f26; color: #cfd8e2; border-color: #39414d; }
   .filter-chip.active { background: #cfd8e2; color: #12151a; border-color: #cfd8e2; }
+  .coverage { border-color: #2b313b; }
+  .coverage-rows { color: #9aa4af; }
+  .coverage-since { color: #79828d; }
 }
 </style>
 </head>
@@ -112,10 +133,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 </header>
 <main>
   <p class="quiet-line" id="quiet-line"></p>
+  <p class="edition-summary" id="edition-summary"></p>
   <section class="changelog" id="changelog" aria-label="updates since last edition"></section>
+  <p class="coverage-banner" id="coverage-banner"></p>
   <div class="board-meta" id="event-count"></div>
   <nav class="hazard-filter" id="hazard-filter" aria-label="filter by hazard type"></nav>
   <section id="events-board" aria-label="events board"></section>
+  <section class="coverage" aria-label="feed coverage">
+    <ul class="coverage-rows" id="coverage-rows"></ul>
+  </section>
 </main>
 <script type="application/json" id="hadr-state">
 {
@@ -144,8 +170,8 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "reported": true,
       "flash_published": false,
       "status": "active",
-      "first_seen": "2026-07-09T03:46:19Z",
-      "last_changed": "2026-07-09T03:46:19Z",
+      "first_seen": "2026-07-09T04:51:08Z",
+      "last_changed": "2026-07-09T04:51:08Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000abcd",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1550800&episodeid=1717000&eventtype=EQ"
@@ -154,7 +180,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-07-09T03:46:19Z",
+    "generated_at": "2026-07-09T04:51:08Z",
     "type": "regular",
     "changelog": {
       "escalations": [],
@@ -162,6 +188,28 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "revisions": [],
       "retractions": []
     }
+  },
+  "coverage": {
+    "feeds": [
+      {
+        "feed": "usgs",
+        "label": "USGS",
+        "last_success": "2026-07-09T04:51:08Z",
+        "feed_generated_at": "2026-07-08T02:49:03Z",
+        "consecutive_failures": 0,
+        "stale": false
+      },
+      {
+        "feed": "gdacs",
+        "label": "GDACS",
+        "last_success": "2026-07-09T04:51:08Z",
+        "feed_generated_at": null,
+        "consecutive_failures": 0,
+        "stale": false
+      }
+    ],
+    "stale": [],
+    "banner": null
   }
 }
 </script>
@@ -234,6 +282,10 @@ function eventCard(ev) {
 
   const loc = (ev.location && ev.location.place) || "";
   if (loc) card.appendChild(el("div", "place", loc));
+
+  // U6: model-written assessment prose (what / where / how bad / who). Present
+  // only when the guarded model step (N14) has run for a reportable event.
+  if (ev.assessment) card.appendChild(el("p", "assessment", ev.assessment));
 
   card.appendChild(el("div", "origin-time", `Origin: ${toSGT(ev.origin_time)}`));
   card.appendChild(sourceLinks(ev.source_refs));
@@ -315,6 +367,29 @@ function renderChangelog(changelog) {
   for (const sec of built) wrap.appendChild(sec);
 }
 
+// U12 + U13: per-feed status rows and the coverage warning banner. Times are
+// UTC ISO in the island; converted to SGT here (CLAUDE.md: SGT only at render).
+function renderCoverage(coverage) {
+  if (!coverage) return;
+  const banner = document.getElementById("coverage-banner");
+  if (coverage.banner) {
+    const parts = coverage.banner.items.map(
+      (it) => `${it.label} unreachable since ${toSGT(it.last_success)}`
+    );
+    let text = parts.join("; ");
+    if (coverage.banner.note) text += `; ${coverage.banner.note}`;
+    banner.textContent = text;
+  }
+  const rows = document.getElementById("coverage-rows");
+  for (const row of coverage.feeds || []) {
+    const li = el("li", `coverage-row ${row.stale ? "stale" : "fresh"}`);
+    li.appendChild(el("span", "coverage-feed", row.label));
+    li.appendChild(el("span", "coverage-state", row.stale ? "stale" : "ok"));
+    li.appendChild(el("span", "coverage-since", `last success ${toSGT(row.last_success)}`));
+    rows.appendChild(li);
+  }
+}
+
 function boot() {
   const state = JSON.parse(document.getElementById("hadr-state").textContent);
   const edition = state.edition || {};
@@ -333,6 +408,12 @@ function boot() {
     document.getElementById("quiet-line").textContent = edition.quiet_line;
   }
 
+  // Edition summary paragraph (model-written, one paragraph) — reportable
+  // editions only; the deterministic quiet/flash paths carry no summary.
+  if (edition.summary) {
+    document.getElementById("edition-summary").textContent = edition.summary;
+  }
+
   const board = document.getElementById("events-board");
   const events = state.events || [];
   if (!events.length) {
@@ -347,6 +428,7 @@ function boot() {
 
   renderFilterChips(events);          // U8 + N20
   renderChangelog(edition.changelog); // U9 / U10 / U11
+  renderCoverage(state.coverage);     // U12 / U13
 }
 
 document.addEventListener("DOMContentLoaded", boot);

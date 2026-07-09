@@ -107,3 +107,37 @@ def test_assessment_prose_and_summary_travel_in_island():
     assert island["edition"]["summary"] == "One reportable event."
     assert 'id="edition-summary"' in html
     assert "ev.assessment" in html  # the bootstrap places prose on the card
+
+
+def test_coverage_rows_and_banner_travel_in_island():
+    # V7: per-feed rows (U12) + a warning banner (U13) ride in the island; the
+    # bootstrap renders them (converting last-success to SGT at display).
+    coverage = {
+        "feeds": [
+            {
+                "feed": "usgs",
+                "label": "USGS",
+                "last_success": "2026-07-09T05:50:00Z",
+                "consecutive_failures": 0,
+                "stale": False,
+            },
+            {
+                "feed": "gdacs",
+                "label": "GDACS",
+                "last_success": "2026-07-09T03:10:00Z",
+                "consecutive_failures": 3,
+                "stale": True,
+            },
+        ],
+        "stale": ["gdacs"],
+        "banner": {
+            "items": [{"feed": "gdacs", "label": "GDACS", "last_success": "2026-07-09T03:10:00Z"}],
+            "note": "EQ coverage via USGS only",
+        },
+    }
+    html = build_html(EVENTS, EDITION, coverage=coverage)
+    island = _extract_island(html)
+    assert island["coverage"]["stale"] == ["gdacs"]
+    assert island["coverage"]["banner"]["items"][0]["label"] == "GDACS"
+    assert 'id="coverage-banner"' in html and 'id="coverage-rows"' in html
+    assert "function renderCoverage" in html
