@@ -149,6 +149,83 @@ Deviations / decisions worth recording:
   it now shows only the reportable Banda Sea M6.2 (Orange/PAGER-yellow); the two
   Green quakes and the no-alert Avalon quake are tracked in state but hidden.
 
+### 2026-07-09 — Slice 3 build (issue #8, branch `feat/slice-3-unattended`)
+
+Built Slice 3 (detailed slices V6 + V7 + V8): model assessment, coverage/
+staleness, and unattended scheduling + flash. Stacked on Slice 2. Four staged
+commits (`feat(v6)`, `feat(v7)`, `feat(v8)`, docs). All 92 tests, `ruff check`
+and `ruff format --check` pass.
+
+- **V6 — model assessment + `/sitrep` (N14).** `scripts/assess.py` puts the
+  model call behind an injectable `assess(reportables, changelog, *, client)`
+  seam: empty reportables short-circuit with `{}` and **no** client call (the
+  decision to invoke is deterministic, never the model's — ADR-0003); otherwise
+  the reportables + changelog are handed to `client` and the output schema is
+  validated. The default client shells out to `claude -p` running the
+  `skills/sitrep/SKILL.md` skill (no feed/tool access; data passed in). The
+  renderer places per-event prose (U6) and an edition summary in the JSON island.
+- **V7 — coverage + staleness (N11 / S2).** `scripts/staleness.py`:
+  `coverage(feed_status, now)` marks a feed stale when there is no fresh success
+  within 2× the hourly cadence, per feed independently, and emits render-ready
+  rows (U12) + a banner (U13) naming the stale feed, its last success and a
+  fallback note. `record()` folds each fetch outcome into `state["feed_status"]`;
+  a failed fetch keeps the last success (staleness ≠ retraction).
+  `scripts/retry.py` adds polite retry-with-backoff within a run (B7.4).
+- **V8 — scheduling + flash (N1–N3, N10, N14, N16).** `.github/workflows/
+  sitrep.yml` enabled: hourly + edition crons + dispatch, mode routed by
+  `scripts/schedule.run_mode`, guarded model step with the secret quarantined,
+  `[skip ci]` commit, concurrency group. The entrypoint gained `--mode
+  poll|edition`, an `assess` subcommand (the guarded step) and a `mode`
+  subcommand. Poll acts on the flash seam: it sets `flash_published` (once per
+  Red spell) and re-renders with the banner; otherwise it persists state without
+  re-rendering. `goal.md` committed.
+
+Deviations / decisions worth recording:
+
+- **The model runs as a separate `assess` subcommand, not inside `run`.** V6's
+  seam is Python-and-tested, but V8's secret isolation (N14: `ANTHROPIC_API_KEY`
+  never in fetch/reconcile/gate steps) requires process separation. So the
+  deterministic `run` writes a transient `data/assessment_input.json` sidecar
+  (gitignored) with the rendered events + edition; the guarded `assess` step
+  reads it, phrases via `/sitrep`, folds the prose in and re-renders. The
+  committed `dashboard.html` is therefore the *deterministic* render (no prose);
+  prose is folded only by the guarded step (in CI with the key, or locally via
+  `hadr assess`) — honest with "no live model in CI".
+- **Multi-run changelog accumulation resolved via a marker baseline.** Slice 2
+  deferred this. The edition now classifies the changelog against a `baseline`
+  snapshot (level/magnitude/status per event) stored in `edition_marker` at each
+  edition, not against the previous run. Hourly polls never advance the marker or
+  baseline, so the daily edition reflects every change since the *last edition*.
+  `_baseline_records` falls back to `prior` when no baseline is stored (first
+  edition, and the existing V5 unit tests), so no prior test changed. This is an
+  additive schema extension (`edition_marker.baseline`), no version bump.
+- **Poll runs re-render only on a flash.** A plain hourly poll updates
+  `state.json` but leaves the last published `dashboard.html` standing (the
+  commit step commits state alone). Editions and flashes re-render. This keeps
+  the dashboard the single surface (US10) without churning it every hour.
+- **`build_flash_edition` bypasses the edition builder and the model** (breadboard
+  N10 → N15, not N12/N14): a flash carries a Red banner and an empty changelog;
+  the next 08:30 edition folds the crossing into its changelog via the baseline.
+- **Workflow tests are text assertions, not YAML parsing.** `pyyaml` is not a
+  dependency; `tests/test_workflow.py` strips comment lines and asserts on the
+  real YAML (crons, concurrency, `[skip ci]`, and the secret confined to the one
+  guarded step). Avoids adding a dependency just for a test.
+- **Default `run` mode is `edition`**, so the existing local `python -m hadr run
+  --fixture …` demo still builds an edition exactly as before Slice 3.
+
+### Post-review fixes (PR #11 code review)
+
+- **Model step is non-fatal (`continue-on-error: true`).** The deterministic
+  dashboard + state are rendered by the `run` step *before* the guarded model
+  step, so a missing `ANTHROPIC_API_KEY` or a bad model reply no longer aborts
+  the job before the commit — the edition still publishes, prose-less
+  (ADR-0003 always-publish). Locked by `test_workflow.py`.
+- **Tolerant model-output parsing.** `assess.default_client` now extracts the
+  outermost `{...}` from `claude -p` stdout, so a fenced or prose-wrapped JSON
+  reply is parsed rather than crashing the assess step; a reply with no object
+  raises `ValueError` cleanly (and, being non-fatal, still publishes). Covered
+  by new `test_assess.py` cases.
+
 ## Open questions
 
 - Q16 in `QUESTIONS.md`: backfill strategy after a pipeline outage longer

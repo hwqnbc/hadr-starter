@@ -36,6 +36,10 @@ RETRACTION = "retraction"
 
 QUIET_LINE = "No significant events — all feeds healthy"
 
+# A magnitude change below this is instrument noise, not a revision worth telling
+# (mirrors reconcile.MAG_NOISE; kept local to avoid coupling the modules).
+MAG_NOISE = 0.1
+
 # Section order is the render order: escalations lead (US7), retractions close.
 _SECTIONS = ("escalations", "downgrades", "revisions", "retractions")
 _SECTION_OF = {
@@ -53,19 +57,50 @@ def _post_marker(event: dict[str, Any], last_edition_at: str | None) -> bool:
     return event.get("last_changed", "") > last_edition_at
 
 
+def _baseline_rec(event: dict[str, Any]) -> dict[str, Any]:
+    """Snapshot the fields the changelog compares against: level, magnitude, status."""
+    return {
+        "level": event_level(event),
+        "magnitude": (event.get("magnitude") or {}).get("value"),
+        "status": event.get("status", "active"),
+    }
+
+
+def _baseline_records(marker: dict[str, Any], prior: dict[str, Any] | None) -> dict[str, Any]:
+    """The state to classify *against*: the snapshot stored at the last edition.
+
+    From V8 the daily edition compares the current state to the state *as of the
+    last edition* — not to the last hourly run — so changes accumulated across the
+    intervening polls all appear (the hourly polls never advance the marker or the
+    baseline). When no baseline is stored yet (first edition, or unit tests that
+    pass ``prior`` directly), fall back to deriving it from ``prior``.
+    """
+    stored = marker.get("baseline")
+    if stored is not None:
+        return stored
+    prior_events = (prior or {}).get("events", {})
+    return {eid: _baseline_rec(ev) for eid, ev in prior_events.items()}
+
+
+def _mag_revised(base_mag: float | None, new_mag: float | None) -> bool:
+    if base_mag is None or new_mag is None:
+        return False
+    return abs(new_mag - base_mag) >= MAG_NOISE
+
+
 def _classify(
-    prior_event: dict[str, Any] | None,
+    base_rec: dict[str, Any] | None,
     event: dict[str, Any],
     revised: bool,
 ) -> str | None:
-    """How did a tracked event change? A brand-new event is a board card, not news."""
-    was_retracted = bool(prior_event) and prior_event.get("status") == "retracted"
+    """How did a tracked event change since the baseline? A first sight is a card."""
+    was_retracted = bool(base_rec) and base_rec.get("status") == "retracted"
     if event.get("status") == "retracted" and not was_retracted:
         return RETRACTION
-    if prior_event is None:
-        return None  # first sight -> a card on the board, not a changelog line
+    if base_rec is None:
+        return None  # first sight since the last edition -> a card, not a changelog line
     new_level = event_level(event)
-    old_level = event_level(prior_event)
+    old_level = base_rec.get("level", 0)
     if new_level > old_level:
         return ESCALATION
     if new_level < old_level:
@@ -75,7 +110,7 @@ def _classify(
     return None
 
 
-def _entry(eid: str, event: dict[str, Any], prior_event: dict[str, Any] | None, kind: str) -> dict:
+def _entry(eid: str, event: dict[str, Any], base_rec: dict[str, Any] | None, kind: str) -> dict:
     """A structured, render-ready changelog line (the renderer asserts on this)."""
     entry: dict[str, Any] = {
         "id": eid,
@@ -84,12 +119,41 @@ def _entry(eid: str, event: dict[str, Any], prior_event: dict[str, Any] | None, 
         "hazard": event.get("hazard", ""),
     }
     if kind in (ESCALATION, DOWNGRADE):
-        entry["from"] = LEVEL_NAME[event_level(prior_event)]
+        entry["from"] = LEVEL_NAME[(base_rec or {}).get("level", 0)]
         entry["to"] = LEVEL_NAME[event_level(event)]
     elif kind == REVISION:
-        mag = (event.get("magnitude") or {}).get("value")
-        entry["magnitude"] = mag
+        entry["magnitude"] = (event.get("magnitude") or {}).get("value")
     return entry
+
+
+def build_flash_edition(
+    state: dict[str, Any],
+    flash_ids: list[str],
+    *,
+    now,
+    title: str = "HADR Monitor",
+) -> dict[str, Any]:
+    """Off-cycle flash edition content (N10): a Red banner, no changelog, no model.
+
+    A flash re-render bypasses the edition builder and the model step (it does not
+    touch N12/N14): it republishes the dashboard early with the Red event(s)
+    flagged (U3). The next 08:30 edition folds the crossing into its changelog.
+    """
+    banner_events = [
+        {
+            "id": eid,
+            "name": state["events"].get(eid, {}).get("name", ""),
+            "hazard": state["events"].get(eid, {}).get("hazard", ""),
+        }
+        for eid in flash_ids
+    ]
+    return {
+        "title": title,
+        "generated_at": iso_utc(now),
+        "type": "flash",
+        "flash": {"events": banner_events},
+        "changelog": {name: [] for name in _SECTIONS},
+    }
 
 
 def build_edition(
@@ -109,20 +173,26 @@ def build_edition(
     forward monotonically. No model is consulted on any path.
     """
     change_set = change_set or []
-    prior_events = (prior or {}).get("events", {})
     reportable_ids = reportable_ids or []
     last_edition_at = marker.get("last_edition_at")
     revised_ids = {c["id"] for c in change_set if c["kind"] == "revision"}
+    # Classify against the state as of the last edition, not the last poll (V8).
+    baseline = _baseline_records(marker, prior)
 
     sections: dict[str, list[dict]] = {name: [] for name in _SECTIONS}
     acknowledged: list[str] = []
     for eid, event in state["events"].items():
         if not _post_marker(event, last_edition_at):
             continue
-        kind = _classify(prior_events.get(eid), event, eid in revised_ids)
+        base_rec = baseline.get(eid)
+        new_mag = (event.get("magnitude") or {}).get("value")
+        revised = eid in revised_ids or (
+            base_rec is not None and _mag_revised(base_rec.get("magnitude"), new_mag)
+        )
+        kind = _classify(base_rec, event, revised)
         if kind is None:
             continue
-        sections[_SECTION_OF[kind]].append(_entry(eid, event, prior_events.get(eid), kind))
+        sections[_SECTION_OF[kind]].append(_entry(eid, event, base_rec, kind))
         acknowledged.append(eid)
 
     for name in _SECTIONS:
@@ -139,9 +209,11 @@ def build_edition(
     if quiet:
         edition["quiet_line"] = QUIET_LINE
 
-    # Advance the marker monotonically — a change is told to the reader once.
+    # Advance the marker monotonically — a change is told to the reader once — and
+    # snapshot the new baseline so the *next* edition compares against this one.
     stamp = iso_utc(now)
     if last_edition_at is None or stamp >= last_edition_at:
         marker["last_edition_at"] = stamp
+        marker["baseline"] = {eid: _baseline_rec(ev) for eid, ev in state["events"].items()}
     marker["acknowledged_changes"] = acknowledged
     return edition

@@ -85,6 +85,10 @@ function eventCard(ev) {
   const loc = (ev.location && ev.location.place) || "";
   if (loc) card.appendChild(el("div", "place", loc));
 
+  // U6: model-written assessment prose (what / where / how bad / who). Present
+  // only when the guarded model step (N14) has run for a reportable event.
+  if (ev.assessment) card.appendChild(el("p", "assessment", ev.assessment));
+
   card.appendChild(el("div", "origin-time", `Origin: ${toSGT(ev.origin_time)}`));
   card.appendChild(sourceLinks(ev.source_refs));
   return card;
@@ -165,6 +169,29 @@ function renderChangelog(changelog) {
   for (const sec of built) wrap.appendChild(sec);
 }
 
+// U12 + U13: per-feed status rows and the coverage warning banner. Times are
+// UTC ISO in the island; converted to SGT here (CLAUDE.md: SGT only at render).
+function renderCoverage(coverage) {
+  if (!coverage) return;
+  const banner = document.getElementById("coverage-banner");
+  if (coverage.banner) {
+    const parts = coverage.banner.items.map(
+      (it) => `${it.label} unreachable since ${toSGT(it.last_success)}`
+    );
+    let text = parts.join("; ");
+    if (coverage.banner.note) text += `; ${coverage.banner.note}`;
+    banner.textContent = text;
+  }
+  const rows = document.getElementById("coverage-rows");
+  for (const row of coverage.feeds || []) {
+    const li = el("li", `coverage-row ${row.stale ? "stale" : "fresh"}`);
+    li.appendChild(el("span", "coverage-feed", row.label));
+    li.appendChild(el("span", "coverage-state", row.stale ? "stale" : "ok"));
+    li.appendChild(el("span", "coverage-since", `last success ${toSGT(row.last_success)}`));
+    rows.appendChild(li);
+  }
+}
+
 function boot() {
   const state = JSON.parse(document.getElementById("hadr-state").textContent);
   const edition = state.edition || {};
@@ -178,9 +205,22 @@ function boot() {
   badge.textContent = type;
   badge.className = `edition-badge badge-${type}`;
 
+  // U3: flash banner — an off-cycle Red re-render names the crossing event(s).
+  if (edition.flash && edition.flash.events && edition.flash.events.length) {
+    const names = edition.flash.events.map((e) => e.name || e.id).join(", ");
+    document.getElementById("flash-banner").textContent =
+      `FLASH — crossed into Red level: ${names}`;
+  }
+
   // U4: quiet edition line.
   if (edition.quiet_line) {
     document.getElementById("quiet-line").textContent = edition.quiet_line;
+  }
+
+  // Edition summary paragraph (model-written, one paragraph) — reportable
+  // editions only; the deterministic quiet/flash paths carry no summary.
+  if (edition.summary) {
+    document.getElementById("edition-summary").textContent = edition.summary;
   }
 
   const board = document.getElementById("events-board");
@@ -197,6 +237,7 @@ function boot() {
 
   renderFilterChips(events);          // U8 + N20
   renderChangelog(edition.changelog); // U9 / U10 / U11
+  renderCoverage(state.coverage);     // U12 / U13
 }
 
 document.addEventListener("DOMContentLoaded", boot);
@@ -224,8 +265,16 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 }
 .edition-badge.badge-quiet { background: #5c6470; }
 .edition-badge.badge-flash { background: #b3261e; }
+.flash-banner {
+  background: #b3261e; color: #fff; padding: .7rem 1rem; border-radius: 8px;
+  margin: 0 0 1.2rem; font-weight: 700; letter-spacing: .01em;
+}
+.flash-banner:empty { display: none; }
 .quiet-line { color: #445; font-size: 1.05rem; margin: 0 0 1rem; }
 .quiet-line:empty { display: none; }
+.edition-summary { color: #2a3340; font-size: 1rem; margin: 0 0 1.2rem; max-width: 60ch; }
+.edition-summary:empty { display: none; }
+.assessment { color: #2a3340; font-size: .9rem; margin: .6rem 0 0; }
 .changelog:empty { display: none; }
 .changelog { margin: 0 0 1.5rem; }
 .changelog-title { font-size: 1rem; margin: 0 0 .6rem; color: #12233b; }
@@ -285,6 +334,19 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 }
 .source-link:hover { background: #eef2f6; }
 .empty { color: #667; }
+.coverage-banner {
+  background: #8a3b00; color: #fff; padding: .6rem .9rem; border-radius: 8px;
+  margin: 0 0 1rem; font-size: .9rem; font-weight: 600;
+}
+.coverage-banner:empty { display: none; }
+.coverage { margin-top: 1.5rem; border-top: 1px solid #dfe3e8; padding-top: .8rem; }
+.coverage-rows { list-style: none; margin: 0; padding: 0; font-size: .82rem; color: #566; }
+.coverage-row { display: flex; gap: .6rem; align-items: baseline; padding: .15rem 0; }
+.coverage-feed { font-weight: 700; min-width: 5rem; }
+.coverage-state { text-transform: uppercase; letter-spacing: .04em; font-size: .7rem; }
+.coverage-row.fresh .coverage-state { color: #1e8e3e; }
+.coverage-row.stale .coverage-state { color: #b3261e; }
+.coverage-since { color: #889; }
 @media (prefers-color-scheme: dark) {
   body { background: #12151a; color: #e7ebef; }
   main { color: #e7ebef; }
@@ -294,18 +356,28 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   .source-link { color: #cfd8e2; border-color: #39414d; }
   .source-link:hover { background: #232a33; }
   .quiet-line { color: #b6bfc9; }
+  .edition-summary { color: #c8d1db; }
+  .assessment { color: #c8d1db; }
   .changelog-title { color: #f2f5f8; }
   .changelog-heading { color: #9aa4af; }
   .filter-chip { background: #1b1f26; color: #cfd8e2; border-color: #39414d; }
   .filter-chip.active { background: #cfd8e2; color: #12151a; border-color: #cfd8e2; }
+  .coverage { border-color: #2b313b; }
+  .coverage-rows { color: #9aa4af; }
+  .coverage-since { color: #79828d; }
 }
 """
 
 
-def build_html(events: list[dict[str, Any]], edition_content: dict[str, Any]) -> str:
-    """Pure: (events, edition) -> the full self-contained HTML string."""
+def build_html(
+    events: list[dict[str, Any]],
+    edition_content: dict[str, Any],
+    *,
+    coverage: dict[str, Any] | None = None,
+) -> str:
+    """Pure: (events, edition, coverage) -> the full self-contained HTML string."""
     island = json.dumps(
-        {"events": events, "edition": edition_content},
+        {"events": events, "edition": edition_content, "coverage": coverage},
         ensure_ascii=False,
         indent=2,
     )
@@ -334,11 +406,17 @@ def build_html(events: list[dict[str, Any]], edition_content: dict[str, Any]) ->
   <span class="as-of" id="as-of"></span>
 </header>
 <main>
+  <p class="flash-banner" id="flash-banner"></p>
   <p class="quiet-line" id="quiet-line"></p>
+  <p class="edition-summary" id="edition-summary"></p>
   <section class="changelog" id="changelog" aria-label="updates since last edition"></section>
+  <p class="coverage-banner" id="coverage-banner"></p>
   <div class="board-meta" id="event-count"></div>
   <nav class="hazard-filter" id="hazard-filter" aria-label="filter by hazard type"></nav>
   <section id="events-board" aria-label="events board"></section>
+  <section class="coverage" aria-label="feed coverage">
+    <ul class="coverage-rows" id="coverage-rows"></ul>
+  </section>
 </main>
 <script type="application/json" id="hadr-state">
 {island}
@@ -353,9 +431,10 @@ def render(
     events: list[dict[str, Any]],
     edition_content: dict[str, Any],
     *,
+    coverage: dict[str, Any] | None = None,
     output: str | Path = DEFAULT_OUTPUT,
 ) -> str:
     """Render the dashboard to ``output`` and return the HTML string."""
-    html = build_html(events, edition_content)
+    html = build_html(events, edition_content, coverage=coverage)
     Path(output).write_text(html, encoding="utf-8")
     return html
