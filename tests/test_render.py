@@ -94,3 +94,16 @@ def test_page_has_filter_and_changelog_anchors():
     assert 'id="hazard-filter"' in html
     assert 'id="changelog"' in html
     assert "function applyFilter" in html
+
+
+def test_assessment_prose_and_summary_travel_in_island():
+    # V6: model prose rides on the event (U6) and a summary on the edition; both
+    # travel in the JSON island without breaking it, and the bootstrap reads them.
+    events = [{**EVENTS[0], "assessment": "A moderate quake struck offshore."}]
+    edition = {**EDITION, "type": "regular", "summary": "One reportable event."}
+    html = build_html(events, edition)
+    island = _extract_island(html)
+    assert island["events"][0]["assessment"].startswith("A moderate")
+    assert island["edition"]["summary"] == "One reportable event."
+    assert 'id="edition-summary"' in html
+    assert "ev.assessment" in html  # the bootstrap places prose on the card

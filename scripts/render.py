@@ -85,6 +85,10 @@ function eventCard(ev) {
   const loc = (ev.location && ev.location.place) || "";
   if (loc) card.appendChild(el("div", "place", loc));
 
+  // U6: model-written assessment prose (what / where / how bad / who). Present
+  // only when the guarded model step (N14) has run for a reportable event.
+  if (ev.assessment) card.appendChild(el("p", "assessment", ev.assessment));
+
   card.appendChild(el("div", "origin-time", `Origin: ${toSGT(ev.origin_time)}`));
   card.appendChild(sourceLinks(ev.source_refs));
   return card;
@@ -183,6 +187,12 @@ function boot() {
     document.getElementById("quiet-line").textContent = edition.quiet_line;
   }
 
+  // Edition summary paragraph (model-written, one paragraph) — reportable
+  // editions only; the deterministic quiet/flash paths carry no summary.
+  if (edition.summary) {
+    document.getElementById("edition-summary").textContent = edition.summary;
+  }
+
   const board = document.getElementById("events-board");
   const events = state.events || [];
   if (!events.length) {
@@ -226,6 +236,9 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 .edition-badge.badge-flash { background: #b3261e; }
 .quiet-line { color: #445; font-size: 1.05rem; margin: 0 0 1rem; }
 .quiet-line:empty { display: none; }
+.edition-summary { color: #2a3340; font-size: 1rem; margin: 0 0 1.2rem; max-width: 60ch; }
+.edition-summary:empty { display: none; }
+.assessment { color: #2a3340; font-size: .9rem; margin: .6rem 0 0; }
 .changelog:empty { display: none; }
 .changelog { margin: 0 0 1.5rem; }
 .changelog-title { font-size: 1rem; margin: 0 0 .6rem; color: #12233b; }
@@ -294,6 +307,8 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   .source-link { color: #cfd8e2; border-color: #39414d; }
   .source-link:hover { background: #232a33; }
   .quiet-line { color: #b6bfc9; }
+  .edition-summary { color: #c8d1db; }
+  .assessment { color: #c8d1db; }
   .changelog-title { color: #f2f5f8; }
   .changelog-heading { color: #9aa4af; }
   .filter-chip { background: #1b1f26; color: #cfd8e2; border-color: #39414d; }
@@ -335,6 +350,7 @@ def build_html(events: list[dict[str, Any]], edition_content: dict[str, Any]) ->
 </header>
 <main>
   <p class="quiet-line" id="quiet-line"></p>
+  <p class="edition-summary" id="edition-summary"></p>
   <section class="changelog" id="changelog" aria-label="updates since last edition"></section>
   <div class="board-meta" id="event-count"></div>
   <nav class="hazard-filter" id="hazard-filter" aria-label="filter by hazard type"></nav>
