@@ -17,22 +17,24 @@ from typing import Any
 
 import httpx
 
-from scripts import fetch_gdacs, fetch_usgs, reconcile
+from scripts import edition as edition_builder
+from scripts import fetch_gdacs, fetch_usgs, gate, reconcile
 from scripts import state as state_store
-from scripts.feeds import HAZARD_EQ, FeedSnapshot, iso_utc
+from scripts.feeds import HAZARD_EQ, FeedSnapshot
 from scripts.render import DEFAULT_OUTPUT, render
 
 # Render newest origin first; a stable sort keyed on origin_time.
 _RENDER_ORDER = "origin_time"
 
 
-def _events_for_render(state: dict[str, Any]) -> list[dict[str, Any]]:
-    """Project committed events into render-ready dicts (id folded in).
+def _events_for_render(state: dict[str, Any], reportable_ids: list[str]) -> list[dict[str, Any]]:
+    """Project the reportable events into render-ready dicts (id folded in).
 
-    Every tracked event renders, including ``retracted`` and ``aged_out`` (this
-    slice shows all current state; the impact threshold that hides events is V4).
+    Only events that cleared the impact gate (V4) reach the board; sub-threshold
+    events stay tracked in state (``reported: false``) but hidden. Changes to
+    events that dropped off the board are surfaced in the changelog (V5).
     """
-    events = [{"id": eid, **event} for eid, event in state["events"].items()]
+    events = [{"id": eid, **state["events"][eid]} for eid in reportable_ids]
     events.sort(key=lambda e: e[_RENDER_ORDER], reverse=True)
     return events
 
@@ -109,18 +111,32 @@ def run(*, fixture: str | None, output: str | Path, state_path: str | Path) -> i
     # USGS first so a GDACS earthquake joins onto the existing USGS event.
     snapshots: list[FeedSnapshot] = [usgs_snap, gdacs_snap]
     new_state, change_set = reconcile.reconcile(snapshots, prior, now=now)
+
+    # Impact gate (V4): decide reportables + flash trigger, annotate state.
+    reportable_ids, flash_trigger = gate.gate(change_set, new_state, prior)
+
+    # Edition (V5): changelog since the marker, quiet/regular, advance the marker.
+    edition_content = edition_builder.build_edition(
+        new_state,
+        new_state["edition_marker"],
+        change_set,
+        prior,
+        now=now,
+        reportable_ids=reportable_ids,
+        title="HADR Monitor — Earthquakes",
+    )
     state_store.save(new_state, state_path)
 
-    edition_content = {
-        "title": "HADR Monitor — Earthquakes",
-        "generated_at": iso_utc(now),
-    }
-    events = _events_for_render(new_state)
+    events = _events_for_render(new_state, reportable_ids)
     render(events, edition_content, output=output)
 
     counts = Counter(c["kind"] for c in change_set)
     summary = ", ".join(f"{kind}×{n}" for kind, n in counts.items()) or "no changes"
-    print(f"Rendered {len(events)} event(s) to {output} ({summary})")
+    flash_note = f", flash×{len(flash_trigger)}" if flash_trigger else ""
+    print(
+        f"Rendered {len(events)} reportable event(s) to {output} "
+        f"[{edition_content['type']}] ({summary}{flash_note})"
+    )
     return 0
 
 

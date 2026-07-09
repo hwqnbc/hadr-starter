@@ -85,6 +85,70 @@ Deviations / decisions worth recording:
   committed `dashboard.html` is rendered from the scenario-A fixtures as the
   reviewer's demo surface.
 
+### 2026-07-09 — Slice 2 build (issue #7, branch `feat/slice-2-decision`)
+
+Built Slice 2 (detailed slices V4 + V5): the impact threshold and the
+editions/changelog. Two staged commits (`feat(v4)`, `feat(v5)`) plus docs. All
+56 tests, `ruff check`, and `ruff format --check` pass.
+
+- **V4 — `scripts/gate.py` (N9).** Pure `gate(change_set, state, prior)` per
+  ADR-0002. Reportable when any arm holds: GDACS Orange/Red, PAGER yellow+, an
+  already-tracked event escalated (level rose vs `prior`), or a ReliefWeb entry
+  for an unreported event. Both alert models are mapped onto one ordinal
+  (Green 0 / Yellow 1 / Orange 2 / Red 3) taking the worse of the two; the two
+  fields stay separate in state. `flash_trigger` = active event at Red now with
+  prior level below Red (covers "newly detected at Red" and "escalating into
+  Red" in one predicate), suppressed while `flash_published` is outstanding; the
+  guard clears on a drop below Red so re-escalation flashes again. Wired into
+  `hadr/__main__.py` after reconcile; only reportables render on the board.
+  Renderer gained hazard filter chips (U8) + client-side `applyFilter` (N20).
+- **V5 — `scripts/edition.py` (N12/N13) + marker S3.** Pure
+  `build_edition(state, marker, change_set, prior, *, now, reportable_ids)`:
+  builds the changelog from post-marker changes (escalations first, then
+  downgrades/revisions, then retractions), picks quiet vs regular (quiet iff no
+  reportables and no changes — deterministic template, no model call), and
+  advances `edition_marker.last_edition_at` monotonically. Change kind is
+  classified from prior-vs-new alert levels / status, not feed wording.
+  Renderer gained the edition type badge (U1), quiet line (U4), and changelog
+  sections (U9/U10/U11). Renderer tests assert on the embedded JSON island.
+
+Deviations / decisions worth recording:
+
+- **`gate` takes a third `prior` argument** beyond the breadboard's
+  `gate(change_set, state)`. Detecting escalation and "crosses into Red"
+  requires the before/after alert levels, and `prior` is already in hand in the
+  pipeline (the loaded pre-run state). `change_set` is still accepted (interface
+  stability) but the decision is derived from levels, which strictly dominate
+  the change kinds. `gate` also *annotates state in place* (`reported`,
+  `flash_published`, `flash_pending`) rather than returning a new state, so the
+  pipeline persists the decision without a second projection step.
+- **`reported` is sticky.** Once an event clears the bar it stays
+  `reported=true` (a durable "we have told the reader" fact used by the
+  ReliefWeb arm and the changelog). Board membership is the *current* reportable
+  set, computed fresh each run; a downgraded event drops off the board and its
+  downgrade goes to the changelog.
+- **`reconcile` now bumps `last_changed` on an alert-level change** (previously
+  only magnitude/status did). This is change *detection*, not the join logic the
+  slice was told to leave alone, and it is what makes the edition's post-marker
+  watermark (`last_changed > last_edition_at`) honest for escalations/downgrades.
+  No new `change_set` kind was added, so existing reconcile tests are unaffected.
+- **`flash_pending` added to the state schema** (top-level list, seeded in
+  `empty_state`). This is the seam V8's flash branch consumes; adding it is an
+  additive, backward-tolerant extension of schema v1 (no version bump — the
+  loader tolerates its absence in older files, and no v1 state is committed yet).
+- **`flash_trigger` is computed and stored, not acted on** (V4 scope): it is
+  returned from `gate`, persisted on `state["flash_pending"]`, and surfaced in
+  the run summary. Publishing a flash / off-cycle render is V8.
+- **Multi-run accumulation deferred to V8.** Locally each `hadr run` is
+  effectively an edition run, so the changelog is this-run's delta gated by the
+  marker. Once V8 splits hourly polls from the daily edition, the changelog must
+  accumulate changes across the intervening hourly runs (the `last_changed`
+  watermark already supports this; classifying against the *last edition's*
+  levels rather than the last run's is the remaining V8 work).
+- **Committed `dashboard.html` regenerated** from `scenario_a` via the pipeline:
+  it now shows only the reportable Banda Sea M6.2 (Orange/PAGER-yellow); the two
+  Green quakes and the no-alert Avalon quake are tracked in state but hidden.
+
 ## Open questions
 
 - Q16 in `QUESTIONS.md`: backfill strategy after a pipeline outage longer

@@ -55,3 +55,42 @@ def test_empty_state_still_renders():
     html = build_html([], {"title": "HADR Monitor", "generated_at": "2026-07-08T02:49:03Z"})
     island = _extract_island(html)
     assert island["events"] == []
+
+
+def test_island_carries_edition_type_and_changelog():
+    # V5: edition type badge (U1), quiet line (U4) and changelog (U9/U10/U11)
+    # travel in the island; assertions are on the JSON, not the markup.
+    edition = {
+        "title": "HADR Monitor",
+        "generated_at": "2026-07-09T00:30:00Z",
+        "type": "regular",
+        "changelog": {
+            "escalations": [{"id": "evt-1", "kind": "escalation", "from": "Orange", "to": "Red"}],
+            "downgrades": [],
+            "revisions": [],
+            "retractions": [],
+        },
+    }
+    island = _extract_island(build_html(EVENTS, edition))
+    assert island["edition"]["type"] == "regular"
+    assert island["edition"]["changelog"]["escalations"][0]["to"] == "Red"
+
+
+def test_quiet_edition_line_travels_in_island():
+    edition = {
+        "title": "HADR Monitor",
+        "generated_at": "2026-07-09T00:30:00Z",
+        "type": "quiet",
+        "quiet_line": "No significant events — all feeds healthy",
+        "changelog": {"escalations": [], "downgrades": [], "revisions": [], "retractions": []},
+    }
+    island = _extract_island(build_html([], edition))
+    assert island["edition"]["quiet_line"].startswith("No significant events")
+
+
+def test_page_has_filter_and_changelog_anchors():
+    # U8 filter chips (N20 applyFilter) and the changelog container are present.
+    html = build_html(EVENTS, EDITION)
+    assert 'id="hazard-filter"' in html
+    assert 'id="changelog"' in html
+    assert "function applyFilter" in html
