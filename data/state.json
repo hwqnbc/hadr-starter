@@ -22202,9 +22202,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T20:59:15Z",
-      "last_changed": "2026-07-10T20:59:15Z",
+      "last_changed": "2026-07-11T20:47:55Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290871"
       }
@@ -22230,9 +22230,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T20:59:15Z",
-      "last_changed": "2026-07-10T20:59:15Z",
+      "last_changed": "2026-07-11T20:47:55Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290863"
       }
@@ -22259,9 +22259,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T20:59:15Z",
-      "last_changed": "2026-07-10T20:59:15Z",
+      "last_changed": "2026-07-11T20:47:55Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714046442"
       }
@@ -22287,9 +22287,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T20:59:15Z",
-      "last_changed": "2026-07-10T20:59:15Z",
+      "last_changed": "2026-07-11T20:47:55Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393436"
       }
@@ -22315,9 +22315,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T20:59:15Z",
-      "last_changed": "2026-07-10T20:59:15Z",
+      "last_changed": "2026-07-11T20:47:55Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393416"
       }
@@ -22343,9 +22343,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T20:59:15Z",
-      "last_changed": "2026-07-10T20:59:15Z",
+      "last_changed": "2026-07-11T20:47:55Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nmhrqu"
       }
@@ -29474,20 +29474,21 @@
     },
     "evt-2026-1075": {
       "hazard": "EQ",
-      "name": "M 1.6 - 48 km ENE of Pedro Bay, Alaska",
+      "name": "M 2.2 - 50 km ENE of Pedro Bay, Alaska",
       "aliases": [
-        "usgs:aka2026nqibuy"
+        "usgs:aka2026nqibuy",
+        "usgs:us7000szrt"
       ],
       "location": {
         "lat": 59.955,
-        "lon": -153.301,
-        "place": "48 km ENE of Pedro Bay, Alaska"
+        "lon": -153.275,
+        "place": "50 km ENE of Pedro Bay, Alaska"
       },
       "origin_time": "2026-07-11T19:56:19Z",
       "magnitude": {
-        "value": 1.6,
+        "value": 2.2,
         "type": "ml",
-        "depth_km": 144.5
+        "depth_km": 145.3
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -29495,7 +29496,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-07-11T19:58:57Z",
-      "last_changed": "2026-07-11T19:58:57Z",
+      "last_changed": "2026-07-11T20:47:55Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqibuy"
       }
@@ -29532,7 +29533,8 @@
       "hazard": "EQ",
       "name": "M 2.2 - 58 km N of Petersville, Alaska",
       "aliases": [
-        "usgs:aka2026nqhjao"
+        "usgs:aka2026nqhjao",
+        "usgs:us7000szrp"
       ],
       "location": {
         "lat": 63.022,
@@ -29739,18 +29741,354 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029471&episodeid=1&eventtype=WF"
       }
+    },
+    "evt-2026-1085": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 36 km SSW of Nanwalek, Alaska",
+      "aliases": [
+        "usgs:aka2026nqjjcu"
+      ],
+      "location": {
+        "lat": 59.084,
+        "lon": -152.266,
+        "place": "36 km SSW of Nanwalek, Alaska"
+      },
+      "origin_time": "2026-07-11T20:34:41Z",
+      "magnitude": {
+        "value": 2,
+        "type": "ml",
+        "depth_km": 77.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqjjcu"
+      }
+    },
+    "evt-2026-1086": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 17 km WSW of Johannesburg, CA",
+      "aliases": [
+        "usgs:ci41291631"
+      ],
+      "location": {
+        "lat": 35.3081666666667,
+        "lon": -117.806833333333,
+        "place": "17 km WSW of Johannesburg, CA"
+      },
+      "origin_time": "2026-07-11T20:33:31Z",
+      "magnitude": {
+        "value": 1.16,
+        "type": "ml",
+        "depth_km": 7.6
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291631"
+      }
+    },
+    "evt-2026-1087": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 7 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75394091"
+      ],
+      "location": {
+        "lat": 38.829833984375,
+        "lon": -122.798164367676,
+        "place": "7 km W of Cobb, CA"
+      },
+      "origin_time": "2026-07-11T20:24:00Z",
+      "magnitude": {
+        "value": 0.7,
+        "type": "md",
+        "depth_km": 1.69000005722046
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394091"
+      }
+    },
+    "evt-2026-1088": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 41 km NW of Toyah, Texas",
+      "aliases": [
+        "usgs:tx2026noedgd"
+      ],
+      "location": {
+        "lat": 31.527,
+        "lon": -104.154,
+        "place": "41 km NW of Toyah, Texas"
+      },
+      "origin_time": "2026-07-11T20:19:58Z",
+      "magnitude": {
+        "value": 1.6,
+        "type": "ml",
+        "depth_km": 4.0912
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026noedgd"
+      }
+    },
+    "evt-2026-1089": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 7 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75394086"
+      ],
+      "location": {
+        "lat": 38.8288345336914,
+        "lon": -122.798667907715,
+        "place": "7 km W of Cobb, CA"
+      },
+      "origin_time": "2026-07-11T20:19:53Z",
+      "magnitude": {
+        "value": 1.31,
+        "type": "md",
+        "depth_km": 1.64999997615814
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394086"
+      }
+    },
+    "evt-2026-1090": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 7 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75394081"
+      ],
+      "location": {
+        "lat": 38.8283348083496,
+        "lon": -122.799331665039,
+        "place": "7 km W of Cobb, CA"
+      },
+      "origin_time": "2026-07-11T20:19:37Z",
+      "magnitude": {
+        "value": 1.03,
+        "type": "md",
+        "depth_km": 1.72000002861023
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394081"
+      }
+    },
+    "evt-2026-1091": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 38 km ESE of Malaga, New Mexico",
+      "aliases": [
+        "usgs:tx2026nodyvs"
+      ],
+      "location": {
+        "lat": 32.063,
+        "lon": -103.707,
+        "place": "38 km ESE of Malaga, New Mexico"
+      },
+      "origin_time": "2026-07-11T20:17:44Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 4.5658
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nodyvs"
+      }
+    },
+    "evt-2026-1092": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 9 km WNW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75394076"
+      ],
+      "location": {
+        "lat": 38.8176651000977,
+        "lon": -122.848663330078,
+        "place": "9 km WNW of The Geysers, CA"
+      },
+      "origin_time": "2026-07-11T20:14:07Z",
+      "magnitude": {
+        "value": 0.72,
+        "type": "md",
+        "depth_km": 2.88000011444092
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394076"
+      }
+    },
+    "evt-2026-1093": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 59 km NW of Toyah, Texas",
+      "aliases": [
+        "usgs:tx2026nodusr"
+      ],
+      "location": {
+        "lat": 31.641,
+        "lon": -104.286,
+        "place": "59 km NW of Toyah, Texas"
+      },
+      "origin_time": "2026-07-11T20:10:13Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 4.8067
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nodusr"
+      }
+    },
+    "evt-2026-1094": {
+      "hazard": "EQ",
+      "name": "M 2.5 - 8 km E of Sutton-Alpine, Alaska",
+      "aliases": [
+        "usgs:aka2026nqilsh"
+      ],
+      "location": {
+        "lat": 61.787,
+        "lon": -148.614,
+        "place": "8 km E of Sutton-Alpine, Alaska"
+      },
+      "origin_time": "2026-07-11T20:07:44Z",
+      "magnitude": {
+        "value": 2.5,
+        "type": "ml",
+        "depth_km": 0
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqilsh"
+      }
+    },
+    "evt-2026-1095": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 5 km E of Sutton-Alpine, Alaska",
+      "aliases": [
+        "usgs:aka2026nqidws"
+      ],
+      "location": {
+        "lat": 61.779,
+        "lon": -148.667,
+        "place": "5 km E of Sutton-Alpine, Alaska"
+      },
+      "origin_time": "2026-07-11T19:58:40Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqidws"
+      }
+    },
+    "evt-2026-1096": {
+      "hazard": "EQ",
+      "name": "M 4.2 - 281 km ENE of Lospalos, Timor Leste",
+      "aliases": [
+        "usgs:us7000szru"
+      ],
+      "location": {
+        "lat": -7.2807,
+        "lon": 129.2308,
+        "place": "281 km ENE of Lospalos, Timor Leste"
+      },
+      "origin_time": "2026-07-11T19:52:11Z",
+      "magnitude": {
+        "value": 4.2,
+        "type": "mb",
+        "depth_km": 124.45
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T20:47:55Z",
+      "last_changed": "2026-07-11T20:47:55Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szru"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-07-11T19:58:57Z",
-      "last_success": "2026-07-11T19:58:57Z",
-      "feed_generated_at": "2026-07-11T19:58:28Z",
+      "last_attempt": "2026-07-11T20:47:55Z",
+      "last_success": "2026-07-11T20:47:55Z",
+      "feed_generated_at": "2026-07-11T20:46:59Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-07-11T19:58:57Z",
-      "last_success": "2026-07-11T19:58:57Z",
+      "last_attempt": "2026-07-11T20:47:55Z",
+      "last_success": "2026-07-11T20:47:55Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
