@@ -13979,9 +13979,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-09T19:21:41Z",
-      "last_changed": "2026-07-11T12:54:30Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029302&episodeid=7&eventtype=WF"
       }
@@ -21555,9 +21555,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T22:04:09Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290759"
       }
@@ -21583,9 +21583,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T19:15:16Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nojczc"
       }
@@ -21641,9 +21641,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T19:15:16Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nmefzv"
       }
@@ -21669,9 +21669,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T19:15:16Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290743"
       }
@@ -21697,9 +21697,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T19:15:16Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nmecgk"
       }
@@ -21725,9 +21725,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T19:15:16Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393361"
       }
@@ -21753,9 +21753,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T19:15:16Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393356"
       }
@@ -21781,9 +21781,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T19:15:16Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393346"
       }
@@ -21809,9 +21809,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T19:15:16Z",
-      "last_changed": "2026-07-10T19:15:16Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41290735"
       }
@@ -25058,9 +25058,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-11T03:51:31Z",
-      "last_changed": "2026-07-11T03:51:31Z",
+      "last_changed": "2026-07-11T18:44:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94300773"
       }
@@ -29023,20 +29023,21 @@
     },
     "evt-2026-1059": {
       "hazard": "EQ",
-      "name": "M 3.1 - 52 km ESE of Goldfield, Nevada",
+      "name": "M 3.0 - 54 km ESE of Goldfield, Nevada",
       "aliases": [
-        "usgs:nn00921481"
+        "usgs:nn00921481",
+        "usgs:us7000szrg"
       ],
       "location": {
-        "lat": 37.503,
-        "lon": -116.6963,
-        "place": "52 km ESE of Goldfield, Nevada"
+        "lat": 37.4669,
+        "lon": -116.7,
+        "place": "54 km ESE of Goldfield, Nevada"
       },
       "origin_time": "2026-07-11T17:40:08Z",
       "magnitude": {
-        "value": 3.06,
+        "value": 3.03,
         "type": "ml",
-        "depth_km": 9.2131
+        "depth_km": 14.537
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -29356,18 +29357,132 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75393966"
       }
+    },
+    "evt-2026-1071": {
+      "hazard": "EQ",
+      "name": "M 2.3 - 23 km W of Ivanof Bay, Alaska",
+      "aliases": [
+        "usgs:aka2026nqengt"
+      ],
+      "location": {
+        "lat": 55.911,
+        "lon": -159.857,
+        "place": "23 km W of Ivanof Bay, Alaska"
+      },
+      "origin_time": "2026-07-11T18:09:33Z",
+      "magnitude": {
+        "value": 2.3,
+        "type": "ml",
+        "depth_km": 2.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T18:44:10Z",
+      "last_changed": "2026-07-11T18:44:10Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqengt"
+      }
+    },
+    "evt-2026-1072": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 7 km WNW of Cobb, CA",
+      "aliases": [
+        "usgs:nc75394026"
+      ],
+      "location": {
+        "lat": 38.8368339538574,
+        "lon": -122.801498413086,
+        "place": "7 km WNW of Cobb, CA"
+      },
+      "origin_time": "2026-07-11T18:05:20Z",
+      "magnitude": {
+        "value": 0.46,
+        "type": "md",
+        "depth_km": 1.96000003814697
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T18:44:10Z",
+      "last_changed": "2026-07-11T18:44:10Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394026"
+      }
+    },
+    "evt-2026-1073": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 24 km ENE of Skwentna, Alaska",
+      "aliases": [
+        "usgs:aka2026nqeghg"
+      ],
+      "location": {
+        "lat": 62.072,
+        "lon": -150.966,
+        "place": "24 km ENE of Skwentna, Alaska"
+      },
+      "origin_time": "2026-07-11T18:01:41Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T18:44:10Z",
+      "last_changed": "2026-07-11T18:44:10Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqeghg"
+      }
+    },
+    "evt-2026-1074": {
+      "hazard": "EQ",
+      "name": "M 5.2 - 56 km SSW of Sarangani, Philippines",
+      "aliases": [
+        "usgs:us7000szri",
+        "gdacs:1551339"
+      ],
+      "location": {
+        "lat": 4.9407,
+        "lon": 125.2447,
+        "place": "56 km SSW of Sarangani, Philippines"
+      },
+      "origin_time": "2026-07-11T17:49:31Z",
+      "magnitude": {
+        "value": 5.2,
+        "type": "mb",
+        "depth_km": 61.682
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-11T18:44:10Z",
+      "last_changed": "2026-07-11T18:44:10Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szri",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1551339&episodeid=1717599&eventtype=EQ"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-07-11T17:45:32Z",
-      "last_success": "2026-07-11T17:45:32Z",
-      "feed_generated_at": "2026-07-11T17:45:28Z",
+      "last_attempt": "2026-07-11T18:44:10Z",
+      "last_success": "2026-07-11T18:44:10Z",
+      "feed_generated_at": "2026-07-11T18:43:25Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-07-11T17:45:32Z",
-      "last_success": "2026-07-11T17:45:32Z",
+      "last_attempt": "2026-07-11T18:44:10Z",
+      "last_success": "2026-07-11T18:44:10Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
