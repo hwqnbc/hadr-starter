@@ -29379,9 +29379,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-11T18:44:10Z",
-      "last_changed": "2026-07-11T18:44:10Z",
+      "last_changed": "2026-07-12T18:49:50Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqengt"
       }
@@ -29407,9 +29407,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-11T18:44:10Z",
-      "last_changed": "2026-07-11T18:44:10Z",
+      "last_changed": "2026-07-12T18:49:50Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394026"
       }
@@ -29435,9 +29435,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-11T18:44:10Z",
-      "last_changed": "2026-07-11T18:44:10Z",
+      "last_changed": "2026-07-12T18:49:50Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nqeghg"
       }
@@ -29663,9 +29663,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-11T19:58:57Z",
-      "last_changed": "2026-07-11T19:58:57Z",
+      "last_changed": "2026-07-12T18:49:50Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394036"
       }
@@ -31067,20 +31067,21 @@
     },
     "evt-2026-1132": {
       "hazard": "EQ",
-      "name": "M 2.6 - 16 km W of Paris, Idaho",
+      "name": "M 2.6 - 15 km W of Paris, Idaho",
       "aliases": [
-        "usgs:us7000szsg"
+        "usgs:us7000szsg",
+        "usgs:uu80145176"
       ],
       "location": {
-        "lat": 42.2443,
-        "lon": -111.5951,
-        "place": "16 km W of Paris, Idaho"
+        "lat": 42.2303333333333,
+        "lon": -111.591833333333,
+        "place": "15 km W of Paris, Idaho"
       },
       "origin_time": "2026-07-11T22:28:48Z",
       "magnitude": {
-        "value": 2.6,
+        "value": 2.55,
         "type": "ml",
-        "depth_km": 13.75
+        "depth_km": -2.73
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -31090,7 +31091,7 @@
       "first_seen": "2026-07-12T01:46:29Z",
       "last_changed": "2026-07-12T01:46:29Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szsg"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80145176"
       }
     },
     "evt-2026-1133": {
@@ -33535,28 +33536,28 @@
     },
     "evt-2026-1220": {
       "hazard": "EQ",
-      "name": "M 1.3 - 4 km ENE of Frazier Park, CA",
+      "name": "M 0.9 - 3 km NE of Frazier Park, CA",
       "aliases": [
         "usgs:ci41291903"
       ],
       "location": {
-        "lat": 34.8366661071777,
-        "lon": -118.90950012207,
-        "place": "4 km ENE of Frazier Park, CA"
+        "lat": 34.8395,
+        "lon": -118.915,
+        "place": "3 km NE of Frazier Park, CA"
       },
       "origin_time": "2026-07-12T11:02:10Z",
       "magnitude": {
-        "value": 1.30998924428281,
+        "value": 0.88,
         "type": "ml",
-        "depth_km": 12.1499996185303
+        "depth_km": 11.2
       },
       "gdacs_alert": null,
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-07-12T11:04:30Z",
-      "last_changed": "2026-07-12T14:22:51Z",
+      "last_changed": "2026-07-12T18:49:50Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41291903"
       }
@@ -35902,15 +35903,15 @@
         "usgs:ci41292175"
       ],
       "location": {
-        "lat": 34.8081666666667,
-        "lon": -118.928666666667,
+        "lat": 34.8056666666667,
+        "lon": -118.929333333333,
         "place": "2 km SE of Frazier Park, CA"
       },
       "origin_time": "2026-07-12T17:20:57Z",
       "magnitude": {
         "value": 1.42,
         "type": "ml",
-        "depth_km": 12.64
+        "depth_km": 12.78
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -36180,18 +36181,383 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714047742"
       }
+    },
+    "evt-2026-1314": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 26 km N of Chickaloon, Alaska",
+      "aliases": [
+        "usgs:aka2026nsbvcx"
+      ],
+      "location": {
+        "lat": 62.031,
+        "lon": -148.54,
+        "place": "26 km N of Chickaloon, Alaska"
+      },
+      "origin_time": "2026-07-12T18:47:57Z",
+      "magnitude": {
+        "value": 1,
+        "type": "ml",
+        "depth_km": 38.3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nsbvcx"
+      }
+    },
+    "evt-2026-1315": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 8 km WNW of Malibu, CA",
+      "aliases": [
+        "usgs:ci41292215"
+      ],
+      "location": {
+        "lat": 34.0451666666667,
+        "lon": -118.884333333333,
+        "place": "8 km WNW of Malibu, CA"
+      },
+      "origin_time": "2026-07-12T18:45:07Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 4.65
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292215"
+      }
+    },
+    "evt-2026-1316": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 8 km SE of Valle Vista, CA",
+      "aliases": [
+        "usgs:ci41292207"
+      ],
+      "location": {
+        "lat": 33.6986666666667,
+        "lon": -116.8255,
+        "place": "8 km SE of Valle Vista, CA"
+      },
+      "origin_time": "2026-07-12T18:42:39Z",
+      "magnitude": {
+        "value": 1.97,
+        "type": "ml",
+        "depth_km": 14.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292207"
+      }
+    },
+    "evt-2026-1317": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 2 km N of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75394531"
+      ],
+      "location": {
+        "lat": 38.7936668395996,
+        "lon": -122.759162902832,
+        "place": "2 km N of The Geysers, CA"
+      },
+      "origin_time": "2026-07-12T18:30:07Z",
+      "magnitude": {
+        "value": 1.12,
+        "type": "md",
+        "depth_km": 0.730000019073486
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394531"
+      }
+    },
+    "evt-2026-1318": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 87 km SE of Pope-Vannoy Landing, Alaska",
+      "aliases": [
+        "usgs:aka2026nsbdzk"
+      ],
+      "location": {
+        "lat": 59.014,
+        "lon": -153.396,
+        "place": "87 km SE of Pope-Vannoy Landing, Alaska"
+      },
+      "origin_time": "2026-07-12T18:28:11Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 12.6
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nsbdzk"
+      }
+    },
+    "evt-2026-1319": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 2 km N of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75394526"
+      ],
+      "location": {
+        "lat": 38.7929992675781,
+        "lon": -122.759002685547,
+        "place": "2 km N of The Geysers, CA"
+      },
+      "origin_time": "2026-07-12T18:21:49Z",
+      "magnitude": {
+        "value": 1.28,
+        "type": "md",
+        "depth_km": 0.670000016689301
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394526"
+      }
+    },
+    "evt-2026-1320": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 2 km N of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75394521"
+      ],
+      "location": {
+        "lat": 38.7934989929199,
+        "lon": -122.758499145508,
+        "place": "2 km N of The Geysers, CA"
+      },
+      "origin_time": "2026-07-12T18:18:31Z",
+      "magnitude": {
+        "value": 0.76,
+        "type": "md",
+        "depth_km": 0.870000004768372
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75394521"
+      }
+    },
+    "evt-2026-1321": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 32 km SE of Mina, Nevada",
+      "aliases": [
+        "usgs:nn00921547"
+      ],
+      "location": {
+        "lat": 38.1733,
+        "lon": -117.8676,
+        "place": "32 km SE of Mina, Nevada"
+      },
+      "origin_time": "2026-07-12T18:14:10Z",
+      "magnitude": {
+        "value": 1.58,
+        "type": "ml",
+        "depth_km": 0.0416
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00921547"
+      }
+    },
+    "evt-2026-1322": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 1 km ENE of Guayanilla, Puerto Rico",
+      "aliases": [
+        "usgs:pr71523523"
+      ],
+      "location": {
+        "lat": 18.0218333333333,
+        "lon": -66.7826666666667,
+        "place": "1 km ENE of Guayanilla, Puerto Rico"
+      },
+      "origin_time": "2026-07-12T18:03:26Z",
+      "magnitude": {
+        "value": 1.95,
+        "type": "md",
+        "depth_km": 16.36
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71523523"
+      }
+    },
+    "evt-2026-1323": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 33 km SSW of Glacier View, Alaska",
+      "aliases": [
+        "usgs:aka2026nsaadg"
+      ],
+      "location": {
+        "lat": 61.513,
+        "lon": -147.789,
+        "place": "33 km SSW of Glacier View, Alaska"
+      },
+      "origin_time": "2026-07-12T17:53:47Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 21.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nsaadg"
+      }
+    },
+    "evt-2026-1324": {
+      "hazard": "EQ",
+      "name": "M 2.9 - 2 km SSE of Frazier Park, CA",
+      "aliases": [
+        "usgs:ci41292199",
+        "usgs:us7000szwl"
+      ],
+      "location": {
+        "lat": 34.8088333333333,
+        "lon": -118.936,
+        "place": "2 km SSE of Frazier Park, CA"
+      },
+      "origin_time": "2026-07-12T17:53:11Z",
+      "magnitude": {
+        "value": 2.92,
+        "type": "ml",
+        "depth_km": 11.78
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41292199"
+      }
+    },
+    "evt-2026-1325": {
+      "hazard": "EQ",
+      "name": "M 3.8 - 236 km W of Bandon, Oregon",
+      "aliases": [
+        "usgs:us7000szwj"
+      ],
+      "location": {
+        "lat": 43.4016,
+        "lon": -127.2915,
+        "place": "236 km W of Bandon, Oregon"
+      },
+      "origin_time": "2026-07-12T17:49:02Z",
+      "magnitude": {
+        "value": 3.8,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szwj"
+      }
+    },
+    "evt-2026-1326": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 2 km SW of Guánica, Puerto Rico",
+      "aliases": [
+        "usgs:pr71523513"
+      ],
+      "location": {
+        "lat": 17.9543333333333,
+        "lon": -66.9203333333333,
+        "place": "2 km SW of Guánica, Puerto Rico"
+      },
+      "origin_time": "2026-07-12T17:36:04Z",
+      "magnitude": {
+        "value": 2.11,
+        "type": "md",
+        "depth_km": 13.75
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-12T18:49:50Z",
+      "last_changed": "2026-07-12T18:49:50Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71523513"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-07-12T17:50:51Z",
-      "last_success": "2026-07-12T17:50:51Z",
-      "feed_generated_at": "2026-07-12T17:50:26Z",
+      "last_attempt": "2026-07-12T18:49:50Z",
+      "last_success": "2026-07-12T18:49:50Z",
+      "feed_generated_at": "2026-07-12T18:49:30Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-07-12T17:50:51Z",
-      "last_success": "2026-07-12T17:50:51Z",
+      "last_attempt": "2026-07-12T18:49:50Z",
+      "last_success": "2026-07-12T18:49:50Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
