@@ -152,42 +152,37 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 </main>
 <script type="application/json" id="hadr-state">
 {
-  "events": [
-    {
-      "id": "evt-2026-0232",
-      "hazard": "TC",
-      "name": "Tropical Cyclone BAVI-26",
-      "aliases": [
-        "gdacs:1001279",
-        "glide:TC-2026-000099-CHN"
-      ],
-      "location": {
-        "lat": 18.3,
-        "lon": 129.9,
-        "place": "Guam, Northern Mariana Islands, Japan, Taiwan, China"
-      },
-      "origin_time": "2026-07-01T00:00:00Z",
-      "magnitude": null,
-      "gdacs_alert": "Red",
-      "pager_alert": null,
-      "reported": true,
-      "flash_published": false,
-      "status": "active",
-      "first_seen": "2026-07-09T05:50:31Z",
-      "last_changed": "2026-07-09T05:50:31Z",
-      "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001279&episodeid=44&eventtype=TC"
-      }
-    }
-  ],
+  "events": [],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-07-13T04:08:57Z",
+    "generated_at": "2026-07-14T03:44:18Z",
     "type": "regular",
     "changelog": {
       "escalations": [],
       "downgrades": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "id": "evt-2026-0278",
+          "kind": "revision",
+          "name": "Forest fires in Russian Federation",
+          "hazard": "WF",
+          "magnitude": null
+        },
+        {
+          "id": "evt-2026-0922",
+          "kind": "revision",
+          "name": "Forest fires in Canada",
+          "hazard": "WF",
+          "magnitude": null
+        },
+        {
+          "id": "evt-2026-1393",
+          "kind": "revision",
+          "name": "M 1.7 - 16 km SE of Lindsay, Texas",
+          "hazard": "EQ",
+          "magnitude": 1.7
+        }
+      ],
       "retractions": []
     }
   },
@@ -196,15 +191,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-07-13T04:08:57Z",
-        "feed_generated_at": "2026-07-13T04:08:45Z",
+        "last_success": "2026-07-14T03:44:18Z",
+        "feed_generated_at": "2026-07-14T03:44:06Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-07-13T04:08:57Z",
+        "last_success": "2026-07-14T03:44:18Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
