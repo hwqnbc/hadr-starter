@@ -56187,7 +56187,7 @@
       "first_seen": "2026-07-14T21:46:31Z",
       "last_changed": "2026-07-14T21:46:31Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001282&episodeid=16&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001282&episodeid=17&eventtype=TC"
       }
     },
     "evt-2026-2032": {
@@ -83933,9 +83933,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-17T20:52:51Z",
-      "last_changed": "2026-07-17T20:52:51Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026oblvfj"
       }
@@ -84213,9 +84213,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-17T21:41:39Z",
-      "last_changed": "2026-07-17T21:41:39Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397971"
       }
@@ -84241,9 +84241,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-17T21:41:39Z",
-      "last_changed": "2026-07-17T21:41:39Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397966"
       }
@@ -84269,9 +84269,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-17T21:41:39Z",
-      "last_changed": "2026-07-17T21:41:39Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75003477"
       }
@@ -84297,9 +84297,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-17T21:41:39Z",
-      "last_changed": "2026-07-17T21:41:39Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026nzgavq"
       }
@@ -84804,9 +84804,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-17T22:38:40Z",
-      "last_changed": "2026-07-17T22:38:40Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524788"
       }
@@ -84832,9 +84832,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-17T22:38:40Z",
-      "last_changed": "2026-07-17T22:38:40Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1gz"
       }
@@ -85171,9 +85171,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-17T23:42:08Z",
-      "last_changed": "2026-07-17T23:42:08Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1h3"
       }
@@ -87954,9 +87954,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-18T06:53:04Z",
-      "last_changed": "2026-07-18T06:53:04Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94315298"
       }
@@ -87982,9 +87982,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-18T06:53:04Z",
-      "last_changed": "2026-07-18T06:53:04Z",
+      "last_changed": "2026-07-18T21:40:05Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93064534"
       }
@@ -92357,20 +92357,20 @@
     },
     "evt-2026-3316": {
       "hazard": "EQ",
-      "name": "M 1.6 - 9 km WNW of Orcas, Washington",
+      "name": "M 1.6 - 8 km WNW of Orcas, Washington",
       "aliases": [
         "usgs:uw714054302"
       ],
       "location": {
-        "lat": 48.6375007629395,
-        "lon": -123.058334350586,
-        "place": "9 km WNW of Orcas, Washington"
+        "lat": 48.6243333333333,
+        "lon": -123.0545,
+        "place": "8 km WNW of Orcas, Washington"
       },
       "origin_time": "2026-07-18T13:47:31Z",
       "magnitude": {
-        "value": 1.56699246168137,
+        "value": 1.64,
         "type": "ml",
-        "depth_km": 3.80999994277954
+        "depth_km": 12.67
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -92382,18 +92382,270 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714054302"
       }
+    },
+    "evt-2026-3317": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 5 km S of Mentone, CA",
+      "aliases": [
+        "usgs:ci40657698"
+      ],
+      "location": {
+        "lat": 34.0231666666667,
+        "lon": -117.127333333333,
+        "place": "5 km S of Mentone, CA"
+      },
+      "origin_time": "2026-07-18T21:23:26Z",
+      "magnitude": {
+        "value": 0.81,
+        "type": "ml",
+        "depth_km": 9.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657698"
+      }
+    },
+    "evt-2026-3318": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 65 km W of Tyonek, Alaska",
+      "aliases": [
+        "usgs:aka2026odjbtn"
+      ],
+      "location": {
+        "lat": 61.027,
+        "lon": -152.344,
+        "place": "65 km W of Tyonek, Alaska"
+      },
+      "origin_time": "2026-07-18T21:21:35Z",
+      "magnitude": {
+        "value": 2,
+        "type": "ml",
+        "depth_km": 115.6
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026odjbtn"
+      }
+    },
+    "evt-2026-3319": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 6 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75398571"
+      ],
+      "location": {
+        "lat": 38.8230018615723,
+        "lon": -122.788833618164,
+        "place": "6 km W of Cobb, CA"
+      },
+      "origin_time": "2026-07-18T21:08:07Z",
+      "magnitude": {
+        "value": 0.88,
+        "type": "md",
+        "depth_km": 1.51999998092651
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398571"
+      }
+    },
+    "evt-2026-3320": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 4 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75398566"
+      ],
+      "location": {
+        "lat": 38.8224983215332,
+        "lon": -122.766670227051,
+        "place": "4 km W of Cobb, CA"
+      },
+      "origin_time": "2026-07-18T21:02:33Z",
+      "magnitude": {
+        "value": 0.69,
+        "type": "md",
+        "depth_km": 2.03999996185303
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398566"
+      }
+    },
+    "evt-2026-3321": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 20 km SW of Ackerly, Texas",
+      "aliases": [
+        "usgs:tx2026obbkyt"
+      ],
+      "location": {
+        "lat": 32.42,
+        "lon": -101.898,
+        "place": "20 km SW of Ackerly, Texas"
+      },
+      "origin_time": "2026-07-18T20:57:11Z",
+      "magnitude": {
+        "value": 1.1,
+        "type": "ml",
+        "depth_km": 4.0983
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026obbkyt"
+      }
+    },
+    "evt-2026-3322": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 10 km NNE of Cabazon, CA",
+      "aliases": [
+        "usgs:ci40657682"
+      ],
+      "location": {
+        "lat": 33.9963333333333,
+        "lon": -116.729833333333,
+        "place": "10 km NNE of Cabazon, CA"
+      },
+      "origin_time": "2026-07-18T20:52:42Z",
+      "magnitude": {
+        "value": 0.9,
+        "type": "ml",
+        "depth_km": 12.58
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657682"
+      }
+    },
+    "evt-2026-3323": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 41 km WNW of Toyah, Texas",
+      "aliases": [
+        "usgs:tx2026obbeja"
+      ],
+      "location": {
+        "lat": 31.521,
+        "lon": -104.153,
+        "place": "41 km WNW of Toyah, Texas"
+      },
+      "origin_time": "2026-07-18T20:49:21Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 4.1875
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026obbeja"
+      }
+    },
+    "evt-2026-3324": {
+      "hazard": "EQ",
+      "name": "M 0.4 - 9 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75398556"
+      ],
+      "location": {
+        "lat": 38.8358345031738,
+        "lon": -122.835166931152,
+        "place": "9 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-07-18T20:45:01Z",
+      "magnitude": {
+        "value": 0.41,
+        "type": "md",
+        "depth_km": 1.13999998569489
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398556"
+      }
+    },
+    "evt-2026-3325": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 7 km N of Moreno Valley, CA",
+      "aliases": [
+        "usgs:ci40657674"
+      ],
+      "location": {
+        "lat": 33.9886666666667,
+        "lon": -117.217,
+        "place": "7 km N of Moreno Valley, CA"
+      },
+      "origin_time": "2026-07-18T20:42:35Z",
+      "magnitude": {
+        "value": 0.7,
+        "type": "ml",
+        "depth_km": -0.48
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-18T21:40:05Z",
+      "last_changed": "2026-07-18T21:40:05Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657674"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-07-18T20:44:59Z",
-      "last_success": "2026-07-18T20:44:59Z",
-      "feed_generated_at": "2026-07-18T20:44:27Z",
+      "last_attempt": "2026-07-18T21:40:05Z",
+      "last_success": "2026-07-18T21:40:05Z",
+      "feed_generated_at": "2026-07-18T21:39:14Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-07-18T20:44:59Z",
-      "last_success": "2026-07-18T20:44:59Z",
+      "last_attempt": "2026-07-18T21:40:05Z",
+      "last_success": "2026-07-18T21:40:05Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
