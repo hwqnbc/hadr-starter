@@ -135701,9 +135701,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T05:10:34Z",
-      "last_changed": "2026-07-24T05:10:34Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40660514"
       }
@@ -135729,9 +135729,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T05:10:34Z",
-      "last_changed": "2026-07-24T05:10:34Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75404782"
       }
@@ -135757,9 +135757,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T05:10:34Z",
-      "last_changed": "2026-07-24T05:10:34Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40660506"
       }
@@ -135785,9 +135785,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T05:10:34Z",
-      "last_changed": "2026-07-24T05:10:34Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75404777"
       }
@@ -135813,9 +135813,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T05:10:34Z",
-      "last_changed": "2026-07-24T05:10:34Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922246"
       }
@@ -137102,9 +137102,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T10:53:24Z",
-      "last_changed": "2026-07-24T10:53:24Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026okurvz"
       }
@@ -139873,9 +139873,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T18:10:42Z",
-      "last_changed": "2026-07-24T18:10:42Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714060641"
       }
@@ -141850,9 +141850,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T21:55:23Z",
-      "last_changed": "2026-07-24T21:55:23Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90203303"
       }
@@ -141878,9 +141878,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-24T21:55:23Z",
-      "last_changed": "2026-07-24T21:55:23Z",
+      "last_changed": "2026-07-25T04:56:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94328928"
       }
@@ -144460,18 +144460,242 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93064794"
       }
+    },
+    "evt-2026-5197": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 13 km SW of Hawthorne, Nevada",
+      "aliases": [
+        "usgs:nn00922314"
+      ],
+      "location": {
+        "lat": 38.433,
+        "lon": -118.7205,
+        "place": "13 km SW of Hawthorne, Nevada"
+      },
+      "origin_time": "2026-07-25T04:32:49Z",
+      "magnitude": {
+        "value": 1.65,
+        "type": "ml",
+        "depth_km": 5.6549
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-25T04:56:28Z",
+      "last_changed": "2026-07-25T04:56:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922314"
+      }
+    },
+    "evt-2026-5198": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 34 km N of Benton, California",
+      "aliases": [
+        "usgs:nn00922312"
+      ],
+      "location": {
+        "lat": 38.1277,
+        "lon": -118.4652,
+        "place": "34 km N of Benton, California"
+      },
+      "origin_time": "2026-07-25T04:23:46Z",
+      "magnitude": {
+        "value": 2.21,
+        "type": "ml",
+        "depth_km": 7.1251
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-25T04:56:28Z",
+      "last_changed": "2026-07-25T04:56:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922312"
+      }
+    },
+    "evt-2026-5199": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 65 km W of Tyonek, Alaska",
+      "aliases": [
+        "usgs:aka2026ooypzv"
+      ],
+      "location": {
+        "lat": 61.037,
+        "lon": -152.345,
+        "place": "65 km W of Tyonek, Alaska"
+      },
+      "origin_time": "2026-07-25T04:04:52Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 118.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-25T04:56:28Z",
+      "last_changed": "2026-07-25T04:56:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ooypzv"
+      }
+    },
+    "evt-2026-5200": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 33 km N of Benton, California",
+      "aliases": [
+        "usgs:nn00922309"
+      ],
+      "location": {
+        "lat": 38.1222,
+        "lon": -118.4636,
+        "place": "33 km N of Benton, California"
+      },
+      "origin_time": "2026-07-25T03:59:38Z",
+      "magnitude": {
+        "value": 1.97,
+        "type": "ml",
+        "depth_km": 7.3726
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-25T04:56:28Z",
+      "last_changed": "2026-07-25T04:56:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00922309"
+      }
+    },
+    "evt-2026-5201": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 17 km ESE of Julian, CA",
+      "aliases": [
+        "usgs:ci40661082"
+      ],
+      "location": {
+        "lat": 33.0475,
+        "lon": -116.428666666667,
+        "place": "17 km ESE of Julian, CA"
+      },
+      "origin_time": "2026-07-25T03:50:16Z",
+      "magnitude": {
+        "value": 0.76,
+        "type": "ml",
+        "depth_km": 15.17
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-25T04:56:28Z",
+      "last_changed": "2026-07-25T04:56:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661082"
+      }
+    },
+    "evt-2026-5202": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 20 km NW of Stanton, Texas",
+      "aliases": [
+        "usgs:tx2026ompmsz"
+      ],
+      "location": {
+        "lat": 32.243,
+        "lon": -101.957,
+        "place": "20 km NW of Stanton, Texas"
+      },
+      "origin_time": "2026-07-25T03:50:16Z",
+      "magnitude": {
+        "value": 2.1,
+        "type": "ml",
+        "depth_km": 3.7658
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-25T04:56:28Z",
+      "last_changed": "2026-07-25T04:56:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ompmsz"
+      }
+    },
+    "evt-2026-5203": {
+      "hazard": "EQ",
+      "name": "M 0.4 - 18 km NE of Atka, Alaska",
+      "aliases": [
+        "usgs:av94330068"
+      ],
+      "location": {
+        "lat": 52.3283333333333,
+        "lon": -174.0345,
+        "place": "18 km NE of Atka, Alaska"
+      },
+      "origin_time": "2026-07-24T14:21:40Z",
+      "magnitude": {
+        "value": 0.38,
+        "type": "ml",
+        "depth_km": 0.44
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-25T04:56:28Z",
+      "last_changed": "2026-07-25T04:56:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94330068"
+      }
+    },
+    "evt-2026-5204": {
+      "hazard": "EQ",
+      "name": "M 0.4 - 40 km SE of King Salmon, Alaska",
+      "aliases": [
+        "usgs:av94330018"
+      ],
+      "location": {
+        "lat": 58.4468333333333,
+        "lon": -156.137166666667,
+        "place": "40 km SE of King Salmon, Alaska"
+      },
+      "origin_time": "2026-07-24T13:59:00Z",
+      "magnitude": {
+        "value": 0.42,
+        "type": "ml",
+        "depth_km": 8.82
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-25T04:56:28Z",
+      "last_changed": "2026-07-25T04:56:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94330018"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-07-25T03:48:48Z",
-      "last_success": "2026-07-25T03:48:48Z",
-      "feed_generated_at": "2026-07-25T03:48:15Z",
+      "last_attempt": "2026-07-25T04:56:28Z",
+      "last_success": "2026-07-25T04:56:28Z",
+      "feed_generated_at": "2026-07-25T04:56:15Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-07-25T03:48:48Z",
-      "last_success": "2026-07-25T03:48:48Z",
+      "last_attempt": "2026-07-25T04:56:28Z",
+      "last_success": "2026-07-25T04:56:28Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
