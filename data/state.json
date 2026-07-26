@@ -145292,9 +145292,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T07:11:19Z",
-      "last_changed": "2026-07-25T07:11:19Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029731&episodeid=4&eventtype=WF"
       }
@@ -145812,9 +145812,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T09:27:15Z",
-      "last_changed": "2026-07-25T09:27:15Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029733&episodeid=5&eventtype=WF"
       }
@@ -145836,9 +145836,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T09:27:15Z",
-      "last_changed": "2026-07-25T09:27:15Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029734&episodeid=4&eventtype=WF"
       }
@@ -148463,9 +148463,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T18:52:06Z",
-      "last_changed": "2026-07-25T18:52:06Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405617"
       }
@@ -148491,9 +148491,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T18:52:06Z",
-      "last_changed": "2026-07-25T18:52:06Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026oqalgy"
       }
@@ -148561,15 +148561,15 @@
         "usgs:ci40661346"
       ],
       "location": {
-        "lat": 33.1863333333333,
-        "lon": -115.604666666667,
+        "lat": 33.1868333333333,
+        "lon": -115.603833333333,
         "place": "10 km SW of Niland, CA"
       },
       "origin_time": "2026-07-25T19:45:17Z",
       "magnitude": {
         "value": 2.12,
         "type": "ml",
-        "depth_km": 3.85
+        "depth_km": 4.08
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -148771,9 +148771,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T20:05:13Z",
-      "last_changed": "2026-07-25T20:05:13Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3ce"
       }
@@ -148799,9 +148799,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T20:05:13Z",
-      "last_changed": "2026-07-25T20:05:13Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026onthkb"
       }
@@ -148827,9 +148827,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T20:05:13Z",
-      "last_changed": "2026-07-25T20:05:13Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71525788"
       }
@@ -148855,9 +148855,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T20:05:13Z",
-      "last_changed": "2026-07-25T20:05:13Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3c8"
       }
@@ -154820,15 +154820,15 @@
         "usgs:ci40661394"
       ],
       "location": {
-        "lat": 34.6885,
-        "lon": -116.336,
+        "lat": 34.6883333333333,
+        "lon": -116.335,
         "place": "16 km WSW of Ludlow, CA"
       },
       "origin_time": "2026-07-26T00:41:18Z",
       "magnitude": {
-        "value": 1.89,
+        "value": 1.91,
         "type": "ml",
-        "depth_km": -0.12
+        "depth_km": 0.47
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -155770,7 +155770,8 @@
       "hazard": "EQ",
       "name": "M 4.5 - 53 km N of Arauco, Argentina",
       "aliases": [
-        "usgs:us7000t3ia"
+        "usgs:us7000t3ia",
+        "gdacs:1554220"
       ],
       "location": {
         "lat": -28.0972,
@@ -155783,22 +155784,24 @@
         "type": "mb",
         "depth_km": 157.114
       },
-      "gdacs_alert": null,
+      "gdacs_alert": "Green",
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-07-26T17:53:56Z",
-      "last_changed": "2026-07-26T17:53:56Z",
+      "last_changed": "2026-07-26T18:55:28Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3ia"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3ia",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1554220&episodeid=1720856&eventtype=EQ"
       }
     },
     "evt-2026-5612": {
       "hazard": "EQ",
       "name": "M 2.8 - 13 km S of Claude, Texas",
       "aliases": [
-        "usgs:tx2026opmhex"
+        "usgs:tx2026opmhex",
+        "usgs:us7000t3i9"
       ],
       "location": {
         "lat": 34.996,
@@ -156074,20 +156077,276 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ornlfd"
       }
+    },
+    "evt-2026-5622": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 61 km NNW of Skwentna, Alaska",
+      "aliases": [
+        "usgs:aka2026orybvx"
+      ],
+      "location": {
+        "lat": 62.471,
+        "lon": -151.988,
+        "place": "61 km NNW of Skwentna, Alaska"
+      },
+      "origin_time": "2026-07-26T18:46:31Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 107.3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026orybvx"
+      }
+    },
+    "evt-2026-5623": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 7 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75406122"
+      ],
+      "location": {
+        "lat": 38.8154983520508,
+        "lon": -122.814498901367,
+        "place": "7 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-07-26T18:40:06Z",
+      "magnitude": {
+        "value": 0.77,
+        "type": "md",
+        "depth_km": 2.77999997138977
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75406122"
+      }
+    },
+    "evt-2026-5624": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 16 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci40661674"
+      ],
+      "location": {
+        "lat": 33.5063333333333,
+        "lon": -116.508,
+        "place": "16 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-07-26T18:38:29Z",
+      "magnitude": {
+        "value": 1.12,
+        "type": "ml",
+        "depth_km": 13.22
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661674"
+      }
+    },
+    "evt-2026-5625": {
+      "hazard": "EQ",
+      "name": "M 5.4 - northern Mid-Atlantic Ridge",
+      "aliases": [
+        "usgs:us7000t3in",
+        "gdacs:1554228"
+      ],
+      "location": {
+        "lat": 29.9365,
+        "lon": -42.8052,
+        "place": "northern Mid-Atlantic Ridge"
+      },
+      "origin_time": "2026-07-26T18:19:40Z",
+      "magnitude": {
+        "value": 5.4,
+        "type": "mww",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": "green",
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3in",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1554228&episodeid=1720865&eventtype=EQ"
+      }
+    },
+    "evt-2026-5626": {
+      "hazard": "EQ",
+      "name": "M 4.6 - south of the Fiji Islands",
+      "aliases": [
+        "usgs:us7000t3il",
+        "gdacs:1554229"
+      ],
+      "location": {
+        "lat": -23.4795,
+        "lon": 179.8773,
+        "place": "south of the Fiji Islands"
+      },
+      "origin_time": "2026-07-26T18:15:31Z",
+      "magnitude": {
+        "value": 4.6,
+        "type": "mb",
+        "depth_km": 535.429
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3il",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1554229&episodeid=1720864&eventtype=EQ"
+      }
+    },
+    "evt-2026-5627": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 13 km ESE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci40661658"
+      ],
+      "location": {
+        "lat": 36.0198333333333,
+        "lon": -117.812,
+        "place": "13 km ESE of Coso Junction, CA"
+      },
+      "origin_time": "2026-07-26T18:04:41Z",
+      "magnitude": {
+        "value": 0.91,
+        "type": "ml",
+        "depth_km": 1.24
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661658"
+      }
+    },
+    "evt-2026-5628": {
+      "hazard": "EQ",
+      "name": "M 4.4 - Kuril Islands",
+      "aliases": [
+        "usgs:us7000t3ij"
+      ],
+      "location": {
+        "lat": 48.2221,
+        "lon": 154.2133,
+        "place": "Kuril Islands"
+      },
+      "origin_time": "2026-07-26T18:00:02Z",
+      "magnitude": {
+        "value": 4.4,
+        "type": "mb",
+        "depth_km": 71.451
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3ij"
+      }
+    },
+    "evt-2026-5629": {
+      "hazard": "EQ",
+      "name": "M 2.9 - 87 km SSW of Boca de Yuma, Dominican Republic",
+      "aliases": [
+        "usgs:us7000t3ik"
+      ],
+      "location": {
+        "lat": 17.6206,
+        "lon": -68.8598,
+        "place": "87 km SSW of Boca de Yuma, Dominican Republic"
+      },
+      "origin_time": "2026-07-26T17:56:47Z",
+      "magnitude": {
+        "value": 2.9,
+        "type": "ml",
+        "depth_km": 10.284
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3ik"
+      }
+    },
+    "evt-2026-5630": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 17 km WSW of Johannesburg, CA",
+      "aliases": [
+        "usgs:ci40661650"
+      ],
+      "location": {
+        "lat": 35.3138333333333,
+        "lon": -117.806166666667,
+        "place": "17 km WSW of Johannesburg, CA"
+      },
+      "origin_time": "2026-07-26T17:52:18Z",
+      "magnitude": {
+        "value": 1.05,
+        "type": "ml",
+        "depth_km": 7.74
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T18:55:28Z",
+      "last_changed": "2026-07-26T18:55:28Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661650"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-07-26T17:53:56Z",
-      "last_success": "2026-07-26T17:53:56Z",
-      "feed_generated_at": "2026-07-26T17:53:19Z",
+      "last_attempt": "2026-07-26T18:55:28Z",
+      "last_success": "2026-07-26T18:55:28Z",
+      "feed_generated_at": "2026-07-26T18:54:30Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-07-26T17:53:56Z",
-      "last_success": "2026-07-26T16:46:17Z",
+      "last_attempt": "2026-07-26T18:55:28Z",
+      "last_success": "2026-07-26T18:55:28Z",
       "feed_generated_at": null,
-      "consecutive_failures": 1
+      "consecutive_failures": 0
     }
   },
   "edition_marker": {
