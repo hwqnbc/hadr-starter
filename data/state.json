@@ -147930,9 +147930,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T16:47:53Z",
-      "last_changed": "2026-07-25T16:47:53Z",
+      "last_changed": "2026-07-26T16:46:17Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026opxtkp"
       }
@@ -147958,9 +147958,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T16:47:53Z",
-      "last_changed": "2026-07-25T16:47:53Z",
+      "last_changed": "2026-07-26T16:46:17Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40661274"
       }
@@ -147986,9 +147986,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T16:47:53Z",
-      "last_changed": "2026-07-25T16:47:53Z",
+      "last_changed": "2026-07-26T16:46:17Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405572"
       }
@@ -148014,9 +148014,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T16:47:53Z",
-      "last_changed": "2026-07-25T16:47:53Z",
+      "last_changed": "2026-07-26T16:46:17Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405567"
       }
@@ -148042,9 +148042,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T16:47:53Z",
-      "last_changed": "2026-07-25T16:47:53Z",
+      "last_changed": "2026-07-26T16:46:17Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75405562"
       }
@@ -148070,9 +148070,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T16:47:53Z",
-      "last_changed": "2026-07-25T16:47:53Z",
+      "last_changed": "2026-07-26T16:46:17Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026onnrqi"
       }
@@ -148098,9 +148098,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-25T16:47:53Z",
-      "last_changed": "2026-07-25T16:47:53Z",
+      "last_changed": "2026-07-26T16:46:17Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75007817"
       }
@@ -154843,20 +154843,20 @@
     },
     "evt-2026-5577": {
       "hazard": "EQ",
-      "name": "M 1.4 - 2 km N of Laguna Niguel, CA",
+      "name": "M 1.4 - 2 km NNW of Laguna Niguel, CA",
       "aliases": [
         "usgs:ci40661602"
       ],
       "location": {
-        "lat": 33.5385,
-        "lon": -117.710166666667,
-        "place": "2 km N of Laguna Niguel, CA"
+        "lat": 33.5395,
+        "lon": -117.714333333333,
+        "place": "2 km NNW of Laguna Niguel, CA"
       },
       "origin_time": "2026-07-26T15:31:59Z",
       "magnitude": {
         "value": 1.37,
         "type": "ml",
-        "depth_km": 11.92
+        "depth_km": 11.69
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -155401,18 +155401,242 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029811&episodeid=1&eventtype=WF"
       }
+    },
+    "evt-2026-5598": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 4 km NNW of Redwood Valley, CA",
+      "aliases": [
+        "usgs:nc75406082"
+      ],
+      "location": {
+        "lat": 39.2993316650391,
+        "lon": -123.215667724609,
+        "place": "4 km NNW of Redwood Valley, CA"
+      },
+      "origin_time": "2026-07-26T16:40:28Z",
+      "magnitude": {
+        "value": 2.09,
+        "type": "md",
+        "depth_km": 5.90999984741211
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T16:46:17Z",
+      "last_changed": "2026-07-26T16:46:17Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75406082"
+      }
+    },
+    "evt-2026-5599": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 19 km SE of Skwentna, Alaska",
+      "aliases": [
+        "usgs:aka2026ortrnk"
+      ],
+      "location": {
+        "lat": 61.888,
+        "lon": -151.094,
+        "place": "19 km SE of Skwentna, Alaska"
+      },
+      "origin_time": "2026-07-26T16:34:41Z",
+      "magnitude": {
+        "value": 2.2,
+        "type": "ml",
+        "depth_km": 75.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T16:46:17Z",
+      "last_changed": "2026-07-26T16:46:17Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ortrnk"
+      }
+    },
+    "evt-2026-5600": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 9 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75406077"
+      ],
+      "location": {
+        "lat": 38.8376655578613,
+        "lon": -122.825332641602,
+        "place": "9 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-07-26T16:27:41Z",
+      "magnitude": {
+        "value": 0.67,
+        "type": "md",
+        "depth_km": 1.92999994754791
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T16:46:17Z",
+      "last_changed": "2026-07-26T16:46:17Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75406077"
+      }
+    },
+    "evt-2026-5601": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 87 km ESE of Egegik, Alaska",
+      "aliases": [
+        "usgs:aka2026ortgft"
+      ],
+      "location": {
+        "lat": 57.968,
+        "lon": -155.969,
+        "place": "87 km ESE of Egegik, Alaska"
+      },
+      "origin_time": "2026-07-26T16:21:38Z",
+      "magnitude": {
+        "value": 1,
+        "type": "ml",
+        "depth_km": 15.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T16:46:17Z",
+      "last_changed": "2026-07-26T16:46:17Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ortgft"
+      }
+    },
+    "evt-2026-5602": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 37 km NNE of Chenega, Alaska",
+      "aliases": [
+        "usgs:aka2026orsycj"
+      ],
+      "location": {
+        "lat": 60.374,
+        "lon": -147.741,
+        "place": "37 km NNE of Chenega, Alaska"
+      },
+      "origin_time": "2026-07-26T16:12:16Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 18
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T16:46:17Z",
+      "last_changed": "2026-07-26T16:46:17Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026orsycj"
+      }
+    },
+    "evt-2026-5603": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 49 km NNE of Petersville, Alaska",
+      "aliases": [
+        "usgs:aka2026orsiru"
+      ],
+      "location": {
+        "lat": 62.905,
+        "lon": -150.386,
+        "place": "49 km NNE of Petersville, Alaska"
+      },
+      "origin_time": "2026-07-26T15:54:30Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 95.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T16:46:17Z",
+      "last_changed": "2026-07-26T16:46:17Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026orsiru"
+      }
+    },
+    "evt-2026-5604": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 46 km NW of Toyah, Texas",
+      "aliases": [
+        "usgs:tx2026ophoxz"
+      ],
+      "location": {
+        "lat": 31.623,
+        "lon": -104.125,
+        "place": "46 km NW of Toyah, Texas"
+      },
+      "origin_time": "2026-07-26T15:04:43Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 4.5279
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T16:46:17Z",
+      "last_changed": "2026-07-26T16:46:17Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ophoxz"
+      }
+    },
+    "evt-2026-5605": {
+      "hazard": "EQ",
+      "name": "M 2.6 - 4 km SSW of Indios, Puerto Rico",
+      "aliases": [
+        "usgs:pr71525928"
+      ],
+      "location": {
+        "lat": 17.9566666666667,
+        "lon": -66.8401666666667,
+        "place": "4 km SSW of Indios, Puerto Rico"
+      },
+      "origin_time": "2026-07-26T14:52:59Z",
+      "magnitude": {
+        "value": 2.57,
+        "type": "md",
+        "depth_km": 12.72
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T16:46:17Z",
+      "last_changed": "2026-07-26T16:46:17Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71525928"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-07-26T15:54:19Z",
-      "last_success": "2026-07-26T15:54:19Z",
-      "feed_generated_at": "2026-07-26T15:54:13Z",
+      "last_attempt": "2026-07-26T16:46:17Z",
+      "last_success": "2026-07-26T16:46:17Z",
+      "feed_generated_at": "2026-07-26T16:45:53Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-07-26T15:54:19Z",
-      "last_success": "2026-07-26T15:54:19Z",
+      "last_attempt": "2026-07-26T16:46:17Z",
+      "last_success": "2026-07-26T16:46:17Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
