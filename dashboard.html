@@ -154,90 +154,116 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 {
   "events": [
     {
-      "id": "evt-2026-6052",
+      "id": "evt-2026-6134",
       "hazard": "EQ",
-      "name": "M 5.8 - 190 km NW of Oula Xiuma, China",
+      "name": "M 6.8 - 5 km E of Uto, Japan",
       "aliases": [
-        "usgs:us6000tga6",
-        "gdacs:1554510"
+        "usgs:us6000tgb9",
+        "usgs:attivjdk",
+        "usgs:pt26209004"
       ],
       "location": {
-        "lat": 35.3745,
-        "lon": 99.5602,
-        "place": "190 km NW of Oula Xiuma, China"
+        "lat": 32.6817,
+        "lon": 130.7217,
+        "place": "5 km E of Uto, Japan"
       },
-      "origin_time": "2026-07-28T03:16:08Z",
+      "origin_time": "2026-07-28T07:27:15Z",
+      "magnitude": {
+        "value": 6.8,
+        "type": "mww",
+        "depth_km": 10
+      },
+      "gdacs_alert": null,
+      "pager_alert": "red",
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-28T10:23:42Z",
+      "last_changed": "2026-07-28T10:23:42Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9"
+      }
+    },
+    {
+      "id": "evt-2026-6076",
+      "hazard": "EQ",
+      "name": "M 5.8 - 191 km NW of Oula Xiuma, China",
+      "aliases": [
+        "usgs:us6000tga9",
+        "gdacs:1554511"
+      ],
+      "location": {
+        "lat": 35.3866,
+        "lon": 99.5513,
+        "place": "191 km NW of Oula Xiuma, China"
+      },
+      "origin_time": "2026-07-28T03:34:05Z",
       "magnitude": {
         "value": 5.8,
         "type": "mww",
         "depth_km": 10
       },
-      "gdacs_alert": "Green",
+      "gdacs_alert": "Orange",
+      "pager_alert": "yellow",
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-28T04:54:13Z",
+      "last_changed": "2026-07-28T04:54:13Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tga9",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1554511&episodeid=1721183&eventtype=EQ"
+      }
+    },
+    {
+      "id": "evt-2026-6052",
+      "hazard": "EQ",
+      "name": "M 5.7 - 192 km NW of Oula Xiuma, China",
+      "aliases": [
+        "usgs:us6000tga6",
+        "gdacs:1554510"
+      ],
+      "location": {
+        "lat": 35.3685,
+        "lon": 99.5198,
+        "place": "192 km NW of Oula Xiuma, China"
+      },
+      "origin_time": "2026-07-28T03:16:08Z",
+      "magnitude": {
+        "value": 5.7,
+        "type": "mww",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Orange",
       "pager_alert": "yellow",
       "reported": true,
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-07-28T03:46:17Z",
-      "last_changed": "2026-07-28T03:46:17Z",
+      "last_changed": "2026-07-28T04:54:13Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tga6",
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1554510&episodeid=1721181&eventtype=EQ"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1554510&episodeid=1721184&eventtype=EQ"
       }
     }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-07-28T03:46:17Z",
-    "type": "regular",
+    "generated_at": "2026-07-28T10:23:42Z",
+    "type": "flash",
+    "flash": {
+      "events": [
+        {
+          "id": "evt-2026-6134",
+          "name": "M 6.8 - 5 km E of Uto, Japan",
+          "hazard": "EQ"
+        }
+      ]
+    },
     "changelog": {
-      "escalations": [
-        {
-          "id": "evt-2026-5504",
-          "kind": "escalation",
-          "name": "Forest fires in Spain",
-          "hazard": "WF",
-          "from": "Green",
-          "to": "Orange"
-        }
-      ],
+      "escalations": [],
       "downgrades": [],
-      "revisions": [
-        {
-          "id": "evt-2026-5646",
-          "kind": "revision",
-          "name": "M 3.0 - 21 km SE of Waikoloa, Hawaii",
-          "hazard": "EQ",
-          "magnitude": 3.03
-        },
-        {
-          "id": "evt-2026-5681",
-          "kind": "revision",
-          "name": "M 1.8 - 15 km SE of Pearsall, Texas",
-          "hazard": "EQ",
-          "magnitude": 1.8
-        },
-        {
-          "id": "evt-2026-5728",
-          "kind": "revision",
-          "name": "M 1.4 - 5 km ESE of Sutton-Alpine, Alaska",
-          "hazard": "EQ",
-          "magnitude": 1.4
-        },
-        {
-          "id": "evt-2026-5734",
-          "kind": "revision",
-          "name": "M 1.5 - 38 km SSW of Dry Creek, Alaska",
-          "hazard": "EQ",
-          "magnitude": 1.5
-        },
-        {
-          "id": "evt-2026-5740",
-          "kind": "revision",
-          "name": "M 0.9 - 13 km NNW of Piru, CA",
-          "hazard": "EQ",
-          "magnitude": 0.92
-        }
-      ],
+      "revisions": [],
       "retractions": []
     }
   },
@@ -246,22 +272,33 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-07-28T03:46:17Z",
-        "feed_generated_at": "2026-07-28T03:45:58Z",
+        "last_success": "2026-07-28T10:23:42Z",
+        "feed_generated_at": "2026-07-28T10:23:42Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-07-28T03:46:17Z",
+        "last_success": "2026-07-28T07:31:45Z",
         "feed_generated_at": null,
-        "consecutive_failures": 0,
-        "stale": false
+        "consecutive_failures": 1,
+        "stale": true
       }
     ],
-    "stale": [],
-    "banner": null
+    "stale": [
+      "gdacs"
+    ],
+    "banner": {
+      "items": [
+        {
+          "feed": "gdacs",
+          "label": "GDACS",
+          "last_success": "2026-07-28T07:31:45Z"
+        }
+      ],
+      "note": "EQ coverage via USGS only"
+    }
   }
 }
 </script>
