@@ -154,9 +154,49 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 {
   "events": [
     {
+      "id": "evt-2026-6125",
+      "hazard": "EQ",
+      "name": "M 4.9 - 14 km NNE of Tsunagi, Japan",
+      "aliases": [
+        "usgs:us6000tgbn",
+        "gdacs:1554577",
+        "glide:EQ-2026-000135-JPN",
+        "gdacs:1554567",
+        "usgs:us6000tgbm",
+        "gdacs:1554552",
+        "usgs:us6000tgb9",
+        "gdacs:1554657",
+        "usgs:us6000tgd4",
+        "gdacs:1554637",
+        "usgs:us6000tgcq"
+      ],
+      "location": {
+        "lat": 32.3585,
+        "lon": 130.5429,
+        "place": "14 km NNE of Tsunagi, Japan"
+      },
+      "origin_time": "2026-07-28T08:18:54Z",
+      "magnitude": {
+        "value": 4.9,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Orange",
+      "pager_alert": null,
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-28T10:23:42Z",
+      "last_changed": "2026-07-29T03:49:14Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbn",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1554552&episodeid=1721238&eventtype=EQ"
+      }
+    },
+    {
       "id": "evt-2026-6134",
       "hazard": "EQ",
-      "name": "M 6.8 - 5 km E of Uto, Japan",
+      "name": "M 6.8 - 2026 Uto, Japan Earthquake ",
       "aliases": [
         "usgs:us6000tgb9",
         "usgs:attivjdk",
@@ -165,7 +205,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "location": {
         "lat": 32.6817,
         "lon": 130.7217,
-        "place": "5 km E of Uto, Japan"
+        "place": "2026 Uto, Japan Earthquake "
       },
       "origin_time": "2026-07-28T07:27:15Z",
       "magnitude": {
@@ -264,7 +304,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "gdacs_alert": "Red",
       "pager_alert": null,
       "reported": true,
-      "flash_published": false,
+      "flash_published": true,
       "status": "active",
       "first_seen": "2026-07-27T09:29:39Z",
       "last_changed": "2026-07-28T12:30:07Z",
@@ -275,21 +315,121 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-07-28T12:30:07Z",
-    "type": "flash",
-    "flash": {
-      "events": [
+    "generated_at": "2026-07-29T03:49:14Z",
+    "type": "regular",
+    "changelog": {
+      "escalations": [
         {
           "id": "evt-2026-5801",
+          "kind": "escalation",
           "name": "Flood in China",
-          "hazard": "FL"
+          "hazard": "FL",
+          "from": "Green",
+          "to": "Red"
+        },
+        {
+          "id": "evt-2026-6052",
+          "kind": "escalation",
+          "name": "M 5.7 - 192 km NW of Oula Xiuma, China",
+          "hazard": "EQ",
+          "from": "Yellow",
+          "to": "Orange"
         }
-      ]
-    },
-    "changelog": {
-      "escalations": [],
+      ],
       "downgrades": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "id": "evt-2026-5541",
+          "kind": "revision",
+          "name": "Forest fires in Russian Federation",
+          "hazard": "WF",
+          "magnitude": null
+        },
+        {
+          "id": "evt-2026-5836",
+          "kind": "revision",
+          "name": "M 1.9 - 41 km NW of Toyah, Texas",
+          "hazard": "EQ",
+          "magnitude": 1.9
+        },
+        {
+          "id": "evt-2026-5963",
+          "kind": "revision",
+          "name": "M 3.1 - 237 km ESE of Attu Station, Alaska",
+          "hazard": "EQ",
+          "magnitude": 3.1
+        },
+        {
+          "id": "evt-2026-5985",
+          "kind": "revision",
+          "name": "M 1.6 - 17 km WSW of Johannesburg, CA",
+          "hazard": "EQ",
+          "magnitude": 1.56
+        },
+        {
+          "id": "evt-2026-5995",
+          "kind": "revision",
+          "name": "M 2.7 - 19 km S of Adak, Alaska",
+          "hazard": "EQ",
+          "magnitude": 2.7
+        },
+        {
+          "id": "evt-2026-6020",
+          "kind": "revision",
+          "name": "M 1.4 - 37 km S of Livengood, Alaska",
+          "hazard": "EQ",
+          "magnitude": 1.4
+        },
+        {
+          "id": "evt-2026-6021",
+          "kind": "revision",
+          "name": "M 2.7 - 25 km N of Four Mile Road, Alaska",
+          "hazard": "EQ",
+          "magnitude": 2.7
+        },
+        {
+          "id": "evt-2026-6027",
+          "kind": "revision",
+          "name": "M 1.8 - 63 km W of Nanwalek, Alaska",
+          "hazard": "EQ",
+          "magnitude": 1.8
+        },
+        {
+          "id": "evt-2026-6034",
+          "kind": "revision",
+          "name": "M 1.9 - 96 km WNW of Yakutat, Alaska",
+          "hazard": "EQ",
+          "magnitude": 1.9
+        },
+        {
+          "id": "evt-2026-6051",
+          "kind": "revision",
+          "name": "M 1.7 - 61 km E of Port Alsworth, Alaska",
+          "hazard": "EQ",
+          "magnitude": 1.7
+        },
+        {
+          "id": "evt-2026-6053",
+          "kind": "revision",
+          "name": "M 1.7 - 56 km S of Whites City, New Mexico",
+          "hazard": "EQ",
+          "magnitude": 1.7
+        },
+        {
+          "id": "evt-2026-6056",
+          "kind": "revision",
+          "name": "M 2.3 - 55 km S of Whites City, New Mexico",
+          "hazard": "EQ",
+          "magnitude": 2.3
+        },
+        {
+          "id": "evt-2026-6060",
+          "kind": "revision",
+          "name": "M 1.4 - 46 km WNW of Tatitlek, Alaska",
+          "hazard": "EQ",
+          "magnitude": 1.4
+        }
+      ],
       "retractions": []
     }
   },
@@ -298,15 +438,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-07-28T12:30:07Z",
-        "feed_generated_at": "2026-07-28T12:30:03Z",
+        "last_success": "2026-07-29T03:49:14Z",
+        "feed_generated_at": "2026-07-29T03:49:08Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-07-28T12:30:07Z",
+        "last_success": "2026-07-29T03:49:14Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
