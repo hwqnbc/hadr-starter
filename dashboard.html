@@ -187,41 +187,10 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-07-28T10:23:42Z",
-      "last_changed": "2026-07-29T03:49:14Z",
+      "last_changed": "2026-07-29T07:43:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgbn",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1554552&episodeid=1721238&eventtype=EQ"
-      }
-    },
-    {
-      "id": "evt-2026-6134",
-      "hazard": "EQ",
-      "name": "M 6.8 - 2026 Uto, Japan Earthquake ",
-      "aliases": [
-        "usgs:us6000tgb9",
-        "usgs:attivjdk",
-        "usgs:pt26209004"
-      ],
-      "location": {
-        "lat": 32.6817,
-        "lon": 130.7217,
-        "place": "2026 Uto, Japan Earthquake "
-      },
-      "origin_time": "2026-07-28T07:27:15Z",
-      "magnitude": {
-        "value": 6.8,
-        "type": "mww",
-        "depth_km": 10
-      },
-      "gdacs_alert": null,
-      "pager_alert": "red",
-      "reported": true,
-      "flash_published": true,
-      "status": "active",
-      "first_seen": "2026-07-28T10:23:42Z",
-      "last_changed": "2026-07-28T10:23:42Z",
-      "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9"
       }
     },
     {
@@ -311,125 +280,77 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1104051&episodeid=2&eventtype=FL"
       }
+    },
+    {
+      "id": "evt-2026-5504",
+      "hazard": "WF",
+      "name": "Forest fires in Spain",
+      "aliases": [
+        "gdacs:1029794",
+        "glide:WF-2026-000131-ESP"
+      ],
+      "location": {
+        "lat": 39.8667,
+        "lon": -0.2355,
+        "place": "Spain"
+      },
+      "origin_time": "2026-07-25T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Orange",
+      "pager_alert": null,
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-26T08:07:28Z",
+      "last_changed": "2026-07-29T07:43:00Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029794&episodeid=12&eventtype=WF"
+      }
+    },
+    {
+      "id": "evt-2026-4527",
+      "hazard": "WF",
+      "name": "Forest fires in France",
+      "aliases": [
+        "gdacs:1029628",
+        "glide:WF-2026-000129-FRA"
+      ],
+      "location": {
+        "lat": 44.8541,
+        "lon": -1.0885,
+        "place": "France"
+      },
+      "origin_time": "2026-07-22T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Red",
+      "pager_alert": null,
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-07-23T08:11:03Z",
+      "last_changed": "2026-07-29T07:43:00Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029628&episodeid=22&eventtype=WF"
+      }
     }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-07-29T03:49:14Z",
-    "type": "regular",
+    "generated_at": "2026-07-29T07:43:00Z",
+    "type": "flash",
+    "flash": {
+      "events": [
+        {
+          "id": "evt-2026-4527",
+          "name": "Forest fires in France",
+          "hazard": "WF"
+        }
+      ]
+    },
     "changelog": {
-      "escalations": [
-        {
-          "id": "evt-2026-5801",
-          "kind": "escalation",
-          "name": "Flood in China",
-          "hazard": "FL",
-          "from": "Green",
-          "to": "Red"
-        },
-        {
-          "id": "evt-2026-6052",
-          "kind": "escalation",
-          "name": "M 5.7 - 192 km NW of Oula Xiuma, China",
-          "hazard": "EQ",
-          "from": "Yellow",
-          "to": "Orange"
-        }
-      ],
+      "escalations": [],
       "downgrades": [],
-      "revisions": [
-        {
-          "id": "evt-2026-5541",
-          "kind": "revision",
-          "name": "Forest fires in Russian Federation",
-          "hazard": "WF",
-          "magnitude": null
-        },
-        {
-          "id": "evt-2026-5836",
-          "kind": "revision",
-          "name": "M 1.9 - 41 km NW of Toyah, Texas",
-          "hazard": "EQ",
-          "magnitude": 1.9
-        },
-        {
-          "id": "evt-2026-5963",
-          "kind": "revision",
-          "name": "M 3.1 - 237 km ESE of Attu Station, Alaska",
-          "hazard": "EQ",
-          "magnitude": 3.1
-        },
-        {
-          "id": "evt-2026-5985",
-          "kind": "revision",
-          "name": "M 1.6 - 17 km WSW of Johannesburg, CA",
-          "hazard": "EQ",
-          "magnitude": 1.56
-        },
-        {
-          "id": "evt-2026-5995",
-          "kind": "revision",
-          "name": "M 2.7 - 19 km S of Adak, Alaska",
-          "hazard": "EQ",
-          "magnitude": 2.7
-        },
-        {
-          "id": "evt-2026-6020",
-          "kind": "revision",
-          "name": "M 1.4 - 37 km S of Livengood, Alaska",
-          "hazard": "EQ",
-          "magnitude": 1.4
-        },
-        {
-          "id": "evt-2026-6021",
-          "kind": "revision",
-          "name": "M 2.7 - 25 km N of Four Mile Road, Alaska",
-          "hazard": "EQ",
-          "magnitude": 2.7
-        },
-        {
-          "id": "evt-2026-6027",
-          "kind": "revision",
-          "name": "M 1.8 - 63 km W of Nanwalek, Alaska",
-          "hazard": "EQ",
-          "magnitude": 1.8
-        },
-        {
-          "id": "evt-2026-6034",
-          "kind": "revision",
-          "name": "M 1.9 - 96 km WNW of Yakutat, Alaska",
-          "hazard": "EQ",
-          "magnitude": 1.9
-        },
-        {
-          "id": "evt-2026-6051",
-          "kind": "revision",
-          "name": "M 1.7 - 61 km E of Port Alsworth, Alaska",
-          "hazard": "EQ",
-          "magnitude": 1.7
-        },
-        {
-          "id": "evt-2026-6053",
-          "kind": "revision",
-          "name": "M 1.7 - 56 km S of Whites City, New Mexico",
-          "hazard": "EQ",
-          "magnitude": 1.7
-        },
-        {
-          "id": "evt-2026-6056",
-          "kind": "revision",
-          "name": "M 2.3 - 55 km S of Whites City, New Mexico",
-          "hazard": "EQ",
-          "magnitude": 2.3
-        },
-        {
-          "id": "evt-2026-6060",
-          "kind": "revision",
-          "name": "M 1.4 - 46 km WNW of Tatitlek, Alaska",
-          "hazard": "EQ",
-          "magnitude": 1.4
-        }
-      ],
+      "revisions": [],
       "retractions": []
     }
   },
@@ -438,15 +359,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-07-29T03:49:14Z",
-        "feed_generated_at": "2026-07-29T03:49:08Z",
+        "last_success": "2026-07-29T07:43:00Z",
+        "feed_generated_at": "2026-07-29T07:42:27Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-07-29T03:49:14Z",
+        "last_success": "2026-07-29T07:43:00Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
