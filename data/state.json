@@ -211007,9 +211007,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T22:43:39Z",
-      "last_changed": "2026-08-01T22:43:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pdhygm"
       }
@@ -211035,9 +211035,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T22:43:39Z",
-      "last_changed": "2026-08-02T17:52:47Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664914"
       }
@@ -211063,9 +211063,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T22:43:39Z",
-      "last_changed": "2026-08-01T22:43:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664906"
       }
@@ -211091,9 +211091,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T22:43:39Z",
-      "last_changed": "2026-08-01T22:43:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664898"
       }
@@ -211119,9 +211119,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T22:43:39Z",
-      "last_changed": "2026-08-02T18:54:03Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664890"
       }
@@ -211147,9 +211147,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T22:43:39Z",
-      "last_changed": "2026-08-01T22:43:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664882"
       }
@@ -211175,9 +211175,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T22:43:39Z",
-      "last_changed": "2026-08-01T22:43:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40664874"
       }
@@ -211203,9 +211203,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T22:43:39Z",
-      "last_changed": "2026-08-01T22:43:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pavkyj"
       }
@@ -211515,9 +211515,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-01T23:48:03Z",
-      "last_changed": "2026-08-01T23:48:03Z",
+      "last_changed": "2026-08-02T22:44:39Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thid"
       }
@@ -218022,18 +218022,298 @@
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thna",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1555767&episodeid=1722597&eventtype=EQ"
       }
+    },
+    "evt-2026-7853": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 2 km ESE of Progreso, B.C., MX",
+      "aliases": [
+        "usgs:ci40665354"
+      ],
+      "location": {
+        "lat": 32.5745010375977,
+        "lon": -115.55933380127,
+        "place": "2 km ESE of Progreso, B.C., MX"
+      },
+      "origin_time": "2026-08-02T22:41:07Z",
+      "magnitude": {
+        "value": 1.46352067075028,
+        "type": "ml",
+        "depth_km": 4.86999988555908
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665354"
+      }
+    },
+    "evt-2026-7854": {
+      "hazard": "EQ",
+      "name": "M 0.6 - 85 km NNW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026pfduvu"
+      ],
+      "location": {
+        "lat": 58.293,
+        "lon": -154.959,
+        "place": "85 km NNW of Karluk, Alaska"
+      },
+      "origin_time": "2026-08-02T22:33:45Z",
+      "magnitude": {
+        "value": 0.6,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pfduvu"
+      }
+    },
+    "evt-2026-7855": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 48 km NW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026pfdjdg"
+      ],
+      "location": {
+        "lat": 57.877,
+        "lon": -155.025,
+        "place": "48 km NW of Karluk, Alaska"
+      },
+      "origin_time": "2026-08-02T22:20:14Z",
+      "magnitude": {
+        "value": 1.2,
+        "type": "ml",
+        "depth_km": 85.3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pfdjdg"
+      }
+    },
+    "evt-2026-7856": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 6 km NNW of Pinnacles, CA",
+      "aliases": [
+        "usgs:nc75410332"
+      ],
+      "location": {
+        "lat": 36.5796661376953,
+        "lon": -121.176834106445,
+        "place": "6 km NNW of Pinnacles, CA"
+      },
+      "origin_time": "2026-08-02T22:16:19Z",
+      "magnitude": {
+        "value": 1.68,
+        "type": "md",
+        "depth_km": 2.71000003814697
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410332"
+      }
+    },
+    "evt-2026-7857": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 1 km SSW of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75012012"
+      ],
+      "location": {
+        "lat": 19.1906661987305,
+        "lon": -155.484664916992,
+        "place": "1 km SSW of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-08-02T22:15:09Z",
+      "magnitude": {
+        "value": 2.02,
+        "type": "md",
+        "depth_km": 30.7199993133545
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75012012"
+      }
+    },
+    "evt-2026-7858": {
+      "hazard": "EQ",
+      "name": "M 3.5 - 85 km ENE of Chignik, Alaska",
+      "aliases": [
+        "usgs:aka2026pfcuob"
+      ],
+      "location": {
+        "lat": 56.645,
+        "lon": -157.174,
+        "place": "85 km ENE of Chignik, Alaska"
+      },
+      "origin_time": "2026-08-02T22:03:26Z",
+      "magnitude": {
+        "value": 3.5,
+        "type": "ml",
+        "depth_km": 69.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pfcuob"
+      }
+    },
+    "evt-2026-7859": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 8 km NNW of West Bishop, CA",
+      "aliases": [
+        "usgs:nc75410307"
+      ],
+      "location": {
+        "lat": 37.4264984130859,
+        "lon": -118.498168945312,
+        "place": "8 km NNW of West Bishop, CA"
+      },
+      "origin_time": "2026-08-02T21:59:08Z",
+      "magnitude": {
+        "value": 1.94,
+        "type": "md",
+        "depth_km": 5.42000007629395
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410307"
+      }
+    },
+    "evt-2026-7860": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 9 km NNE of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75012002"
+      ],
+      "location": {
+        "lat": 19.2810001373291,
+        "lon": -155.448837280273,
+        "place": "9 km NNE of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-08-02T21:55:08Z",
+      "magnitude": {
+        "value": 1.98,
+        "type": "md",
+        "depth_km": 0.0399999991059303
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75012002"
+      }
+    },
+    "evt-2026-7861": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 6 km WNW of Cobb, CA",
+      "aliases": [
+        "usgs:nc75410297"
+      ],
+      "location": {
+        "lat": 38.837833404541,
+        "lon": -122.784164428711,
+        "place": "6 km WNW of Cobb, CA"
+      },
+      "origin_time": "2026-08-02T21:46:20Z",
+      "magnitude": {
+        "value": 1.02,
+        "type": "md",
+        "depth_km": 1.37999999523163
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75410297"
+      }
+    },
+    "evt-2026-7862": {
+      "hazard": "EQ",
+      "name": "M 4.1 - 230 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026perpqc"
+      ],
+      "location": {
+        "lat": 51.934,
+        "lon": 176.222,
+        "place": "230 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-02T16:27:48Z",
+      "magnitude": {
+        "value": 4.1,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-02T22:44:39Z",
+      "last_changed": "2026-08-02T22:44:39Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026perpqc"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-02T21:44:04Z",
-      "last_success": "2026-08-02T21:44:04Z",
-      "feed_generated_at": "2026-08-02T21:43:39Z",
+      "last_attempt": "2026-08-02T22:44:39Z",
+      "last_success": "2026-08-02T22:44:39Z",
+      "feed_generated_at": "2026-08-02T22:44:30Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-02T21:44:04Z",
-      "last_success": "2026-08-02T21:44:04Z",
+      "last_attempt": "2026-08-02T22:44:39Z",
+      "last_success": "2026-08-02T22:44:39Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
