@@ -218915,9 +218915,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-03T01:49:56Z",
-      "last_changed": "2026-08-03T01:49:56Z",
+      "last_changed": "2026-08-04T03:57:26Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thpb",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1555797&episodeid=1722637&eventtype=EQ"
@@ -219056,9 +219056,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-03T04:06:14Z",
-      "last_changed": "2026-08-03T17:46:45Z",
+      "last_changed": "2026-08-04T03:57:26Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40665434"
       }
@@ -219422,9 +219422,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-03T04:06:14Z",
-      "last_changed": "2026-08-03T04:06:14Z",
+      "last_changed": "2026-08-04T03:57:26Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thpt",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1555809&episodeid=1722644&eventtype=EQ"
@@ -221285,20 +221285,20 @@
     },
     "evt-2026-7969": {
       "hazard": "EQ",
-      "name": "M 1.5 - 24 km SE of Livengood, Alaska",
+      "name": "M 1.8 - 24 km SE of Livengood, Alaska",
       "aliases": [
         "usgs:aka2026pgayry"
       ],
       "location": {
-        "lat": 65.389,
-        "lon": -148.126,
+        "lat": 65.387,
+        "lon": -148.128,
         "place": "24 km SE of Livengood, Alaska"
       },
       "origin_time": "2026-08-03T10:07:53Z",
       "magnitude": {
-        "value": 1.5,
+        "value": 1.8,
         "type": "ml",
-        "depth_km": 5.8
+        "depth_km": 9.8
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -221306,7 +221306,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-03T12:48:59Z",
-      "last_changed": "2026-08-03T12:48:59Z",
+      "last_changed": "2026-08-04T03:57:26Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pgayry"
       }
@@ -221453,20 +221453,20 @@
     },
     "evt-2026-7975": {
       "hazard": "EQ",
-      "name": "M 1.9 - 54 km E of Denali National Park, Alaska",
+      "name": "M 2.0 - 54 km E of Denali National Park, Alaska",
       "aliases": [
         "usgs:aka2026pfzjrj"
       ],
       "location": {
-        "lat": 63.595,
-        "lon": -150.637,
+        "lat": 63.594,
+        "lon": -150.627,
         "place": "54 km E of Denali National Park, Alaska"
       },
       "origin_time": "2026-08-03T09:20:34Z",
       "magnitude": {
-        "value": 1.9,
+        "value": 2,
         "type": "ml",
-        "depth_km": 5
+        "depth_km": 0.1
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -221474,7 +221474,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-03T12:48:59Z",
-      "last_changed": "2026-08-03T12:48:59Z",
+      "last_changed": "2026-08-04T03:57:26Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pfzjrj"
       }
@@ -221559,9 +221559,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-03T12:48:59Z",
-      "last_changed": "2026-08-03T12:48:59Z",
+      "last_changed": "2026-08-04T03:57:26Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/attj6shm",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1555885&episodeid=1722723&eventtype=EQ"
@@ -221700,9 +221700,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-03T12:48:59Z",
-      "last_changed": "2026-08-03T12:48:59Z",
+      "last_changed": "2026-08-04T03:57:26Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pddclj"
       }
@@ -222640,9 +222640,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-03T15:36:58Z",
-      "last_changed": "2026-08-03T15:36:58Z",
+      "last_changed": "2026-08-04T03:57:26Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80146946"
       }
@@ -227042,20 +227042,76 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030070&episodeid=1&eventtype=WF"
       }
+    },
+    "evt-2026-8178": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 8 km NNE of Sand Point, Alaska",
+      "aliases": [
+        "usgs:aka2026pgbixe"
+      ],
+      "location": {
+        "lat": 55.411,
+        "lon": -160.465,
+        "place": "8 km NNE of Sand Point, Alaska"
+      },
+      "origin_time": "2026-08-03T10:19:50Z",
+      "magnitude": {
+        "value": 2.4,
+        "type": "ml",
+        "depth_km": 81.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-04T03:57:26Z",
+      "last_changed": "2026-08-04T03:57:26Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pgbixe"
+      }
+    },
+    "evt-2026-8179": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 7 km SSE of Ninilchik, Alaska",
+      "aliases": [
+        "usgs:aka2026pgayjs"
+      ],
+      "location": {
+        "lat": 59.988,
+        "lon": -151.623,
+        "place": "7 km SSE of Ninilchik, Alaska"
+      },
+      "origin_time": "2026-08-03T10:07:31Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 61.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-04T03:57:26Z",
+      "last_changed": "2026-08-04T03:57:26Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pgayjs"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-04T03:48:31Z",
-      "last_success": "2026-08-04T03:48:31Z",
-      "feed_generated_at": "2026-08-04T03:47:58Z",
+      "last_attempt": "2026-08-04T03:57:26Z",
+      "last_success": "2026-08-04T03:57:26Z",
+      "feed_generated_at": "2026-08-04T03:56:34Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-04T03:48:31Z",
+      "last_attempt": "2026-08-04T03:57:26Z",
       "last_success": "2026-08-04T03:48:31Z",
       "feed_generated_at": null,
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     }
   },
   "edition_marker": {
