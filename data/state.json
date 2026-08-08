@@ -250340,9 +250340,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-07T03:28:08Z",
-      "last_changed": "2026-08-07T03:28:08Z",
+      "last_changed": "2026-08-08T02:49:51Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413047"
       }
@@ -250398,9 +250398,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-07T03:28:08Z",
-      "last_changed": "2026-08-07T03:28:08Z",
+      "last_changed": "2026-08-08T02:49:51Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75014222"
       }
@@ -254978,9 +254978,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-07T15:43:25Z",
-      "last_changed": "2026-08-07T15:43:25Z",
+      "last_changed": "2026-08-08T02:49:51Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80147336"
       }
@@ -260060,18 +260060,74 @@
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj4i",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1556803&episodeid=1723734&eventtype=EQ"
       }
+    },
+    "evt-2026-9376": {
+      "hazard": "EQ",
+      "name": "M 0.6 - 4 km WNW of Rialto, CA",
+      "aliases": [
+        "usgs:ci40668490"
+      ],
+      "location": {
+        "lat": 34.1233333333333,
+        "lon": -117.413333333333,
+        "place": "4 km WNW of Rialto, CA"
+      },
+      "origin_time": "2026-08-08T02:43:13Z",
+      "magnitude": {
+        "value": 0.63,
+        "type": "ml",
+        "depth_km": 4.16
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-08T02:49:51Z",
+      "last_changed": "2026-08-08T02:49:51Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668490"
+      }
+    },
+    "evt-2026-9377": {
+      "hazard": "EQ",
+      "name": "M 2.7 - 234 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026pomvef"
+      ],
+      "location": {
+        "lat": 51.914,
+        "lon": 176.272,
+        "place": "234 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-08T00:00:45Z",
+      "magnitude": {
+        "value": 2.7,
+        "type": "ml",
+        "depth_km": 4
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-08T02:49:51Z",
+      "last_changed": "2026-08-08T02:49:51Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pomvef"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-08T02:27:54Z",
-      "last_success": "2026-08-08T02:27:54Z",
-      "feed_generated_at": "2026-08-08T02:27:21Z",
+      "last_attempt": "2026-08-08T02:49:51Z",
+      "last_success": "2026-08-08T02:49:51Z",
+      "feed_generated_at": "2026-08-08T02:49:32Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-08T02:27:54Z",
-      "last_success": "2026-08-08T02:27:54Z",
+      "last_attempt": "2026-08-08T02:49:51Z",
+      "last_success": "2026-08-08T02:49:51Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
