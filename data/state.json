@@ -265203,9 +265203,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T18:21:41Z",
-      "last_changed": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppwwng"
       }
@@ -265232,9 +265232,9 @@
       "pager_alert": "green",
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T18:21:41Z",
-      "last_changed": "2026-08-08T19:21:12Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjaj",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1556955&episodeid=1723888&eventtype=EQ"
@@ -265261,9 +265261,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T18:21:41Z",
-      "last_changed": "2026-08-08T18:21:41Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668754"
       }
@@ -265289,9 +265289,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T18:21:41Z",
-      "last_changed": "2026-08-08T18:21:41Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015097"
       }
@@ -265317,9 +265317,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T18:21:41Z",
-      "last_changed": "2026-08-08T18:21:41Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppvvmw"
       }
@@ -265345,9 +265345,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T18:21:41Z",
-      "last_changed": "2026-08-08T18:21:41Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668746"
       }
@@ -267125,15 +267125,15 @@
         "usgs:ci40669010"
       ],
       "location": {
-        "lat": 32.7688333333333,
-        "lon": -115.436833333333,
+        "lat": 32.7673333333333,
+        "lon": -115.438333333333,
         "place": "7 km SW of Holtville, CA"
       },
       "origin_time": "2026-08-08T22:55:54Z",
       "magnitude": {
-        "value": 1.52,
+        "value": 1.53,
         "type": "ml",
-        "depth_km": 17.15
+        "depth_km": 18.03
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -267487,15 +267487,15 @@
         "usgs:ci40669050"
       ],
       "location": {
-        "lat": 32.4376666666667,
-        "lon": -115.4975,
+        "lat": 32.4401666666667,
+        "lon": -115.482666666667,
         "place": "18 km SSE of Progreso, B.C., MX"
       },
       "origin_time": "2026-08-09T00:06:03Z",
       "magnitude": {
-        "value": 1.59,
+        "value": 1.62,
         "type": "ml",
-        "depth_km": 11.29
+        "depth_km": 12.67
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -268488,9 +268488,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T02:56:57Z",
-      "last_changed": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppxiox"
       }
@@ -268581,20 +268581,20 @@
     },
     "evt-2026-9683": {
       "hazard": "EQ",
-      "name": "M 1.8 - 2 km W of Santa Fe Springs, CA",
+      "name": "M 1.7 - 2 km WSW of Santa Fe Springs, CA",
       "aliases": [
         "usgs:ci40669114"
       ],
       "location": {
-        "lat": 33.9438333333333,
-        "lon": -118.106666666667,
-        "place": "2 km W of Santa Fe Springs, CA"
+        "lat": 33.9421666666667,
+        "lon": -118.103666666667,
+        "place": "2 km WSW of Santa Fe Springs, CA"
       },
       "origin_time": "2026-08-09T03:47:13Z",
       "magnitude": {
-        "value": 1.78,
+        "value": 1.65,
         "type": "ml",
-        "depth_km": 5.3
+        "depth_km": 5.35
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -268602,7 +268602,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-09T04:14:09Z",
-      "last_changed": "2026-08-09T04:14:09Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669114"
       }
@@ -268978,20 +268978,20 @@
     },
     "evt-2026-9697": {
       "hazard": "EQ",
-      "name": "M 1.8 - 13 km SSW of Lompoc, CA",
+      "name": "M 1.9 - 13 km SSW of Lompoc, CA",
       "aliases": [
         "usgs:ci40669146"
       ],
       "location": {
-        "lat": 34.5286666666667,
-        "lon": -120.488833333333,
+        "lat": 34.5253333333333,
+        "lon": -120.499166666667,
         "place": "13 km SSW of Lompoc, CA"
       },
       "origin_time": "2026-08-09T05:13:33Z",
       "magnitude": {
-        "value": 1.82,
+        "value": 1.89,
         "type": "ml",
-        "depth_km": 5.76
+        "depth_km": 6.03
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -269794,20 +269794,20 @@
     },
     "evt-2026-9726": {
       "hazard": "EQ",
-      "name": "M 1.6 - 12 km S of Lompoc, CA",
+      "name": "M 1.6 - 12 km SSW of Lompoc, CA",
       "aliases": [
         "usgs:ci40669186"
       ],
       "location": {
-        "lat": 34.5363333333333,
-        "lon": -120.4745,
-        "place": "12 km S of Lompoc, CA"
+        "lat": 34.5365,
+        "lon": -120.487333333333,
+        "place": "12 km SSW of Lompoc, CA"
       },
       "origin_time": "2026-08-09T06:56:50Z",
       "magnitude": {
-        "value": 1.58,
+        "value": 1.6,
         "type": "ml",
-        "depth_km": 3.6
+        "depth_km": 5.49
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -271198,20 +271198,20 @@
     },
     "evt-2026-9776": {
       "hazard": "EQ",
-      "name": "M 1.7 - 4 km W of Devore, CA",
+      "name": "M 0.6 - 5 km WSW of Devore, CA",
       "aliases": [
         "usgs:ci40669314"
       ],
       "location": {
-        "lat": 34.2175,
-        "lon": -117.446166666667,
-        "place": "4 km W of Devore, CA"
+        "lat": 34.2058333333333,
+        "lon": -117.448666666667,
+        "place": "5 km WSW of Devore, CA"
       },
       "origin_time": "2026-08-09T11:44:28Z",
       "magnitude": {
-        "value": 1.72,
+        "value": 0.56,
         "type": "ml",
-        "depth_km": 10.24
+        "depth_km": 10.68
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -271219,7 +271219,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-09T12:27:32Z",
-      "last_changed": "2026-08-09T12:27:32Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669314"
       }
@@ -271231,15 +271231,15 @@
         "usgs:ci40669306"
       ],
       "location": {
-        "lat": 34.211,
-        "lon": -117.455833333333,
+        "lat": 34.2083333333333,
+        "lon": -117.452833333333,
         "place": "5 km WSW of Devore, CA"
       },
       "origin_time": "2026-08-09T11:44:27Z",
       "magnitude": {
-        "value": 1.73228648520253,
+        "value": 1.69,
         "type": "ml",
-        "depth_km": 10.78
+        "depth_km": 10.34
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -272934,20 +272934,21 @@
     },
     "evt-2026-9839": {
       "hazard": "EQ",
-      "name": "M 2.7 - 69 km NW of San Antonio, Puerto Rico",
+      "name": "M 3.5 - 70 km NW of San Antonio, Puerto Rico",
       "aliases": [
-        "usgs:us6000tjg9"
+        "usgs:us6000tjg9",
+        "usgs:pr2026221002"
       ],
       "location": {
-        "lat": 18.9102,
-        "lon": -67.5915,
-        "place": "69 km NW of San Antonio, Puerto Rico"
+        "lat": 18.9505,
+        "lon": -67.5626,
+        "place": "70 km NW of San Antonio, Puerto Rico"
       },
       "origin_time": "2026-08-09T16:50:10Z",
       "magnitude": {
-        "value": 2.7,
-        "type": "ml",
-        "depth_km": 35
+        "value": 3.45,
+        "type": "md",
+        "depth_km": 8
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -272955,9 +272956,9 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-09T17:20:59Z",
-      "last_changed": "2026-08-09T17:20:59Z",
+      "last_changed": "2026-08-09T18:24:03Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjg9"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026221002"
       }
     },
     "evt-2026-9840": {
@@ -273129,18 +273130,302 @@
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjfr",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1557105&episodeid=1724055&eventtype=EQ"
       }
+    },
+    "evt-2026-9846": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 29 km SW of Maricopa, CA",
+      "aliases": [
+        "usgs:ci40669466"
+      ],
+      "location": {
+        "lat": 34.8556671142578,
+        "lon": -119.602500915527,
+        "place": "29 km SW of Maricopa, CA"
+      },
+      "origin_time": "2026-08-09T18:20:53Z",
+      "magnitude": {
+        "value": 1.31473986624207,
+        "type": "ml",
+        "depth_km": 8.22999954223633
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669466"
+      }
+    },
+    "evt-2026-9847": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 7 km ESE of Cloverdale, CA",
+      "aliases": [
+        "usgs:nc75414692"
+      ],
+      "location": {
+        "lat": 38.7731666564941,
+        "lon": -122.950668334961,
+        "place": "7 km ESE of Cloverdale, CA"
+      },
+      "origin_time": "2026-08-09T18:14:07Z",
+      "magnitude": {
+        "value": 1.14,
+        "type": "md",
+        "depth_km": 4.73000001907349
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414692"
+      }
+    },
+    "evt-2026-9848": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 48 km W of Nanwalek, Alaska",
+      "aliases": [
+        "usgs:aka2026prtdxp"
+      ],
+      "location": {
+        "lat": 59.385,
+        "lon": -152.765,
+        "place": "48 km W of Nanwalek, Alaska"
+      },
+      "origin_time": "2026-08-09T18:09:46Z",
+      "magnitude": {
+        "value": 1.3,
+        "type": "ml",
+        "depth_km": 75
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026prtdxp"
+      }
+    },
+    "evt-2026-9849": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 37 km SSE of Midland, Texas",
+      "aliases": [
+        "usgs:tx2026ppfwcc"
+      ],
+      "location": {
+        "lat": 31.678,
+        "lon": -101.936,
+        "place": "37 km SSE of Midland, Texas"
+      },
+      "origin_time": "2026-08-09T18:09:03Z",
+      "magnitude": {
+        "value": 1.1,
+        "type": "ml",
+        "depth_km": 0
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ppfwcc"
+      }
+    },
+    "evt-2026-9850": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 14 km W of Johannesburg, CA",
+      "aliases": [
+        "usgs:ci40669458"
+      ],
+      "location": {
+        "lat": 35.3638333333333,
+        "lon": -117.794,
+        "place": "14 km W of Johannesburg, CA"
+      },
+      "origin_time": "2026-08-09T17:52:09Z",
+      "magnitude": {
+        "value": 0.95,
+        "type": "ml",
+        "depth_km": 6.33
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669458"
+      }
+    },
+    "evt-2026-9851": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 3 km NNW of Murrieta, CA",
+      "aliases": [
+        "usgs:ci40669442"
+      ],
+      "location": {
+        "lat": 33.5795,
+        "lon": -117.231166666667,
+        "place": "3 km NNW of Murrieta, CA"
+      },
+      "origin_time": "2026-08-09T17:38:15Z",
+      "magnitude": {
+        "value": 1.61,
+        "type": "ml",
+        "depth_km": 15.07
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669442"
+      }
+    },
+    "evt-2026-9852": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 23 km NW of Toyah, Texas",
+      "aliases": [
+        "usgs:tx2026ppeuvu"
+      ],
+      "location": {
+        "lat": 31.49,
+        "lon": -103.94,
+        "place": "23 km NW of Toyah, Texas"
+      },
+      "origin_time": "2026-08-09T17:37:26Z",
+      "magnitude": {
+        "value": 1.9,
+        "type": "ml",
+        "depth_km": 0.4612
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ppeuvu"
+      }
+    },
+    "evt-2026-9853": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 7 km E of Pearsall, Texas",
+      "aliases": [
+        "usgs:tx2026ppecjc"
+      ],
+      "location": {
+        "lat": 28.884,
+        "lon": -99.018,
+        "place": "7 km E of Pearsall, Texas"
+      },
+      "origin_time": "2026-08-09T17:15:58Z",
+      "magnitude": {
+        "value": 2.1,
+        "type": "ml",
+        "depth_km": 5.6956
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ppecjc"
+      }
+    },
+    "evt-2026-9854": {
+      "hazard": "EQ",
+      "name": "M 4.6 - 19 km ESE of Metahāra, Ethiopia",
+      "aliases": [
+        "usgs:us6000tjgf",
+        "gdacs:1557113"
+      ],
+      "location": {
+        "lat": 8.8103,
+        "lon": 40.0706,
+        "place": "19 km ESE of Metahāra, Ethiopia"
+      },
+      "origin_time": "2026-08-09T17:11:42Z",
+      "magnitude": {
+        "value": 4.6,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjgf",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1557113&episodeid=1724065&eventtype=EQ"
+      }
+    },
+    "evt-2026-9855": {
+      "hazard": "EQ",
+      "name": "M 4.8 - 7 km ESE of Mabini, Philippines",
+      "aliases": [
+        "usgs:us6000tjgd",
+        "gdacs:1557110"
+      ],
+      "location": {
+        "lat": 11.3941,
+        "lon": 125.2313,
+        "place": "7 km ESE of Mabini, Philippines"
+      },
+      "origin_time": "2026-08-09T17:05:42Z",
+      "magnitude": {
+        "value": 4.8,
+        "type": "mb",
+        "depth_km": 110.58
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T18:24:03Z",
+      "last_changed": "2026-08-09T18:24:03Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjgd",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1557110&episodeid=1724062&eventtype=EQ"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-09T17:20:59Z",
-      "last_success": "2026-08-09T17:20:59Z",
-      "feed_generated_at": "2026-08-09T17:20:18Z",
+      "last_attempt": "2026-08-09T18:24:03Z",
+      "last_success": "2026-08-09T18:24:03Z",
+      "feed_generated_at": "2026-08-09T18:23:18Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-09T17:20:59Z",
-      "last_success": "2026-08-09T17:20:59Z",
+      "last_attempt": "2026-08-09T18:24:03Z",
+      "last_success": "2026-08-09T18:24:03Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
