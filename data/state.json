@@ -261338,9 +261338,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T06:33:38Z",
-      "last_changed": "2026-08-08T06:33:38Z",
+      "last_changed": "2026-08-09T06:37:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pozdxv"
       }
@@ -261366,9 +261366,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T06:33:38Z",
-      "last_changed": "2026-08-08T06:33:38Z",
+      "last_changed": "2026-08-09T06:37:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75413897"
       }
@@ -261394,9 +261394,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T06:33:38Z",
-      "last_changed": "2026-08-08T06:33:38Z",
+      "last_changed": "2026-08-09T06:37:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026poyilk"
       }
@@ -262674,9 +262674,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T09:26:55Z",
-      "last_changed": "2026-08-08T09:26:55Z",
+      "last_changed": "2026-08-09T06:37:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj73"
       }
@@ -265173,9 +265173,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T17:20:13Z",
-      "last_changed": "2026-08-08T17:20:13Z",
+      "last_changed": "2026-08-09T06:37:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pozgsw"
       }
@@ -269339,18 +269339,242 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8z"
       }
+    },
+    "evt-2026-9710": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 17 km WSW of Johannesburg, CA",
+      "aliases": [
+        "usgs:ci40669170"
+      ],
+      "location": {
+        "lat": 35.3201666666667,
+        "lon": -117.811166666667,
+        "place": "17 km WSW of Johannesburg, CA"
+      },
+      "origin_time": "2026-08-09T06:31:56Z",
+      "magnitude": {
+        "value": 1.08,
+        "type": "ml",
+        "depth_km": 7.99
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T06:37:31Z",
+      "last_changed": "2026-08-09T06:37:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669170"
+      }
+    },
+    "evt-2026-9711": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 7 km ESE of Cloverdale, CA",
+      "aliases": [
+        "usgs:nc75414487"
+      ],
+      "location": {
+        "lat": 38.7878341674805,
+        "lon": -122.94083404541,
+        "place": "7 km ESE of Cloverdale, CA"
+      },
+      "origin_time": "2026-08-09T06:25:47Z",
+      "magnitude": {
+        "value": 1.09,
+        "type": "md",
+        "depth_km": 3.27999997138977
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T06:37:31Z",
+      "last_changed": "2026-08-09T06:37:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414487"
+      }
+    },
+    "evt-2026-9712": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 8 km S of Kapaau, Hawaii",
+      "aliases": [
+        "usgs:hv75015317"
+      ],
+      "location": {
+        "lat": 20.1608333587646,
+        "lon": -155.789169311523,
+        "place": "8 km S of Kapaau, Hawaii"
+      },
+      "origin_time": "2026-08-09T06:09:57Z",
+      "magnitude": {
+        "value": 2.39,
+        "type": "md",
+        "depth_km": 23.6499996185303
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T06:37:31Z",
+      "last_changed": "2026-08-09T06:37:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015317"
+      }
+    },
+    "evt-2026-9713": {
+      "hazard": "EQ",
+      "name": "M 2.9 - 87 km SE of Ugashik, Alaska",
+      "aliases": [
+        "usgs:aka2026pquynx"
+      ],
+      "location": {
+        "lat": 57.07,
+        "lon": -156.192,
+        "place": "87 km SE of Ugashik, Alaska"
+      },
+      "origin_time": "2026-08-09T06:03:53Z",
+      "magnitude": {
+        "value": 2.9,
+        "type": "ml",
+        "depth_km": 1.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T06:37:31Z",
+      "last_changed": "2026-08-09T06:37:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pquynx"
+      }
+    },
+    "evt-2026-9714": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 6 km WNW of Aguanga, CA",
+      "aliases": [
+        "usgs:ci40669162"
+      ],
+      "location": {
+        "lat": 33.455,
+        "lon": -116.926166666667,
+        "place": "6 km WNW of Aguanga, CA"
+      },
+      "origin_time": "2026-08-09T05:57:32Z",
+      "magnitude": {
+        "value": 1.43,
+        "type": "ml",
+        "depth_km": 29.39
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T06:37:31Z",
+      "last_changed": "2026-08-09T06:37:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669162"
+      }
+    },
+    "evt-2026-9715": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 27 km E of Honaunau-Napoopoo, Hawaii",
+      "aliases": [
+        "usgs:hv75015312"
+      ],
+      "location": {
+        "lat": 19.4231662750244,
+        "lon": -155.606826782227,
+        "place": "27 km E of Honaunau-Napoopoo, Hawaii"
+      },
+      "origin_time": "2026-08-09T05:56:07Z",
+      "magnitude": {
+        "value": 2.06,
+        "type": "md",
+        "depth_km": 36.3600006103516
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T06:37:31Z",
+      "last_changed": "2026-08-09T06:37:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015312"
+      }
+    },
+    "evt-2026-9716": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 18 km SSE of Ackerly, Texas",
+      "aliases": [
+        "usgs:tx2026pohfwu"
+      ],
+      "location": {
+        "lat": 32.379,
+        "lon": -101.624,
+        "place": "18 km SSE of Ackerly, Texas"
+      },
+      "origin_time": "2026-08-09T05:46:09Z",
+      "magnitude": {
+        "value": 0.8,
+        "type": "ml",
+        "depth_km": 4.4939
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T06:37:31Z",
+      "last_changed": "2026-08-09T06:37:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pohfwu"
+      }
+    },
+    "evt-2026-9717": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 2 km NW of Perry, Ohio",
+      "aliases": [
+        "usgs:us6000tjcz"
+      ],
+      "location": {
+        "lat": 41.7734,
+        "lon": -81.1646,
+        "place": "2 km NW of Perry, Ohio"
+      },
+      "origin_time": "2026-08-08T22:12:12Z",
+      "magnitude": {
+        "value": 1.9,
+        "type": "ml",
+        "depth_km": 10.523
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T06:37:31Z",
+      "last_changed": "2026-08-09T06:37:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjcz"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-09T05:40:15Z",
-      "last_success": "2026-08-09T05:40:15Z",
-      "feed_generated_at": "2026-08-09T05:40:00Z",
+      "last_attempt": "2026-08-09T06:37:31Z",
+      "last_success": "2026-08-09T06:37:31Z",
+      "feed_generated_at": "2026-08-09T06:37:00Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-09T05:40:15Z",
-      "last_success": "2026-08-09T05:40:15Z",
+      "last_attempt": "2026-08-09T06:37:31Z",
+      "last_success": "2026-08-09T06:37:31Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
