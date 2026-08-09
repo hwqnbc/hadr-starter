@@ -250596,7 +250596,7 @@
       "first_seen": "2026-08-07T03:28:08Z",
       "last_changed": "2026-08-07T03:28:08Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001299&episodeid=8&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001299&episodeid=9&eventtype=TC"
       }
     },
     "evt-2026-9033": {
@@ -260093,9 +260093,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T02:49:51Z",
-      "last_changed": "2026-08-08T02:49:51Z",
+      "last_changed": "2026-08-09T02:56:57Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40668490"
       }
@@ -261170,9 +261170,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T05:34:40Z",
-      "last_changed": "2026-08-08T05:34:40Z",
+      "last_changed": "2026-08-09T02:56:57Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026posany"
       }
@@ -265180,21 +265180,21 @@
     },
     "evt-2026-9559": {
       "hazard": "EQ",
-      "name": "M 3.2 - 45 km ESE of Pedro Bay, Alaska",
+      "name": "M 3.7 - 42 km E of Pedro Bay, Alaska",
       "aliases": [
         "usgs:aka2026ppwwng",
         "usgs:us6000tjak"
       ],
       "location": {
-        "lat": 59.701,
-        "lon": -153.319,
-        "place": "45 km ESE of Pedro Bay, Alaska"
+        "lat": 59.74,
+        "lon": -153.353,
+        "place": "42 km E of Pedro Bay, Alaska"
       },
       "origin_time": "2026-08-08T18:01:52Z",
       "magnitude": {
-        "value": 3.2,
+        "value": 3.7,
         "type": "ml",
-        "depth_km": 134.7
+        "depth_km": 130.7
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -265202,7 +265202,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-08T18:21:41Z",
-      "last_changed": "2026-08-08T18:21:41Z",
+      "last_changed": "2026-08-09T02:56:57Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppwwng"
       }
@@ -267901,20 +267901,20 @@
     },
     "evt-2026-9659": {
       "hazard": "EQ",
-      "name": "M 2.6 - 10 km SSW of River Road, Washington",
+      "name": "M 2.5 - 11 km SSW of River Road, Washington",
       "aliases": [
         "usgs:uw714074012"
       ],
       "location": {
-        "lat": 47.9753341674805,
-        "lon": -123.170166015625,
-        "place": "10 km SSW of River Road, Washington"
+        "lat": 47.972,
+        "lon": -123.171,
+        "place": "11 km SSW of River Road, Washington"
       },
       "origin_time": "2026-08-09T02:20:38Z",
       "magnitude": {
-        "value": 2.57421660423279,
+        "value": 2.53,
         "type": "ml",
-        "depth_km": 43.0699996948242
+        "depth_km": 44.54
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -268125,18 +268125,382 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjbu"
       }
+    },
+    "evt-2026-9667": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 7 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75414407"
+      ],
+      "location": {
+        "lat": 38.8246650695801,
+        "lon": -122.80233001709,
+        "place": "7 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-09T02:50:27Z",
+      "magnitude": {
+        "value": 1.13,
+        "type": "md",
+        "depth_km": 2.4300000667572
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414407"
+      }
+    },
+    "evt-2026-9668": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 62 km S of Whites City, New Mexico",
+      "aliases": [
+        "usgs:tx2026pobegl"
+      ],
+      "location": {
+        "lat": 31.615,
+        "lon": -104.397,
+        "place": "62 km S of Whites City, New Mexico"
+      },
+      "origin_time": "2026-08-09T02:43:17Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 3.0953
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pobegl"
+      }
+    },
+    "evt-2026-9669": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 54 km WNW of Skwentna, Alaska",
+      "aliases": [
+        "usgs:aka2026pqoful"
+      ],
+      "location": {
+        "lat": 62.235,
+        "lon": -152.303,
+        "place": "54 km WNW of Skwentna, Alaska"
+      },
+      "origin_time": "2026-08-09T02:42:20Z",
+      "magnitude": {
+        "value": 1.9,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pqoful"
+      }
+    },
+    "evt-2026-9670": {
+      "hazard": "EQ",
+      "name": "M 2.6 - 11 km SSW of Tres Pinos, CA",
+      "aliases": [
+        "usgs:nc75414402"
+      ],
+      "location": {
+        "lat": 36.6940002441406,
+        "lon": -121.356498718262,
+        "place": "11 km SSW of Tres Pinos, CA"
+      },
+      "origin_time": "2026-08-09T02:41:19Z",
+      "magnitude": {
+        "value": 2.6,
+        "type": "md",
+        "depth_km": 1.3400000333786
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414402"
+      }
+    },
+    "evt-2026-9671": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 12 km SSE of Cantua Creek, CA",
+      "aliases": [
+        "usgs:nc75414397"
+      ],
+      "location": {
+        "lat": 36.4018325805664,
+        "lon": -120.275169372559,
+        "place": "12 km SSE of Cantua Creek, CA"
+      },
+      "origin_time": "2026-08-09T02:36:40Z",
+      "magnitude": {
+        "value": 1.52,
+        "type": "md",
+        "depth_km": 19.3199996948242
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414397"
+      }
+    },
+    "evt-2026-9672": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 235 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026pqjqpe"
+      ],
+      "location": {
+        "lat": 51.857,
+        "lon": 176.236,
+        "place": "235 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-09T00:24:50Z",
+      "magnitude": {
+        "value": 2.4,
+        "type": "ml",
+        "depth_km": 20
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pqjqpe"
+      }
+    },
+    "evt-2026-9673": {
+      "hazard": "EQ",
+      "name": "M 3.2 - 236 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026pqcvwz"
+      ],
+      "location": {
+        "lat": 51.736,
+        "lon": 176.15,
+        "place": "236 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-08T21:00:43Z",
+      "magnitude": {
+        "value": 3.2,
+        "type": "ml",
+        "depth_km": 20
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pqcvwz"
+      }
+    },
+    "evt-2026-9674": {
+      "hazard": "EQ",
+      "name": "M 3.1 - 235 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026pqctzw"
+      ],
+      "location": {
+        "lat": 51.728,
+        "lon": 176.124,
+        "place": "235 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-08T20:58:52Z",
+      "magnitude": {
+        "value": 3.1,
+        "type": "ml",
+        "depth_km": 20
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pqctzw"
+      }
+    },
+    "evt-2026-9675": {
+      "hazard": "EQ",
+      "name": "M 2.5 - 237 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026pqcqru"
+      ],
+      "location": {
+        "lat": 51.78,
+        "lon": 176.199,
+        "place": "237 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-08T20:54:47Z",
+      "magnitude": {
+        "value": 2.5,
+        "type": "ml",
+        "depth_km": 20
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pqcqru"
+      }
+    },
+    "evt-2026-9676": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 232 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026pqcbud"
+      ],
+      "location": {
+        "lat": 51.87,
+        "lon": 176.203,
+        "place": "232 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-08T20:37:50Z",
+      "magnitude": {
+        "value": 2.4,
+        "type": "ml",
+        "depth_km": 20
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pqcbud"
+      }
+    },
+    "evt-2026-9677": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 235 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026pqakkm"
+      ],
+      "location": {
+        "lat": 51.848,
+        "lon": 176.23,
+        "place": "235 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-08T19:47:52Z",
+      "magnitude": {
+        "value": 2.4,
+        "type": "ml",
+        "depth_km": 20
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pqakkm"
+      }
+    },
+    "evt-2026-9678": {
+      "hazard": "EQ",
+      "name": "M 2.5 - 235 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026pqaapi"
+      ],
+      "location": {
+        "lat": 51.825,
+        "lon": 176.211,
+        "place": "235 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-08T19:36:30Z",
+      "magnitude": {
+        "value": 2.5,
+        "type": "ml",
+        "depth_km": 20
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pqaapi"
+      }
+    },
+    "evt-2026-9679": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 114 km SSE of Sand Point, Alaska",
+      "aliases": [
+        "usgs:aka2026ppxiox"
+      ],
+      "location": {
+        "lat": 54.371,
+        "lon": -159.901,
+        "place": "114 km SSE of Sand Point, Alaska"
+      },
+      "origin_time": "2026-08-08T18:15:56Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 29.3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-09T02:56:57Z",
+      "last_changed": "2026-08-09T02:56:57Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ppxiox"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-09T02:34:54Z",
-      "last_success": "2026-08-09T02:34:54Z",
-      "feed_generated_at": "2026-08-09T02:34:26Z",
+      "last_attempt": "2026-08-09T02:56:57Z",
+      "last_success": "2026-08-09T02:56:57Z",
+      "feed_generated_at": "2026-08-09T02:56:45Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-09T02:34:54Z",
-      "last_success": "2026-08-09T02:34:54Z",
+      "last_attempt": "2026-08-09T02:56:57Z",
+      "last_success": "2026-08-09T02:56:57Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
