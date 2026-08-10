@@ -234168,7 +234168,7 @@
       "first_seen": "2026-08-04T23:54:13Z",
       "last_changed": "2026-08-09T02:34:54Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=15&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=16&eventtype=TC"
       }
     },
     "evt-2026-8435": {
@@ -274626,9 +274626,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T21:21:19Z",
-      "last_changed": "2026-08-09T21:21:19Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026przgwg"
       }
@@ -274682,9 +274682,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T21:21:19Z",
-      "last_changed": "2026-08-10T09:06:27Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75015567"
       }
@@ -274710,9 +274710,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T21:21:19Z",
-      "last_changed": "2026-08-09T21:21:19Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414797"
       }
@@ -274738,9 +274738,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T21:21:19Z",
-      "last_changed": "2026-08-09T21:21:19Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414792"
       }
@@ -274766,9 +274766,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T21:21:19Z",
-      "last_changed": "2026-08-09T21:21:19Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pryfio"
       }
@@ -274794,9 +274794,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T21:21:19Z",
-      "last_changed": "2026-08-09T21:21:19Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026pnnp"
       }
@@ -274822,9 +274822,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T21:21:19Z",
-      "last_changed": "2026-08-09T21:21:19Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669514"
       }
@@ -275245,9 +275245,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T22:19:05Z",
-      "last_changed": "2026-08-09T22:19:05Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669530"
       }
@@ -276695,7 +276695,7 @@
       "first_seen": "2026-08-10T02:40:54Z",
       "last_changed": "2026-08-10T02:40:54Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001300&episodeid=3&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001300&episodeid=4&eventtype=TC"
       }
     },
     "evt-2026-9976": {
@@ -277234,20 +277234,21 @@
     },
     "evt-2026-9995": {
       "hazard": "EQ",
-      "name": "M 2.6 - 230 km ESE of Attu Station, Alaska",
+      "name": "M 2.6 - 232 km ESE of Attu Station, Alaska",
       "aliases": [
-        "usgs:aka2026pshicy"
+        "usgs:aka2026pshicy",
+        "usgs:us6000tjja"
       ],
       "location": {
-        "lat": 52.211,
-        "lon": 176.421,
-        "place": "230 km ESE of Attu Station, Alaska"
+        "lat": 52.2045,
+        "lon": 176.4493,
+        "place": "232 km ESE of Attu Station, Alaska"
       },
       "origin_time": "2026-08-10T01:14:05Z",
       "magnitude": {
         "value": 2.6,
         "type": "ml",
-        "depth_km": 98.6
+        "depth_km": 10
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -277257,7 +277258,7 @@
       "first_seen": "2026-08-10T05:15:49Z",
       "last_changed": "2026-08-10T05:15:49Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pshicy"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjja"
       }
     },
     "evt-2026-9996": {
@@ -277452,9 +277453,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-10T05:15:49Z",
-      "last_changed": "2026-08-10T05:15:49Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pryfdz"
       }
@@ -278034,15 +278035,15 @@
         "usgs:ci40669706"
       ],
       "location": {
-        "lat": 33.263,
-        "lon": -116.3405,
+        "lat": 33.2633333333333,
+        "lon": -116.339666666667,
         "place": "3 km ENE of Borrego Springs, CA"
       },
       "origin_time": "2026-08-10T05:15:24Z",
       "magnitude": {
         "value": 1.36,
         "type": "ml",
-        "depth_km": 2.96
+        "depth_km": 2.93
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -282348,9 +282349,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-10T19:47:20Z",
-      "last_changed": "2026-08-10T19:47:20Z",
+      "last_changed": "2026-08-10T21:31:45Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670018"
       }
@@ -282606,18 +282607,382 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669986"
       }
+    },
+    "evt-2026-10187": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 1 km NNW of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75017471"
+      ],
+      "location": {
+        "lat": 19.219165802002,
+        "lon": -155.48583984375,
+        "place": "1 km NNW of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-08-10T21:24:43Z",
+      "magnitude": {
+        "value": 2.36,
+        "type": "ml",
+        "depth_km": 28.4099998474121
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017471"
+      }
+    },
+    "evt-2026-10188": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 58 km S of Whites City, New Mexico",
+      "aliases": [
+        "usgs:tx2026pribeg"
+      ],
+      "location": {
+        "lat": 31.652,
+        "lon": -104.315,
+        "place": "58 km S of Whites City, New Mexico"
+      },
+      "origin_time": "2026-08-10T21:24:14Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 4.6964
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pribeg"
+      }
+    },
+    "evt-2026-10189": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 10 km WNW of Cobb, CA",
+      "aliases": [
+        "usgs:nc75415412"
+      ],
+      "location": {
+        "lat": 38.8556671142578,
+        "lon": -122.832496643066,
+        "place": "10 km WNW of Cobb, CA"
+      },
+      "origin_time": "2026-08-10T21:23:25Z",
+      "magnitude": {
+        "value": 1.22,
+        "type": "md",
+        "depth_km": 0.939999997615814
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415412"
+      }
+    },
+    "evt-2026-10190": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 10 km WNW of Cobb, CA",
+      "aliases": [
+        "usgs:nc75415407"
+      ],
+      "location": {
+        "lat": 38.8526649475098,
+        "lon": -122.836502075195,
+        "place": "10 km WNW of Cobb, CA"
+      },
+      "origin_time": "2026-08-10T21:23:18Z",
+      "magnitude": {
+        "value": 1.73,
+        "type": "md",
+        "depth_km": 0.959999978542328
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415407"
+      }
+    },
+    "evt-2026-10191": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 58 km S of Whites City, New Mexico",
+      "aliases": [
+        "usgs:tx2026prhsmg"
+      ],
+      "location": {
+        "lat": 31.647,
+        "lon": -104.317,
+        "place": "58 km S of Whites City, New Mexico"
+      },
+      "origin_time": "2026-08-10T21:14:09Z",
+      "magnitude": {
+        "value": 1.6,
+        "type": "ml",
+        "depth_km": 3.8489
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026prhsmg"
+      }
+    },
+    "evt-2026-10192": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 4 km NNW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75415392"
+      ],
+      "location": {
+        "lat": 38.808666229248,
+        "lon": -122.782333374023,
+        "place": "4 km NNW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-10T21:05:15Z",
+      "magnitude": {
+        "value": 0.7,
+        "type": "md",
+        "depth_km": -0.140000000596046
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415392"
+      }
+    },
+    "evt-2026-10193": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 5 km SW of Idyllwild, CA",
+      "aliases": [
+        "usgs:ci40670082"
+      ],
+      "location": {
+        "lat": 33.7043333333333,
+        "lon": -116.757,
+        "place": "5 km SW of Idyllwild, CA"
+      },
+      "origin_time": "2026-08-10T21:03:41Z",
+      "magnitude": {
+        "value": 0.95,
+        "type": "ml",
+        "depth_km": 15.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670082"
+      }
+    },
+    "evt-2026-10194": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 7 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75415382"
+      ],
+      "location": {
+        "lat": 38.8233337402344,
+        "lon": -122.80899810791,
+        "place": "7 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-10T21:01:45Z",
+      "magnitude": {
+        "value": 0.77,
+        "type": "md",
+        "depth_km": 3.08999991416931
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415382"
+      }
+    },
+    "evt-2026-10195": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 60 km WNW of Skwentna, Alaska",
+      "aliases": [
+        "usgs:aka2026ptuwqn"
+      ],
+      "location": {
+        "lat": 62.256,
+        "lon": -152.399,
+        "place": "60 km WNW of Skwentna, Alaska"
+      },
+      "origin_time": "2026-08-10T21:00:37Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 0.4
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ptuwqn"
+      }
+    },
+    "evt-2026-10196": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 2 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75415362"
+      ],
+      "location": {
+        "lat": 38.7873344421387,
+        "lon": -122.77116394043,
+        "place": "2 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-10T20:41:44Z",
+      "magnitude": {
+        "value": 0.71,
+        "type": "md",
+        "depth_km": 2.16000008583069
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415362"
+      }
+    },
+    "evt-2026-10197": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 13 km E of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75017451"
+      ],
+      "location": {
+        "lat": 19.2115001678467,
+        "lon": -155.352661132812,
+        "place": "13 km E of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-08-10T20:32:09Z",
+      "magnitude": {
+        "value": 1.83,
+        "type": "md",
+        "depth_km": 31.2099990844727
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75017451"
+      }
+    },
+    "evt-2026-10198": {
+      "hazard": "EQ",
+      "name": "M 3.6 - Rat Islands, Aleutian Islands, Alaska",
+      "aliases": [
+        "usgs:aka2026ptpegj"
+      ],
+      "location": {
+        "lat": 50.102,
+        "lon": 177.528,
+        "place": "Rat Islands, Aleutian Islands, Alaska"
+      },
+      "origin_time": "2026-08-10T18:09:28Z",
+      "magnitude": {
+        "value": 3.6,
+        "type": "ml",
+        "depth_km": 26.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ptpegj"
+      }
+    },
+    "evt-2026-10199": {
+      "hazard": "EQ",
+      "name": "M 3.2 - 134 km ESE of Atka, Alaska",
+      "aliases": [
+        "usgs:aka2026ptpead"
+      ],
+      "location": {
+        "lat": 51.955,
+        "lon": -172.274,
+        "place": "134 km ESE of Atka, Alaska"
+      },
+      "origin_time": "2026-08-10T18:08:48Z",
+      "magnitude": {
+        "value": 3.2,
+        "type": "ml",
+        "depth_km": 5.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T21:31:45Z",
+      "last_changed": "2026-08-10T21:31:45Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ptpead"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-10T20:30:49Z",
-      "last_success": "2026-08-10T20:30:49Z",
-      "feed_generated_at": "2026-08-10T20:30:45Z",
+      "last_attempt": "2026-08-10T21:31:45Z",
+      "last_success": "2026-08-10T21:31:45Z",
+      "feed_generated_at": "2026-08-10T21:31:18Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-10T20:30:49Z",
-      "last_success": "2026-08-10T20:30:49Z",
+      "last_attempt": "2026-08-10T21:31:45Z",
+      "last_success": "2026-08-10T21:31:45Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
