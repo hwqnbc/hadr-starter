@@ -185678,7 +185678,7 @@
       "first_seen": "2026-07-29T20:08:29Z",
       "last_changed": "2026-08-10T11:43:48Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029900&episodeid=59&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1029900&episodeid=60&eventtype=WF"
       }
     },
     "evt-2026-6688": {
@@ -231654,11 +231654,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-04T16:06:40Z",
-      "last_changed": "2026-08-08T21:19:33Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030079&episodeid=7&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030079&episodeid=8&eventtype=WF"
       }
     },
     "evt-2026-8344": {
@@ -249447,11 +249447,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-06T23:49:09Z",
-      "last_changed": "2026-08-09T23:20:00Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030195&episodeid=5&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030195&episodeid=6&eventtype=WF"
       }
     },
     "evt-2026-8992": {
@@ -250597,7 +250597,7 @@
       "first_seen": "2026-08-07T03:28:08Z",
       "last_changed": "2026-08-07T03:28:08Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001299&episodeid=15&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001299&episodeid=16&eventtype=TC"
       }
     },
     "evt-2026-9033": {
@@ -262319,9 +262319,9 @@
       "pager_alert": null,
       "reported": true,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T08:27:25Z",
-      "last_changed": "2026-08-10T11:43:48Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030237&episodeid=12&eventtype=WF"
       }
@@ -263233,9 +263233,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-08T11:19:39Z",
-      "last_changed": "2026-08-10T11:43:48Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030236&episodeid=14&eventtype=WF"
       }
@@ -274406,9 +274406,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T20:19:36Z",
-      "last_changed": "2026-08-09T20:19:36Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669506"
       }
@@ -274434,9 +274434,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T20:19:36Z",
-      "last_changed": "2026-08-09T20:19:36Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414767"
       }
@@ -274462,9 +274462,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T20:19:36Z",
-      "last_changed": "2026-08-09T20:19:36Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjh9"
       }
@@ -274850,9 +274850,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-09T21:21:19Z",
-      "last_changed": "2026-08-09T21:21:19Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026prxtgl"
       }
@@ -278948,20 +278948,20 @@
     },
     "evt-2026-10056": {
       "hazard": "EQ",
-      "name": "M 0.0 - 4 km WSW of Anza, CA",
+      "name": "M -0.1 - 4 km WSW of Anza, CA",
       "aliases": [
         "usgs:ci40669754"
       ],
       "location": {
-        "lat": 33.5393333333333,
-        "lon": -116.712,
+        "lat": 33.5383333333333,
+        "lon": -116.711333333333,
         "place": "4 km WSW of Anza, CA"
       },
       "origin_time": "2026-08-10T09:35:25Z",
       "magnitude": {
-        "value": 0.02,
+        "value": -0.08,
         "type": "ml",
-        "depth_km": 5.21
+        "depth_km": 5.17
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -278969,7 +278969,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-10T10:57:19Z",
-      "last_changed": "2026-08-10T10:57:19Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669754"
       }
@@ -281029,9 +281029,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-10T15:49:28Z",
-      "last_changed": "2026-08-10T15:49:28Z",
+      "last_changed": "2026-08-10T20:30:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80148111"
       }
@@ -282466,18 +282466,158 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415287"
       }
+    },
+    "evt-2026-10182": {
+      "hazard": "EQ",
+      "name": "M 2.6 - 17 km SE of Lowell Point, Alaska",
+      "aliases": [
+        "usgs:aka2026pttrrx"
+      ],
+      "location": {
+        "lat": 59.958,
+        "lon": -149.228,
+        "place": "17 km SE of Lowell Point, Alaska"
+      },
+      "origin_time": "2026-08-10T20:24:56Z",
+      "magnitude": {
+        "value": 2.6,
+        "type": "ml",
+        "depth_km": 4.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T20:30:49Z",
+      "last_changed": "2026-08-10T20:30:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pttrrx"
+      }
+    },
+    "evt-2026-10183": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 60 km E of Port Alsworth, Alaska",
+      "aliases": [
+        "usgs:aka2026pttmfh"
+      ],
+      "location": {
+        "lat": 60.118,
+        "lon": -153.246,
+        "place": "60 km E of Port Alsworth, Alaska"
+      },
+      "origin_time": "2026-08-10T20:18:36Z",
+      "magnitude": {
+        "value": 1,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T20:30:49Z",
+      "last_changed": "2026-08-10T20:30:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pttmfh"
+      }
+    },
+    "evt-2026-10184": {
+      "hazard": "EQ",
+      "name": "M 0.2 - 84 km NW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026ptspct"
+      ],
+      "location": {
+        "lat": 58.162,
+        "lon": -155.341,
+        "place": "84 km NW of Karluk, Alaska"
+      },
+      "origin_time": "2026-08-10T19:51:58Z",
+      "magnitude": {
+        "value": 0.2,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T20:30:49Z",
+      "last_changed": "2026-08-10T20:30:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ptspct"
+      }
+    },
+    "evt-2026-10185": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 5 km SSE of Home Gardens, CA",
+      "aliases": [
+        "usgs:ci40670050"
+      ],
+      "location": {
+        "lat": 33.841,
+        "lon": -117.498833333333,
+        "place": "5 km SSE of Home Gardens, CA"
+      },
+      "origin_time": "2026-08-10T19:46:25Z",
+      "magnitude": {
+        "value": 1.39,
+        "type": "ml",
+        "depth_km": 2.47
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T20:30:49Z",
+      "last_changed": "2026-08-10T20:30:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40670050"
+      }
+    },
+    "evt-2026-10186": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 17 km NNW of Westmorland, CA",
+      "aliases": [
+        "usgs:ci40669986"
+      ],
+      "location": {
+        "lat": 33.1633333333333,
+        "lon": -115.721833333333,
+        "place": "17 km NNW of Westmorland, CA"
+      },
+      "origin_time": "2026-08-10T18:38:02Z",
+      "magnitude": {
+        "value": 1.36,
+        "type": "ml",
+        "depth_km": 3.13
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-10T20:30:49Z",
+      "last_changed": "2026-08-10T20:30:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40669986"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-10T19:47:20Z",
-      "last_success": "2026-08-10T19:47:20Z",
-      "feed_generated_at": "2026-08-10T19:46:41Z",
+      "last_attempt": "2026-08-10T20:30:49Z",
+      "last_success": "2026-08-10T20:30:49Z",
+      "feed_generated_at": "2026-08-10T20:30:45Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-10T19:47:20Z",
-      "last_success": "2026-08-10T19:47:20Z",
+      "last_attempt": "2026-08-10T20:30:49Z",
+      "last_success": "2026-08-10T20:30:49Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
