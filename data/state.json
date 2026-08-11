@@ -234168,7 +234168,7 @@
       "first_seen": "2026-08-04T23:54:13Z",
       "last_changed": "2026-08-09T02:34:54Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=16&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001298&episodeid=17&eventtype=TC"
       }
     },
     "evt-2026-8435": {
@@ -250597,7 +250597,7 @@
       "first_seen": "2026-08-07T03:28:08Z",
       "last_changed": "2026-08-07T03:28:08Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001299&episodeid=16&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001299&episodeid=17&eventtype=TC"
       }
     },
     "evt-2026-9033": {
@@ -276747,9 +276747,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-10T03:07:32Z",
-      "last_changed": "2026-08-10T03:07:32Z",
+      "last_changed": "2026-08-11T03:00:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026pskppt"
       }
@@ -276775,9 +276775,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-10T03:07:32Z",
-      "last_changed": "2026-08-10T03:07:32Z",
+      "last_changed": "2026-08-11T03:00:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415007"
       }
@@ -276803,9 +276803,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-10T03:07:32Z",
-      "last_changed": "2026-08-10T03:07:32Z",
+      "last_changed": "2026-08-11T03:00:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415002"
       }
@@ -276832,9 +276832,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-10T03:07:32Z",
-      "last_changed": "2026-08-10T03:07:32Z",
+      "last_changed": "2026-08-11T03:00:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414992"
       }
@@ -276861,9 +276861,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-10T03:07:32Z",
-      "last_changed": "2026-08-10T03:07:32Z",
+      "last_changed": "2026-08-11T03:00:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75414997"
       }
@@ -284151,18 +284151,76 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75415537"
       }
+    },
+    "evt-2026-10242": {
+      "hazard": "EQ",
+      "name": "M 3.6 - 83 km SE of Atka, Alaska",
+      "aliases": [
+        "usgs:us6000tjuw",
+        "usgs:aka2026puffzo"
+      ],
+      "location": {
+        "lat": 51.6378,
+        "lon": -173.399,
+        "place": "83 km SE of Atka, Alaska"
+      },
+      "origin_time": "2026-08-11T02:11:15Z",
+      "magnitude": {
+        "value": 3.6,
+        "type": "mb",
+        "depth_km": 46.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-11T03:00:00Z",
+      "last_changed": "2026-08-11T03:00:00Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjuw"
+      }
+    },
+    "evt-2026-10243": {
+      "hazard": "EQ",
+      "name": "M 3.4 - 232 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:us6000tjv5",
+        "usgs:aka2026pudmal"
+      ],
+      "location": {
+        "lat": 52.0186,
+        "lon": 176.3308,
+        "place": "232 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-11T01:18:02Z",
+      "magnitude": {
+        "value": 3.4,
+        "type": "ml",
+        "depth_km": 10
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-11T03:00:00Z",
+      "last_changed": "2026-08-11T03:00:00Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjv5"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-11T02:34:57Z",
-      "last_success": "2026-08-11T02:34:57Z",
-      "feed_generated_at": "2026-08-11T02:34:00Z",
+      "last_attempt": "2026-08-11T03:00:00Z",
+      "last_success": "2026-08-11T03:00:00Z",
+      "feed_generated_at": "2026-08-11T02:59:18Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-11T02:34:57Z",
-      "last_success": "2026-08-11T02:34:57Z",
+      "last_attempt": "2026-08-11T03:00:00Z",
+      "last_success": "2026-08-11T03:00:00Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
