@@ -248272,11 +248272,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-06T23:49:09Z",
-      "last_changed": "2026-08-13T11:38:31Z",
+      "last_changed": "2026-08-14T12:39:49Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030146&episodeid=20&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030146&episodeid=23&eventtype=WF"
       }
     },
     "evt-2026-8943": {
@@ -307835,9 +307835,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-13T12:43:52Z",
-      "last_changed": "2026-08-13T12:43:52Z",
+      "last_changed": "2026-08-14T12:39:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417497"
       }
@@ -307863,9 +307863,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-13T12:43:52Z",
-      "last_changed": "2026-08-13T12:43:52Z",
+      "last_changed": "2026-08-14T12:39:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75417492"
       }
@@ -308753,9 +308753,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-13T15:48:59Z",
-      "last_changed": "2026-08-13T15:48:59Z",
+      "last_changed": "2026-08-14T12:39:49Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030463&episodeid=2&eventtype=WF"
       }
@@ -309849,9 +309849,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-13T17:49:19Z",
-      "last_changed": "2026-08-13T17:49:19Z",
+      "last_changed": "2026-08-14T12:39:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80148611"
       }
@@ -315763,20 +315763,20 @@
     },
     "evt-2026-11388": {
       "hazard": "EQ",
-      "name": "M 2.1 - 3 km SE of Velma, Oklahoma",
+      "name": "M 1.6 - 7 km ESE of Velma, Oklahoma",
       "aliases": [
         "usgs:ok2026pvri"
       ],
       "location": {
-        "lat": 34.43511581,
-        "lon": -97.65078735,
-        "place": "3 km SE of Velma, Oklahoma"
+        "lat": 34.445,
+        "lon": -97.59933333,
+        "place": "7 km ESE of Velma, Oklahoma"
       },
       "origin_time": "2026-08-14T07:38:39Z",
       "magnitude": {
-        "value": 2.06,
+        "value": 1.63,
         "type": "ml",
-        "depth_km": 9.18959713
+        "depth_km": 3.86
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -315784,7 +315784,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-14T08:57:40Z",
-      "last_changed": "2026-08-14T08:57:40Z",
+      "last_changed": "2026-08-14T12:39:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026pvri"
       }
@@ -317135,18 +317135,298 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pxkloa"
       }
+    },
+    "evt-2026-11437": {
+      "hazard": "EQ",
+      "name": "M 2.3 - 26 km NNW of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75018642"
+      ],
+      "location": {
+        "lat": 19.4171657562256,
+        "lon": -155.595672607422,
+        "place": "26 km NNW of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-08-14T12:31:50Z",
+      "magnitude": {
+        "value": 2.27,
+        "type": "md",
+        "depth_km": 40.7400016784668
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018642"
+      }
+    },
+    "evt-2026-11438": {
+      "hazard": "EQ",
+      "name": "M 2.5 - 12 km S of Lompoc, CA",
+      "aliases": [
+        "usgs:ci40672458"
+      ],
+      "location": {
+        "lat": 34.5361666666667,
+        "lon": -120.478333333333,
+        "place": "12 km S of Lompoc, CA"
+      },
+      "origin_time": "2026-08-14T12:31:45Z",
+      "magnitude": {
+        "value": 2.45,
+        "type": "ml",
+        "depth_km": 3.71
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672458"
+      }
+    },
+    "evt-2026-11439": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 2 km N of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75418187"
+      ],
+      "location": {
+        "lat": 38.7934989929199,
+        "lon": -122.76016998291,
+        "place": "2 km N of The Geysers, CA"
+      },
+      "origin_time": "2026-08-14T12:16:08Z",
+      "magnitude": {
+        "value": 0.77,
+        "type": "md",
+        "depth_km": 0.930000007152557
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418187"
+      }
+    },
+    "evt-2026-11440": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 87 km NNW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026qankxb"
+      ],
+      "location": {
+        "lat": 58.278,
+        "lon": -155.085,
+        "place": "87 km NNW of Karluk, Alaska"
+      },
+      "origin_time": "2026-08-14T12:14:41Z",
+      "magnitude": {
+        "value": 0.9,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qankxb"
+      }
+    },
+    "evt-2026-11441": {
+      "hazard": "EQ",
+      "name": "M 2.7 - 4 km S of Petrolia, CA",
+      "aliases": [
+        "usgs:nc75418182"
+      ],
+      "location": {
+        "lat": 40.2911682128906,
+        "lon": -124.28099822998,
+        "place": "4 km S of Petrolia, CA"
+      },
+      "origin_time": "2026-08-14T12:11:42Z",
+      "magnitude": {
+        "value": 2.66,
+        "type": "md",
+        "depth_km": 10.3000001907349
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418182"
+      }
+    },
+    "evt-2026-11442": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 6 km NNW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75418177"
+      ],
+      "location": {
+        "lat": 38.8236656188965,
+        "lon": -122.795501708984,
+        "place": "6 km NNW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-14T12:06:40Z",
+      "magnitude": {
+        "value": 1.02,
+        "type": "md",
+        "depth_km": 2.70000004768372
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418177"
+      }
+    },
+    "evt-2026-11443": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 96 km E of McCarthy, Alaska",
+      "aliases": [
+        "usgs:aka2026qamvvm"
+      ],
+      "location": {
+        "lat": 61.548,
+        "lon": -141.132,
+        "place": "96 km E of McCarthy, Alaska"
+      },
+      "origin_time": "2026-08-14T11:57:20Z",
+      "magnitude": {
+        "value": 1.3,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qamvvm"
+      }
+    },
+    "evt-2026-11444": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 10 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75418167"
+      ],
+      "location": {
+        "lat": 38.8413314819336,
+        "lon": -122.83716583252,
+        "place": "10 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-14T11:44:53Z",
+      "magnitude": {
+        "value": 0.74,
+        "type": "md",
+        "depth_km": 1.78999996185303
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418167"
+      }
+    },
+    "evt-2026-11445": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 9 km E of Balmorhea, Texas",
+      "aliases": [
+        "usgs:tx2026pxxteb"
+      ],
+      "location": {
+        "lat": 30.979,
+        "lon": -103.646,
+        "place": "9 km E of Balmorhea, Texas"
+      },
+      "origin_time": "2026-08-14T11:44:32Z",
+      "magnitude": {
+        "value": 2,
+        "type": "ml",
+        "depth_km": 4.5154
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pxxteb"
+      }
+    },
+    "evt-2026-11446": {
+      "hazard": "EQ",
+      "name": "M 0.1 - 39 km WSW of Ackerly, Texas",
+      "aliases": [
+        "usgs:tx2026pxksxe"
+      ],
+      "location": {
+        "lat": 32.389,
+        "lon": -102.098,
+        "place": "39 km WSW of Ackerly, Texas"
+      },
+      "origin_time": "2026-08-14T05:11:48Z",
+      "magnitude": {
+        "value": 0.1,
+        "type": "ml",
+        "depth_km": 7.1045
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-14T12:39:49Z",
+      "last_changed": "2026-08-14T12:39:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pxksxe"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-14T11:36:25Z",
-      "last_success": "2026-08-14T11:36:25Z",
-      "feed_generated_at": "2026-08-14T11:36:16Z",
+      "last_attempt": "2026-08-14T12:39:49Z",
+      "last_success": "2026-08-14T12:39:49Z",
+      "feed_generated_at": "2026-08-14T12:39:17Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-14T11:36:25Z",
-      "last_success": "2026-08-14T11:36:25Z",
+      "last_attempt": "2026-08-14T12:39:49Z",
+      "last_success": "2026-08-14T12:39:49Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
