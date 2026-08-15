@@ -313683,9 +313683,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-14T01:02:51Z",
-      "last_changed": "2026-08-15T00:37:31Z",
+      "last_changed": "2026-08-15T02:07:25Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030406&episodeid=6&eventtype=WF"
       }
@@ -313907,9 +313907,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-14T03:06:07Z",
-      "last_changed": "2026-08-14T03:06:07Z",
+      "last_changed": "2026-08-15T02:07:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026pxeleh"
       }
@@ -313935,9 +313935,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-14T03:06:07Z",
-      "last_changed": "2026-08-14T21:15:24Z",
+      "last_changed": "2026-08-15T02:07:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672218"
       }
@@ -323103,7 +323103,9 @@
       "hazard": "EQ",
       "name": "M 4.9 - 62 km N of Ruteng, Indonesia",
       "aliases": [
-        "usgs:us6000tkvt"
+        "usgs:us6000tkvt",
+        "gdacs:1558155",
+        "glide:EQ-2026-000150-IDN"
       ],
       "location": {
         "lat": -8.0505,
@@ -323116,15 +323118,16 @@
         "type": "mb",
         "depth_km": 10
       },
-      "gdacs_alert": null,
+      "gdacs_alert": "Green",
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-15T01:56:10Z",
-      "last_changed": "2026-08-15T01:56:10Z",
+      "last_changed": "2026-08-15T02:07:25Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvt"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkvt",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1558155&episodeid=1725224&eventtype=EQ"
       }
     },
     "evt-2026-11654": {
@@ -323188,7 +323191,8 @@
       "name": "M 5.1 - 71 km NNE of Ruteng, Indonesia",
       "aliases": [
         "usgs:us6000tkvp",
-        "gdacs:1558144"
+        "gdacs:1558144",
+        "glide:EQ-2026-000150-IDN"
       ],
       "location": {
         "lat": -8.0088,
@@ -323362,7 +323366,8 @@
       "name": "M 5.1 - 71 km NNW of Ende, Indonesia",
       "aliases": [
         "usgs:us6000tkvh",
-        "gdacs:1558124"
+        "gdacs:1558124",
+        "glide:EQ-2026-000150-IDN"
       ],
       "location": {
         "lat": -8.248,
@@ -323586,18 +323591,46 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94384043"
       }
+    },
+    "evt-2026-11670": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 9 km S of Salton City, CA",
+      "aliases": [
+        "usgs:ci40672954"
+      ],
+      "location": {
+        "lat": 33.2175,
+        "lon": -115.943833333333,
+        "place": "9 km S of Salton City, CA"
+      },
+      "origin_time": "2026-08-15T01:55:38Z",
+      "magnitude": {
+        "value": 1.26,
+        "type": "ml",
+        "depth_km": 0.21
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-15T02:07:25Z",
+      "last_changed": "2026-08-15T02:07:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40672954"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-15T01:56:10Z",
-      "last_success": "2026-08-15T01:56:10Z",
-      "feed_generated_at": "2026-08-15T01:55:17Z",
+      "last_attempt": "2026-08-15T02:07:25Z",
+      "last_success": "2026-08-15T02:07:25Z",
+      "feed_generated_at": "2026-08-15T02:07:00Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-15T01:56:10Z",
-      "last_success": "2026-08-15T01:56:10Z",
+      "last_attempt": "2026-08-15T02:07:25Z",
+      "last_success": "2026-08-15T02:07:25Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
