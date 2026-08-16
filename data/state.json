@@ -241692,9 +241692,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-05T23:48:16Z",
-      "last_changed": "2026-08-16T12:18:07Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030128&episodeid=33&eventtype=WF"
       }
@@ -328747,9 +328747,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T17:11:41Z",
-      "last_changed": "2026-08-15T17:11:41Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qcsvho"
       }
@@ -328831,9 +328831,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T17:11:41Z",
-      "last_changed": "2026-08-15T17:11:41Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673242"
       }
@@ -328860,9 +328860,9 @@
       "pager_alert": "green",
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T17:11:41Z",
-      "last_changed": "2026-08-15T17:11:41Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl1s",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1558505&episodeid=1725610&eventtype=EQ"
@@ -328889,9 +328889,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T17:11:41Z",
-      "last_changed": "2026-08-15T17:11:41Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qcrurq"
       }
@@ -328918,9 +328918,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T17:11:41Z",
-      "last_changed": "2026-08-15T17:11:41Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qcrrax"
       }
@@ -328946,9 +328946,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T17:11:41Z",
-      "last_changed": "2026-08-15T17:11:41Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75418867"
       }
@@ -329145,9 +329145,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T18:13:59Z",
-      "last_changed": "2026-08-15T18:13:59Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75019242"
       }
@@ -330335,9 +330335,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T22:10:23Z",
-      "last_changed": "2026-08-15T22:10:23Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2c"
       }
@@ -330363,9 +330363,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-15T22:10:23Z",
-      "last_changed": "2026-08-15T22:10:23Z",
+      "last_changed": "2026-08-16T17:10:52Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl2a"
       }
@@ -335257,20 +335257,20 @@
     },
     "evt-2026-12090": {
       "hazard": "EQ",
-      "name": "M 1.6 - 59 km NW of Toyah, Texas",
+      "name": "M 1.6 - 59 km S of Whites City, New Mexico",
       "aliases": [
         "usgs:tx2026qbuxvl"
       ],
       "location": {
-        "lat": 31.638,
-        "lon": -104.299,
-        "place": "59 km NW of Toyah, Texas"
+        "lat": 31.645,
+        "lon": -104.298,
+        "place": "59 km S of Whites City, New Mexico"
       },
       "origin_time": "2026-08-16T14:37:21Z",
       "magnitude": {
         "value": 1.6,
         "type": "ml",
-        "depth_km": 4.1477
+        "depth_km": 4.2388
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -335614,18 +335614,160 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528658"
       }
+    },
+    "evt-2026-12103": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 22 km NE of Pine Valley, CA",
+      "aliases": [
+        "usgs:ci40673906"
+      ],
+      "location": {
+        "lat": 32.9388333333333,
+        "lon": -116.333333333333,
+        "place": "22 km NE of Pine Valley, CA"
+      },
+      "origin_time": "2026-08-16T16:54:03Z",
+      "magnitude": {
+        "value": 0.78,
+        "type": "ml",
+        "depth_km": 7.61
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-16T17:10:52Z",
+      "last_changed": "2026-08-16T17:10:52Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673906"
+      }
+    },
+    "evt-2026-12104": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 9 km SSW of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75019527"
+      ],
+      "location": {
+        "lat": 19.121000289917,
+        "lon": -155.502670288086,
+        "place": "9 km SSW of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-08-16T16:25:09Z",
+      "magnitude": {
+        "value": 1.84,
+        "type": "md",
+        "depth_km": 35.1599998474121
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-16T17:10:52Z",
+      "last_changed": "2026-08-16T17:10:52Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75019527"
+      }
+    },
+    "evt-2026-12105": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 19 km SW of Cooper Landing, Alaska",
+      "aliases": [
+        "usgs:aka2026qenupq"
+      ],
+      "location": {
+        "lat": 60.356,
+        "lon": -150.049,
+        "place": "19 km SW of Cooper Landing, Alaska"
+      },
+      "origin_time": "2026-08-16T16:24:28Z",
+      "magnitude": {
+        "value": 2.4,
+        "type": "ml",
+        "depth_km": 40.6
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-16T17:10:52Z",
+      "last_changed": "2026-08-16T17:10:52Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qenupq"
+      }
+    },
+    "evt-2026-12106": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 24 km NNW of Westbrook, Texas",
+      "aliases": [
+        "usgs:tx2026qbyiqw"
+      ],
+      "location": {
+        "lat": 32.559,
+        "lon": -101.127,
+        "place": "24 km NNW of Westbrook, Texas"
+      },
+      "origin_time": "2026-08-16T16:20:24Z",
+      "magnitude": {
+        "value": 1.4,
+        "type": "ml",
+        "depth_km": 4.3856
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-16T17:10:52Z",
+      "last_changed": "2026-08-16T17:10:52Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qbyiqw"
+      }
+    },
+    "evt-2026-12107": {
+      "hazard": "EQ",
+      "name": "M 5.2 - 67 km WSW of Puerto Madero, Mexico",
+      "aliases": [
+        "usgs:usd0015e8n",
+        "gdacs:1559047"
+      ],
+      "location": {
+        "lat": 14.4177,
+        "lon": -92.969,
+        "place": "67 km WSW of Puerto Madero, Mexico"
+      },
+      "origin_time": "2026-08-16T15:52:53Z",
+      "magnitude": {
+        "value": 5.2,
+        "type": "mww",
+        "depth_km": 35
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-16T17:10:52Z",
+      "last_changed": "2026-08-16T17:10:52Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e8n",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1559047&episodeid=1726181&eventtype=EQ"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-16T16:12:12Z",
-      "last_success": "2026-08-16T16:12:12Z",
-      "feed_generated_at": "2026-08-16T16:11:34Z",
+      "last_attempt": "2026-08-16T17:10:52Z",
+      "last_success": "2026-08-16T17:10:52Z",
+      "feed_generated_at": "2026-08-16T17:10:39Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-16T16:12:12Z",
-      "last_success": "2026-08-16T16:12:12Z",
+      "last_attempt": "2026-08-16T17:10:52Z",
+      "last_success": "2026-08-16T17:10:52Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
