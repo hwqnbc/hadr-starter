@@ -331111,9 +331111,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T00:39:37Z",
-      "last_changed": "2026-08-16T00:39:37Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030554&episodeid=4&eventtype=WF"
       }
@@ -332292,9 +332292,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T05:18:51Z",
-      "last_changed": "2026-08-16T19:13:06Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673570"
       }
@@ -332348,9 +332348,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T05:18:51Z",
-      "last_changed": "2026-08-16T05:18:51Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40673562"
       }
@@ -332405,9 +332405,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T05:18:51Z",
-      "last_changed": "2026-08-17T03:40:12Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qbbjvl"
       }
@@ -332433,9 +332433,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T05:18:51Z",
-      "last_changed": "2026-08-16T05:18:51Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl5f"
       }
@@ -332658,9 +332658,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T06:21:37Z",
-      "last_changed": "2026-08-16T06:21:37Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qbclqd"
       }
@@ -334055,9 +334055,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T10:12:39Z",
-      "last_changed": "2026-08-16T10:12:39Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qeaats"
       }
@@ -334167,9 +334167,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T10:12:39Z",
-      "last_changed": "2026-08-16T10:12:39Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528653"
       }
@@ -336258,9 +336258,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T20:10:14Z",
-      "last_changed": "2026-08-16T20:10:14Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qeujde"
       }
@@ -336876,9 +336876,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-16T23:10:12Z",
-      "last_changed": "2026-08-16T23:10:12Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qfajll"
       }
@@ -338431,9 +338431,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:03:04Z",
-      "last_changed": "2026-08-17T02:03:04Z",
+      "last_changed": "2026-08-17T05:26:06Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qffzjt"
       }
@@ -338841,7 +338841,8 @@
       "hazard": "EQ",
       "name": "M 2.9 - 62 km SE of Denali National Park, Alaska",
       "aliases": [
-        "usgs:aka2026qfjamr"
+        "usgs:aka2026qfjamr",
+        "usgs:usd0015ebe"
       ],
       "location": {
         "lat": 63.2,
@@ -339174,18 +339175,161 @@
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebh",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1559287&episodeid=1726445&eventtype=EQ"
       }
+    },
+    "evt-2026-12234": {
+      "hazard": "EQ",
+      "name": "M 3.8 - 32 km E of Halibut Cove, Alaska",
+      "aliases": [
+        "usgs:aka2026qfngls",
+        "usgs:usd0015ebm"
+      ],
+      "location": {
+        "lat": 59.604,
+        "lon": -150.655,
+        "place": "32 km E of Halibut Cove, Alaska"
+      },
+      "origin_time": "2026-08-17T05:07:49Z",
+      "magnitude": {
+        "value": 3.8,
+        "type": "ml",
+        "depth_km": 34.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-17T05:26:06Z",
+      "last_changed": "2026-08-17T05:26:06Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qfngls"
+      }
+    },
+    "evt-2026-12235": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 7 km E of Cloverdale, CA",
+      "aliases": [
+        "usgs:nc75419847"
+      ],
+      "location": {
+        "lat": 38.7963333129883,
+        "lon": -122.936332702637,
+        "place": "7 km E of Cloverdale, CA"
+      },
+      "origin_time": "2026-08-17T04:44:28Z",
+      "magnitude": {
+        "value": 1.14,
+        "type": "md",
+        "depth_km": 5.19000005722046
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-17T05:26:06Z",
+      "last_changed": "2026-08-17T05:26:06Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419847"
+      }
+    },
+    "evt-2026-12236": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 5 km WNW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75419842"
+      ],
+      "location": {
+        "lat": 38.7993316650391,
+        "lon": -122.81266784668,
+        "place": "5 km WNW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-17T04:38:33Z",
+      "magnitude": {
+        "value": 0.77,
+        "type": "md",
+        "depth_km": 3.75
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-17T05:26:06Z",
+      "last_changed": "2026-08-17T05:26:06Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419842"
+      }
+    },
+    "evt-2026-12237": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 18 km WSW of Falls City, Texas",
+      "aliases": [
+        "usgs:tx2026qcwpwu"
+      ],
+      "location": {
+        "lat": 28.914,
+        "lon": -98.191,
+        "place": "18 km WSW of Falls City, Texas"
+      },
+      "origin_time": "2026-08-17T04:32:57Z",
+      "magnitude": {
+        "value": 1.6,
+        "type": "ml",
+        "depth_km": 5.9743
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-17T05:26:06Z",
+      "last_changed": "2026-08-17T05:26:06Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qcwpwu"
+      }
+    },
+    "evt-2026-12238": {
+      "hazard": "EQ",
+      "name": "M 4.8 - 84 km NNE of Labuan Bajo, Indonesia",
+      "aliases": [
+        "usgs:usd0015ebc",
+        "gdacs:1559301"
+      ],
+      "location": {
+        "lat": -7.8295,
+        "lon": 120.2556,
+        "place": "84 km NNE of Labuan Bajo, Indonesia"
+      },
+      "origin_time": "2026-08-17T02:39:20Z",
+      "magnitude": {
+        "value": 4.8,
+        "type": "mb",
+        "depth_km": 29.528
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-17T05:26:06Z",
+      "last_changed": "2026-08-17T05:26:06Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015ebc",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1559301&episodeid=1726456&eventtype=EQ"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-17T04:31:09Z",
-      "last_success": "2026-08-17T04:31:09Z",
-      "feed_generated_at": "2026-08-17T04:30:57Z",
+      "last_attempt": "2026-08-17T05:26:06Z",
+      "last_success": "2026-08-17T05:26:06Z",
+      "feed_generated_at": "2026-08-17T05:25:08Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-17T04:31:09Z",
-      "last_success": "2026-08-17T04:31:09Z",
+      "last_attempt": "2026-08-17T05:26:06Z",
+      "last_success": "2026-08-17T05:26:06Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
