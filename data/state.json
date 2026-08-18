@@ -338774,9 +338774,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:13:31Z",
-      "last_changed": "2026-08-17T02:13:31Z",
+      "last_changed": "2026-08-18T02:08:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528738"
       }
@@ -343762,9 +343762,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T18:22:32Z",
-      "last_changed": "2026-08-17T18:22:32Z",
+      "last_changed": "2026-08-18T02:08:49Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714080401"
       }
@@ -346891,7 +346891,7 @@
       "magnitude": {
         "value": 2.2,
         "type": "ml",
-        "depth_km": 4.2202
+        "depth_km": 4.2222
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -347186,18 +347186,102 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528760"
       }
+    },
+    "evt-2026-12526": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 8 km WNW of Cobb, CA",
+      "aliases": [
+        "usgs:nc75420382"
+      ],
+      "location": {
+        "lat": 38.8368339538574,
+        "lon": -122.807830810547,
+        "place": "8 km WNW of Cobb, CA"
+      },
+      "origin_time": "2026-08-18T02:00:34Z",
+      "magnitude": {
+        "value": 0.66,
+        "type": "md",
+        "depth_km": 2.05999994277954
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T02:08:49Z",
+      "last_changed": "2026-08-18T02:08:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420382"
+      }
+    },
+    "evt-2026-12527": {
+      "hazard": "EQ",
+      "name": "M 3.0 - 67 km NNW of Venetie, Alaska",
+      "aliases": [
+        "usgs:aka2026qhcyts"
+      ],
+      "location": {
+        "lat": 67.574,
+        "lon": -147.003,
+        "place": "67 km NNW of Venetie, Alaska"
+      },
+      "origin_time": "2026-08-18T01:58:23Z",
+      "magnitude": {
+        "value": 3,
+        "type": "ml",
+        "depth_km": 3.4
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T02:08:49Z",
+      "last_changed": "2026-08-18T02:08:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qhcyts"
+      }
+    },
+    "evt-2026-12528": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 24 km NE of Balmorhea, Texas",
+      "aliases": [
+        "usgs:tx2026qelzqd"
+      ],
+      "location": {
+        "lat": 31.109,
+        "lon": -103.531,
+        "place": "24 km NE of Balmorhea, Texas"
+      },
+      "origin_time": "2026-08-18T01:21:24Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 3.6629
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T02:08:49Z",
+      "last_changed": "2026-08-18T02:08:49Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qelzqd"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-18T01:57:19Z",
-      "last_success": "2026-08-18T01:57:19Z",
-      "feed_generated_at": "2026-08-18T01:56:36Z",
+      "last_attempt": "2026-08-18T02:08:49Z",
+      "last_success": "2026-08-18T02:08:49Z",
+      "feed_generated_at": "2026-08-18T02:08:14Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-18T01:57:19Z",
-      "last_success": "2026-08-18T01:57:19Z",
+      "last_attempt": "2026-08-18T02:08:49Z",
+      "last_success": "2026-08-18T02:08:49Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
