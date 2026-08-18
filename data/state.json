@@ -338347,9 +338347,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:03:04Z",
-      "last_changed": "2026-08-17T02:03:04Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419767"
       }
@@ -338403,9 +338403,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:03:04Z",
-      "last_changed": "2026-08-17T02:03:04Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40674146"
       }
@@ -338459,9 +338459,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:03:04Z",
-      "last_changed": "2026-08-17T02:03:04Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75019652"
       }
@@ -338487,9 +338487,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:03:04Z",
-      "last_changed": "2026-08-17T02:03:04Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015eaz"
       }
@@ -338545,9 +338545,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:03:04Z",
-      "last_changed": "2026-08-17T02:03:04Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40674138"
       }
@@ -338573,9 +338573,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:03:04Z",
-      "last_changed": "2026-08-17T13:31:36Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026qaqk"
       }
@@ -338631,9 +338631,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:03:04Z",
-      "last_changed": "2026-08-17T02:03:04Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75419757"
       }
@@ -338802,9 +338802,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T02:13:31Z",
-      "last_changed": "2026-08-17T02:13:31Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026229000"
       }
@@ -341171,9 +341171,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T11:15:37Z",
-      "last_changed": "2026-08-18T00:37:20Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030615&episodeid=2&eventtype=WF"
       }
@@ -342544,9 +342544,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T14:17:07Z",
-      "last_changed": "2026-08-17T14:17:07Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qcpwrb"
       }
@@ -344159,9 +344159,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-17T19:19:57Z",
-      "last_changed": "2026-08-17T19:19:57Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qfeflv"
       }
@@ -345171,20 +345171,20 @@
     },
     "evt-2026-12454": {
       "hazard": "EQ",
-      "name": "M 1.2 - 9 km ESE of Coso Junction, CA",
+      "name": "M 0.9 - 9 km ESE of Coso Junction, CA",
       "aliases": [
         "usgs:ci41528712"
       ],
       "location": {
-        "lat": 36.0248336791992,
-        "lon": -117.847503662109,
+        "lat": 36.0256666666667,
+        "lon": -117.847833333333,
         "place": "9 km ESE of Coso Junction, CA"
       },
       "origin_time": "2026-08-17T21:02:59Z",
       "magnitude": {
-        "value": 1.1604010676958,
+        "value": 0.89,
         "type": "ml",
-        "depth_km": 2.0699999332428
+        "depth_km": 2.47
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -345192,27 +345192,27 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-17T21:16:09Z",
-      "last_changed": "2026-08-17T21:16:09Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528712"
       }
     },
     "evt-2026-12455": {
       "hazard": "EQ",
-      "name": "M 1.0 - 20 km ESE of Anza, CA",
+      "name": "M 0.7 - 20 km ESE of Anza, CA",
       "aliases": [
         "usgs:ci41528704"
       ],
       "location": {
-        "lat": 33.492000579834,
-        "lon": -116.473663330078,
+        "lat": 33.4928333333333,
+        "lon": -116.475833333333,
         "place": "20 km ESE of Anza, CA"
       },
       "origin_time": "2026-08-17T20:57:25Z",
       "magnitude": {
-        "value": 0.970721780491818,
+        "value": 0.72,
         "type": "ml",
-        "depth_km": 12.8900003433228
+        "depth_km": 14.42
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -345220,7 +345220,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-17T21:16:09Z",
-      "last_changed": "2026-08-17T21:16:09Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528704"
       }
@@ -345743,15 +345743,15 @@
         "usgs:ci41528768"
       ],
       "location": {
-        "lat": 33.3276666666667,
-        "lon": -116.793666666667,
+        "lat": 33.3313333333333,
+        "lon": -116.7895,
         "place": "7 km ESE of Palomar Observatory, CA"
       },
       "origin_time": "2026-08-17T22:38:17Z",
       "magnitude": {
         "value": 1.29,
         "type": "ml",
-        "depth_km": 15.74
+        "depth_km": 17.28
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -345850,20 +345850,20 @@
     },
     "evt-2026-12478": {
       "hazard": "EQ",
-      "name": "M 2.8 - 7 km ESE of Palomar Observatory, CA",
+      "name": "M 2.4 - 7 km ESE of Palomar Observatory, CA",
       "aliases": [
         "usgs:ci41528744"
       ],
       "location": {
-        "lat": 33.3236656188965,
-        "lon": -116.796836853027,
+        "lat": 33.3253333333333,
+        "lon": -116.798666666667,
         "place": "7 km ESE of Palomar Observatory, CA"
       },
       "origin_time": "2026-08-17T22:16:08Z",
       "magnitude": {
-        "value": 2.84044794271953,
+        "value": 2.42,
         "type": "ml",
-        "depth_km": 14.6700000762939
+        "depth_km": 16.02
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -345871,7 +345871,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-17T23:12:41Z",
-      "last_changed": "2026-08-17T23:12:41Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528744"
       }
@@ -346410,20 +346410,20 @@
     },
     "evt-2026-12498": {
       "hazard": "EQ",
-      "name": "M 2.1 - 9 km S of Volcano, Hawaii",
+      "name": "M 2.0 - 10 km S of Volcano, Hawaii",
       "aliases": [
         "usgs:hv75019887"
       ],
       "location": {
-        "lat": 19.3565006256104,
-        "lon": -155.242492675781,
-        "place": "9 km S of Volcano, Hawaii"
+        "lat": 19.3505,
+        "lon": -155.242833333333,
+        "place": "10 km S of Volcano, Hawaii"
       },
       "origin_time": "2026-08-17T23:24:14Z",
       "magnitude": {
-        "value": 2.08,
+        "value": 1.95,
         "type": "md",
-        "depth_km": 31.1599998474121
+        "depth_km": 28.68
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -346431,7 +346431,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-18T00:37:20Z",
-      "last_changed": "2026-08-18T00:37:20Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75019887"
       }
@@ -346443,15 +346443,15 @@
         "usgs:ci41528784"
       ],
       "location": {
-        "lat": 33.2903333333333,
-        "lon": -116.7845,
+        "lat": 33.292,
+        "lon": -116.783666666667,
         "place": "6 km NNW of Lake Henshaw, CA"
       },
       "origin_time": "2026-08-17T23:16:19Z",
       "magnitude": {
-        "value": 0.89,
+        "value": 0.92,
         "type": "ml",
-        "depth_km": 13.63
+        "depth_km": 14.33
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -346527,15 +346527,15 @@
         "usgs:ci41528752"
       ],
       "location": {
-        "lat": 33.3283333333333,
-        "lon": -116.783,
+        "lat": 33.3321666666667,
+        "lon": -116.7845,
         "place": "8 km ESE of Palomar Observatory, CA"
       },
       "origin_time": "2026-08-17T22:27:19Z",
       "magnitude": {
-        "value": 0.85,
+        "value": 0.93,
         "type": "ml",
-        "depth_km": 16.21
+        "depth_km": 17.47
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -346555,15 +346555,15 @@
         "usgs:ci41528728"
       ],
       "location": {
-        "lat": 33.2903333333333,
-        "lon": -116.738833333333,
+        "lat": 33.2895,
+        "lon": -116.741333333333,
         "place": "6 km NNE of Lake Henshaw, CA"
       },
       "origin_time": "2026-08-17T21:19:00Z",
       "magnitude": {
-        "value": 0.77,
+        "value": 0.76,
         "type": "ml",
-        "depth_km": 12.79
+        "depth_km": 12.8
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -346821,9 +346821,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T00:37:20Z",
-      "last_changed": "2026-08-18T00:37:20Z",
+      "last_changed": "2026-08-18T01:57:19Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93065859"
       }
@@ -346875,27 +346875,343 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030655&episodeid=1&eventtype=WF"
       }
+    },
+    "evt-2026-12515": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 49 km W of Mentone, Texas",
+      "aliases": [
+        "usgs:tx2026qemutg"
+      ],
+      "location": {
+        "lat": 31.737,
+        "lon": -104.124,
+        "place": "49 km W of Mentone, Texas"
+      },
+      "origin_time": "2026-08-18T01:45:51Z",
+      "magnitude": {
+        "value": 2.2,
+        "type": "ml",
+        "depth_km": 4.2202
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qemutg"
+      }
+    },
+    "evt-2026-12516": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 58 km S of Whites City, New Mexico",
+      "aliases": [
+        "usgs:tx2026qemkxe"
+      ],
+      "location": {
+        "lat": 31.653,
+        "lon": -104.442,
+        "place": "58 km S of Whites City, New Mexico"
+      },
+      "origin_time": "2026-08-18T01:36:38Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 4.4322
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qemkxe"
+      }
+    },
+    "evt-2026-12517": {
+      "hazard": "EQ",
+      "name": "M 3.4 - 110 km N of Suárez, Puerto Rico",
+      "aliases": [
+        "usgs:pr71528848",
+        "usgs:us6000tljv"
+      ],
+      "location": {
+        "lat": 19.417,
+        "lon": -65.7171666666667,
+        "place": "110 km N of Suárez, Puerto Rico"
+      },
+      "origin_time": "2026-08-18T01:32:58Z",
+      "magnitude": {
+        "value": 3.42,
+        "type": "md",
+        "depth_km": 45.06
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71528848"
+      }
+    },
+    "evt-2026-12518": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 5 km NNE of Borrego Springs, CA",
+      "aliases": [
+        "usgs:ci41528864"
+      ],
+      "location": {
+        "lat": 33.2991666666667,
+        "lon": -116.3605,
+        "place": "5 km NNE of Borrego Springs, CA"
+      },
+      "origin_time": "2026-08-18T01:23:28Z",
+      "magnitude": {
+        "value": 0.54,
+        "type": "ml",
+        "depth_km": 9.96
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528864"
+      }
+    },
+    "evt-2026-12519": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 8 km SE of San Pedro, CA",
+      "aliases": [
+        "usgs:ci41528848"
+      ],
+      "location": {
+        "lat": 33.6835,
+        "lon": -118.2265,
+        "place": "8 km SE of San Pedro, CA"
+      },
+      "origin_time": "2026-08-18T01:15:52Z",
+      "magnitude": {
+        "value": 2.04,
+        "type": "ml",
+        "depth_km": 5.56
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528848"
+      }
+    },
+    "evt-2026-12520": {
+      "hazard": "EQ",
+      "name": "M 4.8 - south of the Fiji Islands",
+      "aliases": [
+        "usgs:us6000tljs",
+        "gdacs:1559643"
+      ],
+      "location": {
+        "lat": -22.0411,
+        "lon": -179.0793,
+        "place": "south of the Fiji Islands"
+      },
+      "origin_time": "2026-08-18T01:10:03Z",
+      "magnitude": {
+        "value": 4.8,
+        "type": "mb",
+        "depth_km": 576.355
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tljs",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1559643&episodeid=1726823&eventtype=EQ"
+      }
+    },
+    "evt-2026-12521": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 9 km S of Volcano, Hawaii",
+      "aliases": [
+        "usgs:hv75019922"
+      ],
+      "location": {
+        "lat": 19.3600006103516,
+        "lon": -155.243835449219,
+        "place": "9 km S of Volcano, Hawaii"
+      },
+      "origin_time": "2026-08-18T00:39:31Z",
+      "magnitude": {
+        "value": 1.77,
+        "type": "md",
+        "depth_km": 28.7099990844727
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75019922"
+      }
+    },
+    "evt-2026-12522": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 7 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75420372"
+      ],
+      "location": {
+        "lat": 38.8283348083496,
+        "lon": -122.799835205078,
+        "place": "7 km W of Cobb, CA"
+      },
+      "origin_time": "2026-08-18T00:38:40Z",
+      "magnitude": {
+        "value": 1.06,
+        "type": "md",
+        "depth_km": 1.76999998092651
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420372"
+      }
+    },
+    "evt-2026-12523": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 12 km N of Borrego Springs, CA",
+      "aliases": [
+        "usgs:ci41528832"
+      ],
+      "location": {
+        "lat": 33.3641666666667,
+        "lon": -116.383333333333,
+        "place": "12 km N of Borrego Springs, CA"
+      },
+      "origin_time": "2026-08-18T00:37:39Z",
+      "magnitude": {
+        "value": 0.97,
+        "type": "ml",
+        "depth_km": 11.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528832"
+      }
+    },
+    "evt-2026-12524": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 9 km S of Volcano, Hawaii",
+      "aliases": [
+        "usgs:hv75019927"
+      ],
+      "location": {
+        "lat": 19.3543333333333,
+        "lon": -155.240833333333,
+        "place": "9 km S of Volcano, Hawaii"
+      },
+      "origin_time": "2026-08-18T00:37:32Z",
+      "magnitude": {
+        "value": 1.59,
+        "type": "ml",
+        "depth_km": 29.16
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75019927"
+      }
+    },
+    "evt-2026-12525": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 8 km ESE of Palomar Observatory, CA",
+      "aliases": [
+        "usgs:ci41528760"
+      ],
+      "location": {
+        "lat": 33.3321666666667,
+        "lon": -116.7855,
+        "place": "8 km ESE of Palomar Observatory, CA"
+      },
+      "origin_time": "2026-08-17T22:35:33Z",
+      "magnitude": {
+        "value": 0.52,
+        "type": "ml",
+        "depth_km": 17.71
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T01:57:19Z",
+      "last_changed": "2026-08-18T01:57:19Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41528760"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-18T00:37:20Z",
-      "last_success": "2026-08-18T00:37:20Z",
-      "feed_generated_at": "2026-08-18T00:36:25Z",
+      "last_attempt": "2026-08-18T01:57:19Z",
+      "last_success": "2026-08-18T01:57:19Z",
+      "feed_generated_at": "2026-08-18T01:56:36Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-18T00:37:20Z",
-      "last_success": "2026-08-18T00:37:20Z",
+      "last_attempt": "2026-08-18T01:57:19Z",
+      "last_success": "2026-08-18T01:57:19Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
   },
   "edition_marker": {
-    "last_edition_at": "2026-08-17T02:03:04Z",
+    "last_edition_at": "2026-08-18T01:57:19Z",
     "acknowledged_changes": [
-      "evt-2026-11814",
-      "evt-2026-11924"
+      "evt-2026-1919",
+      "evt-2026-11987",
+      "evt-2026-12124",
+      "evt-2026-12140",
+      "evt-2026-12150",
+      "evt-2026-12180",
+      "evt-2026-12212"
     ],
     "baseline": {
       "evt-2026-0001": {
@@ -351686,7 +352002,7 @@
       "evt-2026-0958": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-0959": {
         "level": 0,
@@ -356471,57 +356787,57 @@
       "evt-2026-1915": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2025-1916": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-1917": {
         "level": 2,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-1918": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-1919": {
-        "level": 0,
+        "level": 2,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-1920": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2025-1921": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2025-1922": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2025-1923": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2025-1924": {
         "level": 2,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2025-1925": {
         "level": 2,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-1926": {
         "level": 0,
@@ -379631,7 +379947,7 @@
       "evt-2026-6547": {
         "level": 2,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-6548": {
         "level": 0,
@@ -388591,7 +388907,7 @@
       "evt-2026-8339": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-8340": {
         "level": 0,
@@ -392531,7 +392847,7 @@
       "evt-2026-9127": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-9128": {
         "level": 0,
@@ -402336,7 +402652,7 @@
       "evt-2026-11088": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11089": {
         "level": 0,
@@ -402551,7 +402867,7 @@
       "evt-2026-11131": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11132": {
         "level": 0,
@@ -405841,7 +406157,7 @@
       "evt-2026-11789": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11790": {
         "level": 0,
@@ -405851,7 +406167,7 @@
       "evt-2026-11791": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11792": {
         "level": 0,
@@ -405916,17 +406232,17 @@
       "evt-2026-11804": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11805": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11806": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11807": {
         "level": 0,
@@ -406096,17 +406412,17 @@
       "evt-2026-11840": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11841": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11842": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11843": {
         "level": 0,
@@ -406156,7 +406472,7 @@
       "evt-2026-11852": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11853": {
         "level": 0,
@@ -406291,32 +406607,32 @@
       "evt-2026-11879": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11880": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11881": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11882": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11883": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11884": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11885": {
         "level": 0,
@@ -406491,7 +406807,7 @@
       "evt-2026-11919": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11920": {
         "level": 0,
@@ -406546,7 +406862,7 @@
       "evt-2026-11930": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11931": {
         "level": 0,
@@ -406556,7 +406872,7 @@
       "evt-2026-11932": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11933": {
         "level": 0,
@@ -406566,12 +406882,12 @@
       "evt-2026-11934": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11935": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11936": {
         "level": 0,
@@ -406581,27 +406897,27 @@
       "evt-2026-11937": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11938": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11939": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11940": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11941": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11942": {
         "level": 0,
@@ -406611,12 +406927,12 @@
       "evt-2026-11943": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11944": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11945": {
         "level": 0,
@@ -406626,37 +406942,37 @@
       "evt-2026-11946": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11947": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11948": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11949": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11950": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11951": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11952": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11953": {
         "level": 0,
@@ -406686,7 +407002,7 @@
       "evt-2026-11958": {
         "level": 0,
         "magnitude": 1.04,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11959": {
         "level": 0,
@@ -406696,52 +407012,52 @@
       "evt-2026-11960": {
         "level": 0,
         "magnitude": 1.52,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11961": {
         "level": 0,
         "magnitude": 0.67,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11962": {
         "level": 0,
         "magnitude": 6.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11963": {
         "level": 0,
         "magnitude": 1.01,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11964": {
         "level": 0,
         "magnitude": 1.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11965": {
         "level": 0,
         "magnitude": 0.91,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11966": {
         "level": 0,
         "magnitude": 0.53,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11967": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11968": {
         "level": 0,
         "magnitude": 2.05,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11969": {
         "level": 0,
         "magnitude": 1.31,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11970": {
         "level": 0,
@@ -406761,57 +407077,57 @@
       "evt-2026-11973": {
         "level": 0,
         "magnitude": 0.76,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11974": {
         "level": 0,
         "magnitude": 2.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11975": {
         "level": 0,
         "magnitude": 0.82,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11976": {
         "level": 0,
         "magnitude": 2.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11977": {
         "level": 0,
         "magnitude": 2.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11978": {
         "level": 0,
         "magnitude": 1.55,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11979": {
         "level": 0,
         "magnitude": 4.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11980": {
         "level": 0,
         "magnitude": 5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11981": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11982": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11983": {
         "level": 0,
         "magnitude": 0.82,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11984": {
         "level": 0,
@@ -406821,7 +407137,7 @@
       "evt-2026-11985": {
         "level": 0,
         "magnitude": 0.53,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11986": {
         "level": 0,
@@ -406830,208 +407146,208 @@
       },
       "evt-2026-11987": {
         "level": 0,
-        "magnitude": 2.6,
-        "status": "active"
+        "magnitude": 2.5,
+        "status": "aged_out"
       },
       "evt-2026-11988": {
         "level": 0,
         "magnitude": 2.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11989": {
         "level": 0,
         "magnitude": 1.16,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11990": {
         "level": 0,
         "magnitude": 0.82,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11991": {
         "level": 0,
         "magnitude": 2.46,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11992": {
         "level": 0,
         "magnitude": 0.96,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11993": {
         "level": 0,
         "magnitude": 1.48,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11994": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11995": {
         "level": 0,
         "magnitude": 2.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11996": {
         "level": 0,
         "magnitude": 1.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11997": {
         "level": 0,
         "magnitude": 2.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11998": {
         "level": 0,
         "magnitude": 0.76,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-11999": {
         "level": 0,
         "magnitude": 1.36,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12000": {
         "level": 0,
         "magnitude": 0.89,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12001": {
         "level": 0,
         "magnitude": 0.49,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12002": {
         "level": 0,
         "magnitude": 2.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12003": {
         "level": 0,
         "magnitude": 1.28,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12004": {
         "level": 0,
         "magnitude": 5.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12005": {
         "level": 0,
         "magnitude": 1.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12006": {
         "level": 0,
         "magnitude": 2.75,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12007": {
         "level": 0,
         "magnitude": 1.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12008": {
         "level": 0,
         "magnitude": 2.58,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12009": {
         "level": 0,
         "magnitude": 0.87,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12010": {
         "level": 0,
         "magnitude": 1.26,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12011": {
         "level": 0,
         "magnitude": 1.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12012": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12013": {
         "level": 0,
         "magnitude": 0.72,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12014": {
         "level": 0,
         "magnitude": -0.01,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12015": {
         "level": 0,
         "magnitude": 0.93,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12016": {
         "level": 0,
         "magnitude": 3.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12017": {
         "level": 0,
         "magnitude": 0.54,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12018": {
         "level": 0,
         "magnitude": 2.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12019": {
         "level": 0,
         "magnitude": 1.06,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12020": {
         "level": 0,
         "magnitude": 0.55,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12021": {
         "level": 0,
         "magnitude": 1.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12022": {
         "level": 0,
         "magnitude": 1.47,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12023": {
         "level": 0,
         "magnitude": 1.08,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12024": {
         "level": 0,
         "magnitude": 1.11,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12025": {
         "level": 0,
         "magnitude": 0.78,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12026": {
         "level": 0,
         "magnitude": 1.47,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12027": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12028": {
         "level": 0,
@@ -407051,27 +407367,27 @@
       "evt-2026-12031": {
         "level": 0,
         "magnitude": 0.59,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12032": {
         "level": 0,
         "magnitude": 1.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12033": {
         "level": 0,
         "magnitude": 3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12034": {
         "level": 0,
         "magnitude": 0.65,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12035": {
         "level": 0,
         "magnitude": 4.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12036": {
         "level": 0,
@@ -407091,102 +407407,102 @@
       "evt-2026-12039": {
         "level": 0,
         "magnitude": 0.64,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12040": {
         "level": 0,
         "magnitude": 0.55,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12041": {
         "level": 0,
         "magnitude": 2.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12042": {
         "level": 0,
         "magnitude": 1.58,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12043": {
         "level": 0,
         "magnitude": 0.39,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12044": {
         "level": 0,
         "magnitude": 0.54,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12045": {
         "level": 0,
         "magnitude": 0.84,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12046": {
         "level": 0,
         "magnitude": 1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12047": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12048": {
         "level": 0,
         "magnitude": 0.89,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12049": {
         "level": 0,
         "magnitude": 1.32,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12050": {
         "level": 0,
         "magnitude": 1.91,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12051": {
         "level": 0,
         "magnitude": 1.28,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12052": {
         "level": 0,
         "magnitude": 3.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12053": {
         "level": 0,
         "magnitude": 5.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12054": {
         "level": 0,
         "magnitude": 1.22,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12055": {
         "level": 0,
         "magnitude": 0.44,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12056": {
         "level": 0,
         "magnitude": 5.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12057": {
         "level": 0,
         "magnitude": 0.66,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12058": {
         "level": 0,
         "magnitude": 4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12059": {
         "level": 0,
@@ -407196,7 +407512,7 @@
       "evt-2026-12060": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12061": {
         "level": 0,
@@ -407211,47 +407527,47 @@
       "evt-2026-12063": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12064": {
         "level": 0,
         "magnitude": 2.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12065": {
         "level": 0,
         "magnitude": 1.61,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12066": {
         "level": 0,
         "magnitude": 0.73,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12067": {
         "level": 0,
         "magnitude": 0.07,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12068": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12069": {
         "level": 0,
         "magnitude": 4.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12070": {
         "level": 0,
         "magnitude": 1.37,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12071": {
         "level": 0,
         "magnitude": 5.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12072": {
         "level": 0,
@@ -407266,92 +407582,92 @@
       "evt-2026-12074": {
         "level": 0,
         "magnitude": 1.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12075": {
         "level": 0,
         "magnitude": 2.31,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12076": {
         "level": 0,
         "magnitude": 3.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12077": {
         "level": 0,
         "magnitude": 2.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12078": {
         "level": 0,
         "magnitude": 2.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12079": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12080": {
         "level": 0,
         "magnitude": 4.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12081": {
         "level": 0,
         "magnitude": 1.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12082": {
         "level": 0,
         "magnitude": 5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12083": {
         "level": 0,
         "magnitude": 0.38,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12084": {
         "level": 0,
         "magnitude": 4.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12085": {
         "level": 0,
         "magnitude": 0.73,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12086": {
         "level": 0,
         "magnitude": 1.34,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12087": {
         "level": 0,
         "magnitude": 0.37,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12088": {
         "level": 0,
         "magnitude": 1.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12089": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12090": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12091": {
         "level": 0,
         "magnitude": 0.69,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12092": {
         "level": 0,
@@ -407361,7 +407677,7 @@
       "evt-2026-12093": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12094": {
         "level": 0,
@@ -407371,117 +407687,117 @@
       "evt-2026-12095": {
         "level": 0,
         "magnitude": 0.78,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12096": {
         "level": 0,
         "magnitude": 1.89,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12097": {
         "level": 0,
         "magnitude": 0.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12098": {
         "level": 0,
         "magnitude": 1.84,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12099": {
         "level": 0,
         "magnitude": 3.03,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12100": {
         "level": 0,
         "magnitude": 3.05,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12101": {
         "level": 0,
         "magnitude": 3.14,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12102": {
         "level": 0,
         "magnitude": 3.16,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12103": {
         "level": 0,
         "magnitude": 0.78,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12104": {
         "level": 0,
         "magnitude": 1.84,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12105": {
         "level": 0,
         "magnitude": 2.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12106": {
         "level": 0,
         "magnitude": 1.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12107": {
         "level": 0,
         "magnitude": 5.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12108": {
         "level": 0,
         "magnitude": 0.95,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12109": {
         "level": 0,
         "magnitude": 1.62,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12110": {
         "level": 0,
         "magnitude": 2.14,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12111": {
         "level": 0,
         "magnitude": 1.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12112": {
         "level": 0,
         "magnitude": 1.54,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12113": {
         "level": 0,
         "magnitude": 1.83,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12114": {
         "level": 0,
         "magnitude": 1.28,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12115": {
         "level": 0,
         "magnitude": 1.37,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12116": {
         "level": 0,
         "magnitude": 4.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12117": {
         "level": 0,
         "magnitude": 4.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12118": {
         "level": 0,
@@ -407491,177 +407807,177 @@
       "evt-2026-12119": {
         "level": 0,
         "magnitude": 1.32,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12120": {
         "level": 0,
         "magnitude": 2.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12121": {
         "level": 0,
         "magnitude": 0.84,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12122": {
         "level": 0,
         "magnitude": 2.03,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12123": {
         "level": 0,
         "magnitude": 3.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12124": {
         "level": 0,
-        "magnitude": 1.5,
-        "status": "active"
+        "magnitude": 1.6,
+        "status": "aged_out"
       },
       "evt-2026-12125": {
         "level": 0,
         "magnitude": 1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12126": {
         "level": 0,
         "magnitude": 1.77,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12127": {
         "level": 0,
         "magnitude": 0.84,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12128": {
         "level": 0,
         "magnitude": 0.65,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12129": {
         "level": 0,
         "magnitude": 0.43,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12130": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12131": {
         "level": 0,
         "magnitude": 0.58,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12132": {
         "level": 0,
         "magnitude": 1.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12133": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12134": {
         "level": 0,
         "magnitude": 1.65,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12135": {
         "level": 0,
         "magnitude": 2.78,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12136": {
         "level": 0,
         "magnitude": 2.65,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12137": {
         "level": 0,
-        "magnitude": 1.95,
-        "status": "active"
+        "magnitude": 1.86,
+        "status": "aged_out"
       },
       "evt-2026-12138": {
         "level": 0,
         "magnitude": 2.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12139": {
         "level": 0,
-        "magnitude": 1.1,
-        "status": "active"
+        "magnitude": 1.2,
+        "status": "aged_out"
       },
       "evt-2026-12140": {
         "level": 0,
-        "magnitude": 1.9,
-        "status": "active"
+        "magnitude": 1.6,
+        "status": "aged_out"
       },
       "evt-2026-12141": {
         "level": 0,
         "magnitude": 1.82,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12142": {
         "level": 0,
         "magnitude": 1.36,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12143": {
         "level": 0,
         "magnitude": 1.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12144": {
         "level": 0,
         "magnitude": 1.33,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12145": {
         "level": 0,
         "magnitude": 4.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12146": {
         "level": 0,
         "magnitude": 1.85,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12147": {
         "level": 0,
         "magnitude": 1.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12148": {
         "level": 0,
         "magnitude": 1.06,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12149": {
         "level": 0,
         "magnitude": 0.65,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12150": {
         "level": 0,
-        "magnitude": 0.86,
-        "status": "active"
+        "magnitude": 0.61,
+        "status": "aged_out"
       },
       "evt-2026-12151": {
         "level": 0,
-        "magnitude": 1.53,
-        "status": "active"
+        "magnitude": 1.52,
+        "status": "aged_out"
       },
       "evt-2026-12152": {
         "level": 0,
-        "magnitude": 1.48,
-        "status": "active"
+        "magnitude": 1.53,
+        "status": "aged_out"
       },
       "evt-2026-12153": {
         "level": 0,
         "magnitude": 4.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12154": {
         "level": 0,
@@ -407771,32 +408087,32 @@
       "evt-2026-12175": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12176": {
         "level": 0,
         "magnitude": 2.26,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12177": {
         "level": 0,
-        "magnitude": 1.3,
-        "status": "active"
+        "magnitude": 1.4,
+        "status": "aged_out"
       },
       "evt-2026-12178": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12179": {
         "level": 0,
         "magnitude": 1.94,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12180": {
         "level": 0,
-        "magnitude": 2.2,
-        "status": "active"
+        "magnitude": 2.5,
+        "status": "aged_out"
       },
       "evt-2026-12181": {
         "level": 0,
@@ -407806,52 +408122,52 @@
       "evt-2026-12182": {
         "level": 0,
         "magnitude": 2.29,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12183": {
         "level": 0,
         "magnitude": 1.05,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12184": {
         "level": 0,
         "magnitude": 0.42,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12185": {
         "level": 0,
         "magnitude": 0.84,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12186": {
         "level": 0,
         "magnitude": 1.82,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12187": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12188": {
         "level": 0,
         "magnitude": 1.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12189": {
         "level": 0,
         "magnitude": 1.74,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12190": {
         "level": 0,
         "magnitude": 4.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12191": {
         "level": 0,
         "magnitude": 1.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12192": {
         "level": 0,
@@ -407866,12 +408182,12 @@
       "evt-2026-12194": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12195": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12196": {
         "level": 0,
@@ -407891,7 +408207,7 @@
       "evt-2026-12199": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12200": {
         "level": 0,
@@ -407916,32 +408232,32 @@
       "evt-2026-12204": {
         "level": 0,
         "magnitude": 0.35,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12205": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12206": {
         "level": 0,
         "magnitude": 0.94,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12207": {
         "level": 0,
         "magnitude": 0.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12208": {
         "level": 0,
         "magnitude": 1.78,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12209": {
         "level": 0,
         "magnitude": 4.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12210": {
         "level": 0,
@@ -407950,13 +408266,13 @@
       },
       "evt-2026-12211": {
         "level": 0,
-        "magnitude": 0.97,
-        "status": "active"
+        "magnitude": 0.89,
+        "status": "aged_out"
       },
       "evt-2026-12212": {
         "level": 0,
-        "magnitude": 1.56,
-        "status": "active"
+        "magnitude": 1.26,
+        "status": "aged_out"
       },
       "evt-2026-12213": {
         "level": 0,
@@ -407966,7 +408282,7 @@
       "evt-2026-12214": {
         "level": 0,
         "magnitude": 0.75,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12215": {
         "level": 0,
@@ -407976,11 +408292,1551 @@
       "evt-2026-12216": {
         "level": 0,
         "magnitude": 4.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-12217": {
         "level": 0,
         "magnitude": 4.3,
+        "status": "aged_out"
+      },
+      "evt-2026-12218": {
+        "level": 0,
+        "magnitude": 3.5,
+        "status": "active"
+      },
+      "evt-2026-12219": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-12220": {
+        "level": 0,
+        "magnitude": 3.55,
+        "status": "aged_out"
+      },
+      "evt-2026-12221": {
+        "level": 0,
+        "magnitude": 0.71,
+        "status": "active"
+      },
+      "evt-2026-12222": {
+        "level": 0,
+        "magnitude": 3.1,
+        "status": "active"
+      },
+      "evt-2026-12223": {
+        "level": 0,
+        "magnitude": 0.34,
+        "status": "active"
+      },
+      "evt-2026-12224": {
+        "level": 0,
+        "magnitude": 2.7,
+        "status": "active"
+      },
+      "evt-2026-12225": {
+        "level": 0,
+        "magnitude": 2.3,
+        "status": "active"
+      },
+      "evt-2026-12226": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12227": {
+        "level": 0,
+        "magnitude": 0.24,
+        "status": "active"
+      },
+      "evt-2026-12228": {
+        "level": 0,
+        "magnitude": 0.38,
+        "status": "active"
+      },
+      "evt-2026-12229": {
+        "level": 0,
+        "magnitude": 5.2,
+        "status": "active"
+      },
+      "evt-2026-12230": {
+        "level": 0,
+        "magnitude": 1.72,
+        "status": "active"
+      },
+      "evt-2026-12231": {
+        "level": 0,
+        "magnitude": 1.28,
+        "status": "active"
+      },
+      "evt-2026-12232": {
+        "level": 0,
+        "magnitude": 5.3,
+        "status": "active"
+      },
+      "evt-2026-12233": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-12234": {
+        "level": 0,
+        "magnitude": 3.8,
+        "status": "active"
+      },
+      "evt-2026-12235": {
+        "level": 0,
+        "magnitude": 1.14,
+        "status": "active"
+      },
+      "evt-2026-12236": {
+        "level": 0,
+        "magnitude": 0.77,
+        "status": "active"
+      },
+      "evt-2026-12237": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-12238": {
+        "level": 0,
+        "magnitude": 4.8,
+        "status": "active"
+      },
+      "evt-2026-12239": {
+        "level": 0,
+        "magnitude": 0.5,
+        "status": "active"
+      },
+      "evt-2026-12240": {
+        "level": 0,
+        "magnitude": 0.69,
+        "status": "active"
+      },
+      "evt-2026-12241": {
+        "level": 0,
+        "magnitude": 1.46,
+        "status": "active"
+      },
+      "evt-2026-12242": {
+        "level": 0,
+        "magnitude": 0.49,
+        "status": "active"
+      },
+      "evt-2026-12243": {
+        "level": 0,
+        "magnitude": 0.71,
+        "status": "active"
+      },
+      "evt-2026-12244": {
+        "level": 0,
+        "magnitude": 0.81,
+        "status": "active"
+      },
+      "evt-2026-12245": {
+        "level": 0,
+        "magnitude": 0.41,
+        "status": "active"
+      },
+      "evt-2026-12246": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-12247": {
+        "level": 0,
+        "magnitude": 0.38,
+        "status": "active"
+      },
+      "evt-2026-12248": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-12249": {
+        "level": 0,
+        "magnitude": 1.63,
+        "status": "active"
+      },
+      "evt-2026-12250": {
+        "level": 0,
+        "magnitude": 1.89,
+        "status": "active"
+      },
+      "evt-2026-12251": {
+        "level": 0,
+        "magnitude": 4.2,
+        "status": "active"
+      },
+      "evt-2026-12252": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12253": {
+        "level": 0,
+        "magnitude": 0.74,
+        "status": "active"
+      },
+      "evt-2026-12254": {
+        "level": 0,
+        "magnitude": 0.6,
+        "status": "aged_out"
+      },
+      "evt-2026-12255": {
+        "level": 0,
+        "magnitude": 1.86,
+        "status": "active"
+      },
+      "evt-2026-12256": {
+        "level": 0,
+        "magnitude": 1.41,
+        "status": "active"
+      },
+      "evt-2026-12257": {
+        "level": 0,
+        "magnitude": 1.98,
+        "status": "active"
+      },
+      "evt-2026-12258": {
+        "level": 0,
+        "magnitude": 0.92,
+        "status": "active"
+      },
+      "evt-2026-12259": {
+        "level": 0,
+        "magnitude": 3,
+        "status": "active"
+      },
+      "evt-2026-12260": {
+        "level": 0,
+        "magnitude": 0.97,
+        "status": "active"
+      },
+      "evt-2026-12261": {
+        "level": 0,
+        "magnitude": 2.5,
+        "status": "active"
+      },
+      "evt-2026-12262": {
+        "level": 0,
+        "magnitude": 1.32,
+        "status": "active"
+      },
+      "evt-2026-12263": {
+        "level": 0,
+        "magnitude": 0.9,
+        "status": "active"
+      },
+      "evt-2026-12264": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12265": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12266": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12267": {
+        "level": 0,
+        "magnitude": 0.49,
+        "status": "active"
+      },
+      "evt-2026-12268": {
+        "level": 0,
+        "magnitude": 1.12,
+        "status": "active"
+      },
+      "evt-2026-12269": {
+        "level": 0,
+        "magnitude": 2.61,
+        "status": "active"
+      },
+      "evt-2026-12270": {
+        "level": 0,
+        "magnitude": 0.54,
+        "status": "active"
+      },
+      "evt-2026-12271": {
+        "level": 0,
+        "magnitude": 0.7,
+        "status": "active"
+      },
+      "evt-2026-12272": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "active"
+      },
+      "evt-2026-12273": {
+        "level": 0,
+        "magnitude": 0.97,
+        "status": "active"
+      },
+      "evt-2026-12274": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-12275": {
+        "level": 0,
+        "magnitude": 1.8,
+        "status": "aged_out"
+      },
+      "evt-2026-12276": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-12277": {
+        "level": 0,
+        "magnitude": 2.9,
+        "status": "active"
+      },
+      "evt-2026-12278": {
+        "level": 0,
+        "magnitude": 0.45,
+        "status": "active"
+      },
+      "evt-2026-12279": {
+        "level": 0,
+        "magnitude": 1.02,
+        "status": "active"
+      },
+      "evt-2026-12280": {
+        "level": 0,
+        "magnitude": 4.4,
+        "status": "active"
+      },
+      "evt-2026-12281": {
+        "level": 0,
+        "magnitude": 1.86,
+        "status": "active"
+      },
+      "evt-2026-12282": {
+        "level": 0,
+        "magnitude": 0.89,
+        "status": "active"
+      },
+      "evt-2026-12283": {
+        "level": 0,
+        "magnitude": 4.6,
+        "status": "active"
+      },
+      "evt-2026-12284": {
+        "level": 0,
+        "magnitude": 0.53,
+        "status": "active"
+      },
+      "evt-2026-12285": {
+        "level": 0,
+        "magnitude": 0.34,
+        "status": "active"
+      },
+      "evt-2026-12286": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "aged_out"
+      },
+      "evt-2026-12287": {
+        "level": 0,
+        "magnitude": 2.2,
+        "status": "aged_out"
+      },
+      "evt-2026-12288": {
+        "level": 0,
+        "magnitude": 2.2,
+        "status": "active"
+      },
+      "evt-2026-12289": {
+        "level": 0,
+        "magnitude": 2.66,
+        "status": "active"
+      },
+      "evt-2026-12290": {
+        "level": 0,
+        "magnitude": 0.54,
+        "status": "active"
+      },
+      "evt-2026-12291": {
+        "level": 0,
+        "magnitude": 4.8,
+        "status": "active"
+      },
+      "evt-2026-12292": {
+        "level": 0,
+        "magnitude": 3.76,
+        "status": "active"
+      },
+      "evt-2026-12293": {
+        "level": 0,
+        "magnitude": 4.8,
+        "status": "active"
+      },
+      "evt-2026-12294": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12295": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12296": {
+        "level": 0,
+        "magnitude": 2.13,
+        "status": "active"
+      },
+      "evt-2026-12297": {
+        "level": 0,
+        "magnitude": 2.06,
+        "status": "active"
+      },
+      "evt-2026-12298": {
+        "level": 0,
+        "magnitude": 1.72,
+        "status": "active"
+      },
+      "evt-2026-12299": {
+        "level": 0,
+        "magnitude": 5.4,
+        "status": "active"
+      },
+      "evt-2026-12300": {
+        "level": 0,
+        "magnitude": 5.2,
+        "status": "active"
+      },
+      "evt-2026-12301": {
+        "level": 0,
+        "magnitude": 1.28,
+        "status": "active"
+      },
+      "evt-2026-12302": {
+        "level": 0,
+        "magnitude": 0.78,
+        "status": "active"
+      },
+      "evt-2026-12303": {
+        "level": 0,
+        "magnitude": 3.14,
+        "status": "active"
+      },
+      "evt-2026-12304": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12305": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12306": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12307": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12308": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12309": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12310": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12311": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12312": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12313": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12314": {
+        "level": 0,
+        "magnitude": 3.6,
+        "status": "active"
+      },
+      "evt-2026-12315": {
+        "level": 0,
+        "magnitude": 0.53,
+        "status": "active"
+      },
+      "evt-2026-12316": {
+        "level": 0,
+        "magnitude": 1.07,
+        "status": "active"
+      },
+      "evt-2026-12317": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "aged_out"
+      },
+      "evt-2026-12318": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-12319": {
+        "level": 0,
+        "magnitude": 2.54,
+        "status": "active"
+      },
+      "evt-2026-12320": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-12321": {
+        "level": 0,
+        "magnitude": 0.83,
+        "status": "active"
+      },
+      "evt-2026-12322": {
+        "level": 0,
+        "magnitude": 1.54,
+        "status": "active"
+      },
+      "evt-2026-12323": {
+        "level": 0,
+        "magnitude": 1.46,
+        "status": "active"
+      },
+      "evt-2026-12324": {
+        "level": 0,
+        "magnitude": 0.32,
+        "status": "active"
+      },
+      "evt-2026-12325": {
+        "level": 0,
+        "magnitude": 1.8,
+        "status": "active"
+      },
+      "evt-2026-12326": {
+        "level": 0,
+        "magnitude": 5.1,
+        "status": "active"
+      },
+      "evt-2026-12327": {
+        "level": 0,
+        "magnitude": 2.12,
+        "status": "active"
+      },
+      "evt-2026-12328": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "aged_out"
+      },
+      "evt-2026-12329": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12330": {
+        "level": 0,
+        "magnitude": 0.76,
+        "status": "active"
+      },
+      "evt-2026-12331": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "aged_out"
+      },
+      "evt-2026-12332": {
+        "level": 0,
+        "magnitude": 1.89,
+        "status": "active"
+      },
+      "evt-2026-12333": {
+        "level": 0,
+        "magnitude": 0.41,
+        "status": "active"
+      },
+      "evt-2026-12334": {
+        "level": 0,
+        "magnitude": 1.12,
+        "status": "active"
+      },
+      "evt-2026-12335": {
+        "level": 0,
+        "magnitude": 2.38,
+        "status": "active"
+      },
+      "evt-2026-12336": {
+        "level": 0,
+        "magnitude": 0.28,
+        "status": "active"
+      },
+      "evt-2026-12337": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-12338": {
+        "level": 0,
+        "magnitude": 0.84,
+        "status": "active"
+      },
+      "evt-2026-12339": {
+        "level": 0,
+        "magnitude": 1.39,
+        "status": "active"
+      },
+      "evt-2026-12340": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-12341": {
+        "level": 0,
+        "magnitude": 5.8,
+        "status": "active"
+      },
+      "evt-2026-12342": {
+        "level": 0,
+        "magnitude": 2.05,
+        "status": "active"
+      },
+      "evt-2026-12343": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-12344": {
+        "level": 0,
+        "magnitude": 1.47,
+        "status": "active"
+      },
+      "evt-2026-12345": {
+        "level": 0,
+        "magnitude": 1.21,
+        "status": "active"
+      },
+      "evt-2026-12346": {
+        "level": 0,
+        "magnitude": 1.31,
+        "status": "active"
+      },
+      "evt-2026-12347": {
+        "level": 0,
+        "magnitude": 4.2,
+        "status": "active"
+      },
+      "evt-2026-12348": {
+        "level": 0,
+        "magnitude": 1.45537851943473,
+        "status": "active"
+      },
+      "evt-2026-12349": {
+        "level": 0,
+        "magnitude": 1.55,
+        "status": "aged_out"
+      },
+      "evt-2026-12350": {
+        "level": 0,
+        "magnitude": 1.77,
+        "status": "active"
+      },
+      "evt-2026-12351": {
+        "level": 0,
+        "magnitude": 0.71,
+        "status": "active"
+      },
+      "evt-2026-12352": {
+        "level": 0,
+        "magnitude": 2.3,
+        "status": "active"
+      },
+      "evt-2026-12353": {
+        "level": 0,
+        "magnitude": 0.87,
+        "status": "active"
+      },
+      "evt-2026-12354": {
+        "level": 0,
+        "magnitude": 0.4,
+        "status": "active"
+      },
+      "evt-2026-12355": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "aged_out"
+      },
+      "evt-2026-12356": {
+        "level": 0,
+        "magnitude": 1.55,
+        "status": "aged_out"
+      },
+      "evt-2026-12357": {
+        "level": 0,
+        "magnitude": 1.02,
+        "status": "aged_out"
+      },
+      "evt-2026-12358": {
+        "level": 0,
+        "magnitude": 0.73,
+        "status": "active"
+      },
+      "evt-2026-12359": {
+        "level": 0,
+        "magnitude": 2.2,
+        "status": "active"
+      },
+      "evt-2026-12360": {
+        "level": 0,
+        "magnitude": 1.55,
+        "status": "active"
+      },
+      "evt-2026-12361": {
+        "level": 0,
+        "magnitude": 5,
+        "status": "active"
+      },
+      "evt-2026-12362": {
+        "level": 0,
+        "magnitude": 1.2,
+        "status": "active"
+      },
+      "evt-2026-12363": {
+        "level": 0,
+        "magnitude": 0.4,
+        "status": "active"
+      },
+      "evt-2026-12364": {
+        "level": 0,
+        "magnitude": 0.63,
+        "status": "aged_out"
+      },
+      "evt-2026-12365": {
+        "level": 0,
+        "magnitude": 1.37,
+        "status": "aged_out"
+      },
+      "evt-2026-12366": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12367": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12368": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12369": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12370": {
+        "level": 0,
+        "magnitude": 0.76,
+        "status": "active"
+      },
+      "evt-2026-12371": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "aged_out"
+      },
+      "evt-2026-12372": {
+        "level": 0,
+        "magnitude": 2.28,
+        "status": "active"
+      },
+      "evt-2026-12373": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "active"
+      },
+      "evt-2026-12374": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "aged_out"
+      },
+      "evt-2026-12375": {
+        "level": 0,
+        "magnitude": 0.41,
+        "status": "aged_out"
+      },
+      "evt-2026-12376": {
+        "level": 0,
+        "magnitude": 0.74,
+        "status": "aged_out"
+      },
+      "evt-2026-12377": {
+        "level": 0,
+        "magnitude": 2.44,
+        "status": "active"
+      },
+      "evt-2026-12378": {
+        "level": 0,
+        "magnitude": 0.48,
+        "status": "active"
+      },
+      "evt-2026-12379": {
+        "level": 0,
+        "magnitude": 1,
+        "status": "aged_out"
+      },
+      "evt-2026-12380": {
+        "level": 0,
+        "magnitude": 0.65,
+        "status": "active"
+      },
+      "evt-2026-12381": {
+        "level": 0,
+        "magnitude": 0.63,
+        "status": "active"
+      },
+      "evt-2026-12382": {
+        "level": 0,
+        "magnitude": 1.3,
+        "status": "active"
+      },
+      "evt-2026-12383": {
+        "level": 0,
+        "magnitude": 0.86,
+        "status": "active"
+      },
+      "evt-2026-12384": {
+        "level": 0,
+        "magnitude": 1.28,
+        "status": "active"
+      },
+      "evt-2026-12385": {
+        "level": 0,
+        "magnitude": 1.26,
+        "status": "active"
+      },
+      "evt-2026-12386": {
+        "level": 0,
+        "magnitude": 4.4,
+        "status": "active"
+      },
+      "evt-2026-12387": {
+        "level": 0,
+        "magnitude": 1.09,
+        "status": "active"
+      },
+      "evt-2026-12388": {
+        "level": 0,
+        "magnitude": 0.22,
+        "status": "active"
+      },
+      "evt-2026-12389": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-12390": {
+        "level": 0,
+        "magnitude": 0.44,
+        "status": "active"
+      },
+      "evt-2026-12391": {
+        "level": 0,
+        "magnitude": 1.3,
+        "status": "active"
+      },
+      "evt-2026-12392": {
+        "level": 0,
+        "magnitude": 1.43,
+        "status": "active"
+      },
+      "evt-2026-12393": {
+        "level": 0,
+        "magnitude": 0.96,
+        "status": "active"
+      },
+      "evt-2026-12394": {
+        "level": 0,
+        "magnitude": 0.53,
+        "status": "active"
+      },
+      "evt-2026-12395": {
+        "level": 0,
+        "magnitude": 0.75,
+        "status": "active"
+      },
+      "evt-2026-12396": {
+        "level": 0,
+        "magnitude": 0.64,
+        "status": "active"
+      },
+      "evt-2026-12397": {
+        "level": 0,
+        "magnitude": 1.42,
+        "status": "active"
+      },
+      "evt-2026-12398": {
+        "level": 0,
+        "magnitude": 1.11,
+        "status": "active"
+      },
+      "evt-2026-12399": {
+        "level": 0,
+        "magnitude": 0.15,
+        "status": "active"
+      },
+      "evt-2026-12400": {
+        "level": 0,
+        "magnitude": 1.22,
+        "status": "aged_out"
+      },
+      "evt-2026-12401": {
+        "level": 0,
+        "magnitude": 1.70284813642502,
+        "status": "aged_out"
+      },
+      "evt-2026-12402": {
+        "level": 0,
+        "magnitude": 0.79,
+        "status": "active"
+      },
+      "evt-2026-12403": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-12404": {
+        "level": 0,
+        "magnitude": 0.43,
+        "status": "active"
+      },
+      "evt-2026-12405": {
+        "level": 0,
+        "magnitude": 2.48,
+        "status": "active"
+      },
+      "evt-2026-12406": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-12407": {
+        "level": 0,
+        "magnitude": 2.8,
+        "status": "active"
+      },
+      "evt-2026-12408": {
+        "level": 0,
+        "magnitude": 1.13,
+        "status": "active"
+      },
+      "evt-2026-12409": {
+        "level": 0,
+        "magnitude": 0.85,
+        "status": "active"
+      },
+      "evt-2026-12410": {
+        "level": 0,
+        "magnitude": 4.6,
+        "status": "active"
+      },
+      "evt-2026-12411": {
+        "level": 0,
+        "magnitude": 2.6,
+        "status": "active"
+      },
+      "evt-2026-12412": {
+        "level": 0,
+        "magnitude": 1.28,
+        "status": "active"
+      },
+      "evt-2026-12413": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "aged_out"
+      },
+      "evt-2026-12414": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12415": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12416": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12417": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12418": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12419": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12420": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12421": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12422": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12423": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12424": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12425": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12426": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12427": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12428": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12429": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12430": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12431": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12432": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12433": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12434": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12435": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12436": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12437": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12438": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-12439": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-12440": {
+        "level": 0,
+        "magnitude": 4.8,
+        "status": "active"
+      },
+      "evt-2026-12441": {
+        "level": 0,
+        "magnitude": 0.73,
+        "status": "active"
+      },
+      "evt-2026-12442": {
+        "level": 0,
+        "magnitude": 4.06,
+        "status": "active"
+      },
+      "evt-2026-12443": {
+        "level": 0,
+        "magnitude": 0.68,
+        "status": "active"
+      },
+      "evt-2026-12444": {
+        "level": 0,
+        "magnitude": 0.61,
+        "status": "active"
+      },
+      "evt-2026-12445": {
+        "level": 0,
+        "magnitude": 0.97,
+        "status": "active"
+      },
+      "evt-2026-12446": {
+        "level": 0,
+        "magnitude": 0.17,
+        "status": "active"
+      },
+      "evt-2026-12447": {
+        "level": 0,
+        "magnitude": 1.8,
+        "status": "active"
+      },
+      "evt-2026-12448": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12449": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12450": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12451": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12452": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12453": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-12454": {
+        "level": 0,
+        "magnitude": 0.89,
+        "status": "active"
+      },
+      "evt-2026-12455": {
+        "level": 0,
+        "magnitude": 0.72,
+        "status": "active"
+      },
+      "evt-2026-12456": {
+        "level": 0,
+        "magnitude": 1.26,
+        "status": "active"
+      },
+      "evt-2026-12457": {
+        "level": 0,
+        "magnitude": 2.37,
+        "status": "active"
+      },
+      "evt-2026-12458": {
+        "level": 0,
+        "magnitude": 4.5,
+        "status": "active"
+      },
+      "evt-2026-12459": {
+        "level": 0,
+        "magnitude": 0.24,
+        "status": "active"
+      },
+      "evt-2026-12460": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-12461": {
+        "level": 0,
+        "magnitude": 1.3,
+        "status": "active"
+      },
+      "evt-2026-12462": {
+        "level": 0,
+        "magnitude": 0.1,
+        "status": "active"
+      },
+      "evt-2026-12463": {
+        "level": 0,
+        "magnitude": 1.12,
+        "status": "active"
+      },
+      "evt-2026-12464": {
+        "level": 0,
+        "magnitude": 1.98,
+        "status": "active"
+      },
+      "evt-2026-12465": {
+        "level": 0,
+        "magnitude": 5.1,
+        "status": "active"
+      },
+      "evt-2026-12466": {
+        "level": 0,
+        "magnitude": 0.23,
+        "status": "active"
+      },
+      "evt-2026-12467": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "active"
+      },
+      "evt-2026-12468": {
+        "level": 0,
+        "magnitude": 2.4,
+        "status": "active"
+      },
+      "evt-2026-12469": {
+        "level": 0,
+        "magnitude": 2.3,
+        "status": "active"
+      },
+      "evt-2026-12470": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-12471": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-12472": {
+        "level": 0,
+        "magnitude": 0.9,
+        "status": "aged_out"
+      },
+      "evt-2026-12473": {
+        "level": 0,
+        "magnitude": 5.3,
+        "status": "active"
+      },
+      "evt-2026-12474": {
+        "level": 0,
+        "magnitude": 1.29,
+        "status": "active"
+      },
+      "evt-2026-12475": {
+        "level": 0,
+        "magnitude": 3,
+        "status": "active"
+      },
+      "evt-2026-12476": {
+        "level": 0,
+        "magnitude": 1.54,
+        "status": "active"
+      },
+      "evt-2026-12477": {
+        "level": 0,
+        "magnitude": 0.47,
+        "status": "active"
+      },
+      "evt-2026-12478": {
+        "level": 0,
+        "magnitude": 2.42,
+        "status": "active"
+      },
+      "evt-2026-12479": {
+        "level": 0,
+        "magnitude": 3.17,
+        "status": "active"
+      },
+      "evt-2026-12480": {
+        "level": 0,
+        "magnitude": 2.2,
+        "status": "active"
+      },
+      "evt-2026-12481": {
+        "level": 0,
+        "magnitude": 1.57,
+        "status": "active"
+      },
+      "evt-2026-12482": {
+        "level": 0,
+        "magnitude": 0.21,
+        "status": "active"
+      },
+      "evt-2026-12483": {
+        "level": 0,
+        "magnitude": -0.05,
+        "status": "active"
+      },
+      "evt-2026-12484": {
+        "level": 0,
+        "magnitude": 2.12,
+        "status": "active"
+      },
+      "evt-2026-12485": {
+        "level": 0,
+        "magnitude": 0.31,
+        "status": "active"
+      },
+      "evt-2026-12486": {
+        "level": 0,
+        "magnitude": 2.1,
+        "status": "active"
+      },
+      "evt-2026-12487": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-12488": {
+        "level": 0,
+        "magnitude": 0.9,
+        "status": "active"
+      },
+      "evt-2026-12489": {
+        "level": 0,
+        "magnitude": 1.51,
+        "status": "active"
+      },
+      "evt-2026-12490": {
+        "level": 0,
+        "magnitude": 1.57,
+        "status": "active"
+      },
+      "evt-2026-12491": {
+        "level": 0,
+        "magnitude": 1.75,
+        "status": "active"
+      },
+      "evt-2026-12492": {
+        "level": 0,
+        "magnitude": 1.29,
+        "status": "active"
+      },
+      "evt-2026-12493": {
+        "level": 0,
+        "magnitude": 1.08,
+        "status": "active"
+      },
+      "evt-2026-12494": {
+        "level": 0,
+        "magnitude": 1.57,
+        "status": "active"
+      },
+      "evt-2026-12495": {
+        "level": 0,
+        "magnitude": 1.82,
+        "status": "active"
+      },
+      "evt-2026-12496": {
+        "level": 0,
+        "magnitude": 1.84,
+        "status": "active"
+      },
+      "evt-2026-12497": {
+        "level": 0,
+        "magnitude": 1.44,
+        "status": "active"
+      },
+      "evt-2026-12498": {
+        "level": 0,
+        "magnitude": 1.95,
+        "status": "active"
+      },
+      "evt-2026-12499": {
+        "level": 0,
+        "magnitude": 0.92,
+        "status": "active"
+      },
+      "evt-2026-12500": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-12501": {
+        "level": 0,
+        "magnitude": 2.5,
+        "status": "active"
+      },
+      "evt-2026-12502": {
+        "level": 0,
+        "magnitude": 0.93,
+        "status": "active"
+      },
+      "evt-2026-12503": {
+        "level": 0,
+        "magnitude": 0.76,
+        "status": "active"
+      },
+      "evt-2026-12504": {
+        "level": 0,
+        "magnitude": 0.26,
+        "status": "active"
+      },
+      "evt-2026-12505": {
+        "level": 0,
+        "magnitude": -0.32,
+        "status": "active"
+      },
+      "evt-2026-12506": {
+        "level": 0,
+        "magnitude": -0.14,
+        "status": "active"
+      },
+      "evt-2026-12507": {
+        "level": 0,
+        "magnitude": 0.34,
+        "status": "active"
+      },
+      "evt-2026-12508": {
+        "level": 0,
+        "magnitude": -0.48,
+        "status": "active"
+      },
+      "evt-2026-12509": {
+        "level": 0,
+        "magnitude": -0.16,
+        "status": "active"
+      },
+      "evt-2026-12510": {
+        "level": 0,
+        "magnitude": 0.24,
+        "status": "active"
+      },
+      "evt-2026-12511": {
+        "level": 0,
+        "magnitude": -0.01,
+        "status": "active"
+      },
+      "evt-2026-12512": {
+        "level": 0,
+        "magnitude": 1.01,
+        "status": "aged_out"
+      },
+      "evt-2026-12513": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12514": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-12515": {
+        "level": 0,
+        "magnitude": 2.2,
+        "status": "active"
+      },
+      "evt-2026-12516": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "active"
+      },
+      "evt-2026-12517": {
+        "level": 0,
+        "magnitude": 3.42,
+        "status": "active"
+      },
+      "evt-2026-12518": {
+        "level": 0,
+        "magnitude": 0.54,
+        "status": "active"
+      },
+      "evt-2026-12519": {
+        "level": 0,
+        "magnitude": 2.04,
+        "status": "active"
+      },
+      "evt-2026-12520": {
+        "level": 0,
+        "magnitude": 4.8,
+        "status": "active"
+      },
+      "evt-2026-12521": {
+        "level": 0,
+        "magnitude": 1.77,
+        "status": "active"
+      },
+      "evt-2026-12522": {
+        "level": 0,
+        "magnitude": 1.06,
+        "status": "active"
+      },
+      "evt-2026-12523": {
+        "level": 0,
+        "magnitude": 0.97,
+        "status": "active"
+      },
+      "evt-2026-12524": {
+        "level": 0,
+        "magnitude": 1.59,
+        "status": "active"
+      },
+      "evt-2026-12525": {
+        "level": 0,
+        "magnitude": 0.52,
         "status": "active"
       }
     }
