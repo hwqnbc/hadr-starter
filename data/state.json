@@ -351112,9 +351112,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T13:34:56Z",
-      "last_changed": "2026-08-18T13:34:56Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923432"
       }
@@ -351140,9 +351140,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T13:34:56Z",
-      "last_changed": "2026-08-18T13:34:56Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420577"
       }
@@ -351168,9 +351168,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T13:34:56Z",
-      "last_changed": "2026-08-18T13:34:56Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75020237"
       }
@@ -351197,9 +351197,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T13:34:56Z",
-      "last_changed": "2026-08-18T15:20:51Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529160"
       }
@@ -351225,9 +351225,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T13:34:56Z",
-      "last_changed": "2026-08-18T13:34:56Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529152"
       }
@@ -351281,9 +351281,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T13:34:56Z",
-      "last_changed": "2026-08-18T13:34:56Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529136"
       }
@@ -351309,9 +351309,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T13:34:56Z",
-      "last_changed": "2026-08-18T13:34:56Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420567"
       }
@@ -351671,9 +351671,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T14:22:16Z",
-      "last_changed": "2026-08-18T14:22:16Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420582"
       }
@@ -352062,9 +352062,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T15:20:51Z",
-      "last_changed": "2026-08-18T15:20:51Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qfkaiz"
       }
@@ -352090,9 +352090,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T15:20:51Z",
-      "last_changed": "2026-08-18T15:20:51Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qfjxan"
       }
@@ -352118,9 +352118,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T15:20:51Z",
-      "last_changed": "2026-08-18T15:20:51Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149171"
       }
@@ -353057,20 +353057,20 @@
     },
     "evt-2026-12736": {
       "hazard": "EQ",
-      "name": "M 2.2 - 13 km SSW of Jal, New Mexico",
+      "name": "M 2.0 - 12 km SSW of Jal, New Mexico",
       "aliases": [
         "usgs:tx2026qfqnaw"
       ],
       "location": {
-        "lat": 32.004,
-        "lon": -103.246,
-        "place": "13 km SSW of Jal, New Mexico"
+        "lat": 32.01,
+        "lon": -103.241,
+        "place": "12 km SSW of Jal, New Mexico"
       },
       "origin_time": "2026-08-18T16:42:04Z",
       "magnitude": {
-        "value": 2.2,
+        "value": 2,
         "type": "ml",
-        "depth_km": 4.5943
+        "depth_km": 6.1255
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -353078,7 +353078,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-18T17:17:53Z",
-      "last_changed": "2026-08-18T17:17:53Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qfqnaw"
       }
@@ -353198,20 +353198,20 @@
     },
     "evt-2026-12741": {
       "hazard": "EQ",
-      "name": "M 2.2 - 12 km SSW of Jal, New Mexico",
+      "name": "M 2.1 - 11 km SSW of Jal, New Mexico",
       "aliases": [
         "usgs:tx2026qfqfhe"
       ],
       "location": {
-        "lat": 32.009,
-        "lon": -103.241,
-        "place": "12 km SSW of Jal, New Mexico"
+        "lat": 32.013,
+        "lon": -103.238,
+        "place": "11 km SSW of Jal, New Mexico"
       },
       "origin_time": "2026-08-18T16:33:09Z",
       "magnitude": {
-        "value": 2.2,
+        "value": 2.1,
         "type": "ml",
-        "depth_km": 6.3459
+        "depth_km": 6.3562
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -353219,7 +353219,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-18T17:17:53Z",
-      "last_changed": "2026-08-18T19:20:18Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qfqfhe"
       }
@@ -353611,9 +353611,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T18:21:27Z",
-      "last_changed": "2026-08-18T18:21:27Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlq8"
       }
@@ -353639,9 +353639,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T18:21:27Z",
-      "last_changed": "2026-08-18T18:21:27Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qhydao"
       }
@@ -353667,9 +353667,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T18:21:27Z",
-      "last_changed": "2026-08-18T18:21:27Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qhxvyy"
       }
@@ -355073,9 +355073,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T21:13:22Z",
-      "last_changed": "2026-08-18T21:13:22Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714081151"
       }
@@ -356984,9 +356984,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-19T00:37:49Z",
-      "last_changed": "2026-08-19T00:37:49Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94391563"
       }
@@ -359327,9 +359327,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-19T06:24:52Z",
-      "last_changed": "2026-08-19T06:24:52Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qhzdez"
       }
@@ -359355,9 +359355,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-19T06:24:52Z",
-      "last_changed": "2026-08-19T06:24:52Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qhylnk"
       }
@@ -359416,21 +359416,21 @@
     },
     "evt-2026-12965": {
       "hazard": "EQ",
-      "name": "M 2.5 - 12 km SSW of Jal, New Mexico",
+      "name": "M 2.3 - 11 km SSW of Jal, New Mexico",
       "aliases": [
         "usgs:tx2026qgszdv",
         "usgs:us6000tlu6"
       ],
       "location": {
-        "lat": 32.006,
-        "lon": -103.242,
-        "place": "12 km SSW of Jal, New Mexico"
+        "lat": 32.013,
+        "lon": -103.232,
+        "place": "11 km SSW of Jal, New Mexico"
       },
       "origin_time": "2026-08-19T07:01:05Z",
       "magnitude": {
-        "value": 2.5,
+        "value": 2.3,
         "type": "ml",
-        "depth_km": 3.0077
+        "depth_km": 6.3818
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -359438,7 +359438,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T07:29:49Z",
-      "last_changed": "2026-08-19T07:29:49Z",
+      "last_changed": "2026-08-19T13:36:25Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qgszdv"
       }
@@ -360636,15 +360636,15 @@
         "usgs:ci41529984"
       ],
       "location": {
-        "lat": 33.416332244873,
-        "lon": -116.647834777832,
+        "lat": 33.4163333333333,
+        "lon": -116.638833333333,
         "place": "15 km N of Warner Springs, CA"
       },
       "origin_time": "2026-08-19T08:29:37Z",
       "magnitude": {
         "value": 1.24184592108327,
         "type": "ml",
-        "depth_km": 6.25
+        "depth_km": 6.71
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -361950,18 +361950,410 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030705&episodeid=2&eventtype=WF"
       }
+    },
+    "evt-2026-13058": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 67 km E of Tonopah, Nevada",
+      "aliases": [
+        "usgs:nn00923510"
+      ],
+      "location": {
+        "lat": 38.0941,
+        "lon": -116.4636,
+        "place": "67 km E of Tonopah, Nevada"
+      },
+      "origin_time": "2026-08-19T13:20:10Z",
+      "magnitude": {
+        "value": 1.83,
+        "type": "ml",
+        "depth_km": 0.2368
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923510"
+      }
+    },
+    "evt-2026-13059": {
+      "hazard": "EQ",
+      "name": "M 0.6 - 15 km N of Warner Springs, CA",
+      "aliases": [
+        "usgs:ci41530104"
+      ],
+      "location": {
+        "lat": 33.4136666666667,
+        "lon": -116.641333333333,
+        "place": "15 km N of Warner Springs, CA"
+      },
+      "origin_time": "2026-08-19T13:19:47Z",
+      "magnitude": {
+        "value": 0.55,
+        "type": "ml",
+        "depth_km": 6.79
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530104"
+      }
+    },
+    "evt-2026-13060": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 6 km NNW of Pinnacles, CA",
+      "aliases": [
+        "usgs:nc75421222"
+      ],
+      "location": {
+        "lat": 36.5805015563965,
+        "lon": -121.1806640625,
+        "place": "6 km NNW of Pinnacles, CA"
+      },
+      "origin_time": "2026-08-19T13:14:28Z",
+      "magnitude": {
+        "value": 1.31,
+        "type": "md",
+        "depth_km": 6.55000019073486
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421222"
+      }
+    },
+    "evt-2026-13061": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 10 km ENE of Ocotillo Wells, CA",
+      "aliases": [
+        "usgs:ci41530096"
+      ],
+      "location": {
+        "lat": 33.1763333333333,
+        "lon": -116.034166666667,
+        "place": "10 km ENE of Ocotillo Wells, CA"
+      },
+      "origin_time": "2026-08-19T13:10:13Z",
+      "magnitude": {
+        "value": 0.95,
+        "type": "ml",
+        "depth_km": 5.04
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530096"
+      }
+    },
+    "evt-2026-13062": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 75 km NE of Tonopah, Nevada",
+      "aliases": [
+        "usgs:nn00923508"
+      ],
+      "location": {
+        "lat": 38.4511,
+        "lon": -116.5174,
+        "place": "75 km NE of Tonopah, Nevada"
+      },
+      "origin_time": "2026-08-19T13:04:52Z",
+      "magnitude": {
+        "value": 1.69,
+        "type": "ml",
+        "depth_km": 7.503
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923508"
+      }
+    },
+    "evt-2026-13063": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 23 km SE of Naalehu, Hawaii",
+      "aliases": [
+        "usgs:hv75020732"
+      ],
+      "location": {
+        "lat": 18.8939990997314,
+        "lon": -155.446166992188,
+        "place": "23 km SE of Naalehu, Hawaii"
+      },
+      "origin_time": "2026-08-19T12:42:20Z",
+      "magnitude": {
+        "value": 1.79,
+        "type": "md",
+        "depth_km": 29.6000003814697
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75020732"
+      }
+    },
+    "evt-2026-13064": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 10 km S of Volcano, Hawaii",
+      "aliases": [
+        "usgs:hv75020722"
+      ],
+      "location": {
+        "lat": 19.3490009307861,
+        "lon": -155.244659423828,
+        "place": "10 km S of Volcano, Hawaii"
+      },
+      "origin_time": "2026-08-19T12:33:59Z",
+      "magnitude": {
+        "value": 2.09,
+        "type": "ml",
+        "depth_km": 29.0900001525879
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75020722"
+      }
+    },
+    "evt-2026-13065": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 1 km NNE of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75421212"
+      ],
+      "location": {
+        "lat": 38.7874984741211,
+        "lon": -122.748832702637,
+        "place": "1 km NNE of The Geysers, CA"
+      },
+      "origin_time": "2026-08-19T12:30:47Z",
+      "magnitude": {
+        "value": 0.8,
+        "type": "md",
+        "depth_km": 1.00999999046326
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421212"
+      }
+    },
+    "evt-2026-13066": {
+      "hazard": "EQ",
+      "name": "M 3.0 - 3 km NE of Charlotte Amalie, U.S. Virgin Islands",
+      "aliases": [
+        "usgs:pr71529003"
+      ],
+      "location": {
+        "lat": 18.3661666666667,
+        "lon": -64.9135,
+        "place": "3 km NE of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "origin_time": "2026-08-19T12:13:55Z",
+      "magnitude": {
+        "value": 2.95,
+        "type": "md",
+        "depth_km": 33.77
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529003"
+      }
+    },
+    "evt-2026-13067": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80149366"
+      ],
+      "location": {
+        "lat": 38.5136666666667,
+        "lon": -112.892166666667,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-08-19T08:17:30Z",
+      "magnitude": {
+        "value": 1.76,
+        "type": "ml",
+        "depth_km": 2.72
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149366"
+      }
+    },
+    "evt-2026-13068": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80149271"
+      ],
+      "location": {
+        "lat": 38.5138333333333,
+        "lon": -112.8865,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-08-19T02:03:14Z",
+      "magnitude": {
+        "value": 0.83,
+        "type": "md",
+        "depth_km": 2.35
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149271"
+      }
+    },
+    "evt-2026-13069": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80149266"
+      ],
+      "location": {
+        "lat": 38.514,
+        "lon": -112.886833333333,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-08-19T00:32:09Z",
+      "magnitude": {
+        "value": 0.89,
+        "type": "md",
+        "depth_km": 2.27
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149266"
+      }
+    },
+    "evt-2026-13070": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 6 km W of Bennington, Idaho",
+      "aliases": [
+        "usgs:uu80149261"
+      ],
+      "location": {
+        "lat": 42.3816666666667,
+        "lon": -111.4055,
+        "place": "6 km W of Bennington, Idaho"
+      },
+      "origin_time": "2026-08-19T00:15:17Z",
+      "magnitude": {
+        "value": 1.88,
+        "type": "ml",
+        "depth_km": 8.15
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149261"
+      }
+    },
+    "evt-2026-13071": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 13 km SSW of Kaibab, Arizona",
+      "aliases": [
+        "usgs:uu80149256"
+      ],
+      "location": {
+        "lat": 36.7816666666667,
+        "lon": -112.799833333333,
+        "place": "13 km SSW of Kaibab, Arizona"
+      },
+      "origin_time": "2026-08-18T22:25:59Z",
+      "magnitude": {
+        "value": 1.43,
+        "type": "ml",
+        "depth_km": 18.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T13:36:25Z",
+      "last_changed": "2026-08-19T13:36:25Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149256"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-19T12:22:46Z",
-      "last_success": "2026-08-19T12:22:46Z",
-      "feed_generated_at": "2026-08-19T12:22:30Z",
+      "last_attempt": "2026-08-19T13:36:25Z",
+      "last_success": "2026-08-19T13:36:25Z",
+      "feed_generated_at": "2026-08-19T13:35:30Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-19T12:22:46Z",
-      "last_success": "2026-08-19T12:22:46Z",
+      "last_attempt": "2026-08-19T13:36:25Z",
+      "last_success": "2026-08-19T13:36:25Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
