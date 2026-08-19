@@ -353413,9 +353413,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T18:21:27Z",
-      "last_changed": "2026-08-18T19:20:18Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529440"
       }
@@ -353441,9 +353441,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T18:21:27Z",
-      "last_changed": "2026-08-18T18:21:27Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923448"
       }
@@ -353469,9 +353469,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T18:21:27Z",
-      "last_changed": "2026-08-18T18:21:27Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529416"
       }
@@ -353525,9 +353525,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T18:21:27Z",
-      "last_changed": "2026-08-19T06:24:52Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qihtno"
       }
@@ -359187,9 +359187,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-19T06:24:52Z",
-      "last_changed": "2026-08-19T06:24:52Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qiiztv"
       }
@@ -360246,20 +360246,20 @@
     },
     "evt-2026-12996": {
       "hazard": "EQ",
-      "name": "M 1.9 - 15 km N of Warner Springs, CA",
+      "name": "M 0.4 - 15 km N of Warner Springs, CA",
       "aliases": [
         "usgs:ci41529904"
       ],
       "location": {
-        "lat": 33.419,
-        "lon": -116.640333333333,
+        "lat": 33.4166666666667,
+        "lon": -116.6405,
         "place": "15 km N of Warner Springs, CA"
       },
       "origin_time": "2026-08-19T07:34:36Z",
       "magnitude": {
-        "value": 1.89,
+        "value": 0.35,
         "type": "ml",
-        "depth_km": 7.56
+        "depth_km": 7.24
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -360267,7 +360267,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T08:23:42Z",
-      "last_changed": "2026-08-19T08:23:42Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41529904"
       }
@@ -361307,20 +361307,20 @@
     },
     "evt-2026-13034": {
       "hazard": "EQ",
-      "name": "M 1.9 - 14 km SSW of Jal, New Mexico",
+      "name": "M 2.0 - 12 km SSW of Jal, New Mexico",
       "aliases": [
         "usgs:tx2026qgzoxd"
       ],
       "location": {
-        "lat": 31.99,
-        "lon": -103.234,
-        "place": "14 km SSW of Jal, New Mexico"
+        "lat": 32.007,
+        "lon": -103.229,
+        "place": "12 km SSW of Jal, New Mexico"
       },
       "origin_time": "2026-08-19T10:20:23Z",
       "magnitude": {
-        "value": 1.9,
+        "value": 2,
         "type": "ml",
-        "depth_km": 2.55
+        "depth_km": 7.4841
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -361328,7 +361328,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T11:15:18Z",
-      "last_changed": "2026-08-19T11:15:18Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qgzoxd"
       }
@@ -361520,15 +361520,15 @@
         "usgs:ci41530064"
       ],
       "location": {
-        "lat": 33.4876666666667,
-        "lon": -116.468166666667,
+        "lat": 33.4866666666667,
+        "lon": -116.470166666667,
         "place": "20 km ESE of Anza, CA"
       },
       "origin_time": "2026-08-19T11:52:00Z",
       "magnitude": {
         "value": 0.66,
         "type": "ml",
-        "depth_km": 13.71
+        "depth_km": 14.55
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -362401,21 +362401,21 @@
     },
     "evt-2026-13074": {
       "hazard": "EQ",
-      "name": "M 2.9 - 57 km WNW of Skwentna, Alaska",
+      "name": "M 2.8 - 57 km WNW of Skwentna, Alaska",
       "aliases": [
         "usgs:aka2026qjxeat",
         "usgs:us6000tlvg"
       ],
       "location": {
-        "lat": 62.251,
-        "lon": -152.358,
+        "lat": 62.238,
+        "lon": -152.37,
         "place": "57 km WNW of Skwentna, Alaska"
       },
       "origin_time": "2026-08-19T14:03:26Z",
       "magnitude": {
-        "value": 2.9,
+        "value": 2.8,
         "type": "ml",
-        "depth_km": 5
+        "depth_km": 10
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -362423,7 +362423,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T14:22:33Z",
-      "last_changed": "2026-08-19T14:22:33Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjxeat"
       }
@@ -362514,20 +362514,20 @@
     },
     "evt-2026-13078": {
       "hazard": "EQ",
-      "name": "M 1.9 - 40 km WSW of Anchor Point, Alaska",
+      "name": "M 2.0 - 40 km NW of Nanwalek, Alaska",
       "aliases": [
         "usgs:aka2026qjwkuw"
       ],
       "location": {
-        "lat": 59.601,
-        "lon": -152.452,
-        "place": "40 km WSW of Anchor Point, Alaska"
+        "lat": 59.596,
+        "lon": -152.468,
+        "place": "40 km NW of Nanwalek, Alaska"
       },
       "origin_time": "2026-08-19T13:41:26Z",
       "magnitude": {
-        "value": 1.9,
+        "value": 2,
         "type": "ml",
-        "depth_km": 74
+        "depth_km": 71
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -362535,27 +362535,27 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T14:22:33Z",
-      "last_changed": "2026-08-19T14:22:33Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjwkuw"
       }
     },
     "evt-2026-13079": {
       "hazard": "EQ",
-      "name": "M 1.9 - 83 km E of Chignik, Alaska",
+      "name": "M 1.9 - 81 km E of Chignik, Alaska",
       "aliases": [
         "usgs:aka2026qjwikl"
       ],
       "location": {
-        "lat": 56.286,
-        "lon": -157.053,
-        "place": "83 km E of Chignik, Alaska"
+        "lat": 56.285,
+        "lon": -157.082,
+        "place": "81 km E of Chignik, Alaska"
       },
       "origin_time": "2026-08-19T13:38:29Z",
       "magnitude": {
         "value": 1.9,
         "type": "ml",
-        "depth_km": 14.7
+        "depth_km": 15.9
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -362598,20 +362598,20 @@
     },
     "evt-2026-13081": {
       "hazard": "EQ",
-      "name": "M 1.8 - 13 km WSW of Borrego Springs, CA",
+      "name": "M 0.2 - 15 km N of Warner Springs, CA",
       "aliases": [
         "usgs:ci41530120"
       ],
       "location": {
-        "lat": 33.2046666666667,
-        "lon": -116.499166666667,
-        "place": "13 km WSW of Borrego Springs, CA"
+        "lat": 33.4171666666667,
+        "lon": -116.641833333333,
+        "place": "15 km N of Warner Springs, CA"
       },
       "origin_time": "2026-08-19T13:35:41Z",
       "magnitude": {
-        "value": 1.81,
+        "value": 0.15,
         "type": "ml",
-        "depth_km": 12.71
+        "depth_km": 6.96
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -362619,7 +362619,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T14:22:33Z",
-      "last_changed": "2026-08-19T14:22:33Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530120"
       }
@@ -362822,20 +362822,20 @@
     },
     "evt-2026-13089": {
       "hazard": "EQ",
-      "name": "M 0.9 - 7 km SSE of Banning, CA",
+      "name": "M 0.8 - 6 km SSE of Banning, CA",
       "aliases": [
         "usgs:ci41530200"
       ],
       "location": {
-        "lat": 33.8733333333333,
-        "lon": -116.841166666667,
-        "place": "7 km SSE of Banning, CA"
+        "lat": 33.8741666666667,
+        "lon": -116.847333333333,
+        "place": "6 km SSE of Banning, CA"
       },
       "origin_time": "2026-08-19T14:47:02Z",
       "magnitude": {
-        "value": 0.94,
+        "value": 0.79,
         "type": "ml",
-        "depth_km": 14.81
+        "depth_km": 18.99
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -362843,7 +362843,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T15:20:34Z",
-      "last_changed": "2026-08-19T15:20:34Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530200"
       }
@@ -363348,20 +363348,20 @@
     },
     "evt-2026-13108": {
       "hazard": "EQ",
-      "name": "M 2.0 - 65 km SE of Ugashik, Alaska",
+      "name": "M 1.9 - 61 km SE of Ugashik, Alaska",
       "aliases": [
         "usgs:aka2026qkbnof"
       ],
       "location": {
-        "lat": 57.051,
-        "lon": -156.714,
-        "place": "65 km SE of Ugashik, Alaska"
+        "lat": 57.079,
+        "lon": -156.761,
+        "place": "61 km SE of Ugashik, Alaska"
       },
       "origin_time": "2026-08-19T16:14:21Z",
       "magnitude": {
-        "value": 2,
+        "value": 1.9,
         "type": "ml",
-        "depth_km": 5
+        "depth_km": 1.8
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -363369,7 +363369,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T16:18:41Z",
-      "last_changed": "2026-08-19T16:18:41Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkbnof"
       }
@@ -363549,15 +363549,15 @@
         "usgs:ci41530296"
       ],
       "location": {
-        "lat": 32.9353333333333,
-        "lon": -116.294666666667,
+        "lat": 32.9355,
+        "lon": -116.2945,
         "place": "25 km ENE of Pine Valley, CA"
       },
       "origin_time": "2026-08-19T15:50:53Z",
       "magnitude": {
         "value": 0.9,
         "type": "ml",
-        "depth_km": 9.85
+        "depth_km": 9.81
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -363628,20 +363628,20 @@
     },
     "evt-2026-13118": {
       "hazard": "EQ",
-      "name": "M 1.1 - 78 km SE of Kokhanok, Alaska",
+      "name": "M 1.5 - 78 km SE of Kokhanok, Alaska",
       "aliases": [
         "usgs:aka2026qkagts"
       ],
       "location": {
-        "lat": 58.917,
-        "lon": -153.842,
+        "lat": 58.915,
+        "lon": -153.847,
         "place": "78 km SE of Kokhanok, Alaska"
       },
       "origin_time": "2026-08-19T15:36:33Z",
       "magnitude": {
-        "value": 1.1,
+        "value": 1.5,
         "type": "ml",
-        "depth_km": 5
+        "depth_km": 8.6
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -363649,7 +363649,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-19T16:18:41Z",
-      "last_changed": "2026-08-19T16:18:41Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkagts"
       }
@@ -363871,9 +363871,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-19T17:17:24Z",
-      "last_changed": "2026-08-19T17:17:24Z",
+      "last_changed": "2026-08-19T18:18:12Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qhmtvd"
       }
@@ -364551,18 +364551,887 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjgxkl"
       }
+    },
+    "evt-2026-13151": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 14 km W of Johannesburg, CA",
+      "aliases": [
+        "usgs:ci41530416"
+      ],
+      "location": {
+        "lat": 35.3623333333333,
+        "lon": -117.791333333333,
+        "place": "14 km W of Johannesburg, CA"
+      },
+      "origin_time": "2026-08-19T18:03:20Z",
+      "magnitude": {
+        "value": 1.23,
+        "type": "ml",
+        "depth_km": 4.78
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530416"
+      }
+    },
+    "evt-2026-13152": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 3 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75421337"
+      ],
+      "location": {
+        "lat": 38.7963333129883,
+        "lon": -122.77449798584,
+        "place": "3 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-19T18:02:46Z",
+      "magnitude": {
+        "value": 1.29,
+        "type": "md",
+        "depth_km": 2.99000000953674
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421337"
+      }
+    },
+    "evt-2026-13153": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 5 km NNW of Lakeside, CA",
+      "aliases": [
+        "usgs:ci41530408"
+      ],
+      "location": {
+        "lat": 32.9026666666667,
+        "lon": -116.9415,
+        "place": "5 km NNW of Lakeside, CA"
+      },
+      "origin_time": "2026-08-19T17:58:28Z",
+      "magnitude": {
+        "value": 0.76,
+        "type": "ml",
+        "depth_km": 5.49
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530408"
+      }
+    },
+    "evt-2026-13154": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 7 km N of Claremont, CA",
+      "aliases": [
+        "usgs:ci41530400"
+      ],
+      "location": {
+        "lat": 34.1573333333333,
+        "lon": -117.730333333333,
+        "place": "7 km N of Claremont, CA"
+      },
+      "origin_time": "2026-08-19T17:51:47Z",
+      "magnitude": {
+        "value": 1.64,
+        "type": "ml",
+        "depth_km": 9.64
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530400"
+      }
+    },
+    "evt-2026-13155": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 26 km WSW of Ackerly, Texas",
+      "aliases": [
+        "usgs:tx2026qholzd"
+      ],
+      "location": {
+        "lat": 32.394,
+        "lon": -101.951,
+        "place": "26 km WSW of Ackerly, Texas"
+      },
+      "origin_time": "2026-08-19T17:49:28Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 9.9152
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qholzd"
+      }
+    },
+    "evt-2026-13156": {
+      "hazard": "EQ",
+      "name": "M 2.3 - 38 km WNW of Skwentna, Alaska",
+      "aliases": [
+        "usgs:aka2026qkdwfo"
+      ],
+      "location": {
+        "lat": 62.161,
+        "lon": -152.041,
+        "place": "38 km WNW of Skwentna, Alaska"
+      },
+      "origin_time": "2026-08-19T17:24:18Z",
+      "magnitude": {
+        "value": 2.3,
+        "type": "ml",
+        "depth_km": 106.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkdwfo"
+      }
+    },
+    "evt-2026-13157": {
+      "hazard": "EQ",
+      "name": "M 0.3 - 3 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75421307"
+      ],
+      "location": {
+        "lat": 38.7943344116211,
+        "lon": -122.785667419434,
+        "place": "3 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-19T17:20:08Z",
+      "magnitude": {
+        "value": 0.27,
+        "type": "md",
+        "depth_km": 7.69999980926514
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421307"
+      }
+    },
+    "evt-2026-13158": {
+      "hazard": "EQ",
+      "name": "M 2.7 - 49 km NW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026qkdqtt",
+        "usgs:us6000tlye"
+      ],
+      "location": {
+        "lat": 57.906,
+        "lon": -154.991,
+        "place": "49 km NW of Karluk, Alaska"
+      },
+      "origin_time": "2026-08-19T17:18:04Z",
+      "magnitude": {
+        "value": 2.7,
+        "type": "ml",
+        "depth_km": 87.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkdqtt"
+      }
+    },
+    "evt-2026-13159": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 15 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80149421"
+      ],
+      "location": {
+        "lat": 38.5051666666667,
+        "lon": -112.895333333333,
+        "place": "15 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-08-19T17:15:19Z",
+      "magnitude": {
+        "value": 0.79,
+        "type": "md",
+        "depth_km": 1.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149421"
+      }
+    },
+    "evt-2026-13160": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 24 km NW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026qkdmvi"
+      ],
+      "location": {
+        "lat": 57.725,
+        "lon": -154.739,
+        "place": "24 km NW of Karluk, Alaska"
+      },
+      "origin_time": "2026-08-19T17:13:30Z",
+      "magnitude": {
+        "value": 1.2,
+        "type": "ml",
+        "depth_km": 61.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkdmvi"
+      }
+    },
+    "evt-2026-13161": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80149416"
+      ],
+      "location": {
+        "lat": 38.5113333333333,
+        "lon": -112.890666666667,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-08-19T17:13:08Z",
+      "magnitude": {
+        "value": 1.83,
+        "type": "ml",
+        "depth_km": 2.53
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149416"
+      }
+    },
+    "evt-2026-13162": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 74 km NW of Aleneva, Alaska",
+      "aliases": [
+        "usgs:aka2026qkctsk"
+      ],
+      "location": {
+        "lat": 58.568,
+        "lon": -153.744,
+        "place": "74 km NW of Aleneva, Alaska"
+      },
+      "origin_time": "2026-08-19T16:51:36Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 83.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkctsk"
+      }
+    },
+    "evt-2026-13163": {
+      "hazard": "EQ",
+      "name": "M 3.9 - Rat Islands, Aleutian Islands, Alaska",
+      "aliases": [
+        "usgs:aka2026qkcrxb"
+      ],
+      "location": {
+        "lat": 51.726,
+        "lon": 178.919,
+        "place": "Rat Islands, Aleutian Islands, Alaska"
+      },
+      "origin_time": "2026-08-19T16:49:43Z",
+      "magnitude": {
+        "value": 3.9,
+        "type": "ml",
+        "depth_km": 119.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkcrxb"
+      }
+    },
+    "evt-2026-13164": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 45 km SE of Akutan, Alaska",
+      "aliases": [
+        "usgs:aka2026qkclrt"
+      ],
+      "location": {
+        "lat": 53.838,
+        "lon": -165.306,
+        "place": "45 km SE of Akutan, Alaska"
+      },
+      "origin_time": "2026-08-19T16:42:12Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 61.3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkclrt"
+      }
+    },
+    "evt-2026-13165": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80149411"
+      ],
+      "location": {
+        "lat": 38.5048333333333,
+        "lon": -112.887,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-08-19T16:35:56Z",
+      "magnitude": {
+        "value": 0.84,
+        "type": "md",
+        "depth_km": 2.56
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80149411"
+      }
+    },
+    "evt-2026-13166": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 0 km SE of Houston, Alaska",
+      "aliases": [
+        "usgs:aka2026qkbnix"
+      ],
+      "location": {
+        "lat": 61.627,
+        "lon": -149.808,
+        "place": "0 km SE of Houston, Alaska"
+      },
+      "origin_time": "2026-08-19T16:14:08Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 52.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkbnix"
+      }
+    },
+    "evt-2026-13167": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 250 km W of Adak, Alaska",
+      "aliases": [
+        "usgs:aka2026qkaokz"
+      ],
+      "location": {
+        "lat": 51.575,
+        "lon": 179.776,
+        "place": "250 km W of Adak, Alaska"
+      },
+      "origin_time": "2026-08-19T15:45:22Z",
+      "magnitude": {
+        "value": 2.2,
+        "type": "ml",
+        "depth_km": 63.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qkaokz"
+      }
+    },
+    "evt-2026-13168": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 84 km SSE of False Pass, Alaska",
+      "aliases": [
+        "usgs:aka2026qjzzyc"
+      ],
+      "location": {
+        "lat": 54.154,
+        "lon": -162.888,
+        "place": "84 km SSE of False Pass, Alaska"
+      },
+      "origin_time": "2026-08-19T15:28:40Z",
+      "magnitude": {
+        "value": 2.2,
+        "type": "ml",
+        "depth_km": 15.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjzzyc"
+      }
+    },
+    "evt-2026-13169": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 73 km ENE of Adak, Alaska",
+      "aliases": [
+        "usgs:aka2026qjzlbq"
+      ],
+      "location": {
+        "lat": 52.2,
+        "lon": -175.703,
+        "place": "73 km ENE of Adak, Alaska"
+      },
+      "origin_time": "2026-08-19T15:11:33Z",
+      "magnitude": {
+        "value": 2.1,
+        "type": "ml",
+        "depth_km": 168.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjzlbq"
+      }
+    },
+    "evt-2026-13170": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 40 km NNE of Chenega, Alaska",
+      "aliases": [
+        "usgs:aka2026qjwnna"
+      ],
+      "location": {
+        "lat": 60.419,
+        "lon": -147.829,
+        "place": "40 km NNE of Chenega, Alaska"
+      },
+      "origin_time": "2026-08-19T13:44:23Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 15.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjwnna"
+      }
+    },
+    "evt-2026-13171": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 63 km W of Nanwalek, Alaska",
+      "aliases": [
+        "usgs:aka2026qjvovx"
+      ],
+      "location": {
+        "lat": 59.331,
+        "lon": -153.042,
+        "place": "63 km W of Nanwalek, Alaska"
+      },
+      "origin_time": "2026-08-19T13:15:56Z",
+      "magnitude": {
+        "value": 1.2,
+        "type": "ml",
+        "depth_km": 92.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjvovx"
+      }
+    },
+    "evt-2026-13172": {
+      "hazard": "EQ",
+      "name": "M 2.3 - 70 km SSE of Adak, Alaska",
+      "aliases": [
+        "usgs:aka2026qjtjba"
+      ],
+      "location": {
+        "lat": 51.332,
+        "lon": -176.114,
+        "place": "70 km SSE of Adak, Alaska"
+      },
+      "origin_time": "2026-08-19T12:09:20Z",
+      "magnitude": {
+        "value": 2.3,
+        "type": "ml",
+        "depth_km": 26.7
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjtjba"
+      }
+    },
+    "evt-2026-13173": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 96 km NNW of Yakutat, Alaska",
+      "aliases": [
+        "usgs:aka2026qjtdxt"
+      ],
+      "location": {
+        "lat": 60.3,
+        "lon": -140.594,
+        "place": "96 km NNW of Yakutat, Alaska"
+      },
+      "origin_time": "2026-08-19T12:03:19Z",
+      "magnitude": {
+        "value": 1.6,
+        "type": "ml",
+        "depth_km": 1.6
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjtdxt"
+      }
+    },
+    "evt-2026-13174": {
+      "hazard": "EQ",
+      "name": "M 0.4 - 20 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci10248862"
+      ],
+      "location": {
+        "lat": 33.5026666666667,
+        "lon": -116.471,
+        "place": "20 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-08-19T11:52:04Z",
+      "magnitude": {
+        "value": 0.42,
+        "type": "ml",
+        "depth_km": 18.23
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci10248862"
+      }
+    },
+    "evt-2026-13175": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 46 km SSE of Nelchina, Alaska",
+      "aliases": [
+        "usgs:aka2026qjsrrz"
+      ],
+      "location": {
+        "lat": 61.608,
+        "lon": -146.404,
+        "place": "46 km SSE of Nelchina, Alaska"
+      },
+      "origin_time": "2026-08-19T11:49:16Z",
+      "magnitude": {
+        "value": 1.4,
+        "type": "ml",
+        "depth_km": 33.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjsrrz"
+      }
+    },
+    "evt-2026-13176": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 67 km E of Port Alsworth, Alaska",
+      "aliases": [
+        "usgs:aka2026qjsohj"
+      ],
+      "location": {
+        "lat": 60.173,
+        "lon": -153.103,
+        "place": "67 km E of Port Alsworth, Alaska"
+      },
+      "origin_time": "2026-08-19T11:45:16Z",
+      "magnitude": {
+        "value": 1.2,
+        "type": "ml",
+        "depth_km": 128.7
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjsohj"
+      }
+    },
+    "evt-2026-13177": {
+      "hazard": "EQ",
+      "name": "M 2.9 - 199 km E of Atka, Alaska",
+      "aliases": [
+        "usgs:aka2026qjrjwb"
+      ],
+      "location": {
+        "lat": 51.881,
+        "lon": -171.337,
+        "place": "199 km E of Atka, Alaska"
+      },
+      "origin_time": "2026-08-19T11:10:11Z",
+      "magnitude": {
+        "value": 2.9,
+        "type": "ml",
+        "depth_km": 5.6
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qjrjwb"
+      }
+    },
+    "evt-2026-13178": {
+      "hazard": "EQ",
+      "name": "M 0.1 - 15 km N of Warner Springs, CA",
+      "aliases": [
+        "usgs:ci10248854"
+      ],
+      "location": {
+        "lat": 33.419,
+        "lon": -116.640166666667,
+        "place": "15 km N of Warner Springs, CA"
+      },
+      "origin_time": "2026-08-19T07:35:09Z",
+      "magnitude": {
+        "value": 0.07,
+        "type": "ml",
+        "depth_km": 6.62
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci10248854"
+      }
+    },
+    "evt-2026-13179": {
+      "hazard": "EQ",
+      "name": "M 0.4 - 15 km N of Warner Springs, CA",
+      "aliases": [
+        "usgs:ci10248846"
+      ],
+      "location": {
+        "lat": 33.4188333333333,
+        "lon": -116.6415,
+        "place": "15 km N of Warner Springs, CA"
+      },
+      "origin_time": "2026-08-19T07:34:11Z",
+      "magnitude": {
+        "value": 0.42,
+        "type": "ml",
+        "depth_km": 6.73
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci10248846"
+      }
+    },
+    "evt-2026-13180": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 8 km WNW of West Longview, Washington",
+      "aliases": [
+        "usgs:uw714081961"
+      ],
+      "location": {
+        "lat": 46.1886666666667,
+        "lon": -123.11,
+        "place": "8 km WNW of West Longview, Washington"
+      },
+      "origin_time": "2026-08-18T23:31:25Z",
+      "magnitude": {
+        "value": 0.74,
+        "type": "md",
+        "depth_km": 21.74
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714081961"
+      }
+    },
+    "evt-2026-13181": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 8 km ESE of Midland, Texas",
+      "aliases": [
+        "usgs:tx2026qfylzr"
+      ],
+      "location": {
+        "lat": 31.958,
+        "lon": -101.995,
+        "place": "8 km ESE of Midland, Texas"
+      },
+      "origin_time": "2026-08-18T20:42:20Z",
+      "magnitude": {
+        "value": 0.7,
+        "type": "ml",
+        "depth_km": 6.665
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T18:18:12Z",
+      "last_changed": "2026-08-19T18:18:12Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qfylzr"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-19T17:17:24Z",
-      "last_success": "2026-08-19T17:17:24Z",
-      "feed_generated_at": "2026-08-19T17:16:30Z",
+      "last_attempt": "2026-08-19T18:18:12Z",
+      "last_success": "2026-08-19T18:18:12Z",
+      "feed_generated_at": "2026-08-19T18:17:40Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-19T17:17:24Z",
-      "last_success": "2026-08-19T17:17:24Z",
+      "last_attempt": "2026-08-19T18:18:12Z",
+      "last_success": "2026-08-19T18:18:12Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
