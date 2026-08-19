@@ -347210,9 +347210,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T02:08:49Z",
-      "last_changed": "2026-08-18T02:08:49Z",
+      "last_changed": "2026-08-19T02:11:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75420382"
       }
@@ -348843,9 +348843,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T07:29:04Z",
-      "last_changed": "2026-08-18T07:29:04Z",
+      "last_changed": "2026-08-19T02:11:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qhdgse"
       }
@@ -355392,30 +355392,31 @@
     },
     "evt-2026-12819": {
       "hazard": "EQ",
-      "name": "M 0.4 - 91 km SE of King Salmon, Alaska",
+      "name": "M -0.2 - 85 km NW of Karluk, Alaska",
       "aliases": [
-        "usgs:aka2026qippsk"
+        "usgs:aka2026qippsk",
+        "usgs:av94392103"
       ],
       "location": {
-        "lat": 58.239,
-        "lon": -155.355,
-        "place": "91 km SE of King Salmon, Alaska"
+        "lat": 58.1728333333333,
+        "lon": -155.3545,
+        "place": "85 km NW of Karluk, Alaska"
       },
       "origin_time": "2026-08-18T21:17:22Z",
       "magnitude": {
-        "value": 0.4,
+        "value": -0.23,
         "type": "ml",
-        "depth_km": 1.9
+        "depth_km": -0.3
       },
       "gdacs_alert": null,
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-18T22:11:26Z",
-      "last_changed": "2026-08-18T23:12:02Z",
+      "last_changed": "2026-08-19T02:11:31Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qippsk"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94392103"
       }
     },
     "evt-2026-12820": {
@@ -357435,18 +357436,46 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94391783"
       }
+    },
+    "evt-2026-12895": {
+      "hazard": "EQ",
+      "name": "M 3.5 - 79 km NE of Tonopah, Nevada",
+      "aliases": [
+        "usgs:nn00923474"
+      ],
+      "location": {
+        "lat": 38.4703,
+        "lon": -116.4854,
+        "place": "79 km NE of Tonopah, Nevada"
+      },
+      "origin_time": "2026-08-19T01:59:45Z",
+      "magnitude": {
+        "value": 3.51,
+        "type": "ml",
+        "depth_km": 7.7489
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-19T02:11:31Z",
+      "last_changed": "2026-08-19T02:11:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923474"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-19T01:59:52Z",
-      "last_success": "2026-08-19T01:59:52Z",
-      "feed_generated_at": "2026-08-19T01:59:32Z",
+      "last_attempt": "2026-08-19T02:11:31Z",
+      "last_success": "2026-08-19T02:11:31Z",
+      "feed_generated_at": "2026-08-19T02:10:39Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-19T01:59:52Z",
-      "last_success": "2026-08-19T01:59:52Z",
+      "last_attempt": "2026-08-19T02:11:31Z",
+      "last_success": "2026-08-19T02:11:31Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
