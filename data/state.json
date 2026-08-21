@@ -351727,7 +351727,7 @@
       "first_seen": "2026-08-18T14:22:16Z",
       "last_changed": "2026-08-18T14:22:16Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=10&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=11&eventtype=TC"
       }
     },
     "evt-2026-12688": {
@@ -370238,9 +370238,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-20T03:37:30Z",
-      "last_changed": "2026-08-20T03:37:30Z",
+      "last_changed": "2026-08-21T02:17:22Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75421617"
       }
@@ -370266,9 +370266,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-20T03:37:30Z",
-      "last_changed": "2026-08-20T03:37:30Z",
+      "last_changed": "2026-08-21T02:17:22Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41530808"
       }
@@ -372826,20 +372826,20 @@
     },
     "evt-2026-13453": {
       "hazard": "EQ",
-      "name": "M 1.7 - 22 km SSE of Chickaloon, Alaska",
+      "name": "M 1.8 - 23 km SSE of Chickaloon, Alaska",
       "aliases": [
         "usgs:aka2026qlhspj"
       ],
       "location": {
-        "lat": 61.617,
-        "lon": -148.251,
-        "place": "22 km SSE of Chickaloon, Alaska"
+        "lat": 61.602,
+        "lon": -148.287,
+        "place": "23 km SSE of Chickaloon, Alaska"
       },
       "origin_time": "2026-08-20T08:19:46Z",
       "magnitude": {
-        "value": 1.7,
+        "value": 1.8,
         "type": "ml",
-        "depth_km": 20.1
+        "depth_km": 23.1
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -372847,7 +372847,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-20T08:25:06Z",
-      "last_changed": "2026-08-20T08:25:06Z",
+      "last_changed": "2026-08-21T02:17:22Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qlhspj"
       }
@@ -373093,9 +373093,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-20T08:25:06Z",
-      "last_changed": "2026-08-20T08:25:06Z",
+      "last_changed": "2026-08-21T02:17:22Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030789&episodeid=3&eventtype=WF"
       }
@@ -373640,7 +373640,8 @@
       "hazard": "EQ",
       "name": "M 2.5 - 116 km N of Yakutat, Alaska",
       "aliases": [
-        "usgs:us6000tm2l"
+        "usgs:us6000tm2l",
+        "usgs:aka2026qlhxwi"
       ],
       "location": {
         "lat": 60.5893,
@@ -382156,18 +382157,76 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qlazoq"
       }
+    },
+    "evt-2026-13795": {
+      "hazard": "EQ",
+      "name": "M 4.6 - 75 km NW of Ende, Indonesia",
+      "aliases": [
+        "usgs:us6000tmcn",
+        "gdacs:1560840"
+      ],
+      "location": {
+        "lat": -8.2838,
+        "lon": 121.2731,
+        "place": "75 km NW of Ende, Indonesia"
+      },
+      "origin_time": "2026-08-21T01:38:42Z",
+      "magnitude": {
+        "value": 4.6,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-21T02:17:22Z",
+      "last_changed": "2026-08-21T02:17:22Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmcn",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1560840&episodeid=1728117&eventtype=EQ"
+      }
+    },
+    "evt-2026-13796": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 86 km SE of Adak, Alaska",
+      "aliases": [
+        "usgs:aka2026qlfefw"
+      ],
+      "location": {
+        "lat": 51.402,
+        "lon": -175.636,
+        "place": "86 km SE of Adak, Alaska"
+      },
+      "origin_time": "2026-08-20T07:03:13Z",
+      "magnitude": {
+        "value": 2,
+        "type": "ml",
+        "depth_km": 19.3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-21T02:17:22Z",
+      "last_changed": "2026-08-21T02:17:22Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qlfefw"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-21T02:07:54Z",
-      "last_success": "2026-08-21T02:07:54Z",
-      "feed_generated_at": "2026-08-21T02:06:59Z",
+      "last_attempt": "2026-08-21T02:17:22Z",
+      "last_success": "2026-08-21T02:17:22Z",
+      "feed_generated_at": "2026-08-21T02:16:59Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-21T02:07:54Z",
-      "last_success": "2026-08-21T02:07:54Z",
+      "last_attempt": "2026-08-21T02:17:22Z",
+      "last_success": "2026-08-21T02:17:22Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
