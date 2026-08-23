@@ -394728,9 +394728,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T10:12:16Z",
-      "last_changed": "2026-08-22T10:12:16Z",
+      "last_changed": "2026-08-23T10:12:38Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75422897"
       }
@@ -394756,9 +394756,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T10:12:16Z",
-      "last_changed": "2026-08-22T10:12:16Z",
+      "last_changed": "2026-08-23T10:12:38Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qmlyez"
       }
@@ -394784,9 +394784,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T10:12:16Z",
-      "last_changed": "2026-08-22T10:12:16Z",
+      "last_changed": "2026-08-23T10:12:38Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532864"
       }
@@ -394812,9 +394812,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T10:12:16Z",
-      "last_changed": "2026-08-22T10:12:16Z",
+      "last_changed": "2026-08-23T10:12:38Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532856"
       }
@@ -395365,9 +395365,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T12:17:50Z",
-      "last_changed": "2026-08-22T12:17:50Z",
+      "last_changed": "2026-08-23T10:12:38Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qmlzzz"
       }
@@ -395393,9 +395393,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T12:17:50Z",
-      "last_changed": "2026-08-22T12:17:50Z",
+      "last_changed": "2026-08-23T10:12:38Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529363"
       }
@@ -400680,7 +400680,8 @@
       "hazard": "EQ",
       "name": "M 2.7 - 10 km E of Coso Junction, CA",
       "aliases": [
-        "usgs:ci41533512"
+        "usgs:ci41533512",
+        "usgs:us6000tmxp"
       ],
       "location": {
         "lat": 36.06,
@@ -401045,7 +401046,8 @@
       "hazard": "EQ",
       "name": "M 3.5 - 11 km ENE of Coso Junction, CA",
       "aliases": [
-        "usgs:ci41533424"
+        "usgs:ci41533424",
+        "usgs:us6000tmxf"
       ],
       "location": {
         "lat": 36.0713348388672,
@@ -401215,7 +401217,8 @@
       "hazard": "EQ",
       "name": "M 3.8 - 33 km W of Aleneva, Alaska",
       "aliases": [
-        "usgs:aka2026qqunxm"
+        "usgs:aka2026qqunxm",
+        "usgs:us6000tmxa"
       ],
       "location": {
         "lat": 58.061,
@@ -401321,20 +401324,20 @@
     },
     "evt-2026-14483": {
       "hazard": "EQ",
-      "name": "M 1.3 - 10 km ENE of Coso Junction, CA",
+      "name": "M 1.0 - 11 km ENE of Coso Junction, CA",
       "aliases": [
         "usgs:ci41533736"
       ],
       "location": {
-        "lat": 36.0661659240723,
-        "lon": -117.836669921875,
-        "place": "10 km ENE of Coso Junction, CA"
+        "lat": 36.0666666666667,
+        "lon": -117.834333333333,
+        "place": "11 km ENE of Coso Junction, CA"
       },
       "origin_time": "2026-08-23T09:15:07Z",
       "magnitude": {
-        "value": 1.26972488058733,
+        "value": 1,
         "type": "ml",
-        "depth_km": 3.52999997138977
+        "depth_km": 3.66
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -401342,7 +401345,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-23T09:17:42Z",
-      "last_changed": "2026-08-23T09:17:42Z",
+      "last_changed": "2026-08-23T10:12:38Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533736"
       }
@@ -402244,18 +402247,551 @@
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmxn",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561306&episodeid=1728647&eventtype=EQ"
       }
+    },
+    "evt-2026-14516": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 10 km ENE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533840"
+      ],
+      "location": {
+        "lat": 36.0666666666667,
+        "lon": -117.837333333333,
+        "place": "10 km ENE of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T10:00:48Z",
+      "magnitude": {
+        "value": 1.39,
+        "type": "ml",
+        "depth_km": 2.77
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533840"
+      }
+    },
+    "evt-2026-14517": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 11 km ENE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533832"
+      ],
+      "location": {
+        "lat": 36.0658333333333,
+        "lon": -117.8335,
+        "place": "11 km ENE of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T10:00:03Z",
+      "magnitude": {
+        "value": 0.84,
+        "type": "ml",
+        "depth_km": 2.76
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533832"
+      }
+    },
+    "evt-2026-14518": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 10 km ENE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533824"
+      ],
+      "location": {
+        "lat": 36.0643333333333,
+        "lon": -117.834,
+        "place": "10 km ENE of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T09:57:50Z",
+      "magnitude": {
+        "value": 1.05,
+        "type": "ml",
+        "depth_km": 3.63
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533824"
+      }
+    },
+    "evt-2026-14519": {
+      "hazard": "EQ",
+      "name": "M 0.4 - 18 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci41533816"
+      ],
+      "location": {
+        "lat": 33.5035,
+        "lon": -116.491166666667,
+        "place": "18 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-08-23T09:56:54Z",
+      "magnitude": {
+        "value": 0.43,
+        "type": "ml",
+        "depth_km": 13.19
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533816"
+      }
+    },
+    "evt-2026-14520": {
+      "hazard": "EQ",
+      "name": "M 0.6 - 10 km ENE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533808"
+      ],
+      "location": {
+        "lat": 36.0688333333333,
+        "lon": -117.838333333333,
+        "place": "10 km ENE of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T09:51:52Z",
+      "magnitude": {
+        "value": 0.62,
+        "type": "ml",
+        "depth_km": 2.77
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533808"
+      }
+    },
+    "evt-2026-14521": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 10 km ENE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533800"
+      ],
+      "location": {
+        "lat": 36.0643333333333,
+        "lon": -117.839,
+        "place": "10 km ENE of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T09:49:45Z",
+      "magnitude": {
+        "value": 1.38,
+        "type": "ml",
+        "depth_km": 2.72
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533800"
+      }
+    },
+    "evt-2026-14522": {
+      "hazard": "EQ",
+      "name": "M 2.8 - 10 km N of Lake Pillsbury, CA",
+      "aliases": [
+        "usgs:nc75423527"
+      ],
+      "location": {
+        "lat": 39.4966659545898,
+        "lon": -122.946502685547,
+        "place": "10 km N of Lake Pillsbury, CA"
+      },
+      "origin_time": "2026-08-23T09:37:08Z",
+      "magnitude": {
+        "value": 2.75,
+        "type": "md",
+        "depth_km": 10.8999996185303
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423527"
+      }
+    },
+    "evt-2026-14523": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 9 km NNW of Ridgecrest, CA",
+      "aliases": [
+        "usgs:ci41533792"
+      ],
+      "location": {
+        "lat": 35.6998333333333,
+        "lon": -117.698833333333,
+        "place": "9 km NNW of Ridgecrest, CA"
+      },
+      "origin_time": "2026-08-23T09:32:56Z",
+      "magnitude": {
+        "value": 1.25,
+        "type": "ml",
+        "depth_km": 16.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533792"
+      }
+    },
+    "evt-2026-14524": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 8 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75423522"
+      ],
+      "location": {
+        "lat": 38.8343315124512,
+        "lon": -122.810836791992,
+        "place": "8 km W of Cobb, CA"
+      },
+      "origin_time": "2026-08-23T09:31:59Z",
+      "magnitude": {
+        "value": 0.92,
+        "type": "md",
+        "depth_km": 22.9899997711182
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423522"
+      }
+    },
+    "evt-2026-14525": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 51 km SW of Cantwell, Alaska",
+      "aliases": [
+        "usgs:aka2026qqydsk"
+      ],
+      "location": {
+        "lat": 63.025,
+        "lon": -149.564,
+        "place": "51 km SW of Cantwell, Alaska"
+      },
+      "origin_time": "2026-08-23T09:30:33Z",
+      "magnitude": {
+        "value": 1.6,
+        "type": "ml",
+        "depth_km": 78.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqydsk"
+      }
+    },
+    "evt-2026-14526": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 11 km E of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533784"
+      ],
+      "location": {
+        "lat": 36.0623333333333,
+        "lon": -117.830166666667,
+        "place": "11 km E of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T09:29:18Z",
+      "magnitude": {
+        "value": 0.66,
+        "type": "ml",
+        "depth_km": 4.03
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533784"
+      }
+    },
+    "evt-2026-14527": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 44 km E of Clear, Alaska",
+      "aliases": [
+        "usgs:aka2026qqxzrm"
+      ],
+      "location": {
+        "lat": 64.27,
+        "lon": -148.269,
+        "place": "44 km E of Clear, Alaska"
+      },
+      "origin_time": "2026-08-23T09:25:55Z",
+      "magnitude": {
+        "value": 0.8,
+        "type": "ml",
+        "depth_km": 13.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqxzrm"
+      }
+    },
+    "evt-2026-14528": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 6 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75423517"
+      ],
+      "location": {
+        "lat": 38.8328323364258,
+        "lon": -122.793334960938,
+        "place": "6 km W of Cobb, CA"
+      },
+      "origin_time": "2026-08-23T09:25:01Z",
+      "magnitude": {
+        "value": 0.69,
+        "type": "md",
+        "depth_km": 1.85000002384186
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423517"
+      }
+    },
+    "evt-2026-14529": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 15 km SSW of Gorman, CA",
+      "aliases": [
+        "usgs:ci41533776"
+      ],
+      "location": {
+        "lat": 34.6825,
+        "lon": -118.939666666667,
+        "place": "15 km SSW of Gorman, CA"
+      },
+      "origin_time": "2026-08-23T09:22:42Z",
+      "magnitude": {
+        "value": 0.53,
+        "type": "ml",
+        "depth_km": 10.15
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533776"
+      }
+    },
+    "evt-2026-14530": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 10 km ENE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533768"
+      ],
+      "location": {
+        "lat": 36.0638333333333,
+        "lon": -117.840333333333,
+        "place": "10 km ENE of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T09:20:52Z",
+      "magnitude": {
+        "value": 0.76,
+        "type": "ml",
+        "depth_km": 3.63
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533768"
+      }
+    },
+    "evt-2026-14531": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 8 km WNW of Cobb, CA",
+      "aliases": [
+        "usgs:nc75423512"
+      ],
+      "location": {
+        "lat": 38.8385009765625,
+        "lon": -122.810997009277,
+        "place": "8 km WNW of Cobb, CA"
+      },
+      "origin_time": "2026-08-23T09:19:38Z",
+      "magnitude": {
+        "value": 0.5,
+        "type": "md",
+        "depth_km": 2.10999989509583
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423512"
+      }
+    },
+    "evt-2026-14532": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 10 km ENE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533760"
+      ],
+      "location": {
+        "lat": 36.064,
+        "lon": -117.838333333333,
+        "place": "10 km ENE of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T09:19:09Z",
+      "magnitude": {
+        "value": 1.58,
+        "type": "ml",
+        "depth_km": 3.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533760"
+      }
+    },
+    "evt-2026-14533": {
+      "hazard": "EQ",
+      "name": "M 3.5 - 10 km ENE of Coso Junction, CA",
+      "aliases": [
+        "usgs:ci41533752",
+        "usgs:us6000tmxw"
+      ],
+      "location": {
+        "lat": 36.0676651000977,
+        "lon": -117.842002868652,
+        "place": "10 km ENE of Coso Junction, CA"
+      },
+      "origin_time": "2026-08-23T09:16:58Z",
+      "magnitude": {
+        "value": 3.5077201994852,
+        "type": "mw",
+        "depth_km": 2.61999988555908
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533752"
+      }
+    },
+    "evt-2026-14534": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 5 km S of Frazier Park, CA",
+      "aliases": [
+        "usgs:ci41533744"
+      ],
+      "location": {
+        "lat": 34.7818333333333,
+        "lon": -118.953333333333,
+        "place": "5 km S of Frazier Park, CA"
+      },
+      "origin_time": "2026-08-23T09:16:26Z",
+      "magnitude": {
+        "value": 0.72,
+        "type": "ml",
+        "depth_km": 11.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T10:12:38Z",
+      "last_changed": "2026-08-23T10:12:38Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533744"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-23T09:17:42Z",
-      "last_success": "2026-08-23T09:17:42Z",
-      "feed_generated_at": "2026-08-23T09:17:34Z",
+      "last_attempt": "2026-08-23T10:12:38Z",
+      "last_success": "2026-08-23T10:12:38Z",
+      "feed_generated_at": "2026-08-23T10:12:35Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-23T09:17:42Z",
-      "last_success": "2026-08-23T09:17:42Z",
+      "last_attempt": "2026-08-23T10:12:38Z",
+      "last_success": "2026-08-23T10:12:38Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
