@@ -351720,15 +351720,15 @@
       },
       "origin_time": "2026-08-18T12:00:00Z",
       "magnitude": null,
-      "gdacs_alert": "Green",
+      "gdacs_alert": "Orange",
       "pager_alert": null,
       "reported": true,
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-18T14:22:16Z",
-      "last_changed": "2026-08-22T20:11:09Z",
+      "last_changed": "2026-08-23T02:17:51Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=18&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=19&eventtype=TC"
       }
     },
     "evt-2026-12688": {
@@ -392523,9 +392523,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T03:33:31Z",
-      "last_changed": "2026-08-22T03:33:31Z",
+      "last_changed": "2026-08-23T02:17:51Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532760"
       }
@@ -399092,18 +399092,46 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529438"
       }
+    },
+    "evt-2026-14403": {
+      "hazard": "EQ",
+      "name": "M 4.4 - 90 km ESE of Tomioka, Japan",
+      "aliases": [
+        "usgs:us6000tmw4"
+      ],
+      "location": {
+        "lat": 36.9495,
+        "lon": 141.9148,
+        "place": "90 km ESE of Tomioka, Japan"
+      },
+      "origin_time": "2026-08-23T00:32:24Z",
+      "magnitude": {
+        "value": 4.4,
+        "type": "mb",
+        "depth_km": 24.086
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T02:17:51Z",
+      "last_changed": "2026-08-23T02:17:51Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmw4"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-23T02:08:59Z",
-      "last_success": "2026-08-23T02:08:59Z",
-      "feed_generated_at": "2026-08-23T02:08:39Z",
+      "last_attempt": "2026-08-23T02:17:51Z",
+      "last_success": "2026-08-23T02:17:51Z",
+      "feed_generated_at": "2026-08-23T02:17:34Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-23T02:08:59Z",
-      "last_success": "2026-08-23T02:08:59Z",
+      "last_attempt": "2026-08-23T02:17:51Z",
+      "last_success": "2026-08-23T02:17:51Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
