@@ -392998,9 +392998,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T05:17:23Z",
-      "last_changed": "2026-08-22T05:17:23Z",
+      "last_changed": "2026-08-23T05:19:43Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532824"
       }
@@ -393026,9 +393026,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T05:17:23Z",
-      "last_changed": "2026-08-22T05:17:23Z",
+      "last_changed": "2026-08-23T05:19:43Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75022307"
       }
@@ -393054,9 +393054,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T05:17:23Z",
-      "last_changed": "2026-08-22T05:17:23Z",
+      "last_changed": "2026-08-23T05:19:43Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qotctl"
       }
@@ -393082,9 +393082,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T05:17:23Z",
-      "last_changed": "2026-08-22T05:17:23Z",
+      "last_changed": "2026-08-23T05:19:43Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qotbci"
       }
@@ -393110,9 +393110,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T05:17:23Z",
-      "last_changed": "2026-08-22T05:17:23Z",
+      "last_changed": "2026-08-23T05:19:43Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532816"
       }
@@ -393168,9 +393168,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T05:17:23Z",
-      "last_changed": "2026-08-22T05:17:23Z",
+      "last_changed": "2026-08-23T05:19:43Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532808"
       }
@@ -399040,20 +399040,20 @@
     },
     "evt-2026-14401": {
       "hazard": "EQ",
-      "name": "M 1.4 - 28 km NW of Toyah, Texas",
+      "name": "M 1.2 - 29 km NW of Toyah, Texas",
       "aliases": [
         "usgs:tx2026qnpgmq"
       ],
       "location": {
-        "lat": 31.513,
-        "lon": -103.991,
-        "place": "28 km NW of Toyah, Texas"
+        "lat": 31.514,
+        "lon": -104.004,
+        "place": "29 km NW of Toyah, Texas"
       },
       "origin_time": "2026-08-23T00:40:04Z",
       "magnitude": {
-        "value": 1.4,
+        "value": 1.2,
         "type": "ml",
-        "depth_km": 8.9531
+        "depth_km": 4.0881
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -399061,7 +399061,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-23T02:08:59Z",
-      "last_changed": "2026-08-23T02:08:59Z",
+      "last_changed": "2026-08-23T05:19:43Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qnpgmq"
       }
@@ -399768,18 +399768,242 @@
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmwk",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561280&episodeid=1728616&eventtype=EQ"
       }
+    },
+    "evt-2026-14427": {
+      "hazard": "EQ",
+      "name": "M 0.1 - 15 km N of Warner Springs, CA",
+      "aliases": [
+        "usgs:ci41533352"
+      ],
+      "location": {
+        "lat": 33.418,
+        "lon": -116.6425,
+        "place": "15 km N of Warner Springs, CA"
+      },
+      "origin_time": "2026-08-23T05:12:57Z",
+      "magnitude": {
+        "value": 0.05,
+        "type": "ml",
+        "depth_km": 6.6
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-23T05:19:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533352"
+      }
+    },
+    "evt-2026-14428": {
+      "hazard": "EQ",
+      "name": "M 3.5 - 21 km NE of Sterling, Alaska",
+      "aliases": [
+        "usgs:aka2026qqpiix"
+      ],
+      "location": {
+        "lat": 60.682,
+        "lon": -150.51,
+        "place": "21 km NE of Sterling, Alaska"
+      },
+      "origin_time": "2026-08-23T05:06:04Z",
+      "magnitude": {
+        "value": 3.5,
+        "type": "ml",
+        "depth_km": 49.7
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-23T05:19:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqpiix"
+      }
+    },
+    "evt-2026-14429": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 9 km SE of Winchester, CA",
+      "aliases": [
+        "usgs:ci41533344"
+      ],
+      "location": {
+        "lat": 33.6608333333333,
+        "lon": -117.009166666667,
+        "place": "9 km SE of Winchester, CA"
+      },
+      "origin_time": "2026-08-23T05:06:00Z",
+      "magnitude": {
+        "value": 0.48,
+        "type": "ml",
+        "depth_km": 12.06
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-23T05:19:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533344"
+      }
+    },
+    "evt-2026-14430": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 30 km NW of Toyah, Texas",
+      "aliases": [
+        "usgs:tx2026qnxyyk"
+      ],
+      "location": {
+        "lat": 31.52,
+        "lon": -104.002,
+        "place": "30 km NW of Toyah, Texas"
+      },
+      "origin_time": "2026-08-23T05:05:58Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 5.2888
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-23T05:19:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qnxyyk"
+      }
+    },
+    "evt-2026-14431": {
+      "hazard": "EQ",
+      "name": "M 3.5 - 12 km E of Susitna, Alaska",
+      "aliases": [
+        "usgs:aka2026qqpfaq"
+      ],
+      "location": {
+        "lat": 61.564,
+        "lon": -150.282,
+        "place": "12 km E of Susitna, Alaska"
+      },
+      "origin_time": "2026-08-23T05:02:35Z",
+      "magnitude": {
+        "value": 3.5,
+        "type": "ml",
+        "depth_km": 63.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-23T05:19:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqpfaq"
+      }
+    },
+    "evt-2026-14432": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 13 km SSW of Searles Valley, CA",
+      "aliases": [
+        "usgs:ci41533336"
+      ],
+      "location": {
+        "lat": 35.6706666666667,
+        "lon": -117.482333333333,
+        "place": "13 km SSW of Searles Valley, CA"
+      },
+      "origin_time": "2026-08-23T04:34:40Z",
+      "magnitude": {
+        "value": 0.89,
+        "type": "ml",
+        "depth_km": 6.09
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-23T05:19:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533336"
+      }
+    },
+    "evt-2026-14433": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 46 km W of Salamatof, Alaska",
+      "aliases": [
+        "usgs:aka2026qqocjo"
+      ],
+      "location": {
+        "lat": 60.66,
+        "lon": -152.169,
+        "place": "46 km W of Salamatof, Alaska"
+      },
+      "origin_time": "2026-08-23T04:29:14Z",
+      "magnitude": {
+        "value": 2.2,
+        "type": "ml",
+        "depth_km": 97.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-23T05:19:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqocjo"
+      }
+    },
+    "evt-2026-14434": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 2 km SW of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75022732"
+      ],
+      "location": {
+        "lat": 19.1843338012695,
+        "lon": -155.497497558594,
+        "place": "2 km SW of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-08-23T04:24:48Z",
+      "magnitude": {
+        "value": 2.16,
+        "type": "md",
+        "depth_km": 31.3199996948242
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-23T05:19:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75022732"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-23T04:26:56Z",
-      "last_success": "2026-08-23T04:26:56Z",
-      "feed_generated_at": "2026-08-23T04:26:07Z",
+      "last_attempt": "2026-08-23T05:19:43Z",
+      "last_success": "2026-08-23T05:19:43Z",
+      "feed_generated_at": "2026-08-23T05:18:51Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-23T04:26:56Z",
-      "last_success": "2026-08-23T04:26:56Z",
+      "last_attempt": "2026-08-23T05:19:43Z",
+      "last_success": "2026-08-23T05:19:43Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
