@@ -320166,7 +320166,7 @@
       "first_seen": "2026-08-14T19:41:08Z",
       "last_changed": "2026-08-22T08:16:56Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030494&episodeid=23&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030494&episodeid=24&eventtype=WF"
       }
     },
     "evt-2026-11546": {
@@ -341152,7 +341152,7 @@
       "first_seen": "2026-08-17T11:15:37Z",
       "last_changed": "2026-08-22T08:16:56Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030618&episodeid=17&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030618&episodeid=18&eventtype=WF"
       }
     },
     "evt-2026-12305": {
@@ -346852,7 +346852,7 @@
       "first_seen": "2026-08-18T00:37:20Z",
       "last_changed": "2026-08-22T12:17:50Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030654&episodeid=20&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030654&episodeid=21&eventtype=WF"
       }
     },
     "evt-2026-12514": {
@@ -356477,9 +356477,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-18T23:12:02Z",
-      "last_changed": "2026-08-23T00:40:29Z",
+      "last_changed": "2026-08-23T04:26:56Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030687&episodeid=7&eventtype=WF"
       }
@@ -392802,9 +392802,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T04:21:54Z",
-      "last_changed": "2026-08-22T04:21:54Z",
+      "last_changed": "2026-08-23T04:26:56Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923672"
       }
@@ -392830,9 +392830,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T04:21:54Z",
-      "last_changed": "2026-08-22T04:21:54Z",
+      "last_changed": "2026-08-23T04:26:56Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532800"
       }
@@ -392858,9 +392858,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T04:21:54Z",
-      "last_changed": "2026-08-22T04:21:54Z",
+      "last_changed": "2026-08-23T04:26:56Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qoqopv"
       }
@@ -393196,9 +393196,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T05:17:23Z",
-      "last_changed": "2026-08-22T05:17:23Z",
+      "last_changed": "2026-08-23T04:26:56Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qoqwmh"
       }
@@ -396365,9 +396365,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T16:11:32Z",
-      "last_changed": "2026-08-22T16:11:32Z",
+      "last_changed": "2026-08-23T04:26:56Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41532792"
       }
@@ -399626,18 +399626,160 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qpkmza"
       }
+    },
+    "evt-2026-14422": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 8 km WSW of Paso Robles, CA",
+      "aliases": [
+        "usgs:nc75423367"
+      ],
+      "location": {
+        "lat": 35.611499786377,
+        "lon": -120.76000213623,
+        "place": "8 km WSW of Paso Robles, CA"
+      },
+      "origin_time": "2026-08-23T04:16:22Z",
+      "magnitude": {
+        "value": 1.41,
+        "type": "md",
+        "depth_km": 6.65999984741211
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-23T04:26:56Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423367"
+      }
+    },
+    "evt-2026-14423": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 7 km NNE of Anchor Point, Alaska",
+      "aliases": [
+        "usgs:aka2026qqngzh"
+      ],
+      "location": {
+        "lat": 59.838,
+        "lon": -151.78,
+        "place": "7 km NNE of Anchor Point, Alaska"
+      },
+      "origin_time": "2026-08-23T04:04:29Z",
+      "magnitude": {
+        "value": 1.9,
+        "type": "ml",
+        "depth_km": 79.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-23T04:26:56Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqngzh"
+      }
+    },
+    "evt-2026-14424": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 6 km ENE of Boron, CA",
+      "aliases": [
+        "usgs:ci41533320"
+      ],
+      "location": {
+        "lat": 35.0265,
+        "lon": -117.598166666667,
+        "place": "6 km ENE of Boron, CA"
+      },
+      "origin_time": "2026-08-23T03:58:01Z",
+      "magnitude": {
+        "value": 0.99,
+        "type": "ml",
+        "depth_km": 1.85
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-23T04:26:56Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533320"
+      }
+    },
+    "evt-2026-14425": {
+      "hazard": "EQ",
+      "name": "M 2.3 - 49 km W of Mentone, Texas",
+      "aliases": [
+        "usgs:tx2026qnvuhk"
+      ],
+      "location": {
+        "lat": 31.737,
+        "lon": -104.12,
+        "place": "49 km W of Mentone, Texas"
+      },
+      "origin_time": "2026-08-23T03:57:12Z",
+      "magnitude": {
+        "value": 2.3,
+        "type": "ml",
+        "depth_km": 4.5907
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-23T04:26:56Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qnvuhk"
+      }
+    },
+    "evt-2026-14426": {
+      "hazard": "EQ",
+      "name": "M 4.6 - 26 km E of Letpandan, Burma (Myanmar)",
+      "aliases": [
+        "usgs:us6000tmwk",
+        "gdacs:1561280"
+      ],
+      "location": {
+        "lat": 17.7854,
+        "lon": 96.0025,
+        "place": "26 km E of Letpandan, Burma (Myanmar)"
+      },
+      "origin_time": "2026-08-23T03:44:57Z",
+      "magnitude": {
+        "value": 4.6,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-23T04:26:56Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmwk",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561280&episodeid=1728616&eventtype=EQ"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-23T03:40:53Z",
-      "last_success": "2026-08-23T03:40:53Z",
-      "feed_generated_at": "2026-08-23T03:40:34Z",
+      "last_attempt": "2026-08-23T04:26:56Z",
+      "last_success": "2026-08-23T04:26:56Z",
+      "feed_generated_at": "2026-08-23T04:26:07Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-23T03:40:53Z",
-      "last_success": "2026-08-23T03:40:53Z",
+      "last_attempt": "2026-08-23T04:26:56Z",
+      "last_success": "2026-08-23T04:26:56Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
