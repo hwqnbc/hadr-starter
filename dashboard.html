@@ -152,58 +152,63 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 </main>
 <script type="application/json" id="hadr-state">
 {
-  "events": [],
+  "events": [
+    {
+      "id": "evt-2026-12687",
+      "hazard": "TC",
+      "name": "Tropical Cyclone SEVENTEEN-26",
+      "aliases": [
+        "gdacs:1001305"
+      ],
+      "location": {
+        "lat": 7.9,
+        "lon": 154.9,
+        "place": "Northern Mariana Islands"
+      },
+      "origin_time": "2026-08-18T12:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Orange",
+      "pager_alert": null,
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-18T14:22:16Z",
+      "last_changed": "2026-08-23T15:12:04Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=22&eventtype=TC"
+      }
+    }
+  ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-08-23T02:08:59Z",
+    "generated_at": "2026-08-24T02:07:09Z",
     "type": "regular",
     "changelog": {
-      "escalations": [],
-      "downgrades": [
+      "escalations": [
         {
           "id": "evt-2026-12687",
-          "kind": "downgrade",
+          "kind": "escalation",
           "name": "Tropical Cyclone SEVENTEEN-26",
           "hazard": "TC",
-          "from": "Orange",
-          "to": "Green"
+          "from": "Green",
+          "to": "Orange"
         }
       ],
+      "downgrades": [],
       "revisions": [
         {
-          "id": "evt-2026-13962",
+          "id": "evt-2026-14395",
           "kind": "revision",
-          "name": "M 0.2 - 63 km WNW of Tyonek, Alaska",
+          "name": "M 2.4 - 68 km NW of Karluk, Alaska",
           "hazard": "EQ",
-          "magnitude": 0.16
+          "magnitude": 2.4
         },
         {
-          "id": "evt-2026-14005",
+          "id": "evt-2026-14401",
           "kind": "revision",
-          "name": "M 3.4 - 231 km ESE of Attu Station, Alaska",
+          "name": "M 1.2 - 29 km NW of Toyah, Texas",
           "hazard": "EQ",
-          "magnitude": 3.4
-        },
-        {
-          "id": "evt-2026-14045",
-          "kind": "revision",
-          "name": "M -0.2 - 60 km SE of Pedro Bay, Alaska",
-          "hazard": "EQ",
-          "magnitude": -0.21
-        },
-        {
-          "id": "evt-2026-14057",
-          "kind": "revision",
-          "name": "M 1.0 - 84 km NW of Karluk, Alaska",
-          "hazard": "EQ",
-          "magnitude": 0.97
-        },
-        {
-          "id": "evt-2026-14119",
-          "kind": "revision",
-          "name": "M 0.3 - 85 km NW of Karluk, Alaska",
-          "hazard": "EQ",
-          "magnitude": 0.34
+          "magnitude": 1.2
         }
       ],
       "retractions": []
@@ -214,15 +219,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-08-23T02:08:59Z",
-        "feed_generated_at": "2026-08-23T02:08:39Z",
+        "last_success": "2026-08-24T02:07:09Z",
+        "feed_generated_at": "2026-08-24T02:06:35Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-08-23T02:08:59Z",
+        "last_success": "2026-08-24T02:07:09Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
