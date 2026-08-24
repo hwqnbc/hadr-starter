@@ -399652,9 +399652,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T04:26:56Z",
-      "last_changed": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-24T04:35:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75423367"
       }
@@ -399680,9 +399680,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T04:26:56Z",
-      "last_changed": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-24T04:35:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqngzh"
       }
@@ -399708,9 +399708,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T04:26:56Z",
-      "last_changed": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-24T04:35:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533320"
       }
@@ -399736,9 +399736,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T04:26:56Z",
-      "last_changed": "2026-08-23T04:26:56Z",
+      "last_changed": "2026-08-24T04:35:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qnvuhk"
       }
@@ -399936,9 +399936,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T05:19:43Z",
-      "last_changed": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-24T04:35:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533336"
       }
@@ -399965,9 +399965,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T05:19:43Z",
-      "last_changed": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-24T04:35:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qqocjo"
       }
@@ -399993,9 +399993,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T05:19:43Z",
-      "last_changed": "2026-08-23T05:19:43Z",
+      "last_changed": "2026-08-24T04:35:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75022732"
       }
@@ -410928,9 +410928,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T00:39:10Z",
-      "last_changed": "2026-08-24T00:39:10Z",
+      "last_changed": "2026-08-24T04:35:02Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031040&episodeid=1&eventtype=WF"
       }
@@ -411646,18 +411646,300 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn15"
       }
+    },
+    "evt-2026-14865": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 40 km E of Chignik, Alaska",
+      "aliases": [
+        "usgs:aka2026qskafj"
+      ],
+      "location": {
+        "lat": 56.353,
+        "lon": -157.764,
+        "place": "40 km E of Chignik, Alaska"
+      },
+      "origin_time": "2026-08-24T04:26:19Z",
+      "magnitude": {
+        "value": 2,
+        "type": "ml",
+        "depth_km": 84
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qskafj"
+      }
+    },
+    "evt-2026-14866": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 21 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci41534800"
+      ],
+      "location": {
+        "lat": 33.5033333333333,
+        "lon": -116.455,
+        "place": "21 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-08-24T04:19:47Z",
+      "magnitude": {
+        "value": 1.12,
+        "type": "ml",
+        "depth_km": 3.04
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534800"
+      }
+    },
+    "evt-2026-14867": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 35 km WSW of Mentone, Texas",
+      "aliases": [
+        "usgs:tx2026qprzes"
+      ],
+      "location": {
+        "lat": 31.606,
+        "lon": -103.955,
+        "place": "35 km WSW of Mentone, Texas"
+      },
+      "origin_time": "2026-08-24T04:11:10Z",
+      "magnitude": {
+        "value": 1.6,
+        "type": "ml",
+        "depth_km": 6.6176
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qprzes"
+      }
+    },
+    "evt-2026-14868": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 34 km NNE of Valmy, Nevada",
+      "aliases": [
+        "usgs:nn00923787"
+      ],
+      "location": {
+        "lat": 41.0694,
+        "lon": -116.941,
+        "place": "34 km NNE of Valmy, Nevada"
+      },
+      "origin_time": "2026-08-24T04:01:47Z",
+      "magnitude": {
+        "value": 2.18,
+        "type": "ml",
+        "depth_km": 16
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923787"
+      }
+    },
+    "evt-2026-14869": {
+      "hazard": "EQ",
+      "name": "M 4.8 - 27 km WSW of Sarangani, Philippines",
+      "aliases": [
+        "usgs:us6000tn25",
+        "gdacs:1561473"
+      ],
+      "location": {
+        "lat": 5.3312,
+        "lon": 125.2291,
+        "place": "27 km WSW of Sarangani, Philippines"
+      },
+      "origin_time": "2026-08-24T03:59:33Z",
+      "magnitude": {
+        "value": 4.8,
+        "type": "mb",
+        "depth_km": 68.263
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn25",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561473&episodeid=1728837&eventtype=EQ"
+      }
+    },
+    "evt-2026-14870": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 9 km S of Banning, CA",
+      "aliases": [
+        "usgs:ci41534792"
+      ],
+      "location": {
+        "lat": 33.8473333333333,
+        "lon": -116.8675,
+        "place": "9 km S of Banning, CA"
+      },
+      "origin_time": "2026-08-24T03:59:28Z",
+      "magnitude": {
+        "value": 0.89,
+        "type": "ml",
+        "depth_km": 8.31
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534792"
+      }
+    },
+    "evt-2026-14871": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 16 km WSW of Johannesburg, CA",
+      "aliases": [
+        "usgs:ci41534784"
+      ],
+      "location": {
+        "lat": 35.3148333333333,
+        "lon": -117.798,
+        "place": "16 km WSW of Johannesburg, CA"
+      },
+      "origin_time": "2026-08-24T03:58:48Z",
+      "magnitude": {
+        "value": 1.84,
+        "type": "ml",
+        "depth_km": 6.81
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534784"
+      }
+    },
+    "evt-2026-14872": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 45 km SSW of Cantwell, Alaska",
+      "aliases": [
+        "usgs:aka2026qsivyu"
+      ],
+      "location": {
+        "lat": 63.028,
+        "lon": -149.346,
+        "place": "45 km SSW of Cantwell, Alaska"
+      },
+      "origin_time": "2026-08-24T03:50:57Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 75.7
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qsivyu"
+      }
+    },
+    "evt-2026-14873": {
+      "hazard": "EQ",
+      "name": "M 4.1 - 104 km SW of Puerto Madero, Mexico",
+      "aliases": [
+        "usgs:us6000tn20"
+      ],
+      "location": {
+        "lat": 14.1906,
+        "lon": -93.2276,
+        "place": "104 km SW of Puerto Madero, Mexico"
+      },
+      "origin_time": "2026-08-24T03:33:58Z",
+      "magnitude": {
+        "value": 4.1,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn20"
+      }
+    },
+    "evt-2026-14874": {
+      "hazard": "EQ",
+      "name": "M 4.4 - 26 km SW of Sipí, Colombia",
+      "aliases": [
+        "usgs:us6000tn1x"
+      ],
+      "location": {
+        "lat": 4.5166,
+        "lon": -76.8403,
+        "place": "26 km SW of Sipí, Colombia"
+      },
+      "origin_time": "2026-08-24T02:41:00Z",
+      "magnitude": {
+        "value": 4.4,
+        "type": "mb",
+        "depth_km": 77.675
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T04:35:02Z",
+      "last_changed": "2026-08-24T04:35:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1x"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-24T03:44:19Z",
-      "last_success": "2026-08-24T03:44:19Z",
-      "feed_generated_at": "2026-08-24T03:43:54Z",
+      "last_attempt": "2026-08-24T04:35:02Z",
+      "last_success": "2026-08-24T04:35:02Z",
+      "feed_generated_at": "2026-08-24T04:34:50Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-24T03:44:19Z",
-      "last_success": "2026-08-24T03:44:19Z",
+      "last_attempt": "2026-08-24T04:35:02Z",
+      "last_success": "2026-08-24T04:35:02Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
