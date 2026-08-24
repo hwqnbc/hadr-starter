@@ -399510,9 +399510,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T03:40:53Z",
-      "last_changed": "2026-08-23T03:40:53Z",
+      "last_changed": "2026-08-24T02:16:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41533280"
       }
@@ -410939,7 +410939,8 @@
       "hazard": "EQ",
       "name": "M 3.3 - 99 km SSE of Port Graham, Alaska",
       "aliases": [
-        "usgs:aka2026qsfeey"
+        "usgs:aka2026qsfeey",
+        "usgs:us6000tn1r"
       ],
       "location": {
         "lat": 58.557,
@@ -411193,18 +411194,74 @@
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn14",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561432&episodeid=1728792&eventtype=EQ"
       }
+    },
+    "evt-2026-14849": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 17 km WSW of Johannesburg, CA",
+      "aliases": [
+        "usgs:ci41534720"
+      ],
+      "location": {
+        "lat": 35.3158340454102,
+        "lon": -117.804496765137,
+        "place": "17 km WSW of Johannesburg, CA"
+      },
+      "origin_time": "2026-08-24T02:13:06Z",
+      "magnitude": {
+        "value": 2.11499225216437,
+        "type": "ml",
+        "depth_km": 6.30999994277954
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T02:16:10Z",
+      "last_changed": "2026-08-24T02:16:10Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41534720"
+      }
+    },
+    "evt-2026-14850": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 24 km WNW of Fishhook, Alaska",
+      "aliases": [
+        "usgs:aka2026qsfjer"
+      ],
+      "location": {
+        "lat": 61.855,
+        "lon": -149.634,
+        "place": "24 km WNW of Fishhook, Alaska"
+      },
+      "origin_time": "2026-08-24T02:06:26Z",
+      "magnitude": {
+        "value": 2.1,
+        "type": "ml",
+        "depth_km": 3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-24T02:16:10Z",
+      "last_changed": "2026-08-24T02:16:10Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qsfjer"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-24T02:07:09Z",
-      "last_success": "2026-08-24T02:07:09Z",
-      "feed_generated_at": "2026-08-24T02:06:35Z",
+      "last_attempt": "2026-08-24T02:16:10Z",
+      "last_success": "2026-08-24T02:16:10Z",
+      "feed_generated_at": "2026-08-24T02:15:50Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-24T02:07:09Z",
-      "last_success": "2026-08-24T02:07:09Z",
+      "last_attempt": "2026-08-24T02:16:10Z",
+      "last_success": "2026-08-24T02:16:10Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
