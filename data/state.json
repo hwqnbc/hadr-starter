@@ -410959,9 +410959,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T02:07:09Z",
-      "last_changed": "2026-08-24T02:07:09Z",
+      "last_changed": "2026-08-25T02:12:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qsfeey"
       }
@@ -411246,9 +411246,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T02:16:10Z",
-      "last_changed": "2026-08-24T02:16:10Z",
+      "last_changed": "2026-08-25T02:12:10Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qsfjer"
       }
@@ -420830,14 +420830,14 @@
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-25T02:01:05Z",
-      "last_success": "2026-08-25T02:01:05Z",
-      "feed_generated_at": "2026-08-25T02:00:29Z",
+      "last_attempt": "2026-08-25T02:12:10Z",
+      "last_success": "2026-08-25T02:12:10Z",
+      "feed_generated_at": "2026-08-25T02:12:04Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-25T02:01:05Z",
-      "last_success": "2026-08-25T02:01:05Z",
+      "last_attempt": "2026-08-25T02:12:10Z",
+      "last_success": "2026-08-25T02:12:10Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
