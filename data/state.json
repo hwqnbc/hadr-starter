@@ -395201,9 +395201,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T11:11:01Z",
-      "last_changed": "2026-08-25T13:40:09Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030909&episodeid=8&eventtype=WF"
       }
@@ -404546,9 +404546,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T12:18:24Z",
-      "last_changed": "2026-08-25T13:40:09Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030911&episodeid=7&eventtype=WF"
       }
@@ -416081,9 +416081,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T17:22:12Z",
-      "last_changed": "2026-08-24T17:22:12Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424272"
       }
@@ -416109,9 +416109,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T17:22:12Z",
-      "last_changed": "2026-08-24T17:22:12Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424262"
       }
@@ -416165,9 +416165,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T17:22:12Z",
-      "last_changed": "2026-08-24T17:22:12Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qtideq"
       }
@@ -416193,9 +416193,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T17:22:12Z",
-      "last_changed": "2026-08-24T17:22:12Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qticev"
       }
@@ -416529,9 +416529,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T18:23:50Z",
-      "last_changed": "2026-08-24T18:23:50Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529668"
       }
@@ -416558,9 +416558,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T18:23:50Z",
-      "last_changed": "2026-08-24T18:23:50Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn6z",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561560&episodeid=1728941&eventtype=EQ"
@@ -418301,9 +418301,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T21:18:53Z",
-      "last_changed": "2026-08-24T21:18:53Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80150211"
       }
@@ -421642,9 +421642,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T04:29:04Z",
-      "last_changed": "2026-08-25T04:29:04Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94401473"
       }
@@ -423382,9 +423382,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T09:24:09Z",
-      "last_changed": "2026-08-25T09:24:09Z",
+      "last_changed": "2026-08-25T17:22:31Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qrxwqv"
       }
@@ -425718,18 +425718,246 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031109&episodeid=1&eventtype=WF"
       }
+    },
+    "evt-2026-15376": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 15 km N of Warner Springs, CA",
+      "aliases": [
+        "usgs:ci41536176"
+      ],
+      "location": {
+        "lat": 33.4131666666667,
+        "lon": -116.637666666667,
+        "place": "15 km N of Warner Springs, CA"
+      },
+      "origin_time": "2026-08-25T17:02:56Z",
+      "magnitude": {
+        "value": 0.54,
+        "type": "ml",
+        "depth_km": 6.65
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-25T17:22:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536176"
+      }
+    },
+    "evt-2026-15377": {
+      "hazard": "EQ",
+      "name": "M 0.6 - 5 km E of Calimesa, CA",
+      "aliases": [
+        "usgs:ci41536168"
+      ],
+      "location": {
+        "lat": 33.9966666666667,
+        "lon": -116.995333333333,
+        "place": "5 km E of Calimesa, CA"
+      },
+      "origin_time": "2026-08-25T17:00:32Z",
+      "magnitude": {
+        "value": 0.59,
+        "type": "ml",
+        "depth_km": 15.07
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-25T17:22:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536168"
+      }
+    },
+    "evt-2026-15378": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 32 km S of Rachel, Nevada",
+      "aliases": [
+        "usgs:nn00923880"
+      ],
+      "location": {
+        "lat": 37.3581,
+        "lon": -115.7932,
+        "place": "32 km S of Rachel, Nevada"
+      },
+      "origin_time": "2026-08-25T16:38:19Z",
+      "magnitude": {
+        "value": 1.73,
+        "type": "ml",
+        "depth_km": 12.7981
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-25T17:22:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00923880"
+      }
+    },
+    "evt-2026-15379": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 8 km ESE of Cloverdale, CA",
+      "aliases": [
+        "usgs:nc75424887"
+      ],
+      "location": {
+        "lat": 38.7821655273438,
+        "lon": -122.923835754395,
+        "place": "8 km ESE of Cloverdale, CA"
+      },
+      "origin_time": "2026-08-25T16:36:48Z",
+      "magnitude": {
+        "value": 1.12,
+        "type": "md",
+        "depth_km": 2.86999988555908
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-25T17:22:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424887"
+      }
+    },
+    "evt-2026-15380": {
+      "hazard": "EQ",
+      "name": "M 4.5 - Vanuatu region",
+      "aliases": [
+        "usgs:us7000tbsj",
+        "gdacs:1561759"
+      ],
+      "location": {
+        "lat": -14.235,
+        "lon": 170.4985,
+        "place": "Vanuatu region"
+      },
+      "origin_time": "2026-08-25T16:23:33Z",
+      "magnitude": {
+        "value": 4.5,
+        "type": "mb",
+        "depth_km": 628.976
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-25T17:22:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbsj",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561759&episodeid=1729155&eventtype=EQ"
+      }
+    },
+    "evt-2026-15381": {
+      "hazard": "EQ",
+      "name": "M 2.8 - 232 km ESE of Attu Station, Alaska",
+      "aliases": [
+        "usgs:aka2026qvdgxu"
+      ],
+      "location": {
+        "lat": 52.123,
+        "lon": 176.405,
+        "place": "232 km ESE of Attu Station, Alaska"
+      },
+      "origin_time": "2026-08-25T16:02:44Z",
+      "magnitude": {
+        "value": 2.8,
+        "type": "ml",
+        "depth_km": 70.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-25T17:22:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qvdgxu"
+      }
+    },
+    "evt-2026-15382": {
+      "hazard": "EQ",
+      "name": "M 5.0 - 54 km NNE of Ruteng, Indonesia",
+      "aliases": [
+        "usgs:us6000tnd4",
+        "gdacs:1561748"
+      ],
+      "location": {
+        "lat": -8.1362,
+        "lon": 120.5816,
+        "place": "54 km NNE of Ruteng, Indonesia"
+      },
+      "origin_time": "2026-08-25T14:58:54Z",
+      "magnitude": {
+        "value": 5,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-25T17:22:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnd4",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561748&episodeid=1729163&eventtype=EQ"
+      }
+    },
+    "evt-2026-15383": {
+      "hazard": "EQ",
+      "name": "M 3.7 - 63 km SE of Adak, Alaska",
+      "aliases": [
+        "usgs:aka2026qunliw"
+      ],
+      "location": {
+        "lat": 51.403,
+        "lon": -176.117,
+        "place": "63 km SE of Adak, Alaska"
+      },
+      "origin_time": "2026-08-25T08:08:08Z",
+      "magnitude": {
+        "value": 3.7,
+        "type": "ml",
+        "depth_km": 17.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-25T17:22:31Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qunliw"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-25T16:24:01Z",
-      "last_success": "2026-08-25T16:24:01Z",
-      "feed_generated_at": "2026-08-25T16:23:39Z",
+      "last_attempt": "2026-08-25T17:22:31Z",
+      "last_success": "2026-08-25T17:22:31Z",
+      "feed_generated_at": "2026-08-25T17:21:39Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-25T16:24:01Z",
-      "last_success": "2026-08-25T16:24:01Z",
+      "last_attempt": "2026-08-25T17:22:31Z",
+      "last_success": "2026-08-25T17:22:31Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
