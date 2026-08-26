@@ -18465,9 +18465,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-10T09:17:55Z",
-      "last_changed": "2026-08-24T06:35:32Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1103972&episodeid=26&eventtype=FL"
       }
@@ -26238,9 +26238,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-07-11T07:05:26Z",
-      "last_changed": "2026-08-26T05:23:38Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=79&eventtype=FL"
       }
@@ -231558,9 +231558,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-04T16:06:40Z",
-      "last_changed": "2026-08-26T05:23:38Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1104071&episodeid=11&eventtype=FL"
       }
@@ -243760,9 +243760,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-06T07:33:17Z",
-      "last_changed": "2026-08-25T06:26:32Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=13&eventtype=FL"
       }
@@ -257447,9 +257447,9 @@
       "pager_alert": null,
       "reported": true,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-07T19:43:30Z",
-      "last_changed": "2026-08-24T06:35:32Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1104081&episodeid=13&eventtype=FL"
       }
@@ -285161,9 +285161,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-11T06:46:28Z",
-      "last_changed": "2026-08-26T08:30:14Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1104084&episodeid=5&eventtype=FL"
       }
@@ -350779,11 +350779,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-18T11:15:48Z",
-      "last_changed": "2026-08-25T00:38:54Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030659&episodeid=24&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030659&episodeid=29&eventtype=WF"
       }
     },
     "evt-2026-12654": {
@@ -356384,11 +356384,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-18T23:12:02Z",
-      "last_changed": "2026-08-25T00:38:54Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030683&episodeid=14&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030683&episodeid=18&eventtype=WF"
       }
     },
     "evt-2026-12857": {
@@ -377565,7 +377565,7 @@
       "first_seen": "2026-08-20T19:23:14Z",
       "last_changed": "2026-08-26T08:30:14Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030835&episodeid=10&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030835&episodeid=11&eventtype=WF"
       }
     },
     "evt-2026-13626": {
@@ -377661,7 +377661,7 @@
       "first_seen": "2026-08-20T19:23:14Z",
       "last_changed": "2026-08-26T08:30:14Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030831&episodeid=15&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030831&episodeid=16&eventtype=WF"
       }
     },
     "evt-2026-13630": {
@@ -385495,11 +385495,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-21T11:16:39Z",
-      "last_changed": "2026-08-22T08:16:56Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030867&episodeid=3&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030867&episodeid=9&eventtype=WF"
       }
     },
     "evt-2026-13914": {
@@ -385567,11 +385567,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-21T11:16:39Z",
-      "last_changed": "2026-08-25T13:40:09Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030870&episodeid=12&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030870&episodeid=15&eventtype=WF"
       }
     },
     "evt-2026-13917": {
@@ -391358,11 +391358,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-21T23:13:51Z",
-      "last_changed": "2026-08-25T16:24:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030882&episodeid=15&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030882&episodeid=17&eventtype=WF"
       }
     },
     "evt-2026-14124": {
@@ -392754,11 +392754,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-22T03:33:31Z",
-      "last_changed": "2026-08-25T16:24:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030892&episodeid=10&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030892&episodeid=13&eventtype=WF"
       }
     },
     "evt-2026-14175": {
@@ -393831,7 +393831,7 @@
       "first_seen": "2026-08-22T07:22:52Z",
       "last_changed": "2026-08-26T07:37:05Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030900&episodeid=10&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030900&episodeid=11&eventtype=WF"
       }
     },
     "evt-2026-14214": {
@@ -393947,11 +393947,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-22T07:22:52Z",
-      "last_changed": "2026-08-25T16:24:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030905&episodeid=9&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030905&episodeid=11&eventtype=WF"
       }
     },
     "evt-2026-14219": {
@@ -395201,11 +395201,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-22T11:11:01Z",
-      "last_changed": "2026-08-25T17:22:31Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030909&episodeid=8&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030909&episodeid=10&eventtype=WF"
       }
     },
     "evt-2026-14264": {
@@ -396202,9 +396202,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-22T15:10:55Z",
-      "last_changed": "2026-08-22T15:10:55Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001308&episodeid=12&eventtype=TC"
       }
@@ -400579,11 +400579,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-23T07:24:53Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030989&episodeid=10&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030989&episodeid=13&eventtype=WF"
       }
     },
     "evt-2026-14456": {
@@ -401321,11 +401321,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-23T08:17:40Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030990&episodeid=9&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030990&episodeid=12&eventtype=WF"
       }
     },
     "evt-2026-14483": {
@@ -404234,11 +404234,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-23T12:18:24Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030995&episodeid=6&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030995&episodeid=8&eventtype=WF"
       }
     },
     "evt-2026-14588": {
@@ -404402,11 +404402,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-23T12:18:24Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030972&episodeid=6&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1030972&episodeid=9&eventtype=WF"
       }
     },
     "evt-2026-14595": {
@@ -405567,11 +405567,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-23T15:12:04Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031001&episodeid=7&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031001&episodeid=10&eventtype=WF"
       }
     },
     "evt-2026-14638": {
@@ -406067,7 +406067,7 @@
       "first_seen": "2026-08-23T16:12:58Z",
       "last_changed": "2026-08-26T07:37:05Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031002&episodeid=9&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031002&episodeid=10&eventtype=WF"
       }
     },
     "evt-2026-14656": {
@@ -406091,7 +406091,7 @@
       "first_seen": "2026-08-23T16:12:58Z",
       "last_changed": "2026-08-26T08:30:14Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031003&episodeid=10&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031003&episodeid=11&eventtype=WF"
       }
     },
     "evt-2026-14657": {
@@ -407231,9 +407231,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T19:14:35Z",
-      "last_changed": "2026-08-26T07:37:05Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031005&episodeid=5&eventtype=WF"
       }
@@ -407303,9 +407303,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-23T19:14:35Z",
-      "last_changed": "2026-08-26T07:37:05Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031008&episodeid=5&eventtype=WF"
       }
@@ -407663,11 +407663,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-23T19:14:35Z",
-      "last_changed": "2026-08-24T06:35:32Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031023&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031023&episodeid=3&eventtype=WF"
       }
     },
     "evt-2026-14716": {
@@ -410649,7 +410649,7 @@
       "first_seen": "2026-08-24T00:39:10Z",
       "last_changed": "2026-08-26T07:37:05Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031028&episodeid=9&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031028&episodeid=10&eventtype=WF"
       }
     },
     "evt-2026-14828": {
@@ -414402,11 +414402,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-24T12:25:45Z",
-      "last_changed": "2026-08-26T07:37:05Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031050&episodeid=8&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031050&episodeid=9&eventtype=WF"
       }
     },
     "evt-2026-14964": {
@@ -414430,7 +414430,7 @@
       "first_seen": "2026-08-24T12:25:45Z",
       "last_changed": "2026-08-26T00:39:47Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031051&episodeid=8&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031051&episodeid=9&eventtype=WF"
       }
     },
     "evt-2026-14965": {
@@ -417283,9 +417283,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T19:21:13Z",
-      "last_changed": "2026-08-26T00:39:47Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031061&episodeid=2&eventtype=WF"
       }
@@ -417307,9 +417307,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T19:21:13Z",
-      "last_changed": "2026-08-26T00:39:47Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031062&episodeid=2&eventtype=WF"
       }
@@ -419106,9 +419106,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-24T23:13:48Z",
-      "last_changed": "2026-08-24T23:13:48Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031091&episodeid=4&eventtype=WF"
       }
@@ -419191,9 +419191,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T00:38:54Z",
-      "last_changed": "2026-08-25T00:38:54Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn9w",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561612&episodeid=1728993&eventtype=EQ"
@@ -420212,11 +420212,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-25T00:38:54Z",
-      "last_changed": "2026-08-26T07:37:05Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031092&episodeid=3&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031092&episodeid=4&eventtype=WF"
       }
     },
     "evt-2026-15177": {
@@ -420513,9 +420513,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T02:01:05Z",
-      "last_changed": "2026-08-25T02:01:05Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnaa",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561627&episodeid=1729010&eventtype=EQ"
@@ -420544,9 +420544,9 @@
       "pager_alert": "yellow",
       "reported": true,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T02:01:05Z",
-      "last_changed": "2026-08-25T21:17:30Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tna9",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561626&episodeid=1729008&eventtype=EQ"
@@ -421219,9 +421219,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T03:39:28Z",
-      "last_changed": "2026-08-25T03:39:28Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnai",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561644&episodeid=1729029&eventtype=EQ"
@@ -421557,9 +421557,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T04:29:04Z",
-      "last_changed": "2026-08-25T04:29:04Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tnal",
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1561653&episodeid=1729041&eventtype=EQ"
@@ -422934,9 +422934,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T07:35:13Z",
-      "last_changed": "2026-08-25T07:35:13Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1104117&episodeid=1&eventtype=FL"
       }
@@ -423942,9 +423942,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T12:26:15Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75023702"
       }
@@ -423970,9 +423970,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T12:26:15Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424842"
       }
@@ -423998,9 +423998,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T12:26:15Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536040"
       }
@@ -424026,9 +424026,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T12:26:15Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529743"
       }
@@ -424054,9 +424054,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T20:16:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536024"
       }
@@ -424082,9 +424082,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T12:26:15Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536016"
       }
@@ -424110,9 +424110,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T12:26:15Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536008"
       }
@@ -424138,9 +424138,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T12:26:15Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424837"
       }
@@ -424166,9 +424166,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T12:26:15Z",
-      "last_changed": "2026-08-25T12:26:15Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026quucwe"
       }
@@ -424586,9 +424586,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T13:40:09Z",
-      "last_changed": "2026-08-26T00:39:47Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536048"
       }
@@ -424644,9 +424644,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T13:40:09Z",
-      "last_changed": "2026-08-25T13:40:09Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80150291"
       }
@@ -424782,11 +424782,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-25T13:40:09Z",
-      "last_changed": "2026-08-26T07:37:05Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031108&episodeid=5&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031108&episodeid=6&eventtype=WF"
       }
     },
     "evt-2026-15342": {
@@ -424918,9 +424918,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T14:34:03Z",
-      "last_changed": "2026-08-25T14:34:03Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536032"
       }
@@ -425620,11 +425620,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-25T16:24:01Z",
-      "last_changed": "2026-08-26T07:37:05Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031113&episodeid=4&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031113&episodeid=5&eventtype=WF"
       }
     },
     "evt-2026-15372": {
@@ -425644,11 +425644,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-25T16:24:01Z",
-      "last_changed": "2026-08-26T07:37:05Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031112&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031112&episodeid=2&eventtype=WF"
       }
     },
     "evt-2026-15373": {
@@ -427423,9 +427423,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T19:22:43Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031118&episodeid=1&eventtype=WF"
       }
@@ -427447,9 +427447,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T19:22:43Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031117&episodeid=1&eventtype=WF"
       }
@@ -427519,9 +427519,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T19:22:43Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031114&episodeid=2&eventtype=WF"
       }
@@ -427941,9 +427941,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T20:16:43Z",
-      "last_changed": "2026-08-25T20:16:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci10250630"
       }
@@ -427969,9 +427969,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T20:16:43Z",
-      "last_changed": "2026-08-25T20:16:43Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qutvdl"
       }
@@ -428349,7 +428349,7 @@
       "first_seen": "2026-08-25T20:16:43Z",
       "last_changed": "2026-08-26T08:30:14Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031141&episodeid=4&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031141&episodeid=5&eventtype=WF"
       }
     },
     "evt-2026-15473": {
@@ -428417,11 +428417,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-25T20:16:43Z",
-      "last_changed": "2026-08-26T00:39:47Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031138&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031138&episodeid=2&eventtype=WF"
       }
     },
     "evt-2026-15476": {
@@ -428445,7 +428445,7 @@
       "first_seen": "2026-08-25T20:16:43Z",
       "last_changed": "2026-08-26T07:37:05Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031137&episodeid=2&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031137&episodeid=3&eventtype=WF"
       }
     },
     "evt-2026-15477": {
@@ -428465,11 +428465,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-08-25T20:16:43Z",
-      "last_changed": "2026-08-26T00:39:47Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031136&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031136&episodeid=2&eventtype=WF"
       }
     },
     "evt-2026-15478": {
@@ -429182,9 +429182,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T22:15:31Z",
-      "last_changed": "2026-08-25T22:15:31Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94402633"
       }
@@ -429210,9 +429210,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T22:15:31Z",
-      "last_changed": "2026-08-25T22:15:31Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93066224"
       }
@@ -429238,9 +429238,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T22:15:31Z",
-      "last_changed": "2026-08-25T22:15:31Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93066219"
       }
@@ -429266,9 +429266,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T22:15:31Z",
-      "last_changed": "2026-08-25T22:15:31Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94402628"
       }
@@ -429630,9 +429630,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T23:16:04Z",
-      "last_changed": "2026-08-25T23:16:04Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94402683"
       }
@@ -429658,9 +429658,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T23:16:04Z",
-      "last_changed": "2026-08-25T23:16:04Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93066239"
       }
@@ -429686,9 +429686,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T23:16:04Z",
-      "last_changed": "2026-08-25T23:16:04Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94402673"
       }
@@ -429714,9 +429714,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T23:16:04Z",
-      "last_changed": "2026-08-25T23:16:04Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93066234"
       }
@@ -429742,9 +429742,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T23:16:04Z",
-      "last_changed": "2026-08-25T23:16:04Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94402668"
       }
@@ -433152,20 +433152,20 @@
     },
     "evt-2026-15646": {
       "hazard": "EQ",
-      "name": "M 2.6 - 5 km S of Meno, Oklahoma",
+      "name": "M 2.3 - 7 km S of Meno, Oklahoma",
       "aliases": [
         "usgs:ok2026qrvd"
       ],
       "location": {
-        "lat": 36.33651733,
-        "lon": -98.17487335,
-        "place": "5 km S of Meno, Oklahoma"
+        "lat": 36.316,
+        "lon": -98.17916667,
+        "place": "7 km S of Meno, Oklahoma"
       },
       "origin_time": "2026-08-26T10:33:23Z",
       "magnitude": {
-        "value": 2.63,
+        "value": 2.33,
         "type": "ml",
-        "depth_km": 5
+        "depth_km": 6.23
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -433173,7 +433173,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-26T11:19:40Z",
-      "last_changed": "2026-08-26T11:19:40Z",
+      "last_changed": "2026-08-26T12:29:01Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026qrvd"
       }
@@ -433268,7 +433268,8 @@
       "hazard": "EQ",
       "name": "M 2.9 - 16 km SSE of Esperanza, Puerto Rico",
       "aliases": [
-        "usgs:pr71529828"
+        "usgs:pr71529828",
+        "usgs:us7000tbxn"
       ],
       "location": {
         "lat": 17.959,
@@ -433423,18 +433424,298 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031156&episodeid=1&eventtype=WF"
       }
+    },
+    "evt-2026-15656": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 1 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75425377"
+      ],
+      "location": {
+        "lat": 38.7828330993652,
+        "lon": -122.764167785645,
+        "place": "1 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-08-26T12:17:31Z",
+      "magnitude": {
+        "value": 1.31,
+        "type": "md",
+        "depth_km": 3.66000008583069
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75425377"
+      }
+    },
+    "evt-2026-15657": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 11 km WSW of Salton City, CA",
+      "aliases": [
+        "usgs:ci41536768"
+      ],
+      "location": {
+        "lat": 33.2463333333333,
+        "lon": -116.062,
+        "place": "11 km WSW of Salton City, CA"
+      },
+      "origin_time": "2026-08-26T12:04:32Z",
+      "magnitude": {
+        "value": 0.78,
+        "type": "ml",
+        "depth_km": 3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536768"
+      }
+    },
+    "evt-2026-15658": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 8 km SSE of Pyote, Texas",
+      "aliases": [
+        "usgs:tx2026qtyyns"
+      ],
+      "location": {
+        "lat": 31.473,
+        "lon": -103.08,
+        "place": "8 km SSE of Pyote, Texas"
+      },
+      "origin_time": "2026-08-26T11:59:24Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 0
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qtyyns"
+      }
+    },
+    "evt-2026-15659": {
+      "hazard": "EQ",
+      "name": "M 0.6 - 83 km NW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026qwqjtk"
+      ],
+      "location": {
+        "lat": 58.163,
+        "lon": -155.322,
+        "place": "83 km NW of Karluk, Alaska"
+      },
+      "origin_time": "2026-08-26T11:35:31Z",
+      "magnitude": {
+        "value": 0.6,
+        "type": "ml",
+        "depth_km": 5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026qwqjtk"
+      }
+    },
+    "evt-2026-15660": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 3 km SE of Loma Linda, CA",
+      "aliases": [
+        "usgs:ci41536760"
+      ],
+      "location": {
+        "lat": 34.0303333333333,
+        "lon": -117.236166666667,
+        "place": "3 km SE of Loma Linda, CA"
+      },
+      "origin_time": "2026-08-26T11:28:49Z",
+      "magnitude": {
+        "value": 0.99,
+        "type": "ml",
+        "depth_km": 14.94
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536760"
+      }
+    },
+    "evt-2026-15661": {
+      "hazard": "EQ",
+      "name": "M 4.3 - 75 km ENE of Diego de Almagro, Chile",
+      "aliases": [
+        "usgs:us7000tbyb"
+      ],
+      "location": {
+        "lat": -26.1601,
+        "lon": -69.3386,
+        "place": "75 km ENE of Diego de Almagro, Chile"
+      },
+      "origin_time": "2026-08-26T10:59:03Z",
+      "magnitude": {
+        "value": 4.3,
+        "type": "mb",
+        "depth_km": 101.064
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyb"
+      }
+    },
+    "evt-2026-15662": {
+      "hazard": "EQ",
+      "name": "M 2.9 - 17 km S of Esperanza, Puerto Rico",
+      "aliases": [
+        "usgs:pr71529843"
+      ],
+      "location": {
+        "lat": 17.9435,
+        "lon": -65.4388333333333,
+        "place": "17 km S of Esperanza, Puerto Rico"
+      },
+      "origin_time": "2026-08-26T08:07:14Z",
+      "magnitude": {
+        "value": 2.94,
+        "type": "md",
+        "depth_km": 6.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529843"
+      }
+    },
+    "evt-2026-15663": {
+      "hazard": "EQ",
+      "name": "M 3.0 - 40 km N of Charlotte Amalie, U.S. Virgin Islands",
+      "aliases": [
+        "usgs:pr71529878"
+      ],
+      "location": {
+        "lat": 18.7078333333333,
+        "lon": -64.9435,
+        "place": "40 km N of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "origin_time": "2026-08-26T07:09:18Z",
+      "magnitude": {
+        "value": 2.98,
+        "type": "md",
+        "depth_km": 17.68
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529878"
+      }
+    },
+    "evt-2026-15664": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 18 km N of Coahoma, Texas",
+      "aliases": [
+        "usgs:tx2026qtmrhd"
+      ],
+      "location": {
+        "lat": 32.458,
+        "lon": -101.281,
+        "place": "18 km N of Coahoma, Texas"
+      },
+      "origin_time": "2026-08-26T05:48:56Z",
+      "magnitude": {
+        "value": 0.9,
+        "type": "ml",
+        "depth_km": 7.1533
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qtmrhd"
+      }
+    },
+    "evt-2026-15665": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 3 km SW of Tellico Village, Tennessee",
+      "aliases": [
+        "usgs:se60627276"
+      ],
+      "location": {
+        "lat": 35.6638333333333,
+        "lon": -84.279,
+        "place": "3 km SW of Tellico Village, Tennessee"
+      },
+      "origin_time": "2026-08-25T20:44:54Z",
+      "magnitude": {
+        "value": 1.96,
+        "type": "md",
+        "depth_km": 10
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T12:29:01Z",
+      "last_changed": "2026-08-26T12:29:01Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/se60627276"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-26T11:19:40Z",
-      "last_success": "2026-08-26T11:19:40Z",
-      "feed_generated_at": "2026-08-26T11:18:54Z",
+      "last_attempt": "2026-08-26T12:29:01Z",
+      "last_success": "2026-08-26T12:29:01Z",
+      "feed_generated_at": "2026-08-26T12:28:39Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-26T11:19:40Z",
-      "last_success": "2026-08-26T11:19:40Z",
+      "last_attempt": "2026-08-26T12:29:01Z",
+      "last_success": "2026-08-26T12:29:01Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
