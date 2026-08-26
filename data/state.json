@@ -423575,9 +423575,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T10:21:03Z",
-      "last_changed": "2026-08-25T10:21:03Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41535984"
       }
@@ -423604,9 +423604,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T10:21:03Z",
-      "last_changed": "2026-08-25T10:21:03Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75424817"
       }
@@ -423632,9 +423632,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T10:21:03Z",
-      "last_changed": "2026-08-25T10:21:03Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026quqwcw"
       }
@@ -424702,9 +424702,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T13:40:09Z",
-      "last_changed": "2026-08-25T13:40:09Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60627241"
       }
@@ -425228,9 +425228,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T15:32:52Z",
-      "last_changed": "2026-08-25T15:32:52Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qrzdlm"
       }
@@ -426927,9 +426927,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T19:22:43Z",
-      "last_changed": "2026-08-25T19:22:43Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714085682"
       }
@@ -427997,9 +427997,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-25T20:16:43Z",
-      "last_changed": "2026-08-25T20:16:43Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714085692"
       }
@@ -430675,9 +430675,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-26T02:08:48Z",
-      "last_changed": "2026-08-26T02:08:48Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qtcaqc"
       }
@@ -431188,20 +431188,20 @@
     },
     "evt-2026-15576": {
       "hazard": "EQ",
-      "name": "M 1.7 - 30 km NW of Toyah, Texas",
+      "name": "M 1.6 - 31 km NW of Toyah, Texas",
       "aliases": [
         "usgs:tx2026qtiswk"
       ],
       "location": {
-        "lat": 31.524,
-        "lon": -104.002,
-        "place": "30 km NW of Toyah, Texas"
+        "lat": 31.536,
+        "lon": -104,
+        "place": "31 km NW of Toyah, Texas"
       },
       "origin_time": "2026-08-26T03:50:14Z",
       "magnitude": {
-        "value": 1.7,
+        "value": 1.6,
         "type": "ml",
-        "depth_km": 5.5687
+        "depth_km": 6.3562
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -432146,20 +432146,20 @@
     },
     "evt-2026-15610": {
       "hazard": "EQ",
-      "name": "M 1.6 - 17 km NW of Mentone, Texas",
+      "name": "M 1.4 - 17 km NW of Mentone, Texas",
       "aliases": [
         "usgs:tx2026qtllun"
       ],
       "location": {
-        "lat": 31.807,
-        "lon": -103.738,
+        "lat": 31.8,
+        "lon": -103.744,
         "place": "17 km NW of Mentone, Texas"
       },
       "origin_time": "2026-08-26T05:12:22Z",
       "magnitude": {
-        "value": 1.6,
+        "value": 1.4,
         "type": "ml",
-        "depth_km": 6.9658
+        "depth_km": 7.8943
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -432167,7 +432167,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-08-26T07:37:05Z",
-      "last_changed": "2026-08-26T07:37:05Z",
+      "last_changed": "2026-08-26T10:23:54Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qtllun"
       }
@@ -432729,18 +432729,186 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=1&eventtype=TC"
       }
+    },
+    "evt-2026-15631": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 10 km SE of Leilani Estates, Hawaii",
+      "aliases": [
+        "usgs:hv75024167"
+      ],
+      "location": {
+        "lat": 19.3918342590332,
+        "lon": -154.855834960938,
+        "place": "10 km SE of Leilani Estates, Hawaii"
+      },
+      "origin_time": "2026-08-26T10:07:22Z",
+      "magnitude": {
+        "value": 2.11,
+        "type": "md",
+        "depth_km": 3.82999992370605
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T10:23:54Z",
+      "last_changed": "2026-08-26T10:23:54Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75024167"
+      }
+    },
+    "evt-2026-15632": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 7 km ENE of Puebla, B.C., MX",
+      "aliases": [
+        "usgs:ci41536720"
+      ],
+      "location": {
+        "lat": 32.5865,
+        "lon": -115.2835,
+        "place": "7 km ENE of Puebla, B.C., MX"
+      },
+      "origin_time": "2026-08-26T09:53:25Z",
+      "magnitude": {
+        "value": 1.59,
+        "type": "ml",
+        "depth_km": 20.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T10:23:54Z",
+      "last_changed": "2026-08-26T10:23:54Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536720"
+      }
+    },
+    "evt-2026-15633": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 7 km E of Ojai, CA",
+      "aliases": [
+        "usgs:ci41536712"
+      ],
+      "location": {
+        "lat": 34.4413333333333,
+        "lon": -119.167,
+        "place": "7 km E of Ojai, CA"
+      },
+      "origin_time": "2026-08-26T09:47:51Z",
+      "magnitude": {
+        "value": 1.29,
+        "type": "ml",
+        "depth_km": 4.31
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T10:23:54Z",
+      "last_changed": "2026-08-26T10:23:54Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41536712"
+      }
+    },
+    "evt-2026-15634": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 8 km WNW of Cobb, CA",
+      "aliases": [
+        "usgs:nc75425347"
+      ],
+      "location": {
+        "lat": 38.8383331298828,
+        "lon": -122.807998657227,
+        "place": "8 km WNW of Cobb, CA"
+      },
+      "origin_time": "2026-08-26T09:34:59Z",
+      "magnitude": {
+        "value": 0.72,
+        "type": "md",
+        "depth_km": 2.10999989509583
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T10:23:54Z",
+      "last_changed": "2026-08-26T10:23:54Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75425347"
+      }
+    },
+    "evt-2026-15635": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 30 km NW of Toyah, Texas",
+      "aliases": [
+        "usgs:tx2026qtubum"
+      ],
+      "location": {
+        "lat": 31.514,
+        "lon": -104.007,
+        "place": "30 km NW of Toyah, Texas"
+      },
+      "origin_time": "2026-08-26T09:32:26Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 4.3746
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T10:23:54Z",
+      "last_changed": "2026-08-26T10:23:54Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026qtubum"
+      }
+    },
+    "evt-2026-15636": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 9 km NNE of Cruz Bay, U.S. Virgin Islands",
+      "aliases": [
+        "usgs:pr71529868"
+      ],
+      "location": {
+        "lat": 18.4085,
+        "lon": -64.7465,
+        "place": "9 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "origin_time": "2026-08-26T04:15:35Z",
+      "magnitude": {
+        "value": 2.42,
+        "type": "md",
+        "depth_km": 93.91
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-26T10:23:54Z",
+      "last_changed": "2026-08-26T10:23:54Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71529868"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-08-26T09:30:19Z",
-      "last_success": "2026-08-26T09:30:19Z",
-      "feed_generated_at": "2026-08-26T09:30:00Z",
+      "last_attempt": "2026-08-26T10:23:54Z",
+      "last_success": "2026-08-26T10:23:54Z",
+      "feed_generated_at": "2026-08-26T10:23:39Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-08-26T09:30:19Z",
-      "last_success": "2026-08-26T09:30:19Z",
+      "last_attempt": "2026-08-26T10:23:54Z",
+      "last_success": "2026-08-26T10:23:54Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
