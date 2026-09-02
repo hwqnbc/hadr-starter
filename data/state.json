@@ -479900,9 +479900,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-01T05:28:22Z",
-      "last_changed": "2026-09-01T05:28:22Z",
+      "last_changed": "2026-09-02T05:14:09Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75428057"
       }
@@ -487399,9 +487399,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-01T22:53:33Z",
-      "last_changed": "2026-09-01T22:53:33Z",
+      "last_changed": "2026-09-02T05:14:09Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93066419"
       }
@@ -489911,18 +489911,46 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ridast"
       }
+    },
+    "evt-2026-17707": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 18 km S of Fern Forest, Hawaii",
+      "aliases": [
+        "usgs:hv75028182"
+      ],
+      "location": {
+        "lat": 19.3001670837402,
+        "lon": -155.115829467773,
+        "place": "18 km S of Fern Forest, Hawaii"
+      },
+      "origin_time": "2026-09-02T05:07:57Z",
+      "magnitude": {
+        "value": 1.79,
+        "type": "md",
+        "depth_km": 41.7799987792969
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-02T05:14:09Z",
+      "last_changed": "2026-09-02T05:14:09Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75028182"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-09-02T04:54:19Z",
-      "last_success": "2026-09-02T04:54:19Z",
-      "feed_generated_at": "2026-09-02T04:54:15Z",
+      "last_attempt": "2026-09-02T05:14:09Z",
+      "last_success": "2026-09-02T05:14:09Z",
+      "feed_generated_at": "2026-09-02T05:13:18Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-09-02T04:54:19Z",
-      "last_success": "2026-09-02T04:54:19Z",
+      "last_attempt": "2026-09-02T05:14:09Z",
+      "last_success": "2026-09-02T05:14:09Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
