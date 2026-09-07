@@ -152,37 +152,42 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 </main>
 <script type="application/json" id="hadr-state">
 {
-  "events": [],
+  "events": [
+    {
+      "id": "evt-2026-9278",
+      "hazard": "FL",
+      "name": "Flood in China",
+      "aliases": [
+        "gdacs:1104081",
+        "glide:FL-2026-000148-CHN"
+      ],
+      "location": {
+        "lat": 30.8276,
+        "lon": 110.9725,
+        "place": "China"
+      },
+      "origin_time": "2026-07-31T01:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Orange",
+      "pager_alert": null,
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-08-07T19:43:30Z",
+      "last_changed": "2026-09-06T06:38:04Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1104081&episodeid=17&eventtype=FL"
+      }
+    }
+  ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-09-06T04:57:08Z",
+    "generated_at": "2026-09-07T05:03:12Z",
     "type": "regular",
     "changelog": {
       "escalations": [],
       "downgrades": [],
-      "revisions": [
-        {
-          "id": "evt-2026-18672",
-          "kind": "revision",
-          "name": "M 1.6 - 68 km ESE of Cantwell, Alaska",
-          "hazard": "EQ",
-          "magnitude": 1.6
-        },
-        {
-          "id": "evt-2026-18731",
-          "kind": "revision",
-          "name": "M 1.1 - 41 km NW of Toyah, Texas",
-          "hazard": "EQ",
-          "magnitude": 1.1
-        },
-        {
-          "id": "evt-2026-18797",
-          "kind": "revision",
-          "name": "M 2.1 - 33 km WSW of Mentone, Texas",
-          "hazard": "EQ",
-          "magnitude": 2.1
-        }
-      ],
+      "revisions": [],
       "retractions": []
     }
   },
@@ -191,15 +196,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-09-06T04:57:08Z",
-        "feed_generated_at": "2026-09-06T04:56:45Z",
+        "last_success": "2026-09-07T05:03:12Z",
+        "feed_generated_at": "2026-09-07T05:03:00Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-09-06T04:57:08Z",
+        "last_success": "2026-09-07T05:03:12Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
