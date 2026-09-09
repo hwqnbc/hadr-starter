@@ -448543,7 +448543,7 @@
       "first_seen": "2026-08-27T23:20:44Z",
       "last_changed": "2026-09-07T13:07:26Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=50&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=52&eventtype=TC"
       }
     },
     "evt-2026-16201": {
@@ -457037,9 +457037,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-28T19:45:49Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031271&episodeid=30&eventtype=WF"
       }
@@ -463796,9 +463796,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-29T14:47:28Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031313&episodeid=30&eventtype=WF"
       }
@@ -469722,9 +469722,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-30T17:03:58Z",
-      "last_changed": "2026-09-09T00:50:42Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031350&episodeid=22&eventtype=WF"
       }
@@ -476901,9 +476901,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-08-31T17:17:52Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031382&episodeid=25&eventtype=WF"
       }
@@ -482249,7 +482249,7 @@
       "first_seen": "2026-09-01T12:19:34Z",
       "last_changed": "2026-09-07T18:28:21Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=31&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=32&eventtype=TC"
       }
     },
     "evt-2026-17427": {
@@ -482509,9 +482509,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-01T12:19:34Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031428&episodeid=19&eventtype=WF"
       }
@@ -484416,9 +484416,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-01T17:03:06Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031393&episodeid=14&eventtype=WF"
       }
@@ -484488,9 +484488,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-01T17:03:06Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031436&episodeid=13&eventtype=WF"
       }
@@ -488691,9 +488691,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-02T00:39:34Z",
-      "last_changed": "2026-09-09T00:50:42Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031459&episodeid=15&eventtype=WF"
       }
@@ -488859,9 +488859,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-02T00:39:34Z",
-      "last_changed": "2026-09-07T13:07:26Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031458&episodeid=13&eventtype=WF"
       }
@@ -493155,11 +493155,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-02T14:47:56Z",
-      "last_changed": "2026-09-09T00:50:42Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031481&episodeid=15&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031481&episodeid=16&eventtype=WF"
       }
     },
     "evt-2026-17824": {
@@ -493395,9 +493395,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-02T14:47:56Z",
-      "last_changed": "2026-09-07T13:07:26Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031413&episodeid=28&eventtype=WF"
       }
@@ -495166,9 +495166,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-02T18:13:17Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031396&episodeid=15&eventtype=WF"
       }
@@ -496350,11 +496350,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-02T21:25:40Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031504&episodeid=14&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031504&episodeid=15&eventtype=WF"
       }
     },
     "evt-2026-17942": {
@@ -496398,9 +496398,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-02T21:25:40Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031506&episodeid=8&eventtype=WF"
       }
@@ -507590,9 +507590,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-03T21:59:23Z",
-      "last_changed": "2026-09-07T13:07:26Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031553&episodeid=17&eventtype=WF"
       }
@@ -507614,9 +507614,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-03T21:59:23Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031554&episodeid=9&eventtype=WF"
       }
@@ -508022,9 +508022,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-03T21:59:23Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031571&episodeid=9&eventtype=WF"
       }
@@ -508046,9 +508046,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-03T21:59:23Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=18&eventtype=WF"
       }
@@ -508070,9 +508070,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-03T21:59:23Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031573&episodeid=7&eventtype=WF"
       }
@@ -508166,9 +508166,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-03T21:59:23Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031577&episodeid=9&eventtype=WF"
       }
@@ -508454,9 +508454,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-03T21:59:23Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031522&episodeid=12&eventtype=WF"
       }
@@ -508554,7 +508554,7 @@
       "first_seen": "2026-09-03T21:59:23Z",
       "last_changed": "2026-09-09T00:50:42Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031526&episodeid=14&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031526&episodeid=15&eventtype=WF"
       }
     },
     "evt-2026-18383": {
@@ -510506,9 +510506,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-04T01:56:32Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031590&episodeid=8&eventtype=WF"
       }
@@ -524001,9 +524001,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T14:11:53Z",
-      "last_changed": "2026-09-08T19:39:07Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031675&episodeid=7&eventtype=WF"
       }
@@ -524049,9 +524049,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T14:11:53Z",
-      "last_changed": "2026-09-08T07:31:46Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031677&episodeid=5&eventtype=WF"
       }
@@ -524121,9 +524121,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T14:11:53Z",
-      "last_changed": "2026-09-08T07:31:46Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031683&episodeid=10&eventtype=WF"
       }
@@ -524145,9 +524145,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T14:11:53Z",
-      "last_changed": "2026-09-08T07:31:46Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031679&episodeid=9&eventtype=WF"
       }
@@ -525723,9 +525723,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T16:53:43Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031697&episodeid=9&eventtype=WF"
       }
@@ -525747,9 +525747,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T07:31:46Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031696&episodeid=10&eventtype=WF"
       }
@@ -525915,9 +525915,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031689&episodeid=11&eventtype=WF"
       }
@@ -526035,9 +526035,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T07:31:46Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031684&episodeid=16&eventtype=WF"
       }
@@ -526059,9 +526059,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031674&episodeid=16&eventtype=WF"
       }
@@ -526131,9 +526131,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T16:53:43Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031667&episodeid=6&eventtype=WF"
       }
@@ -526203,9 +526203,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031656&episodeid=6&eventtype=WF"
       }
@@ -526395,9 +526395,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031636&episodeid=7&eventtype=WF"
       }
@@ -526611,9 +526611,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T19:41:13Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031623&episodeid=6&eventtype=WF"
       }
@@ -527141,9 +527141,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T21:46:29Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031720&episodeid=11&eventtype=WF"
       }
@@ -527189,9 +527189,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T21:46:29Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031718&episodeid=4&eventtype=WF"
       }
@@ -527309,9 +527309,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T21:46:29Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031671&episodeid=5&eventtype=WF"
       }
@@ -527734,9 +527734,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T23:26:24Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031726&episodeid=6&eventtype=WF"
       }
@@ -527782,9 +527782,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-05T23:26:24Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031724&episodeid=10&eventtype=WF"
       }
@@ -530341,9 +530341,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-06T11:25:21Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031728&episodeid=13&eventtype=WF"
       }
@@ -532642,9 +532642,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-06T19:44:07Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031731&episodeid=7&eventtype=WF"
       }
@@ -532762,9 +532762,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-06T19:44:07Z",
-      "last_changed": "2026-09-08T19:39:07Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031736&episodeid=4&eventtype=WF"
       }
@@ -532810,9 +532810,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-06T19:44:07Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031738&episodeid=7&eventtype=WF"
       }
@@ -532834,9 +532834,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-06T19:44:07Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031739&episodeid=6&eventtype=WF"
       }
@@ -533074,9 +533074,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-06T19:44:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031749&episodeid=4&eventtype=WF"
       }
@@ -533122,11 +533122,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-06T19:44:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031751&episodeid=7&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031751&episodeid=8&eventtype=WF"
       }
     },
     "evt-2026-19279": {
@@ -533146,9 +533146,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-06T19:44:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031752&episodeid=6&eventtype=WF"
       }
@@ -534450,11 +534450,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-07T01:48:47Z",
-      "last_changed": "2026-09-08T19:39:07Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031765&episodeid=6&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031765&episodeid=8&eventtype=WF"
       }
     },
     "evt-2026-19328": {
@@ -535607,11 +535607,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-07T05:03:12Z",
-      "last_changed": "2026-09-07T13:07:26Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031767&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031767&episodeid=3&eventtype=WF"
       }
     },
     "evt-2026-19369": {
@@ -537252,11 +537252,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-07T13:07:26Z",
-      "last_changed": "2026-09-09T00:50:42Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031769&episodeid=5&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031769&episodeid=6&eventtype=WF"
       }
     },
     "evt-2026-19428": {
@@ -537280,7 +537280,7 @@
       "first_seen": "2026-09-07T13:07:26Z",
       "last_changed": "2026-09-08T12:22:28Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031770&episodeid=5&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031770&episodeid=6&eventtype=WF"
       }
     },
     "evt-2026-19429": {
@@ -539006,7 +539006,7 @@
       "first_seen": "2026-09-07T18:28:21Z",
       "last_changed": "2026-09-08T12:22:28Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031772&episodeid=6&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031772&episodeid=7&eventtype=WF"
       }
     },
     "evt-2026-19491": {
@@ -539026,9 +539026,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-07T18:28:21Z",
-      "last_changed": "2026-09-09T00:50:42Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031773&episodeid=3&eventtype=WF"
       }
@@ -539074,11 +539074,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-07T18:28:21Z",
-      "last_changed": "2026-09-07T21:49:45Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031775&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031775&episodeid=4&eventtype=WF"
       }
     },
     "evt-2026-19494": {
@@ -539098,11 +539098,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-07T18:28:21Z",
-      "last_changed": "2026-09-08T19:39:07Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031776&episodeid=4&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031776&episodeid=5&eventtype=WF"
       }
     },
     "evt-2026-19495": {
@@ -540374,9 +540374,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T02:00:11Z",
-      "last_changed": "2026-09-08T02:00:11Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rtxhvg"
       }
@@ -540402,9 +540402,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T02:00:11Z",
-      "last_changed": "2026-09-08T02:00:11Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75030732"
       }
@@ -540430,9 +540430,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T02:00:11Z",
-      "last_changed": "2026-09-08T02:00:11Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75030717"
       }
@@ -540657,9 +540657,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rudiqp"
       }
@@ -540715,9 +540715,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431557"
       }
@@ -540743,9 +540743,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924244"
       }
@@ -540771,9 +540771,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ruccoc"
       }
@@ -540799,9 +540799,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542640"
       }
@@ -540827,9 +540827,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rrffpc"
       }
@@ -540855,9 +540855,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431547"
       }
@@ -540883,9 +540883,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfr0"
       }
@@ -540911,9 +540911,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfqz"
       }
@@ -540939,9 +540939,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542632"
       }
@@ -540967,9 +540967,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542624"
       }
@@ -540995,9 +540995,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542616"
       }
@@ -541023,9 +541023,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431527"
       }
@@ -541051,9 +541051,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542608"
       }
@@ -541079,9 +541079,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431522"
       }
@@ -541137,9 +541137,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75431497"
       }
@@ -541165,9 +541165,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rtxspy"
       }
@@ -541193,9 +541193,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfql"
       }
@@ -541221,9 +541221,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531163"
       }
@@ -541279,9 +541279,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T05:00:10Z",
-      "last_changed": "2026-09-08T05:00:10Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfqh"
       }
@@ -541843,9 +541843,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T07:31:46Z",
-      "last_changed": "2026-09-08T07:31:46Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rrhlep"
       }
@@ -541871,9 +541871,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T07:31:46Z",
-      "last_changed": "2026-09-08T07:31:46Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfr4"
       }
@@ -542881,9 +542881,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T12:22:28Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rrgxhm"
       }
@@ -542909,9 +542909,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T12:22:28Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rrcouk"
       }
@@ -542937,9 +542937,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T12:22:28Z",
-      "last_changed": "2026-09-08T12:22:28Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rqzzia"
       }
@@ -542993,7 +542993,7 @@
       "first_seen": "2026-09-08T12:22:28Z",
       "last_changed": "2026-09-08T12:22:28Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031816&episodeid=4&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031816&episodeid=5&eventtype=WF"
       }
     },
     "evt-2026-19634": {
@@ -543017,7 +543017,7 @@
       "first_seen": "2026-09-08T12:22:28Z",
       "last_changed": "2026-09-08T12:22:28Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031818&episodeid=6&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031818&episodeid=7&eventtype=WF"
       }
     },
     "evt-2026-19635": {
@@ -543041,7 +543041,7 @@
       "first_seen": "2026-09-08T12:22:28Z",
       "last_changed": "2026-09-08T12:22:28Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031822&episodeid=3&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031822&episodeid=4&eventtype=WF"
       }
     },
     "evt-2026-19636": {
@@ -543085,11 +543085,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T12:22:28Z",
-      "last_changed": "2026-09-09T00:50:42Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031791&episodeid=4&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031791&episodeid=5&eventtype=WF"
       }
     },
     "evt-2026-19638": {
@@ -543157,9 +543157,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T12:22:28Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031808&episodeid=3&eventtype=WF"
       }
@@ -543181,11 +543181,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T12:22:28Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031825&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031825&episodeid=3&eventtype=WF"
       }
     },
     "evt-2026-19642": {
@@ -543277,11 +543277,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T12:22:28Z",
-      "last_changed": "2026-09-08T19:39:07Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031790&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031790&episodeid=3&eventtype=WF"
       }
     },
     "evt-2026-19646": {
@@ -543449,7 +543449,7 @@
       "first_seen": "2026-09-08T12:22:28Z",
       "last_changed": "2026-09-08T19:39:07Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031817&episodeid=4&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031817&episodeid=6&eventtype=WF"
       }
     },
     "evt-2026-19653": {
@@ -545048,9 +545048,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T16:53:43Z",
-      "last_changed": "2026-09-08T16:53:43Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80154861"
       }
@@ -545076,9 +545076,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T16:53:43Z",
-      "last_changed": "2026-09-08T16:53:43Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rrbbuz"
       }
@@ -546049,9 +546049,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T19:39:07Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924240"
       }
@@ -546077,9 +546077,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T19:39:07Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80154876"
       }
@@ -546297,9 +546297,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031794&episodeid=2&eventtype=WF"
       }
@@ -546321,9 +546321,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031795&episodeid=2&eventtype=WF"
       }
@@ -546345,9 +546345,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031798&episodeid=3&eventtype=WF"
       }
@@ -546369,9 +546369,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031799&episodeid=2&eventtype=WF"
       }
@@ -546393,9 +546393,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031800&episodeid=3&eventtype=WF"
       }
@@ -546417,9 +546417,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031801&episodeid=2&eventtype=WF"
       }
@@ -546441,11 +546441,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031833&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031833&episodeid=2&eventtype=WF"
       }
     },
     "evt-2026-19762": {
@@ -546465,9 +546465,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031834&episodeid=1&eventtype=WF"
       }
@@ -546489,9 +546489,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031835&episodeid=1&eventtype=WF"
       }
@@ -546513,9 +546513,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031836&episodeid=1&eventtype=WF"
       }
@@ -546537,9 +546537,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031837&episodeid=1&eventtype=WF"
       }
@@ -546561,11 +546561,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031838&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031838&episodeid=2&eventtype=WF"
       }
     },
     "evt-2026-19767": {
@@ -546585,9 +546585,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031802&episodeid=2&eventtype=WF"
       }
@@ -546609,11 +546609,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031839&episodeid=1&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031839&episodeid=2&eventtype=WF"
       }
     },
     "evt-2026-19769": {
@@ -546633,9 +546633,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-09-08T19:39:07Z",
-      "last_changed": "2026-09-08T22:08:54Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031840&episodeid=1&eventtype=WF"
       }
@@ -547991,7 +547991,7 @@
         "usgs:tx2026rsuopz"
       ],
       "location": {
-        "lat": 31.654,
+        "lat": 31.653,
         "lon": -104.431,
         "place": "58 km S of Whites City, New Mexico"
       },
@@ -547999,7 +547999,7 @@
       "magnitude": {
         "value": 1.7,
         "type": "ml",
-        "depth_km": 4.5841
+        "depth_km": 4.6397
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -548098,20 +548098,21 @@
     },
     "evt-2026-19822": {
       "hazard": "EQ",
-      "name": "M 3.6 - 89 km SSW of Nikolski, Alaska",
+      "name": "M 3.4 - 73 km SW of Nikolski, Alaska",
       "aliases": [
-        "usgs:aka2026rvqhfz"
+        "usgs:aka2026rvqhfz",
+        "usgs:us7000tfym"
       ],
       "location": {
-        "lat": 52.194,
-        "lon": -169.343,
-        "place": "89 km SSW of Nikolski, Alaska"
+        "lat": 52.3902,
+        "lon": -169.479,
+        "place": "73 km SW of Nikolski, Alaska"
       },
       "origin_time": "2026-09-09T00:23:45Z",
       "magnitude": {
-        "value": 3.6,
+        "value": 3.4,
         "type": "ml",
-        "depth_km": 18.9
+        "depth_km": 54.851
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -548119,9 +548120,9 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-09-09T00:50:42Z",
-      "last_changed": "2026-09-09T00:50:42Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvqhfz"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfym"
       }
     },
     "evt-2026-19823": {
@@ -548240,7 +548241,8 @@
       "hazard": "EQ",
       "name": "M 2.5 - 25 km SW of Garden City, Texas",
       "aliases": [
-        "usgs:tx2026rssrsn"
+        "usgs:tx2026rssrsn",
+        "usgs:us7000tfyc"
       ],
       "location": {
         "lat": 31.725,
@@ -548407,20 +548409,21 @@
     },
     "evt-2026-19833": {
       "hazard": "EQ",
-      "name": "M 4.2 - 88 km SSW of Nikolski, Alaska",
+      "name": "M 4.0 - 77 km SSW of Nikolski, Alaska",
       "aliases": [
-        "usgs:aka2026rvnour"
+        "usgs:aka2026rvnour",
+        "usgs:us7000tfy4"
       ],
       "location": {
-        "lat": 52.186,
-        "lon": -169.286,
-        "place": "88 km SSW of Nikolski, Alaska"
+        "lat": 52.3325,
+        "lon": -169.4249,
+        "place": "77 km SSW of Nikolski, Alaska"
       },
       "origin_time": "2026-09-08T23:02:31Z",
       "magnitude": {
-        "value": 4.2,
-        "type": "ml",
-        "depth_km": 9.5
+        "value": 4,
+        "type": "mb",
+        "depth_km": 49.3
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -548428,9 +548431,9 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-09-09T00:50:42Z",
-      "last_changed": "2026-09-09T00:50:42Z",
+      "last_changed": "2026-09-09T04:59:36Z",
       "source_refs": {
-        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvnour"
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfy4"
       }
     },
     "evt-2026-19834": {
@@ -548780,28 +548783,1779 @@
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031844&episodeid=1&eventtype=WF"
       }
+    },
+    "evt-2026-19847": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 17 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci41543232"
+      ],
+      "location": {
+        "lat": 33.4836666666667,
+        "lon": -116.516166666667,
+        "place": "17 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-09-09T04:52:56Z",
+      "magnitude": {
+        "value": 0.45,
+        "type": "ml",
+        "depth_km": 12.08
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543232"
+      }
+    },
+    "evt-2026-19848": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 16 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci41543224"
+      ],
+      "location": {
+        "lat": 33.4765,
+        "lon": -116.5295,
+        "place": "16 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-09-09T04:42:56Z",
+      "magnitude": {
+        "value": 1.89,
+        "type": "ml",
+        "depth_km": 11.39
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543224"
+      }
+    },
+    "evt-2026-19849": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 0 km SW of Rising Sun, Maryland",
+      "aliases": [
+        "usgs:us7000tfzk"
+      ],
+      "location": {
+        "lat": 39.6915,
+        "lon": -76.069,
+        "place": "0 km SW of Rising Sun, Maryland"
+      },
+      "origin_time": "2026-09-09T04:41:39Z",
+      "magnitude": {
+        "value": 2.1,
+        "type": "mb_lg",
+        "depth_km": 5.134
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfzk"
+      }
+    },
+    "evt-2026-19850": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 2 km NNW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75432197"
+      ],
+      "location": {
+        "lat": 38.7970008850098,
+        "lon": -122.765335083008,
+        "place": "2 km NNW of The Geysers, CA"
+      },
+      "origin_time": "2026-09-09T04:35:33Z",
+      "magnitude": {
+        "value": 0.74,
+        "type": "md",
+        "depth_km": 1.69000005722046
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432197"
+      }
+    },
+    "evt-2026-19851": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 9 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75432187"
+      ],
+      "location": {
+        "lat": 38.8228340148926,
+        "lon": -122.841499328613,
+        "place": "9 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-09-09T04:24:08Z",
+      "magnitude": {
+        "value": 1.08,
+        "type": "md",
+        "depth_km": 1.8400000333786
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432187"
+      }
+    },
+    "evt-2026-19852": {
+      "hazard": "EQ",
+      "name": "M 4.2 - 26 km ENE of Calama, Chile",
+      "aliases": [
+        "usgs:us7000tfzh"
+      ],
+      "location": {
+        "lat": -22.3843,
+        "lon": -68.6822,
+        "place": "26 km ENE of Calama, Chile"
+      },
+      "origin_time": "2026-09-09T04:17:35Z",
+      "magnitude": {
+        "value": 4.2,
+        "type": "mb",
+        "depth_km": 115.83
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfzh"
+      }
+    },
+    "evt-2026-19853": {
+      "hazard": "EQ",
+      "name": "M 1.5 - 5 km WSW of Big Bear Lake, CA",
+      "aliases": [
+        "usgs:ci41543216"
+      ],
+      "location": {
+        "lat": 34.2268333333333,
+        "lon": -116.967,
+        "place": "5 km WSW of Big Bear Lake, CA"
+      },
+      "origin_time": "2026-09-09T04:08:14Z",
+      "magnitude": {
+        "value": 1.5,
+        "type": "ml",
+        "depth_km": 2.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543216"
+      }
+    },
+    "evt-2026-19854": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 7 km SE of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75031237"
+      ],
+      "location": {
+        "lat": 19.1628341674805,
+        "lon": -155.424667358398,
+        "place": "7 km SE of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-09-09T04:05:22Z",
+      "magnitude": {
+        "value": 1.9,
+        "type": "md",
+        "depth_km": 31.7000007629395
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75031237"
+      }
+    },
+    "evt-2026-19855": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 8 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75432177"
+      ],
+      "location": {
+        "lat": 38.8308334350586,
+        "lon": -122.817337036133,
+        "place": "8 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-09-09T04:00:31Z",
+      "magnitude": {
+        "value": 0.74,
+        "type": "md",
+        "depth_km": 2.3199999332428
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432177"
+      }
+    },
+    "evt-2026-19856": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 13 km ENE of Borrego Springs, CA",
+      "aliases": [
+        "usgs:ci41543208"
+      ],
+      "location": {
+        "lat": 33.306,
+        "lon": -116.248833333333,
+        "place": "13 km ENE of Borrego Springs, CA"
+      },
+      "origin_time": "2026-09-09T03:46:46Z",
+      "magnitude": {
+        "value": 0.69,
+        "type": "ml",
+        "depth_km": 5.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543208"
+      }
+    },
+    "evt-2026-19857": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 179 km SW of Adak, Alaska",
+      "aliases": [
+        "usgs:aka2026rvxaox"
+      ],
+      "location": {
+        "lat": 50.96,
+        "lon": -178.768,
+        "place": "179 km SW of Adak, Alaska"
+      },
+      "origin_time": "2026-09-09T03:46:04Z",
+      "magnitude": {
+        "value": 2.4,
+        "type": "ml",
+        "depth_km": 18.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvxaox"
+      }
+    },
+    "evt-2026-19858": {
+      "hazard": "EQ",
+      "name": "M 2.6 - 21 km SE of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75031232"
+      ],
+      "location": {
+        "lat": 19.0528335571289,
+        "lon": -155.353668212891,
+        "place": "21 km SE of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-09-09T03:42:52Z",
+      "magnitude": {
+        "value": 2.59,
+        "type": "md",
+        "depth_km": 32.7400016784668
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75031232"
+      }
+    },
+    "evt-2026-19859": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 16 km SE of Balmorhea, Texas",
+      "aliases": [
+        "usgs:tx2026rszpiw"
+      ],
+      "location": {
+        "lat": 30.871,
+        "lon": -103.633,
+        "place": "16 km SE of Balmorhea, Texas"
+      },
+      "origin_time": "2026-09-09T03:10:49Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 0
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rszpiw"
+      }
+    },
+    "evt-2026-19860": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 6 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75432167"
+      ],
+      "location": {
+        "lat": 38.8213348388672,
+        "lon": -122.797332763672,
+        "place": "6 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-09-09T03:07:47Z",
+      "magnitude": {
+        "value": 1.07,
+        "type": "md",
+        "depth_km": 3.11999988555908
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432167"
+      }
+    },
+    "evt-2026-19861": {
+      "hazard": "EQ",
+      "name": "M 0.3 - 8 km W of Anza, CA",
+      "aliases": [
+        "usgs:ci41543200"
+      ],
+      "location": {
+        "lat": 33.563,
+        "lon": -116.761833333333,
+        "place": "8 km W of Anza, CA"
+      },
+      "origin_time": "2026-09-09T03:07:11Z",
+      "magnitude": {
+        "value": 0.32,
+        "type": "ml",
+        "depth_km": 4.14
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543200"
+      }
+    },
+    "evt-2026-19862": {
+      "hazard": "EQ",
+      "name": "M 0.3 - 8 km W of Anza, CA",
+      "aliases": [
+        "usgs:ci41543192"
+      ],
+      "location": {
+        "lat": 33.5615,
+        "lon": -116.762166666667,
+        "place": "8 km W of Anza, CA"
+      },
+      "origin_time": "2026-09-09T03:01:19Z",
+      "magnitude": {
+        "value": 0.27,
+        "type": "ml",
+        "depth_km": 4.37
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543192"
+      }
+    },
+    "evt-2026-19863": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 14 km N of Morgan Hill, CA",
+      "aliases": [
+        "usgs:nc75432157"
+      ],
+      "location": {
+        "lat": 37.2598342895508,
+        "lon": -121.636833190918,
+        "place": "14 km N of Morgan Hill, CA"
+      },
+      "origin_time": "2026-09-09T03:00:51Z",
+      "magnitude": {
+        "value": 1.55,
+        "type": "md",
+        "depth_km": 5.34999990463257
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432157"
+      }
+    },
+    "evt-2026-19864": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 24 km SW of Garden City, Texas",
+      "aliases": [
+        "usgs:tx2026rszfzo"
+      ],
+      "location": {
+        "lat": 31.72,
+        "lon": -101.683,
+        "place": "24 km SW of Garden City, Texas"
+      },
+      "origin_time": "2026-09-09T02:59:59Z",
+      "magnitude": {
+        "value": 1.9,
+        "type": "ml",
+        "depth_km": 2.5662
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rszfzo"
+      }
+    },
+    "evt-2026-19865": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 9 km W of Anza, CA",
+      "aliases": [
+        "usgs:ci41543184"
+      ],
+      "location": {
+        "lat": 33.5553333333333,
+        "lon": -116.767833333333,
+        "place": "9 km W of Anza, CA"
+      },
+      "origin_time": "2026-09-09T02:58:47Z",
+      "magnitude": {
+        "value": 1.41,
+        "type": "ml",
+        "depth_km": 3.58
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543184"
+      }
+    },
+    "evt-2026-19866": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 18 km E of Minto, Alaska",
+      "aliases": [
+        "usgs:aka2026rvvkfv"
+      ],
+      "location": {
+        "lat": 65.165,
+        "lon": -148.959,
+        "place": "18 km E of Minto, Alaska"
+      },
+      "origin_time": "2026-09-09T02:57:07Z",
+      "magnitude": {
+        "value": 0.7,
+        "type": "ml",
+        "depth_km": 15.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvvkfv"
+      }
+    },
+    "evt-2026-19867": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 1 km SSW of Anderson Springs, CA",
+      "aliases": [
+        "usgs:nc75432152"
+      ],
+      "location": {
+        "lat": 38.7631683349609,
+        "lon": -122.697334289551,
+        "place": "1 km SSW of Anderson Springs, CA"
+      },
+      "origin_time": "2026-09-09T02:53:04Z",
+      "magnitude": {
+        "value": 1.18,
+        "type": "md",
+        "depth_km": 0.569999992847443
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432152"
+      }
+    },
+    "evt-2026-19868": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 16 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci41543176"
+      ],
+      "location": {
+        "lat": 33.4783333333333,
+        "lon": -116.5245,
+        "place": "16 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-09-09T02:49:57Z",
+      "magnitude": {
+        "value": 1.23,
+        "type": "ml",
+        "depth_km": 11.81
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543176"
+      }
+    },
+    "evt-2026-19869": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 6 km S of Brawley, CA",
+      "aliases": [
+        "usgs:ci41543168"
+      ],
+      "location": {
+        "lat": 32.928,
+        "lon": -115.5315,
+        "place": "6 km S of Brawley, CA"
+      },
+      "origin_time": "2026-09-09T02:44:41Z",
+      "magnitude": {
+        "value": 1.56,
+        "type": "ml",
+        "depth_km": 9.71
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543168"
+      }
+    },
+    "evt-2026-19870": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 16 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci41543160"
+      ],
+      "location": {
+        "lat": 33.487,
+        "lon": -116.525333333333,
+        "place": "16 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-09-09T02:35:19Z",
+      "magnitude": {
+        "value": 0.78,
+        "type": "ml",
+        "depth_km": 11.33
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543160"
+      }
+    },
+    "evt-2026-19871": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 60 km E of Pedro Bay, Alaska",
+      "aliases": [
+        "usgs:aka2026rvubsi"
+      ],
+      "location": {
+        "lat": 59.896,
+        "lon": -153.047,
+        "place": "60 km E of Pedro Bay, Alaska"
+      },
+      "origin_time": "2026-09-09T02:17:08Z",
+      "magnitude": {
+        "value": 2.1,
+        "type": "ml",
+        "depth_km": 107.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvubsi"
+      }
+    },
+    "evt-2026-19872": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 13 km NE of Pāhala, Hawaii",
+      "aliases": [
+        "usgs:hv75031212"
+      ],
+      "location": {
+        "lat": 19.298999786377,
+        "lon": -155.405334472656,
+        "place": "13 km NE of Pāhala, Hawaii"
+      },
+      "origin_time": "2026-09-09T02:12:05Z",
+      "magnitude": {
+        "value": 2.09,
+        "type": "md",
+        "depth_km": 28.2900009155273
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75031212"
+      }
+    },
+    "evt-2026-19873": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 11 km SSE of Susitna North, Alaska",
+      "aliases": [
+        "usgs:aka2026rvtsuc"
+      ],
+      "location": {
+        "lat": 62.069,
+        "lon": -149.741,
+        "place": "11 km SSE of Susitna North, Alaska"
+      },
+      "origin_time": "2026-09-09T02:07:00Z",
+      "magnitude": {
+        "value": 1.3,
+        "type": "ml",
+        "depth_km": 79.6
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvtsuc"
+      }
+    },
+    "evt-2026-19874": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 87 km NNW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026rvtglu"
+      ],
+      "location": {
+        "lat": 58.257,
+        "lon": -155.171,
+        "place": "87 km NNW of Karluk, Alaska"
+      },
+      "origin_time": "2026-09-09T01:52:48Z",
+      "magnitude": {
+        "value": 0.9,
+        "type": "ml",
+        "depth_km": 2.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvtglu"
+      }
+    },
+    "evt-2026-19875": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 13 km SSW of Searles Valley, CA",
+      "aliases": [
+        "usgs:ci41543144"
+      ],
+      "location": {
+        "lat": 35.6695,
+        "lon": -117.476166666667,
+        "place": "13 km SSW of Searles Valley, CA"
+      },
+      "origin_time": "2026-09-09T01:49:24Z",
+      "magnitude": {
+        "value": 1.15,
+        "type": "ml",
+        "depth_km": 7.96
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543144"
+      }
+    },
+    "evt-2026-19876": {
+      "hazard": "EQ",
+      "name": "M 2.3 - 16 km WSW of Johannesburg, CA",
+      "aliases": [
+        "usgs:ci41543136",
+        "usgs:us7000tfz1"
+      ],
+      "location": {
+        "lat": 35.3358333333333,
+        "lon": -117.806666666667,
+        "place": "16 km WSW of Johannesburg, CA"
+      },
+      "origin_time": "2026-09-09T01:46:03Z",
+      "magnitude": {
+        "value": 2.33,
+        "type": "ml",
+        "depth_km": 6.85
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543136"
+      }
+    },
+    "evt-2026-19877": {
+      "hazard": "EQ",
+      "name": "M 1.9 - 16 km SSE of Funny River, Alaska",
+      "aliases": [
+        "usgs:aka2026rvtafc"
+      ],
+      "location": {
+        "lat": 60.358,
+        "lon": -150.661,
+        "place": "16 km SSE of Funny River, Alaska"
+      },
+      "origin_time": "2026-09-09T01:45:33Z",
+      "magnitude": {
+        "value": 1.9,
+        "type": "ml",
+        "depth_km": 53.8
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvtafc"
+      }
+    },
+    "evt-2026-19878": {
+      "hazard": "EQ",
+      "name": "M 2.3 - 37 km WNW of Four Mile Road, Alaska",
+      "aliases": [
+        "usgs:aka2026rvssbv"
+      ],
+      "location": {
+        "lat": 64.781,
+        "lon": -149.783,
+        "place": "37 km WNW of Four Mile Road, Alaska"
+      },
+      "origin_time": "2026-09-09T01:36:12Z",
+      "magnitude": {
+        "value": 2.3,
+        "type": "ml",
+        "depth_km": 9.7
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvssbv"
+      }
+    },
+    "evt-2026-19879": {
+      "hazard": "EQ",
+      "name": "M 0.4 - 9 km NE of Ashford, Washington",
+      "aliases": [
+        "usgs:uw714097382"
+      ],
+      "location": {
+        "lat": 46.8188333333333,
+        "lon": -121.941333333333,
+        "place": "9 km NE of Ashford, Washington"
+      },
+      "origin_time": "2026-09-09T01:32:38Z",
+      "magnitude": {
+        "value": 0.39,
+        "type": "ml",
+        "depth_km": 6.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714097382"
+      }
+    },
+    "evt-2026-19880": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 16 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci41543128"
+      ],
+      "location": {
+        "lat": 33.4783333333333,
+        "lon": -116.528833333333,
+        "place": "16 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-09-09T01:27:14Z",
+      "magnitude": {
+        "value": 2.05,
+        "type": "ml",
+        "depth_km": 11.09
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543128"
+      }
+    },
+    "evt-2026-19881": {
+      "hazard": "EQ",
+      "name": "M 1.2 - 42 km SW of Skwentna, Alaska",
+      "aliases": [
+        "usgs:aka2026rvsfji"
+      ],
+      "location": {
+        "lat": 61.714,
+        "lon": -151.949,
+        "place": "42 km SW of Skwentna, Alaska"
+      },
+      "origin_time": "2026-09-09T01:21:35Z",
+      "magnitude": {
+        "value": 1.2,
+        "type": "ml",
+        "depth_km": 74.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvsfji"
+      }
+    },
+    "evt-2026-19882": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 15 km WSW of Stanton, Texas",
+      "aliases": [
+        "usgs:tx2026rsvxxp"
+      ],
+      "location": {
+        "lat": 32.097,
+        "lon": -101.952,
+        "place": "15 km WSW of Stanton, Texas"
+      },
+      "origin_time": "2026-09-09T01:20:05Z",
+      "magnitude": {
+        "value": 1.4,
+        "type": "ml",
+        "depth_km": 3.4785
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rsvxxp"
+      }
+    },
+    "evt-2026-19883": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 8 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75432137"
+      ],
+      "location": {
+        "lat": 38.8306655883789,
+        "lon": -122.814666748047,
+        "place": "8 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-09-09T01:15:58Z",
+      "magnitude": {
+        "value": 1.69,
+        "type": "md",
+        "depth_km": 2.21000003814697
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432137"
+      }
+    },
+    "evt-2026-19884": {
+      "hazard": "EQ",
+      "name": "M 2.3 - 8 km NW of The Geysers, CA",
+      "aliases": [
+        "usgs:nc75432132"
+      ],
+      "location": {
+        "lat": 38.8320007324219,
+        "lon": -122.814163208008,
+        "place": "8 km NW of The Geysers, CA"
+      },
+      "origin_time": "2026-09-09T01:08:14Z",
+      "magnitude": {
+        "value": 2.34,
+        "type": "md",
+        "depth_km": 2.23000001907349
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432132"
+      }
+    },
+    "evt-2026-19885": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 12 km WSW of Salton City, CA",
+      "aliases": [
+        "usgs:ci41543120"
+      ],
+      "location": {
+        "lat": 33.2426666666667,
+        "lon": -116.067833333333,
+        "place": "12 km WSW of Salton City, CA"
+      },
+      "origin_time": "2026-09-09T01:05:03Z",
+      "magnitude": {
+        "value": 0.86,
+        "type": "ml",
+        "depth_km": 3.35
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543120"
+      }
+    },
+    "evt-2026-19886": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 59 km S of Whites City, New Mexico",
+      "aliases": [
+        "usgs:tx2026rsvffz"
+      ],
+      "location": {
+        "lat": 31.642,
+        "lon": -104.456,
+        "place": "59 km S of Whites City, New Mexico"
+      },
+      "origin_time": "2026-09-09T00:58:15Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 0.8388
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rsvffz"
+      }
+    },
+    "evt-2026-19887": {
+      "hazard": "EQ",
+      "name": "M 2.7 - 44 km N of Tanana, Alaska",
+      "aliases": [
+        "usgs:aka2026rvrdne",
+        "usgs:us7000tfyt"
+      ],
+      "location": {
+        "lat": 65.572,
+        "lon": -151.988,
+        "place": "44 km N of Tanana, Alaska"
+      },
+      "origin_time": "2026-09-09T00:49:26Z",
+      "magnitude": {
+        "value": 2.7,
+        "type": "ml",
+        "depth_km": 12.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rvrdne"
+      }
+    },
+    "evt-2026-19888": {
+      "hazard": "EQ",
+      "name": "M 2.1 - 7 km WSW of Guánica, Puerto Rico",
+      "aliases": [
+        "usgs:pr71531223"
+      ],
+      "location": {
+        "lat": 17.9423333333333,
+        "lon": -66.9675,
+        "place": "7 km WSW of Guánica, Puerto Rico"
+      },
+      "origin_time": "2026-09-09T00:38:32Z",
+      "magnitude": {
+        "value": 2.12,
+        "type": "md",
+        "depth_km": 14.91
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531223"
+      }
+    },
+    "evt-2026-19889": {
+      "hazard": "EQ",
+      "name": "M 4.5 - 108 km SSW of Pagar Alam, Indonesia",
+      "aliases": [
+        "usgs:us7000tfyn",
+        "gdacs:1564346"
+      ],
+      "location": {
+        "lat": -4.9167,
+        "lon": 102.8454,
+        "place": "108 km SSW of Pagar Alam, Indonesia"
+      },
+      "origin_time": "2026-09-09T00:23:19Z",
+      "magnitude": {
+        "value": 4.5,
+        "type": "mb",
+        "depth_km": 39.565
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfyn",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1564346&episodeid=1732061&eventtype=EQ"
+      }
+    },
+    "evt-2026-19890": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80155276"
+      ],
+      "location": {
+        "lat": 38.5191666666667,
+        "lon": -112.8935,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-09-08T23:46:53Z",
+      "magnitude": {
+        "value": 1.09,
+        "type": "md",
+        "depth_km": 2.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80155276"
+      }
+    },
+    "evt-2026-19891": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80155271"
+      ],
+      "location": {
+        "lat": 38.5185,
+        "lon": -112.895833333333,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-09-08T23:43:35Z",
+      "magnitude": {
+        "value": 1.13,
+        "type": "md",
+        "depth_km": 2.11
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80155271"
+      }
+    },
+    "evt-2026-19892": {
+      "hazard": "EQ",
+      "name": "M 0.7 - 1 km SE of Loma Linda, CA",
+      "aliases": [
+        "usgs:ci41543072"
+      ],
+      "location": {
+        "lat": 34.0425,
+        "lon": -117.252833333333,
+        "place": "1 km SE of Loma Linda, CA"
+      },
+      "origin_time": "2026-09-08T23:26:25Z",
+      "magnitude": {
+        "value": 0.68,
+        "type": "ml",
+        "depth_km": 16.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41543072"
+      }
+    },
+    "evt-2026-19893": {
+      "hazard": "EQ",
+      "name": "M 4.9 - Mariana Islands region",
+      "aliases": [
+        "usgs:us7000tfy8",
+        "gdacs:1564340"
+      ],
+      "location": {
+        "lat": 16.5996,
+        "lon": 148.4279,
+        "place": "Mariana Islands region"
+      },
+      "origin_time": "2026-09-08T23:23:42Z",
+      "magnitude": {
+        "value": 4.9,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfy8",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1564340&episodeid=1732047&eventtype=EQ"
+      }
+    },
+    "evt-2026-19894": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 17 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80155266"
+      ],
+      "location": {
+        "lat": 38.5223333333333,
+        "lon": -112.893833333333,
+        "place": "17 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-09-08T23:14:55Z",
+      "magnitude": {
+        "value": 0.96,
+        "type": "ml",
+        "depth_km": 2.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80155266"
+      }
+    },
+    "evt-2026-19895": {
+      "hazard": "EQ",
+      "name": "M 4.9 - 211 km ENE of Neiafu, Tonga",
+      "aliases": [
+        "usgs:us7000tfxg",
+        "gdacs:1564367"
+      ],
+      "location": {
+        "lat": -17.7255,
+        "lon": -172.2335,
+        "place": "211 km ENE of Neiafu, Tonga"
+      },
+      "origin_time": "2026-09-08T21:57:33Z",
+      "magnitude": {
+        "value": 4.9,
+        "type": "mb",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfxg",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1564367&episodeid=1732065&eventtype=EQ"
+      }
+    },
+    "evt-2026-19896": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80155261"
+      ],
+      "location": {
+        "lat": 38.5123333333333,
+        "lon": -112.898,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-09-08T21:56:14Z",
+      "magnitude": {
+        "value": 1.67,
+        "type": "ml",
+        "depth_km": 2.17
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80155261"
+      }
+    },
+    "evt-2026-19897": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 10 km NE of Hildale, Utah",
+      "aliases": [
+        "usgs:uu80155256"
+      ],
+      "location": {
+        "lat": 37.0755,
+        "lon": -112.899,
+        "place": "10 km NE of Hildale, Utah"
+      },
+      "origin_time": "2026-09-08T21:52:34Z",
+      "magnitude": {
+        "value": 1.14,
+        "type": "md",
+        "depth_km": 14.88
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80155256"
+      }
+    },
+    "evt-2026-19898": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 54 km NE of Kenny Lake, Alaska",
+      "aliases": [
+        "usgs:av93066674"
+      ],
+      "location": {
+        "lat": 61.997,
+        "lon": -144.095166666667,
+        "place": "54 km NE of Kenny Lake, Alaska"
+      },
+      "origin_time": "2026-09-08T21:09:42Z",
+      "magnitude": {
+        "value": 0.82,
+        "type": "ml",
+        "depth_km": 8.75
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93066674"
+      }
+    },
+    "evt-2026-19899": {
+      "hazard": "EQ",
+      "name": "M 1.0 - 15 km SSW of Ackerly, Texas",
+      "aliases": [
+        "usgs:tx2026rrvhdu"
+      ],
+      "location": {
+        "lat": 32.403,
+        "lon": -101.791,
+        "place": "15 km SSW of Ackerly, Texas"
+      },
+      "origin_time": "2026-09-08T11:59:19Z",
+      "magnitude": {
+        "value": 1,
+        "type": "ml",
+        "depth_km": 8.667
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rrvhdu"
+      }
+    },
+    "evt-2026-19900": {
+      "hazard": "EQ",
+      "name": "M 0.8 - 5 km S of Redlands, CA",
+      "aliases": [
+        "usgs:ci41542728"
+      ],
+      "location": {
+        "lat": 34.0088333333333,
+        "lon": -117.183166666667,
+        "place": "5 km S of Redlands, CA"
+      },
+      "origin_time": "2026-09-08T10:36:34Z",
+      "magnitude": {
+        "value": 0.84,
+        "type": "ml",
+        "depth_km": 16.58
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41542728"
+      }
+    },
+    "evt-2026-19901": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 16 km NE of Milford, Utah",
+      "aliases": [
+        "usgs:uu80155036"
+      ],
+      "location": {
+        "lat": 38.5158333333333,
+        "lon": -112.898333333333,
+        "place": "16 km NE of Milford, Utah"
+      },
+      "origin_time": "2026-09-08T07:45:32Z",
+      "magnitude": {
+        "value": 1.66,
+        "type": "ml",
+        "depth_km": 1.44
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80155036"
+      }
+    },
+    "evt-2026-19902": {
+      "hazard": "WF",
+      "name": "Forest fires in Zambia",
+      "aliases": [
+        "gdacs:1031841"
+      ],
+      "location": {
+        "lat": -9.8186,
+        "lon": 29.7824,
+        "place": "Zambia"
+      },
+      "origin_time": "2026-08-31T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031841&episodeid=1&eventtype=WF"
+      }
+    },
+    "evt-2026-19903": {
+      "hazard": "WF",
+      "name": "Forest fires in Angola",
+      "aliases": [
+        "gdacs:1031842"
+      ],
+      "location": {
+        "lat": -7.9468,
+        "lon": 16.0766,
+        "place": "Angola"
+      },
+      "origin_time": "2026-08-30T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031842&episodeid=2&eventtype=WF"
+      }
+    },
+    "evt-2026-19904": {
+      "hazard": "WF",
+      "name": "Forest fires in Mozambique",
+      "aliases": [
+        "gdacs:1031843"
+      ],
+      "location": {
+        "lat": -15.7238,
+        "lon": 40.0466,
+        "place": "Mozambique"
+      },
+      "origin_time": "2026-08-30T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031843&episodeid=1&eventtype=WF"
+      }
+    },
+    "evt-2026-19905": {
+      "hazard": "WF",
+      "name": "Forest fires in Zambia",
+      "aliases": [
+        "gdacs:1031848"
+      ],
+      "location": {
+        "lat": -10.3119,
+        "lon": 30.4251,
+        "place": "Zambia"
+      },
+      "origin_time": "2026-08-31T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031848&episodeid=1&eventtype=WF"
+      }
+    },
+    "evt-2026-19906": {
+      "hazard": "WF",
+      "name": "Forest fires in Zambia",
+      "aliases": [
+        "gdacs:1031849"
+      ],
+      "location": {
+        "lat": -11.5542,
+        "lon": 31.4633,
+        "place": "Zambia"
+      },
+      "origin_time": "2026-08-31T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031849&episodeid=1&eventtype=WF"
+      }
+    },
+    "evt-2026-19907": {
+      "hazard": "WF",
+      "name": "Forest fires in Tanzania",
+      "aliases": [
+        "gdacs:1031850"
+      ],
+      "location": {
+        "lat": -10.553,
+        "lon": 35.3774,
+        "place": "Tanzania"
+      },
+      "origin_time": "2026-08-31T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031850&episodeid=1&eventtype=WF"
+      }
+    },
+    "evt-2026-19908": {
+      "hazard": "WF",
+      "name": "Forest fires in The Democratic Republic of Congo",
+      "aliases": [
+        "gdacs:1031804"
+      ],
+      "location": {
+        "lat": -5.472,
+        "lon": 14.9444,
+        "place": "The Democratic Republic of Congo"
+      },
+      "origin_time": "2026-08-31T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031804&episodeid=3&eventtype=WF"
+      }
+    },
+    "evt-2026-19909": {
+      "hazard": "WF",
+      "name": "Forest fires in Angola",
+      "aliases": [
+        "gdacs:1031805"
+      ],
+      "location": {
+        "lat": -6.5293,
+        "lon": 15.8819,
+        "place": "Angola"
+      },
+      "origin_time": "2026-08-31T00:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-09T04:59:36Z",
+      "last_changed": "2026-09-09T04:59:36Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1031805&episodeid=2&eventtype=WF"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-09-09T00:50:42Z",
-      "last_success": "2026-09-09T00:50:42Z",
-      "feed_generated_at": "2026-09-09T00:50:30Z",
+      "last_attempt": "2026-09-09T04:59:36Z",
+      "last_success": "2026-09-09T04:59:36Z",
+      "feed_generated_at": "2026-09-09T04:59:26Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-09-09T00:50:42Z",
-      "last_success": "2026-09-09T00:50:42Z",
+      "last_attempt": "2026-09-09T04:59:36Z",
+      "last_success": "2026-09-09T04:59:36Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
   },
   "edition_marker": {
-    "last_edition_at": "2026-09-08T05:00:10Z",
+    "last_edition_at": "2026-09-09T04:59:36Z",
     "acknowledged_changes": [
-      "evt-2026-19034",
-      "evt-2026-19314",
-      "evt-2026-19360"
+      "evt-2026-17823",
+      "evt-2026-17941",
+      "evt-2026-17943",
+      "evt-2026-19276",
+      "evt-2026-19278",
+      "evt-2026-19279",
+      "evt-2026-19327",
+      "evt-2026-19368",
+      "evt-2026-19427",
+      "evt-2026-19491",
+      "evt-2026-19493",
+      "evt-2026-19494",
+      "evt-2026-19533",
+      "evt-2026-19546"
     ],
     "baseline": {
       "evt-2026-0001": {
@@ -595192,7 +596946,7 @@
       "evt-2026-9278": {
         "level": 2,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-9279": {
         "level": 0,
@@ -628807,7 +630561,7 @@
       "evt-2026-16001": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-16002": {
         "level": 0,
@@ -629807,7 +631561,7 @@
       "evt-2026-16201": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-16202": {
         "level": 0,
@@ -629822,7 +631576,7 @@
       "evt-2026-16204": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-16205": {
         "level": 0,
@@ -630442,7 +632196,7 @@
       "evt-2026-16328": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-16329": {
         "level": 0,
@@ -631382,7 +633136,7 @@
       "evt-2026-16516": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-16517": {
         "level": 0,
@@ -632597,7 +634351,7 @@
       "evt-2026-16759": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-16760": {
         "level": 0,
@@ -633482,7 +635236,7 @@
       "evt-2026-16936": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-16937": {
         "level": 0,
@@ -634967,7 +636721,7 @@
       "evt-2026-17233": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17234": {
         "level": 0,
@@ -635302,7 +637056,7 @@
       "evt-2026-17300": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17301": {
         "level": 0,
@@ -635982,17 +637736,17 @@
       "evt-2026-17436": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17437": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17438": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17439": {
         "level": 0,
@@ -636337,7 +638091,7 @@
       "evt-2026-17507": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17508": {
         "level": 0,
@@ -636347,12 +638101,12 @@
       "evt-2026-17509": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17510": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17511": {
         "level": 0,
@@ -636362,7 +638116,7 @@
       "evt-2026-17512": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17513": {
         "level": 0,
@@ -636882,7 +638636,7 @@
       "evt-2026-17616": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17617": {
         "level": 0,
@@ -637072,7 +638826,7 @@
       "evt-2026-17654": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17655": {
         "level": 0,
@@ -637107,7 +638861,7 @@
       "evt-2026-17661": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17662": {
         "level": 0,
@@ -637122,12 +638876,12 @@
       "evt-2026-17664": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17665": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17666": {
         "level": 0,
@@ -637142,7 +638896,7 @@
       "evt-2026-17668": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17669": {
         "level": 0,
@@ -637957,7 +639711,7 @@
       "evt-2026-17831": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17832": {
         "level": 0,
@@ -637967,7 +639721,7 @@
       "evt-2026-17833": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17834": {
         "level": 0,
@@ -638252,7 +640006,7 @@
       "evt-2026-17890": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17891": {
         "level": 0,
@@ -638292,7 +640046,7 @@
       "evt-2026-17898": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17899": {
         "level": 0,
@@ -638487,7 +640241,7 @@
       "evt-2026-17937": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17938": {
         "level": 0,
@@ -638522,7 +640276,7 @@
       "evt-2026-17944": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17945": {
         "level": 0,
@@ -638532,7 +640286,7 @@
       "evt-2026-17946": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-17947": {
         "level": 0,
@@ -640512,12 +642266,12 @@
       "evt-2026-18342": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18343": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18344": {
         "level": 0,
@@ -640532,22 +642286,22 @@
       "evt-2026-18346": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18347": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18348": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18349": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18350": {
         "level": 0,
@@ -640557,12 +642311,12 @@
       "evt-2026-18351": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18352": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18353": {
         "level": 0,
@@ -640572,12 +642326,12 @@
       "evt-2026-18354": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18355": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18356": {
         "level": 0,
@@ -640597,22 +642351,22 @@
       "evt-2026-18359": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18360": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18361": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18362": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18363": {
         "level": 0,
@@ -640632,7 +642386,7 @@
       "evt-2026-18366": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18367": {
         "level": 0,
@@ -640647,7 +642401,7 @@
       "evt-2026-18369": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18370": {
         "level": 0,
@@ -640657,7 +642411,7 @@
       "evt-2026-18371": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18372": {
         "level": 0,
@@ -640677,7 +642431,7 @@
       "evt-2026-18375": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18376": {
         "level": 0,
@@ -640692,7 +642446,7 @@
       "evt-2026-18378": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18379": {
         "level": 0,
@@ -641017,7 +642771,7 @@
       "evt-2026-18443": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18444": {
         "level": 0,
@@ -641032,7 +642786,7 @@
       "evt-2026-18446": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18447": {
         "level": 0,
@@ -641042,12 +642796,12 @@
       "evt-2026-18448": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18449": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18450": {
         "level": 0,
@@ -641057,7 +642811,7 @@
       "evt-2026-18451": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18452": {
         "level": 0,
@@ -641072,7 +642826,7 @@
       "evt-2026-18454": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18455": {
         "level": 0,
@@ -642322,12 +644076,12 @@
       "evt-2026-18704": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18705": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18706": {
         "level": 0,
@@ -642337,7 +644091,7 @@
       "evt-2026-18707": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18708": {
         "level": 0,
@@ -642352,7 +644106,7 @@
       "evt-2026-18710": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18711": {
         "level": 0,
@@ -642372,7 +644126,7 @@
       "evt-2026-18714": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18715": {
         "level": 0,
@@ -642687,7 +644441,7 @@
       "evt-2026-18777": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-18778": {
         "level": 0,
@@ -643957,12 +645711,12 @@
       "evt-2026-19031": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19032": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19033": {
         "level": 0,
@@ -643972,12 +645726,12 @@
       "evt-2026-19034": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19035": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19036": {
         "level": 0,
@@ -643987,22 +645741,22 @@
       "evt-2026-19037": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19038": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19039": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19040": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19041": {
         "level": 0,
@@ -644012,22 +645766,22 @@
       "evt-2026-19042": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19043": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19044": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19045": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19046": {
         "level": 0,
@@ -644337,7 +646091,7 @@
       "evt-2026-19107": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19108": {
         "level": 0,
@@ -645157,7 +646911,7 @@
       "evt-2026-19271": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19272": {
         "level": 0,
@@ -645182,7 +646936,7 @@
       "evt-2026-19276": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19277": {
         "level": 0,
@@ -645192,12 +646946,12 @@
       "evt-2026-19278": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19279": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19280": {
         "level": 0,
@@ -645347,7 +647101,7 @@
       "evt-2026-19309": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19310": {
         "level": 0,
@@ -645362,7 +647116,7 @@
       "evt-2026-19312": {
         "level": 0,
         "magnitude": 5.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19313": {
         "level": 0,
@@ -645437,7 +647191,7 @@
       "evt-2026-19327": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19328": {
         "level": 0,
@@ -645552,12 +647306,12 @@
       "evt-2026-19350": {
         "level": 0,
         "magnitude": 4.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19351": {
         "level": 0,
         "magnitude": 4.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19352": {
         "level": 0,
@@ -645582,7 +647336,7 @@
       "evt-2026-19356": {
         "level": 0,
         "magnitude": 4.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19357": {
         "level": 0,
@@ -645592,7 +647346,7 @@
       "evt-2026-19358": {
         "level": 0,
         "magnitude": 5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19359": {
         "level": 0,
@@ -645642,57 +647396,57 @@
       "evt-2026-19368": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19369": {
         "level": 0,
         "magnitude": 2.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19370": {
         "level": 0,
         "magnitude": 0.25,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19371": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19372": {
         "level": 0,
         "magnitude": 0.82,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19373": {
         "level": 0,
         "magnitude": 1.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19374": {
         "level": 0,
         "magnitude": 2.28,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19375": {
         "level": 0,
         "magnitude": 5.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19376": {
         "level": 0,
         "magnitude": 1.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19377": {
         "level": 0,
         "magnitude": 1.11,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19378": {
         "level": 0,
         "magnitude": 1.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19379": {
         "level": 0,
@@ -645702,232 +647456,232 @@
       "evt-2026-19380": {
         "level": 0,
         "magnitude": 0.71,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19381": {
         "level": 0,
         "magnitude": 2.14,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19382": {
         "level": 0,
         "magnitude": 0.99,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19383": {
         "level": 0,
         "magnitude": 1.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19384": {
         "level": 0,
         "magnitude": 1.02,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19385": {
         "level": 0,
         "magnitude": 1.38,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19386": {
         "level": 0,
         "magnitude": 1.44,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19387": {
         "level": 0,
         "magnitude": 0.94,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19388": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19389": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19390": {
         "level": 0,
         "magnitude": 2.09,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19391": {
         "level": 0,
         "magnitude": 2.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19392": {
         "level": 0,
         "magnitude": 1.75,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19393": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19394": {
         "level": 0,
         "magnitude": 1.74,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19395": {
         "level": 0,
         "magnitude": 3.02,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19396": {
         "level": 0,
         "magnitude": 2.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19397": {
         "level": 0,
         "magnitude": 1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19398": {
         "level": 0,
         "magnitude": 0.68,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19399": {
         "level": 0,
         "magnitude": 2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19400": {
         "level": 0,
         "magnitude": 1.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19401": {
         "level": 0,
         "magnitude": 2.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19402": {
         "level": 0,
         "magnitude": 1.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19403": {
         "level": 0,
         "magnitude": 0.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19404": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19405": {
         "level": 0,
         "magnitude": 1.95,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19406": {
         "level": 0,
         "magnitude": 2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19407": {
         "level": 0,
         "magnitude": 1.23,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19408": {
         "level": 0,
         "magnitude": 0.96,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19409": {
         "level": 0,
         "magnitude": 2.02,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19410": {
         "level": 0,
         "magnitude": 1.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19411": {
         "level": 0,
         "magnitude": 3.18,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19412": {
         "level": 0,
         "magnitude": 1.05,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19413": {
         "level": 0,
         "magnitude": 2.64,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19414": {
         "level": 0,
         "magnitude": 1.07,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19415": {
         "level": 0,
         "magnitude": 2.35,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19416": {
         "level": 0,
         "magnitude": 1.07,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19417": {
         "level": 0,
         "magnitude": 0.77,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19418": {
         "level": 0,
         "magnitude": 0.75,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19419": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19420": {
         "level": 0,
         "magnitude": 1.05,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19421": {
         "level": 0,
         "magnitude": 2.04,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19422": {
         "level": 0,
         "magnitude": 2.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19423": {
         "level": 0,
         "magnitude": 1.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19424": {
         "level": 0,
         "magnitude": 2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19425": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19426": {
         "level": 0,
@@ -645937,292 +647691,292 @@
       "evt-2026-19427": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19428": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19429": {
         "level": 0,
         "magnitude": 2.53,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19430": {
         "level": 0,
         "magnitude": 0.99,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19431": {
         "level": 0,
         "magnitude": 1.74,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19432": {
         "level": 0,
         "magnitude": 1.31,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19433": {
         "level": 0,
         "magnitude": 1.05,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19434": {
         "level": 0,
         "magnitude": 1.49,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19435": {
         "level": 0,
         "magnitude": 3.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19436": {
         "level": 0,
         "magnitude": 1.42,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19437": {
         "level": 0,
         "magnitude": 2.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19438": {
         "level": 0,
         "magnitude": 0.73,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19439": {
         "level": 0,
         "magnitude": 0.57,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19440": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19441": {
         "level": 0,
         "magnitude": 0.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19442": {
         "level": 0,
         "magnitude": 0.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19443": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19444": {
         "level": 0,
         "magnitude": 2.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19445": {
         "level": 0,
         "magnitude": 1.55,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19446": {
         "level": 0,
         "magnitude": 1.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19447": {
         "level": 0,
         "magnitude": 2.22,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19448": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19449": {
         "level": 0,
         "magnitude": 1.76,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19450": {
         "level": 0,
         "magnitude": 1.32,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19451": {
         "level": 0,
         "magnitude": 0.75,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19452": {
         "level": 0,
         "magnitude": 1.33,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19453": {
         "level": 0,
         "magnitude": 1.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19454": {
         "level": 0,
         "magnitude": 0.84,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19455": {
         "level": 0,
         "magnitude": 1.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19456": {
         "level": 0,
         "magnitude": 1.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19457": {
         "level": 0,
         "magnitude": 1.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19458": {
         "level": 0,
         "magnitude": 1.33,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19459": {
         "level": 0,
         "magnitude": 1.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19460": {
         "level": 0,
         "magnitude": 1.06,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19461": {
         "level": 0,
         "magnitude": 1.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19462": {
         "level": 0,
         "magnitude": 0.77,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19463": {
         "level": 0,
         "magnitude": 0.99,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19464": {
         "level": 0,
         "magnitude": 0.67,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19465": {
         "level": 0,
         "magnitude": 1.12,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19466": {
         "level": 0,
         "magnitude": 0.69,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19467": {
         "level": 0,
         "magnitude": 1.33,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19468": {
         "level": 0,
         "magnitude": 2.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19469": {
         "level": 0,
         "magnitude": 1.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19470": {
         "level": 0,
         "magnitude": 2.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19471": {
         "level": 0,
         "magnitude": 1.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19472": {
         "level": 0,
         "magnitude": 1.44,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19473": {
         "level": 0,
         "magnitude": 2.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19474": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19475": {
         "level": 0,
         "magnitude": 2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19476": {
         "level": 0,
         "magnitude": 2.02,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19477": {
         "level": 0,
         "magnitude": 2.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19478": {
         "level": 0,
         "magnitude": 4.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19479": {
         "level": 0,
         "magnitude": 0.72,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19480": {
         "level": 0,
         "magnitude": 0.89,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19481": {
         "level": 0,
         "magnitude": 2.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19482": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19483": {
         "level": 0,
         "magnitude": 1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19484": {
         "level": 0,
         "magnitude": 1.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19485": {
         "level": 0,
@@ -646242,37 +647996,37 @@
       "evt-2026-19488": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19489": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19490": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19491": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19492": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19493": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19494": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19495": {
         "level": 0,
@@ -646282,7 +648036,7 @@
       "evt-2026-19496": {
         "level": 0,
         "magnitude": null,
-        "status": "aged_out"
+        "status": "active"
       },
       "evt-2026-19497": {
         "level": 0,
@@ -646292,227 +648046,227 @@
       "evt-2026-19498": {
         "level": 0,
         "magnitude": 3.67,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19499": {
         "level": 0,
         "magnitude": 1.17,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19500": {
         "level": 0,
         "magnitude": 1.55,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19501": {
         "level": 0,
         "magnitude": 1.96,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19502": {
         "level": 0,
         "magnitude": 1.85,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19503": {
         "level": 0,
         "magnitude": 0.77,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19504": {
         "level": 0,
         "magnitude": 0.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19505": {
         "level": 0,
         "magnitude": 2.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19506": {
         "level": 0,
         "magnitude": 0.67,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19507": {
         "level": 0,
         "magnitude": 1.16,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19508": {
         "level": 0,
         "magnitude": 1.49,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19509": {
         "level": 0,
         "magnitude": 2.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19510": {
         "level": 0,
         "magnitude": 3.17,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19511": {
         "level": 0,
         "magnitude": 2.43,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19512": {
         "level": 0,
         "magnitude": 0.95,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19513": {
         "level": 0,
         "magnitude": 1.59,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19514": {
         "level": 0,
         "magnitude": 2.28,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19515": {
         "level": 0,
         "magnitude": 1.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19516": {
         "level": 0,
         "magnitude": 1.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19517": {
         "level": 0,
         "magnitude": 1.36,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19518": {
         "level": 0,
         "magnitude": 1.61,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19519": {
         "level": 0,
         "magnitude": 0.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19520": {
         "level": 0,
         "magnitude": 1.93,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19521": {
         "level": 0,
         "magnitude": 1.91,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19522": {
         "level": 0,
         "magnitude": null,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19523": {
         "level": 0,
         "magnitude": 1.14,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19524": {
         "level": 0,
         "magnitude": 2.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19525": {
         "level": 0,
         "magnitude": 1.23,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19526": {
         "level": 0,
         "magnitude": 1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19527": {
         "level": 0,
         "magnitude": 0.81,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19528": {
         "level": 0,
         "magnitude": 1.53,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19529": {
         "level": 0,
         "magnitude": 1.08,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19530": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19531": {
         "level": 0,
         "magnitude": 2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19532": {
         "level": 0,
         "magnitude": 4.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19533": {
         "level": 0,
-        "magnitude": 1.1,
-        "status": "active"
+        "magnitude": 1.5,
+        "status": "aged_out"
       },
       "evt-2026-19534": {
         "level": 0,
         "magnitude": 4.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19535": {
         "level": 0,
         "magnitude": 0.9,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19536": {
         "level": 0,
         "magnitude": 4.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19537": {
         "level": 0,
         "magnitude": 1.02,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19538": {
         "level": 0,
         "magnitude": 0.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19539": {
         "level": 0,
         "magnitude": 1.1,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19540": {
         "level": 0,
         "magnitude": 2.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19541": {
         "level": 0,
         "magnitude": 2.01,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19542": {
         "level": 0,
         "magnitude": 1.82,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19543": {
         "level": 0,
@@ -646522,37 +648276,37 @@
       "evt-2026-19544": {
         "level": 0,
         "magnitude": 1.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19545": {
         "level": 0,
         "magnitude": 1.6,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19546": {
         "level": 0,
-        "magnitude": 1.03,
-        "status": "active"
+        "magnitude": 1.16,
+        "status": "aged_out"
       },
       "evt-2026-19547": {
         "level": 0,
         "magnitude": 0.82,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19548": {
         "level": 0,
         "magnitude": 0.8,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19549": {
         "level": 0,
         "magnitude": 0.97,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19550": {
         "level": 0,
         "magnitude": 2.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19551": {
         "level": 0,
@@ -646562,72 +648316,72 @@
       "evt-2026-19552": {
         "level": 0,
         "magnitude": 0.74,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19553": {
         "level": 0,
         "magnitude": 1.7,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19554": {
         "level": 0,
         "magnitude": 2.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19555": {
         "level": 0,
-        "magnitude": 1.91,
-        "status": "active"
+        "magnitude": 1.94,
+        "status": "aged_out"
       },
       "evt-2026-19556": {
         "level": 0,
         "magnitude": 1.5,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19557": {
         "level": 0,
         "magnitude": 0.78,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19558": {
         "level": 0,
         "magnitude": 4.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19559": {
         "level": 0,
         "magnitude": 4.3,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19560": {
         "level": 0,
         "magnitude": 1.02,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19561": {
         "level": 0,
         "magnitude": 1.46445292760536,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19562": {
         "level": 0,
         "magnitude": 1.14,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19563": {
         "level": 0,
         "magnitude": 1.08,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19564": {
         "level": 0,
         "magnitude": 0.61,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19565": {
         "level": 0,
         "magnitude": 0.29,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19566": {
         "level": 0,
@@ -646637,22 +648391,22 @@
       "evt-2026-19567": {
         "level": 0,
         "magnitude": 0.69,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19568": {
         "level": 0,
         "magnitude": 2.2,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19569": {
         "level": 0,
         "magnitude": 4.4,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19570": {
         "level": 0,
         "magnitude": 3.03,
-        "status": "active"
+        "status": "aged_out"
       },
       "evt-2026-19571": {
         "level": 0,
@@ -646662,6 +648416,1691 @@
       "evt-2026-19572": {
         "level": 0,
         "magnitude": 4.3,
+        "status": "aged_out"
+      },
+      "evt-2026-19573": {
+        "level": 0,
+        "magnitude": 1.05,
+        "status": "active"
+      },
+      "evt-2026-19574": {
+        "level": 0,
+        "magnitude": 2.77,
+        "status": "active"
+      },
+      "evt-2026-19575": {
+        "level": 0,
+        "magnitude": 3.01,
+        "status": "active"
+      },
+      "evt-2026-19576": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19577": {
+        "level": 0,
+        "magnitude": 5.1,
+        "status": "active"
+      },
+      "evt-2026-19578": {
+        "level": 0,
+        "magnitude": 4.7,
+        "status": "active"
+      },
+      "evt-2026-19579": {
+        "level": 0,
+        "magnitude": 0.77,
+        "status": "active"
+      },
+      "evt-2026-19580": {
+        "level": 0,
+        "magnitude": 1.33,
+        "status": "active"
+      },
+      "evt-2026-19581": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19582": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-19583": {
+        "level": 0,
+        "magnitude": 0.65,
+        "status": "active"
+      },
+      "evt-2026-19584": {
+        "level": 0,
+        "magnitude": 0.9,
+        "status": "active"
+      },
+      "evt-2026-19585": {
+        "level": 0,
+        "magnitude": 1.26,
+        "status": "active"
+      },
+      "evt-2026-19586": {
+        "level": 0,
+        "magnitude": 1.4,
+        "status": "active"
+      },
+      "evt-2026-19587": {
+        "level": 0,
+        "magnitude": 1.4,
+        "status": "active"
+      },
+      "evt-2026-19588": {
+        "level": 0,
+        "magnitude": 0.84,
+        "status": "active"
+      },
+      "evt-2026-19589": {
+        "level": 0,
+        "magnitude": 0.53,
+        "status": "active"
+      },
+      "evt-2026-19590": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19591": {
+        "level": 0,
+        "magnitude": 0.73,
+        "status": "active"
+      },
+      "evt-2026-19592": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "aged_out"
+      },
+      "evt-2026-19593": {
+        "level": 0,
+        "magnitude": 2.8,
+        "status": "aged_out"
+      },
+      "evt-2026-19594": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19595": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19596": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-19597": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-19598": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19599": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "active"
+      },
+      "evt-2026-19600": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "active"
+      },
+      "evt-2026-19601": {
+        "level": 0,
+        "magnitude": 5.3,
+        "status": "active"
+      },
+      "evt-2026-19602": {
+        "level": 0,
+        "magnitude": 1.16,
+        "status": "active"
+      },
+      "evt-2026-19603": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-19604": {
+        "level": 0,
+        "magnitude": 0.63,
+        "status": "active"
+      },
+      "evt-2026-19605": {
+        "level": 0,
+        "magnitude": 2.36,
+        "status": "active"
+      },
+      "evt-2026-19606": {
+        "level": 0,
+        "magnitude": 1.01,
+        "status": "active"
+      },
+      "evt-2026-19607": {
+        "level": 0,
+        "magnitude": 4.1,
+        "status": "active"
+      },
+      "evt-2026-19608": {
+        "level": 0,
+        "magnitude": 0.7,
+        "status": "active"
+      },
+      "evt-2026-19609": {
+        "level": 0,
+        "magnitude": 2.19,
+        "status": "active"
+      },
+      "evt-2026-19610": {
+        "level": 0,
+        "magnitude": 1.31,
+        "status": "active"
+      },
+      "evt-2026-19611": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-19612": {
+        "level": 0,
+        "magnitude": 1,
+        "status": "active"
+      },
+      "evt-2026-19613": {
+        "level": 0,
+        "magnitude": 0.22,
+        "status": "active"
+      },
+      "evt-2026-19614": {
+        "level": 0,
+        "magnitude": 3.1,
+        "status": "active"
+      },
+      "evt-2026-19615": {
+        "level": 0,
+        "magnitude": 1.78,
+        "status": "active"
+      },
+      "evt-2026-19616": {
+        "level": 0,
+        "magnitude": 2.12,
+        "status": "active"
+      },
+      "evt-2026-19617": {
+        "level": 0,
+        "magnitude": 1.4,
+        "status": "active"
+      },
+      "evt-2026-19618": {
+        "level": 0,
+        "magnitude": 0.64,
+        "status": "active"
+      },
+      "evt-2026-19619": {
+        "level": 0,
+        "magnitude": 2.46,
+        "status": "active"
+      },
+      "evt-2026-19620": {
+        "level": 0,
+        "magnitude": 0.91,
+        "status": "active"
+      },
+      "evt-2026-19621": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "active"
+      },
+      "evt-2026-19622": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-19623": {
+        "level": 0,
+        "magnitude": 0.76,
+        "status": "active"
+      },
+      "evt-2026-19624": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-19625": {
+        "level": 0,
+        "magnitude": 1.76,
+        "status": "active"
+      },
+      "evt-2026-19626": {
+        "level": 0,
+        "magnitude": 4.6,
+        "status": "active"
+      },
+      "evt-2026-19627": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-19628": {
+        "level": 0,
+        "magnitude": 2.31,
+        "status": "active"
+      },
+      "evt-2026-19629": {
+        "level": 0,
+        "magnitude": 1.2,
+        "status": "aged_out"
+      },
+      "evt-2026-19630": {
+        "level": 0,
+        "magnitude": 1.2,
+        "status": "aged_out"
+      },
+      "evt-2026-19631": {
+        "level": 0,
+        "magnitude": 1.2,
+        "status": "aged_out"
+      },
+      "evt-2026-19632": {
+        "level": 0,
+        "magnitude": 0.8,
+        "status": "aged_out"
+      },
+      "evt-2026-19633": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19634": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19635": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19636": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19637": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19638": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19639": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19640": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19641": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19642": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19643": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19644": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-19645": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19646": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19647": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-19648": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19649": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19650": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19651": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-19652": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19653": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-19654": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19655": {
+        "level": 0,
+        "magnitude": 0.75,
+        "status": "active"
+      },
+      "evt-2026-19656": {
+        "level": 0,
+        "magnitude": 1.47000003,
+        "status": "aged_out"
+      },
+      "evt-2026-19657": {
+        "level": 0,
+        "magnitude": 0.98,
+        "status": "active"
+      },
+      "evt-2026-19658": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-19659": {
+        "level": 0,
+        "magnitude": 0.72,
+        "status": "active"
+      },
+      "evt-2026-19660": {
+        "level": 0,
+        "magnitude": 1.78,
+        "status": "aged_out"
+      },
+      "evt-2026-19661": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-19662": {
+        "level": 0,
+        "magnitude": 5.2,
+        "status": "active"
+      },
+      "evt-2026-19663": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19664": {
+        "level": 0,
+        "magnitude": 2.2,
+        "status": "active"
+      },
+      "evt-2026-19665": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19666": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-19667": {
+        "level": 0,
+        "magnitude": 0.74,
+        "status": "active"
+      },
+      "evt-2026-19668": {
+        "level": 0,
+        "magnitude": 1.74,
+        "status": "active"
+      },
+      "evt-2026-19669": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-19670": {
+        "level": 0,
+        "magnitude": 0.8,
+        "status": "active"
+      },
+      "evt-2026-19671": {
+        "level": 0,
+        "magnitude": 0.91,
+        "status": "active"
+      },
+      "evt-2026-19672": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-19673": {
+        "level": 0,
+        "magnitude": 1.98,
+        "status": "active"
+      },
+      "evt-2026-19674": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19675": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-19676": {
+        "level": 0,
+        "magnitude": 4.5,
+        "status": "active"
+      },
+      "evt-2026-19677": {
+        "level": 0,
+        "magnitude": 1.63,
+        "status": "active"
+      },
+      "evt-2026-19678": {
+        "level": 0,
+        "magnitude": 1.58,
+        "status": "active"
+      },
+      "evt-2026-19679": {
+        "level": 0,
+        "magnitude": 0.65,
+        "status": "active"
+      },
+      "evt-2026-19680": {
+        "level": 0,
+        "magnitude": 1.51,
+        "status": "active"
+      },
+      "evt-2026-19681": {
+        "level": 0,
+        "magnitude": 1.37,
+        "status": "active"
+      },
+      "evt-2026-19682": {
+        "level": 0,
+        "magnitude": 4.7,
+        "status": "active"
+      },
+      "evt-2026-19683": {
+        "level": 0,
+        "magnitude": 1.11,
+        "status": "active"
+      },
+      "evt-2026-19684": {
+        "level": 0,
+        "magnitude": 0.99,
+        "status": "active"
+      },
+      "evt-2026-19685": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-19686": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "active"
+      },
+      "evt-2026-19687": {
+        "level": 0,
+        "magnitude": 1.2,
+        "status": "active"
+      },
+      "evt-2026-19688": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "active"
+      },
+      "evt-2026-19689": {
+        "level": 0,
+        "magnitude": 0.65,
+        "status": "active"
+      },
+      "evt-2026-19690": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "active"
+      },
+      "evt-2026-19691": {
+        "level": 0,
+        "magnitude": 2.2,
+        "status": "active"
+      },
+      "evt-2026-19692": {
+        "level": 0,
+        "magnitude": 1.2,
+        "status": "active"
+      },
+      "evt-2026-19693": {
+        "level": 0,
+        "magnitude": 0.8,
+        "status": "active"
+      },
+      "evt-2026-19694": {
+        "level": 0,
+        "magnitude": 2.8,
+        "status": "active"
+      },
+      "evt-2026-19695": {
+        "level": 0,
+        "magnitude": 1.93,
+        "status": "active"
+      },
+      "evt-2026-19696": {
+        "level": 0,
+        "magnitude": 1.78,
+        "status": "active"
+      },
+      "evt-2026-19697": {
+        "level": 0,
+        "magnitude": 0.33,
+        "status": "active"
+      },
+      "evt-2026-19698": {
+        "level": 0,
+        "magnitude": 1.72,
+        "status": "active"
+      },
+      "evt-2026-19699": {
+        "level": 0,
+        "magnitude": 2.16,
+        "status": "active"
+      },
+      "evt-2026-19700": {
+        "level": 0,
+        "magnitude": 1.89,
+        "status": "active"
+      },
+      "evt-2026-19701": {
+        "level": 0,
+        "magnitude": 1.12,
+        "status": "active"
+      },
+      "evt-2026-19702": {
+        "level": 0,
+        "magnitude": 1,
+        "status": "active"
+      },
+      "evt-2026-19703": {
+        "level": 0,
+        "magnitude": 1.89,
+        "status": "active"
+      },
+      "evt-2026-19704": {
+        "level": 0,
+        "magnitude": 1.77,
+        "status": "active"
+      },
+      "evt-2026-19705": {
+        "level": 0,
+        "magnitude": 1.86,
+        "status": "active"
+      },
+      "evt-2026-19706": {
+        "level": 0,
+        "magnitude": 1.82,
+        "status": "active"
+      },
+      "evt-2026-19707": {
+        "level": 0,
+        "magnitude": 1.86,
+        "status": "active"
+      },
+      "evt-2026-19708": {
+        "level": 0,
+        "magnitude": 0.42,
+        "status": "active"
+      },
+      "evt-2026-19709": {
+        "level": 0,
+        "magnitude": 0.75,
+        "status": "aged_out"
+      },
+      "evt-2026-19710": {
+        "level": 0,
+        "magnitude": 0.5,
+        "status": "aged_out"
+      },
+      "evt-2026-19711": {
+        "level": 0,
+        "magnitude": 0.5,
+        "status": "aged_out"
+      },
+      "evt-2026-19712": {
+        "level": 0,
+        "magnitude": null,
+        "status": "aged_out"
+      },
+      "evt-2026-19713": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19714": {
+        "level": 0,
+        "magnitude": 1.4,
+        "status": "active"
+      },
+      "evt-2026-19715": {
+        "level": 0,
+        "magnitude": 1.25,
+        "status": "active"
+      },
+      "evt-2026-19716": {
+        "level": 0,
+        "magnitude": 1.31,
+        "status": "active"
+      },
+      "evt-2026-19717": {
+        "level": 0,
+        "magnitude": 1.21,
+        "status": "active"
+      },
+      "evt-2026-19718": {
+        "level": 0,
+        "magnitude": 1.45,
+        "status": "active"
+      },
+      "evt-2026-19719": {
+        "level": 0,
+        "magnitude": 1.8,
+        "status": "active"
+      },
+      "evt-2026-19720": {
+        "level": 0,
+        "magnitude": 1.88,
+        "status": "active"
+      },
+      "evt-2026-19721": {
+        "level": 0,
+        "magnitude": 2.09,
+        "status": "active"
+      },
+      "evt-2026-19722": {
+        "level": 0,
+        "magnitude": 0.44,
+        "status": "active"
+      },
+      "evt-2026-19723": {
+        "level": 0,
+        "magnitude": 2.7,
+        "status": "active"
+      },
+      "evt-2026-19724": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "active"
+      },
+      "evt-2026-19725": {
+        "level": 0,
+        "magnitude": 1.49,
+        "status": "active"
+      },
+      "evt-2026-19726": {
+        "level": 0,
+        "magnitude": 1.12,
+        "status": "active"
+      },
+      "evt-2026-19727": {
+        "level": 0,
+        "magnitude": 0.84,
+        "status": "active"
+      },
+      "evt-2026-19728": {
+        "level": 0,
+        "magnitude": 1.2,
+        "status": "active"
+      },
+      "evt-2026-19729": {
+        "level": 0,
+        "magnitude": 1.67,
+        "status": "active"
+      },
+      "evt-2026-19730": {
+        "level": 0,
+        "magnitude": 0.8,
+        "status": "active"
+      },
+      "evt-2026-19731": {
+        "level": 0,
+        "magnitude": 0.68,
+        "status": "active"
+      },
+      "evt-2026-19732": {
+        "level": 0,
+        "magnitude": 1.8,
+        "status": "active"
+      },
+      "evt-2026-19733": {
+        "level": 0,
+        "magnitude": 0.77,
+        "status": "active"
+      },
+      "evt-2026-19734": {
+        "level": 0,
+        "magnitude": 1.4,
+        "status": "active"
+      },
+      "evt-2026-19735": {
+        "level": 0,
+        "magnitude": 1.86,
+        "status": "active"
+      },
+      "evt-2026-19736": {
+        "level": 0,
+        "magnitude": 1.26,
+        "status": "active"
+      },
+      "evt-2026-19737": {
+        "level": 0,
+        "magnitude": -0.08,
+        "status": "active"
+      },
+      "evt-2026-19738": {
+        "level": 0,
+        "magnitude": 0.44,
+        "status": "active"
+      },
+      "evt-2026-19739": {
+        "level": 0,
+        "magnitude": 0.7,
+        "status": "active"
+      },
+      "evt-2026-19740": {
+        "level": 0,
+        "magnitude": 1,
+        "status": "active"
+      },
+      "evt-2026-19741": {
+        "level": 0,
+        "magnitude": 0.5,
+        "status": "active"
+      },
+      "evt-2026-19742": {
+        "level": 0,
+        "magnitude": 1.68,
+        "status": "active"
+      },
+      "evt-2026-19743": {
+        "level": 0,
+        "magnitude": 1.84,
+        "status": "active"
+      },
+      "evt-2026-19744": {
+        "level": 0,
+        "magnitude": 1.08,
+        "status": "active"
+      },
+      "evt-2026-19745": {
+        "level": 0,
+        "magnitude": 1.6,
+        "status": "aged_out"
+      },
+      "evt-2026-19746": {
+        "level": 0,
+        "magnitude": 0.45,
+        "status": "aged_out"
+      },
+      "evt-2026-19747": {
+        "level": 0,
+        "magnitude": 1.41,
+        "status": "aged_out"
+      },
+      "evt-2026-19748": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19749": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19750": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19751": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19752": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19753": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19754": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19755": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19756": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19757": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19758": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19759": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19760": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19761": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19762": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19763": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19764": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19765": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19766": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19767": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19768": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19769": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19770": {
+        "level": 0,
+        "magnitude": 0.41,
+        "status": "active"
+      },
+      "evt-2026-19771": {
+        "level": 0,
+        "magnitude": 0.82,
+        "status": "active"
+      },
+      "evt-2026-19772": {
+        "level": 0,
+        "magnitude": 4.6,
+        "status": "active"
+      },
+      "evt-2026-19773": {
+        "level": 0,
+        "magnitude": 2.1,
+        "status": "active"
+      },
+      "evt-2026-19774": {
+        "level": 0,
+        "magnitude": 1.85,
+        "status": "active"
+      },
+      "evt-2026-19775": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19776": {
+        "level": 0,
+        "magnitude": 2.67,
+        "status": "active"
+      },
+      "evt-2026-19777": {
+        "level": 0,
+        "magnitude": 1.01,
+        "status": "active"
+      },
+      "evt-2026-19778": {
+        "level": 0,
+        "magnitude": 0.87,
+        "status": "active"
+      },
+      "evt-2026-19779": {
+        "level": 0,
+        "magnitude": 0.62,
+        "status": "active"
+      },
+      "evt-2026-19780": {
+        "level": 0,
+        "magnitude": 1.44,
+        "status": "active"
+      },
+      "evt-2026-19781": {
+        "level": 0,
+        "magnitude": 0.21,
+        "status": "active"
+      },
+      "evt-2026-19782": {
+        "level": 0,
+        "magnitude": 1.8,
+        "status": "active"
+      },
+      "evt-2026-19783": {
+        "level": 0,
+        "magnitude": 0.9,
+        "status": "active"
+      },
+      "evt-2026-19784": {
+        "level": 0,
+        "magnitude": 1.05,
+        "status": "active"
+      },
+      "evt-2026-19785": {
+        "level": 0,
+        "magnitude": 2.23,
+        "status": "active"
+      },
+      "evt-2026-19786": {
+        "level": 0,
+        "magnitude": 1.05,
+        "status": "active"
+      },
+      "evt-2026-19787": {
+        "level": 0,
+        "magnitude": 1.4,
+        "status": "active"
+      },
+      "evt-2026-19788": {
+        "level": 0,
+        "magnitude": 1.84,
+        "status": "active"
+      },
+      "evt-2026-19789": {
+        "level": 0,
+        "magnitude": 1.77,
+        "status": "active"
+      },
+      "evt-2026-19790": {
+        "level": 0,
+        "magnitude": 2.18,
+        "status": "active"
+      },
+      "evt-2026-19791": {
+        "level": 0,
+        "magnitude": 3.23,
+        "status": "active"
+      },
+      "evt-2026-19792": {
+        "level": 0,
+        "magnitude": 1.72,
+        "status": "active"
+      },
+      "evt-2026-19793": {
+        "level": 0,
+        "magnitude": 1.35,
+        "status": "active"
+      },
+      "evt-2026-19794": {
+        "level": 0,
+        "magnitude": 0.64,
+        "status": "active"
+      },
+      "evt-2026-19795": {
+        "level": 0,
+        "magnitude": 1.07,
+        "status": "active"
+      },
+      "evt-2026-19796": {
+        "level": 0,
+        "magnitude": 0.33,
+        "status": "active"
+      },
+      "evt-2026-19797": {
+        "level": 0,
+        "magnitude": 1.61,
+        "status": "active"
+      },
+      "evt-2026-19798": {
+        "level": 0,
+        "magnitude": 0.67,
+        "status": "active"
+      },
+      "evt-2026-19799": {
+        "level": 0,
+        "magnitude": 3.7,
+        "status": "active"
+      },
+      "evt-2026-19800": {
+        "level": 0,
+        "magnitude": 0.34,
+        "status": "active"
+      },
+      "evt-2026-19801": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "active"
+      },
+      "evt-2026-19802": {
+        "level": 0,
+        "magnitude": 1.08,
+        "status": "active"
+      },
+      "evt-2026-19803": {
+        "level": 0,
+        "magnitude": 2.02,
+        "status": "active"
+      },
+      "evt-2026-19804": {
+        "level": 0,
+        "magnitude": 1.06,
+        "status": "active"
+      },
+      "evt-2026-19805": {
+        "level": 0,
+        "magnitude": 0.07,
+        "status": "active"
+      },
+      "evt-2026-19806": {
+        "level": 0,
+        "magnitude": 0.66,
+        "status": "active"
+      },
+      "evt-2026-19807": {
+        "level": 0,
+        "magnitude": 0.87,
+        "status": "active"
+      },
+      "evt-2026-19808": {
+        "level": 0,
+        "magnitude": 0.3,
+        "status": "active"
+      },
+      "evt-2026-19809": {
+        "level": 0,
+        "magnitude": 0.9,
+        "status": "active"
+      },
+      "evt-2026-19810": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "active"
+      },
+      "evt-2026-19811": {
+        "level": 0,
+        "magnitude": 3.13,
+        "status": "active"
+      },
+      "evt-2026-19812": {
+        "level": 0,
+        "magnitude": 0.23,
+        "status": "active"
+      },
+      "evt-2026-19813": {
+        "level": 0,
+        "magnitude": 1.24,
+        "status": "active"
+      },
+      "evt-2026-19814": {
+        "level": 0,
+        "magnitude": 1.66,
+        "status": "active"
+      },
+      "evt-2026-19815": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19816": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19817": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "active"
+      },
+      "evt-2026-19818": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19819": {
+        "level": 0,
+        "magnitude": 1.51,
+        "status": "active"
+      },
+      "evt-2026-19820": {
+        "level": 0,
+        "magnitude": 1.14,
+        "status": "active"
+      },
+      "evt-2026-19821": {
+        "level": 0,
+        "magnitude": 1.79,
+        "status": "active"
+      },
+      "evt-2026-19822": {
+        "level": 0,
+        "magnitude": 3.4,
+        "status": "active"
+      },
+      "evt-2026-19823": {
+        "level": 0,
+        "magnitude": 0.75,
+        "status": "active"
+      },
+      "evt-2026-19824": {
+        "level": 0,
+        "magnitude": 2.55,
+        "status": "active"
+      },
+      "evt-2026-19825": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "active"
+      },
+      "evt-2026-19826": {
+        "level": 0,
+        "magnitude": 2.1,
+        "status": "active"
+      },
+      "evt-2026-19827": {
+        "level": 0,
+        "magnitude": 2.5,
+        "status": "active"
+      },
+      "evt-2026-19828": {
+        "level": 0,
+        "magnitude": 1.3,
+        "status": "active"
+      },
+      "evt-2026-19829": {
+        "level": 0,
+        "magnitude": 1.1,
+        "status": "active"
+      },
+      "evt-2026-19830": {
+        "level": 0,
+        "magnitude": 2.6,
+        "status": "active"
+      },
+      "evt-2026-19831": {
+        "level": 0,
+        "magnitude": 2.1,
+        "status": "active"
+      },
+      "evt-2026-19832": {
+        "level": 0,
+        "magnitude": 0.87,
+        "status": "active"
+      },
+      "evt-2026-19833": {
+        "level": 0,
+        "magnitude": 4,
+        "status": "active"
+      },
+      "evt-2026-19834": {
+        "level": 0,
+        "magnitude": 1.8,
+        "status": "active"
+      },
+      "evt-2026-19835": {
+        "level": 0,
+        "magnitude": 1.19,
+        "status": "active"
+      },
+      "evt-2026-19836": {
+        "level": 0,
+        "magnitude": 1.63,
+        "status": "active"
+      },
+      "evt-2026-19837": {
+        "level": 0,
+        "magnitude": 4.3,
+        "status": "active"
+      },
+      "evt-2026-19838": {
+        "level": 0,
+        "magnitude": 0.45,
+        "status": "active"
+      },
+      "evt-2026-19839": {
+        "level": 0,
+        "magnitude": 2,
+        "status": "active"
+      },
+      "evt-2026-19840": {
+        "level": 0,
+        "magnitude": 2.43,
+        "status": "active"
+      },
+      "evt-2026-19841": {
+        "level": 0,
+        "magnitude": 2.9,
+        "status": "active"
+      },
+      "evt-2026-19842": {
+        "level": 0,
+        "magnitude": 3.6,
+        "status": "active"
+      },
+      "evt-2026-19843": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19844": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19845": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19846": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19847": {
+        "level": 0,
+        "magnitude": 0.45,
+        "status": "active"
+      },
+      "evt-2026-19848": {
+        "level": 0,
+        "magnitude": 1.89,
+        "status": "active"
+      },
+      "evt-2026-19849": {
+        "level": 0,
+        "magnitude": 2.1,
+        "status": "active"
+      },
+      "evt-2026-19850": {
+        "level": 0,
+        "magnitude": 0.74,
+        "status": "active"
+      },
+      "evt-2026-19851": {
+        "level": 0,
+        "magnitude": 1.08,
+        "status": "active"
+      },
+      "evt-2026-19852": {
+        "level": 0,
+        "magnitude": 4.2,
+        "status": "active"
+      },
+      "evt-2026-19853": {
+        "level": 0,
+        "magnitude": 1.5,
+        "status": "active"
+      },
+      "evt-2026-19854": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-19855": {
+        "level": 0,
+        "magnitude": 0.74,
+        "status": "active"
+      },
+      "evt-2026-19856": {
+        "level": 0,
+        "magnitude": 0.69,
+        "status": "active"
+      },
+      "evt-2026-19857": {
+        "level": 0,
+        "magnitude": 2.4,
+        "status": "active"
+      },
+      "evt-2026-19858": {
+        "level": 0,
+        "magnitude": 2.59,
+        "status": "active"
+      },
+      "evt-2026-19859": {
+        "level": 0,
+        "magnitude": 1.8,
+        "status": "active"
+      },
+      "evt-2026-19860": {
+        "level": 0,
+        "magnitude": 1.07,
+        "status": "active"
+      },
+      "evt-2026-19861": {
+        "level": 0,
+        "magnitude": 0.32,
+        "status": "active"
+      },
+      "evt-2026-19862": {
+        "level": 0,
+        "magnitude": 0.27,
+        "status": "active"
+      },
+      "evt-2026-19863": {
+        "level": 0,
+        "magnitude": 1.55,
+        "status": "active"
+      },
+      "evt-2026-19864": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-19865": {
+        "level": 0,
+        "magnitude": 1.41,
+        "status": "active"
+      },
+      "evt-2026-19866": {
+        "level": 0,
+        "magnitude": 0.7,
+        "status": "active"
+      },
+      "evt-2026-19867": {
+        "level": 0,
+        "magnitude": 1.18,
+        "status": "active"
+      },
+      "evt-2026-19868": {
+        "level": 0,
+        "magnitude": 1.23,
+        "status": "active"
+      },
+      "evt-2026-19869": {
+        "level": 0,
+        "magnitude": 1.56,
+        "status": "active"
+      },
+      "evt-2026-19870": {
+        "level": 0,
+        "magnitude": 0.78,
+        "status": "active"
+      },
+      "evt-2026-19871": {
+        "level": 0,
+        "magnitude": 2.1,
+        "status": "active"
+      },
+      "evt-2026-19872": {
+        "level": 0,
+        "magnitude": 2.09,
+        "status": "active"
+      },
+      "evt-2026-19873": {
+        "level": 0,
+        "magnitude": 1.3,
+        "status": "active"
+      },
+      "evt-2026-19874": {
+        "level": 0,
+        "magnitude": 0.9,
+        "status": "active"
+      },
+      "evt-2026-19875": {
+        "level": 0,
+        "magnitude": 1.15,
+        "status": "active"
+      },
+      "evt-2026-19876": {
+        "level": 0,
+        "magnitude": 2.33,
+        "status": "active"
+      },
+      "evt-2026-19877": {
+        "level": 0,
+        "magnitude": 1.9,
+        "status": "active"
+      },
+      "evt-2026-19878": {
+        "level": 0,
+        "magnitude": 2.3,
+        "status": "active"
+      },
+      "evt-2026-19879": {
+        "level": 0,
+        "magnitude": 0.39,
+        "status": "active"
+      },
+      "evt-2026-19880": {
+        "level": 0,
+        "magnitude": 2.05,
+        "status": "active"
+      },
+      "evt-2026-19881": {
+        "level": 0,
+        "magnitude": 1.2,
+        "status": "active"
+      },
+      "evt-2026-19882": {
+        "level": 0,
+        "magnitude": 1.4,
+        "status": "active"
+      },
+      "evt-2026-19883": {
+        "level": 0,
+        "magnitude": 1.69,
+        "status": "active"
+      },
+      "evt-2026-19884": {
+        "level": 0,
+        "magnitude": 2.34,
+        "status": "active"
+      },
+      "evt-2026-19885": {
+        "level": 0,
+        "magnitude": 0.86,
+        "status": "active"
+      },
+      "evt-2026-19886": {
+        "level": 0,
+        "magnitude": 1.7,
+        "status": "active"
+      },
+      "evt-2026-19887": {
+        "level": 0,
+        "magnitude": 2.7,
+        "status": "active"
+      },
+      "evt-2026-19888": {
+        "level": 0,
+        "magnitude": 2.12,
+        "status": "active"
+      },
+      "evt-2026-19889": {
+        "level": 0,
+        "magnitude": 4.5,
+        "status": "active"
+      },
+      "evt-2026-19890": {
+        "level": 0,
+        "magnitude": 1.09,
+        "status": "active"
+      },
+      "evt-2026-19891": {
+        "level": 0,
+        "magnitude": 1.13,
+        "status": "active"
+      },
+      "evt-2026-19892": {
+        "level": 0,
+        "magnitude": 0.68,
+        "status": "active"
+      },
+      "evt-2026-19893": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-19894": {
+        "level": 0,
+        "magnitude": 0.96,
+        "status": "active"
+      },
+      "evt-2026-19895": {
+        "level": 0,
+        "magnitude": 4.9,
+        "status": "active"
+      },
+      "evt-2026-19896": {
+        "level": 0,
+        "magnitude": 1.67,
+        "status": "active"
+      },
+      "evt-2026-19897": {
+        "level": 0,
+        "magnitude": 1.14,
+        "status": "active"
+      },
+      "evt-2026-19898": {
+        "level": 0,
+        "magnitude": 0.82,
+        "status": "active"
+      },
+      "evt-2026-19899": {
+        "level": 0,
+        "magnitude": 1,
+        "status": "active"
+      },
+      "evt-2026-19900": {
+        "level": 0,
+        "magnitude": 0.84,
+        "status": "active"
+      },
+      "evt-2026-19901": {
+        "level": 0,
+        "magnitude": 1.66,
+        "status": "active"
+      },
+      "evt-2026-19902": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19903": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19904": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19905": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19906": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19907": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19908": {
+        "level": 0,
+        "magnitude": null,
+        "status": "active"
+      },
+      "evt-2026-19909": {
+        "level": 0,
+        "magnitude": null,
         "status": "active"
       }
     }
