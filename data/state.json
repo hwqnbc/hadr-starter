@@ -625143,9 +625143,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-18T07:43:28Z",
-      "last_changed": "2026-09-18T07:43:28Z",
+      "last_changed": "2026-09-19T05:16:16Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41334391"
       }
@@ -626538,9 +626538,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-18T12:27:56Z",
-      "last_changed": "2026-09-18T12:27:56Z",
+      "last_changed": "2026-09-19T05:16:16Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sjqrrz"
       }
@@ -628354,9 +628354,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-18T16:47:58Z",
-      "last_changed": "2026-09-18T16:47:58Z",
+      "last_changed": "2026-09-19T05:16:16Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80157336"
       }
@@ -631794,20 +631794,20 @@
     },
     "evt-2026-22848": {
       "hazard": "EQ",
-      "name": "M 1.5 - 62 km S of Whites City, New Mexico",
+      "name": "M 1.5 - 60 km S of Whites City, New Mexico",
       "aliases": [
         "usgs:tx2026sldltr"
       ],
       "location": {
-        "lat": 31.619,
-        "lon": -104.442,
-        "place": "62 km S of Whites City, New Mexico"
+        "lat": 31.629,
+        "lon": -104.447,
+        "place": "60 km S of Whites City, New Mexico"
       },
       "origin_time": "2026-09-19T00:28:07Z",
       "magnitude": {
         "value": 1.5,
         "type": "ml",
-        "depth_km": 3.4198
+        "depth_km": 3.459
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -631998,15 +631998,15 @@
         "usgs:tx2026slawxb"
       ],
       "location": {
-        "lat": 31.609,
-        "lon": -104.378,
+        "lat": 31.616,
+        "lon": -104.38,
         "place": "62 km S of Whites City, New Mexico"
       },
       "origin_time": "2026-09-18T23:13:23Z",
       "magnitude": {
         "value": 1.7,
         "type": "ml",
-        "depth_km": 4.0572
+        "depth_km": 4.4399
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -634272,18 +634272,102 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71532788"
       }
+    },
+    "evt-2026-22937": {
+      "hazard": "EQ",
+      "name": "M 0.3 - 9 km WNW of Cobb, CA",
+      "aliases": [
+        "usgs:nc75438197"
+      ],
+      "location": {
+        "lat": 38.8408317565918,
+        "lon": -122.819664001465,
+        "place": "9 km WNW of Cobb, CA"
+      },
+      "origin_time": "2026-09-19T05:11:12Z",
+      "magnitude": {
+        "value": 0.28,
+        "type": "md",
+        "depth_km": 1.48000001907349
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-19T05:16:16Z",
+      "last_changed": "2026-09-19T05:16:16Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438197"
+      }
+    },
+    "evt-2026-22938": {
+      "hazard": "EQ",
+      "name": "M 1.8 - 27 km NNE of Point Possession, Alaska",
+      "aliases": [
+        "usgs:aka2026solzbx"
+      ],
+      "location": {
+        "lat": 61.165,
+        "lon": -150.569,
+        "place": "27 km NNE of Point Possession, Alaska"
+      },
+      "origin_time": "2026-09-19T05:07:38Z",
+      "magnitude": {
+        "value": 1.8,
+        "type": "ml",
+        "depth_km": 51.1
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-19T05:16:16Z",
+      "last_changed": "2026-09-19T05:16:16Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026solzbx"
+      }
+    },
+    "evt-2026-22939": {
+      "hazard": "EQ",
+      "name": "M 0.5 - 11 km NE of Ridgecrest, CA",
+      "aliases": [
+        "usgs:ci41334999"
+      ],
+      "location": {
+        "lat": 35.6996666666667,
+        "lon": -117.601166666667,
+        "place": "11 km NE of Ridgecrest, CA"
+      },
+      "origin_time": "2026-09-19T04:55:15Z",
+      "magnitude": {
+        "value": 0.48,
+        "type": "ml",
+        "depth_km": 5.02
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-19T05:16:16Z",
+      "last_changed": "2026-09-19T05:16:16Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41334999"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-09-19T04:52:47Z",
-      "last_success": "2026-09-19T04:52:47Z",
-      "feed_generated_at": "2026-09-19T04:52:02Z",
+      "last_attempt": "2026-09-19T05:16:16Z",
+      "last_success": "2026-09-19T05:16:16Z",
+      "feed_generated_at": "2026-09-19T05:16:06Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-09-19T04:52:47Z",
-      "last_success": "2026-09-19T04:52:47Z",
+      "last_attempt": "2026-09-19T05:16:16Z",
+      "last_success": "2026-09-19T05:16:16Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
