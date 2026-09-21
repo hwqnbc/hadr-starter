@@ -643067,9 +643067,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-20T08:02:20Z",
-      "last_changed": "2026-09-20T08:02:20Z",
+      "last_changed": "2026-09-21T05:38:30Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438787"
       }
@@ -643095,9 +643095,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-20T08:02:20Z",
-      "last_changed": "2026-09-20T08:02:20Z",
+      "last_changed": "2026-09-21T05:38:30Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438782"
       }
@@ -643123,9 +643123,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-20T08:02:20Z",
-      "last_changed": "2026-09-20T08:02:20Z",
+      "last_changed": "2026-09-21T05:38:30Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438777"
       }
@@ -643151,9 +643151,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-09-20T08:02:20Z",
-      "last_changed": "2026-09-20T08:02:20Z",
+      "last_changed": "2026-09-21T05:38:30Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533393"
       }
@@ -650138,18 +650138,186 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srpjla"
       }
+    },
+    "evt-2026-23513": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 47 km NW of Toyah, Texas",
+      "aliases": [
+        "usgs:tx2026spfctc"
+      ],
+      "location": {
+        "lat": 31.642,
+        "lon": -104.111,
+        "place": "47 km NW of Toyah, Texas"
+      },
+      "origin_time": "2026-09-21T05:36:01Z",
+      "magnitude": {
+        "value": 1.6,
+        "type": "ml",
+        "depth_km": 3.8031
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-21T05:38:30Z",
+      "last_changed": "2026-09-21T05:38:30Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026spfctc"
+      }
+    },
+    "evt-2026-23514": {
+      "hazard": "EQ",
+      "name": "M 1.4 - 17 km ESE of Anza, CA",
+      "aliases": [
+        "usgs:ci41335871"
+      ],
+      "location": {
+        "lat": 33.4983329772949,
+        "lon": -116.504501342773,
+        "place": "17 km ESE of Anza, CA"
+      },
+      "origin_time": "2026-09-21T05:34:47Z",
+      "magnitude": {
+        "value": 1.43257791066725,
+        "type": "ml",
+        "depth_km": 13.3900003433228
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-21T05:38:30Z",
+      "last_changed": "2026-09-21T05:38:30Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335871"
+      }
+    },
+    "evt-2026-23515": {
+      "hazard": "EQ",
+      "name": "M 1.7 - 61 km S of Whites City, New Mexico",
+      "aliases": [
+        "usgs:tx2026spfbfj"
+      ],
+      "location": {
+        "lat": 31.632,
+        "lon": -104.486,
+        "place": "61 km S of Whites City, New Mexico"
+      },
+      "origin_time": "2026-09-21T05:34:19Z",
+      "magnitude": {
+        "value": 1.7,
+        "type": "ml",
+        "depth_km": 3.5009
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-21T05:38:30Z",
+      "last_changed": "2026-09-21T05:38:30Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026spfbfj"
+      }
+    },
+    "evt-2026-23516": {
+      "hazard": "EQ",
+      "name": "M 0.9 - 4 km SSW of Banning, CA",
+      "aliases": [
+        "usgs:ci41335863"
+      ],
+      "location": {
+        "lat": 33.8878333333333,
+        "lon": -116.891666666667,
+        "place": "4 km SSW of Banning, CA"
+      },
+      "origin_time": "2026-09-21T05:23:59Z",
+      "magnitude": {
+        "value": 0.89,
+        "type": "ml",
+        "depth_km": 15.18
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-21T05:38:30Z",
+      "last_changed": "2026-09-21T05:38:30Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41335863"
+      }
+    },
+    "evt-2026-23517": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 77 km WSW of Karluk, Alaska",
+      "aliases": [
+        "usgs:aka2026ssende"
+      ],
+      "location": {
+        "lat": 57.303,
+        "lon": -155.655,
+        "place": "77 km WSW of Karluk, Alaska"
+      },
+      "origin_time": "2026-09-21T05:22:32Z",
+      "magnitude": {
+        "value": 2.4,
+        "type": "ml",
+        "depth_km": 72.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-21T05:38:30Z",
+      "last_changed": "2026-09-21T05:38:30Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ssende"
+      }
+    },
+    "evt-2026-23518": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 9 km ESE of Livermore, CA",
+      "aliases": [
+        "usgs:nc75439302"
+      ],
+      "location": {
+        "lat": 37.6401672363281,
+        "lon": -121.681335449219,
+        "place": "9 km ESE of Livermore, CA"
+      },
+      "origin_time": "2026-09-21T05:18:00Z",
+      "magnitude": {
+        "value": 1.96,
+        "type": "md",
+        "depth_km": 10.1999998092651
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-09-21T05:38:30Z",
+      "last_changed": "2026-09-21T05:38:30Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439302"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-09-21T05:16:56Z",
-      "last_success": "2026-09-21T05:16:56Z",
-      "feed_generated_at": "2026-09-21T05:16:32Z",
+      "last_attempt": "2026-09-21T05:38:30Z",
+      "last_success": "2026-09-21T05:38:30Z",
+      "feed_generated_at": "2026-09-21T05:38:03Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-09-21T05:16:56Z",
-      "last_success": "2026-09-21T05:16:56Z",
+      "last_attempt": "2026-09-21T05:38:30Z",
+      "last_success": "2026-09-21T05:38:30Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
