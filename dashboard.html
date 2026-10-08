@@ -152,44 +152,50 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 </main>
 <script type="application/json" id="hadr-state">
 {
-  "events": [],
+  "events": [
+    {
+      "id": "evt-2026-28065",
+      "hazard": "TC",
+      "name": "Tropical Cyclone TWENTY-E-26",
+      "aliases": [
+        "gdacs:1001335"
+      ],
+      "location": {
+        "lat": 14.1,
+        "lon": -100.9,
+        "place": ""
+      },
+      "origin_time": "2026-10-07T15:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Red",
+      "pager_alert": null,
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-07T20:18:10Z",
+      "last_changed": "2026-10-08T00:33:15Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=2&eventtype=TC"
+      }
+    }
+  ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-10-07T06:17:58Z",
-    "type": "regular",
+    "generated_at": "2026-10-08T00:33:15Z",
+    "type": "flash",
+    "flash": {
+      "events": [
+        {
+          "id": "evt-2026-28065",
+          "name": "Tropical Cyclone TWENTY-E-26",
+          "hazard": "TC"
+        }
+      ]
+    },
     "changelog": {
       "escalations": [],
       "downgrades": [],
-      "revisions": [
-        {
-          "id": "evt-2026-26046",
-          "kind": "revision",
-          "name": "Flood in Spain",
-          "hazard": "FL",
-          "magnitude": null
-        },
-        {
-          "id": "evt-2026-27443",
-          "kind": "revision",
-          "name": "M 2.5 - 31 km SW of Dana Point, CA",
-          "hazard": "EQ",
-          "magnitude": 2.51
-        },
-        {
-          "id": "evt-2026-27510",
-          "kind": "revision",
-          "name": "M 1.7 - 8 km NW of Prague, Oklahoma",
-          "hazard": "EQ",
-          "magnitude": 1.72
-        },
-        {
-          "id": "evt-2026-27561",
-          "kind": "revision",
-          "name": "M 2.1 - 27 km E of Honaunau-Napoopoo, Hawaii",
-          "hazard": "EQ",
-          "magnitude": 2.1
-        }
-      ],
+      "revisions": [],
       "retractions": []
     }
   },
@@ -198,15 +204,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-10-07T06:17:58Z",
-        "feed_generated_at": "2026-10-07T06:17:33Z",
+        "last_success": "2026-10-08T00:33:15Z",
+        "feed_generated_at": "2026-10-08T00:32:47Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-10-07T06:17:58Z",
+        "last_success": "2026-10-08T00:33:15Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
