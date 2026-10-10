@@ -154,6 +154,37 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 {
   "events": [
     {
+      "id": "evt-2026-28754",
+      "hazard": "EQ",
+      "name": "M 6.0 - 7 km N of La Tronosa, Panama",
+      "aliases": [
+        "usgs:us6000u1cf",
+        "gdacs:1570467"
+      ],
+      "location": {
+        "lat": 7.5068,
+        "lon": -80.5985,
+        "place": "7 km N of La Tronosa, Panama"
+      },
+      "origin_time": "2026-10-10T04:14:01Z",
+      "magnitude": {
+        "value": 6,
+        "type": "mww",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": "yellow",
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-10T06:12:43Z",
+      "last_changed": "2026-10-10T06:12:43Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1570467&episodeid=1738851&eventtype=EQ"
+      }
+    },
+    {
       "id": "evt-2026-28669",
       "hazard": "EQ",
       "name": "M 6.6 - 14 km W of Río Grande, Panama",
@@ -266,7 +297,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "gdacs_alert": "Red",
       "pager_alert": null,
       "reported": true,
-      "flash_published": false,
+      "flash_published": true,
       "status": "active",
       "first_seen": "2026-10-07T20:18:10Z",
       "last_changed": "2026-10-10T03:17:13Z",
@@ -302,21 +333,51 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-10-10T03:17:13Z",
-    "type": "flash",
-    "flash": {
-      "events": [
+    "generated_at": "2026-10-10T06:12:43Z",
+    "type": "regular",
+    "changelog": {
+      "escalations": [
+        {
+          "id": "evt-2026-27757",
+          "kind": "escalation",
+          "name": "Tropical Cyclone NINE-26",
+          "hazard": "TC",
+          "from": "Green",
+          "to": "Orange"
+        },
         {
           "id": "evt-2026-28065",
+          "kind": "escalation",
           "name": "Tropical Cyclone TWENTY-E-26",
-          "hazard": "TC"
+          "hazard": "TC",
+          "from": "Orange",
+          "to": "Red"
         }
-      ]
-    },
-    "changelog": {
-      "escalations": [],
+      ],
       "downgrades": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "id": "evt-2026-28343",
+          "kind": "revision",
+          "name": "M 0.5 - 9 km WNW of Anza, CA",
+          "hazard": "EQ",
+          "magnitude": 0.47
+        },
+        {
+          "id": "evt-2026-28414",
+          "kind": "revision",
+          "name": "M 2.1 - 10 km S of Lone Oak, Georgia",
+          "hazard": "EQ",
+          "magnitude": 2.12
+        },
+        {
+          "id": "evt-2026-28434",
+          "kind": "revision",
+          "name": "M 0.3 - 9 km WNW of Anza, CA",
+          "hazard": "EQ",
+          "magnitude": 0.27
+        }
+      ],
       "retractions": []
     }
   },
@@ -325,15 +386,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-10-10T03:17:13Z",
-        "feed_generated_at": "2026-10-10T03:16:24Z",
+        "last_success": "2026-10-10T06:12:43Z",
+        "feed_generated_at": "2026-10-10T06:12:02Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-10-10T03:17:13Z",
+        "last_success": "2026-10-10T06:12:43Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
