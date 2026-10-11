@@ -201,12 +201,12 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "gdacs_alert": "Red",
       "pager_alert": null,
       "reported": true,
-      "flash_published": false,
+      "flash_published": true,
       "status": "active",
       "first_seen": "2026-10-07T20:18:10Z",
       "last_changed": "2026-10-10T23:04:44Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=14&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=15&eventtype=TC"
       }
     },
     {
@@ -231,27 +231,26 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "first_seen": "2026-10-06T21:22:19Z",
       "last_changed": "2026-10-09T14:03:51Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=17&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=18&eventtype=TC"
       }
     }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-10-10T23:04:44Z",
-    "type": "flash",
-    "flash": {
-      "events": [
-        {
-          "id": "evt-2026-28065",
-          "name": "Tropical Cyclone TWENTY-E-26",
-          "hazard": "TC"
-        }
-      ]
-    },
+    "generated_at": "2026-10-11T06:10:47Z",
+    "type": "regular",
     "changelog": {
       "escalations": [],
       "downgrades": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "id": "evt-2026-28655",
+          "kind": "revision",
+          "name": "M 5.0 - 8 km ESE of La Tronosa, Panama",
+          "hazard": "EQ",
+          "magnitude": 5
+        }
+      ],
       "retractions": []
     }
   },
@@ -260,15 +259,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-10-10T23:04:44Z",
-        "feed_generated_at": "2026-10-10T23:04:30Z",
+        "last_success": "2026-10-11T06:10:47Z",
+        "feed_generated_at": "2026-10-11T06:10:34Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-10-10T23:04:44Z",
+        "last_success": "2026-10-11T06:10:47Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
