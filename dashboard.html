@@ -154,6 +154,31 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
 {
   "events": [
     {
+      "id": "evt-2026-30349",
+      "hazard": "TC",
+      "name": "Tropical Cyclone ONE-26",
+      "aliases": [
+        "gdacs:1001339"
+      ],
+      "location": {
+        "lat": -10.8,
+        "lon": -163.3,
+        "place": "Cook Islands, French Polynesia"
+      },
+      "origin_time": "2026-10-16T06:00:00Z",
+      "magnitude": null,
+      "gdacs_alert": "Orange",
+      "pager_alert": null,
+      "reported": true,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-16T12:50:09Z",
+      "last_changed": "2026-10-16T23:07:09Z",
+      "source_refs": {
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=2&eventtype=TC"
+      }
+    },
+    {
       "id": "evt-2026-29959",
       "hazard": "TC",
       "name": "Tropical Cyclone TWENTYNINE-26",
@@ -170,12 +195,12 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "gdacs_alert": "Red",
       "pager_alert": null,
       "reported": true,
-      "flash_published": true,
+      "flash_published": false,
       "status": "active",
       "first_seen": "2026-10-14T19:02:37Z",
-      "last_changed": "2026-10-16T02:10:41Z",
+      "last_changed": "2026-10-16T23:07:09Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=7&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=10&eventtype=TC"
       }
     },
     {
@@ -200,70 +225,27 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "first_seen": "2026-10-07T20:18:10Z",
       "last_changed": "2026-10-11T09:28:05Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=35&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
       }
     }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-10-16T04:49:14Z",
-    "type": "regular",
-    "changelog": {
-      "escalations": [
+    "generated_at": "2026-10-16T23:07:09Z",
+    "type": "flash",
+    "flash": {
+      "events": [
         {
           "id": "evt-2026-29959",
-          "kind": "escalation",
           "name": "Tropical Cyclone TWENTYNINE-26",
-          "hazard": "TC",
-          "from": "Orange",
-          "to": "Red"
+          "hazard": "TC"
         }
-      ],
+      ]
+    },
+    "changelog": {
+      "escalations": [],
       "downgrades": [],
-      "revisions": [
-        {
-          "id": "evt-2026-30030",
-          "kind": "revision",
-          "name": "M 2.2 - 3 km N of San Jacinto, CA",
-          "hazard": "EQ",
-          "magnitude": 2.16
-        },
-        {
-          "id": "evt-2026-30034",
-          "kind": "revision",
-          "name": "M 2.8 - 3 km NNW of San Jacinto, CA",
-          "hazard": "EQ",
-          "magnitude": 2.77
-        },
-        {
-          "id": "evt-2026-30037",
-          "kind": "revision",
-          "name": "M 2.0 - 12 km NE of Walker Lake, Nevada",
-          "hazard": "EQ",
-          "magnitude": 1.97
-        },
-        {
-          "id": "evt-2026-30047",
-          "kind": "revision",
-          "name": "M 1.7 - 13 km ENE of Pāhala, Hawaii",
-          "hazard": "EQ",
-          "magnitude": 1.7
-        },
-        {
-          "id": "evt-2026-30049",
-          "kind": "revision",
-          "name": "M 0.9 - 12 km SW of Volcano, Hawaii",
-          "hazard": "EQ",
-          "magnitude": 0.92
-        },
-        {
-          "id": "evt-2026-30051",
-          "kind": "revision",
-          "name": "M 1.7 - 32 km NE of Ensenada, B.C., MX",
-          "hazard": "EQ",
-          "magnitude": 1.74
-        }
-      ],
+      "revisions": [],
       "retractions": []
     }
   },
@@ -272,15 +254,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-10-16T04:49:14Z",
-        "feed_generated_at": "2026-10-16T04:49:00Z",
+        "last_success": "2026-10-16T23:07:09Z",
+        "feed_generated_at": "2026-10-16T23:07:00Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-10-16T04:49:14Z",
+        "last_success": "2026-10-16T23:07:09Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
