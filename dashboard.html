@@ -195,12 +195,12 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       "gdacs_alert": "Red",
       "pager_alert": null,
       "reported": true,
-      "flash_published": false,
+      "flash_published": true,
       "status": "active",
       "first_seen": "2026-10-14T19:02:37Z",
       "last_changed": "2026-10-16T23:07:09Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=10&eventtype=TC"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=11&eventtype=TC"
       }
     },
     {
@@ -231,21 +231,34 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
   ],
   "edition": {
     "title": "HADR Monitor — Earthquakes",
-    "generated_at": "2026-10-16T23:07:09Z",
-    "type": "flash",
-    "flash": {
-      "events": [
-        {
-          "id": "evt-2026-29959",
-          "name": "Tropical Cyclone TWENTYNINE-26",
-          "hazard": "TC"
-        }
-      ]
-    },
+    "generated_at": "2026-10-17T04:49:30Z",
+    "type": "regular",
     "changelog": {
       "escalations": [],
       "downgrades": [],
-      "revisions": [],
+      "revisions": [
+        {
+          "id": "evt-2026-30243",
+          "kind": "revision",
+          "name": "M 2.7 - 32 km N of Karluk, Alaska",
+          "hazard": "EQ",
+          "magnitude": 2.7
+        },
+        {
+          "id": "evt-2026-30274",
+          "kind": "revision",
+          "name": "M 1.5 - 16 km WSW of Johannesburg, CA",
+          "hazard": "EQ",
+          "magnitude": 1.46
+        },
+        {
+          "id": "evt-2026-30282",
+          "kind": "revision",
+          "name": "M 0.8 - 7 km NE of Moreno Valley, CA",
+          "hazard": "EQ",
+          "magnitude": 0.75
+        }
+      ],
       "retractions": []
     }
   },
@@ -254,15 +267,15 @@ main { max-width: 1000px; margin: 0 auto; padding: 1.5rem 2rem; }
       {
         "feed": "usgs",
         "label": "USGS",
-        "last_success": "2026-10-16T23:07:09Z",
-        "feed_generated_at": "2026-10-16T23:07:00Z",
+        "last_success": "2026-10-17T04:49:30Z",
+        "feed_generated_at": "2026-10-17T04:49:04Z",
         "consecutive_failures": 0,
         "stale": false
       },
       {
         "feed": "gdacs",
         "label": "GDACS",
-        "last_success": "2026-10-16T23:07:09Z",
+        "last_success": "2026-10-17T04:49:30Z",
         "feed_generated_at": null,
         "consecutive_failures": 0,
         "stale": false
