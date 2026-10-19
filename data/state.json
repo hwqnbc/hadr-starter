@@ -800786,11 +800786,11 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-10-10T23:04:44Z",
-      "last_changed": "2026-10-17T23:37:06Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
-        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1032715&episodeid=11&eventtype=WF"
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1032715&episodeid=12&eventtype=WF"
       }
     },
     "evt-2026-28924": {
@@ -801644,9 +801644,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "aged_out",
+      "status": "active",
       "first_seen": "2026-10-11T02:50:10Z",
-      "last_changed": "2026-10-18T22:01:56Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1032719&episodeid=12&eventtype=WF"
       }
@@ -812583,9 +812583,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-12T16:17:10Z",
-      "last_changed": "2026-10-13T19:38:07Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1032760&episodeid=25&eventtype=WF"
       }
@@ -812607,9 +812607,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-12T16:17:10Z",
-      "last_changed": "2026-10-14T08:09:33Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1032761&episodeid=17&eventtype=WF"
       }
@@ -851860,9 +851860,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-18T07:31:27Z",
-      "last_changed": "2026-10-18T07:31:27Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqavmc"
       }
@@ -851888,9 +851888,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-18T07:31:27Z",
-      "last_changed": "2026-10-18T07:31:27Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqauxa"
       }
@@ -851917,9 +851917,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-18T07:31:27Z",
-      "last_changed": "2026-10-18T07:31:27Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451436"
       }
@@ -851945,9 +851945,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-18T07:31:27Z",
-      "last_changed": "2026-10-18T07:31:27Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqasmt"
       }
@@ -853356,20 +853356,20 @@
     },
     "evt-2026-30815": {
       "hazard": "EQ",
-      "name": "M 1.9 - 28 km NE of Chase, Alaska",
+      "name": "M 2.0 - 28 km NE of Chase, Alaska",
       "aliases": [
         "usgs:aka2026uqgxjn"
       ],
       "location": {
-        "lat": 62.634,
+        "lat": 62.637,
         "lon": -149.719,
         "place": "28 km NE of Chase, Alaska"
       },
       "origin_time": "2026-10-18T08:16:35Z",
       "magnitude": {
-        "value": 1.9,
+        "value": 2,
         "type": "ml",
-        "depth_km": 63.6
+        "depth_km": 65.4
       },
       "gdacs_alert": null,
       "pager_alert": null,
@@ -853377,7 +853377,7 @@
       "flash_published": false,
       "status": "active",
       "first_seen": "2026-10-18T12:15:38Z",
-      "last_changed": "2026-10-18T12:15:38Z",
+      "last_changed": "2026-10-19T05:28:02Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqgxjn"
       }
@@ -858584,18 +858584,242 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38y"
       }
+    },
+    "evt-2026-31004": {
+      "hazard": "EQ",
+      "name": "M 3.3 - 46 km WSW of Ivanof Bay, Alaska",
+      "aliases": [
+        "usgs:aka2026urwswy"
+      ],
+      "location": {
+        "lat": 55.817,
+        "lon": -160.218,
+        "place": "46 km WSW of Ivanof Bay, Alaska"
+      },
+      "origin_time": "2026-10-19T05:10:10Z",
+      "magnitude": {
+        "value": 3.3,
+        "type": "ml",
+        "depth_km": 176.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-19T05:28:02Z",
+      "last_changed": "2026-10-19T05:28:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026urwswy"
+      }
+    },
+    "evt-2026-31005": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 68 km E of Adak, Alaska",
+      "aliases": [
+        "usgs:aka2026uqiatg"
+      ],
+      "location": {
+        "lat": 51.817,
+        "lon": -175.649,
+        "place": "68 km E of Adak, Alaska"
+      },
+      "origin_time": "2026-10-18T08:50:25Z",
+      "magnitude": {
+        "value": 2,
+        "type": "ml",
+        "depth_km": 77.9
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-19T05:28:02Z",
+      "last_changed": "2026-10-19T05:28:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqiatg"
+      }
+    },
+    "evt-2026-31006": {
+      "hazard": "EQ",
+      "name": "M 2.4 - 29 km WSW of False Pass, Alaska",
+      "aliases": [
+        "usgs:aka2026uqhvhq"
+      ],
+      "location": {
+        "lat": 54.783,
+        "lon": -163.848,
+        "place": "29 km WSW of False Pass, Alaska"
+      },
+      "origin_time": "2026-10-18T08:44:10Z",
+      "magnitude": {
+        "value": 2.4,
+        "type": "ml",
+        "depth_km": 18.5
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-19T05:28:02Z",
+      "last_changed": "2026-10-19T05:28:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqhvhq"
+      }
+    },
+    "evt-2026-31007": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 70 km WSW of Adak, Alaska",
+      "aliases": [
+        "usgs:aka2026uqhldg"
+      ],
+      "location": {
+        "lat": 51.602,
+        "lon": -177.553,
+        "place": "70 km WSW of Adak, Alaska"
+      },
+      "origin_time": "2026-10-18T08:32:26Z",
+      "magnitude": {
+        "value": 2,
+        "type": "ml",
+        "depth_km": 69.7
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-19T05:28:02Z",
+      "last_changed": "2026-10-19T05:28:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqhldg"
+      }
+    },
+    "evt-2026-31008": {
+      "hazard": "EQ",
+      "name": "M 2.0 - 116 km NW of Yakutat, Alaska",
+      "aliases": [
+        "usgs:aka2026uqhkxl"
+      ],
+      "location": {
+        "lat": 60.314,
+        "lon": -141.154,
+        "place": "116 km NW of Yakutat, Alaska"
+      },
+      "origin_time": "2026-10-18T08:32:11Z",
+      "magnitude": {
+        "value": 2,
+        "type": "ml",
+        "depth_km": 17.7
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-19T05:28:02Z",
+      "last_changed": "2026-10-19T05:28:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqhkxl"
+      }
+    },
+    "evt-2026-31009": {
+      "hazard": "EQ",
+      "name": "M 1.6 - 44 km WNW of Anchor Point, Alaska",
+      "aliases": [
+        "usgs:aka2026uqgznb"
+      ],
+      "location": {
+        "lat": 59.89,
+        "lon": -152.588,
+        "place": "44 km WNW of Anchor Point, Alaska"
+      },
+      "origin_time": "2026-10-18T08:19:00Z",
+      "magnitude": {
+        "value": 1.6,
+        "type": "ml",
+        "depth_km": 104.7
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-19T05:28:02Z",
+      "last_changed": "2026-10-19T05:28:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqgznb"
+      }
+    },
+    "evt-2026-31010": {
+      "hazard": "EQ",
+      "name": "M 2.2 - 96 km SSE of Ugashik, Alaska",
+      "aliases": [
+        "usgs:aka2026uqgvou"
+      ],
+      "location": {
+        "lat": 56.736,
+        "lon": -156.689,
+        "place": "96 km SSE of Ugashik, Alaska"
+      },
+      "origin_time": "2026-10-18T08:14:29Z",
+      "magnitude": {
+        "value": 2.2,
+        "type": "ml",
+        "depth_km": 5.3
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-19T05:28:02Z",
+      "last_changed": "2026-10-19T05:28:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqgvou"
+      }
+    },
+    "evt-2026-31011": {
+      "hazard": "EQ",
+      "name": "M 1.1 - 23 km SSW of Glacier View, Alaska",
+      "aliases": [
+        "usgs:aka2026uqgusj"
+      ],
+      "location": {
+        "lat": 61.614,
+        "lon": -147.84,
+        "place": "23 km SSW of Glacier View, Alaska"
+      },
+      "origin_time": "2026-10-18T08:13:29Z",
+      "magnitude": {
+        "value": 1.1,
+        "type": "ml",
+        "depth_km": 31.2
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-19T05:28:02Z",
+      "last_changed": "2026-10-19T05:28:02Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqgusj"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-10-19T05:04:43Z",
-      "last_success": "2026-10-19T05:04:43Z",
-      "feed_generated_at": "2026-10-19T05:04:34Z",
+      "last_attempt": "2026-10-19T05:28:02Z",
+      "last_success": "2026-10-19T05:28:02Z",
+      "feed_generated_at": "2026-10-19T05:27:34Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-10-19T05:04:43Z",
-      "last_success": "2026-10-19T05:04:43Z",
+      "last_attempt": "2026-10-19T05:28:02Z",
+      "last_success": "2026-10-19T05:28:02Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
