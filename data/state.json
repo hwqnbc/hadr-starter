@@ -862214,9 +862214,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-19T17:56:02Z",
-      "last_changed": "2026-10-19T17:56:02Z",
+      "last_changed": "2026-10-20T05:31:43Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3a4"
       }
@@ -865608,7 +865608,8 @@
       "hazard": "EQ",
       "name": "M 2.3 - 21 km SE of Pāhala, Hawaii",
       "aliases": [
-        "usgs:hv75061171"
+        "usgs:hv75061171",
+        "usgs:us6000u3jq"
       ],
       "location": {
         "lat": 19.0443325042725,
@@ -866761,14 +866762,14 @@
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-10-20T05:07:12Z",
-      "last_success": "2026-10-20T05:07:12Z",
-      "feed_generated_at": "2026-10-20T05:06:13Z",
+      "last_attempt": "2026-10-20T05:31:43Z",
+      "last_success": "2026-10-20T05:31:43Z",
+      "feed_generated_at": "2026-10-20T05:31:34Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-10-20T05:07:12Z",
-      "last_success": "2026-10-20T05:07:12Z",
+      "last_attempt": "2026-10-20T05:31:43Z",
+      "last_success": "2026-10-20T05:31:43Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
