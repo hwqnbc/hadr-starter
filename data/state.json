@@ -871382,9 +871382,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-20T19:43:44Z",
-      "last_changed": "2026-10-22T00:18:14Z",
+      "last_changed": "2026-10-22T05:35:00Z",
       "source_refs": {
         "gdacs": "https://www.gdacs.org/report.aspx?eventid=1032954&episodeid=4&eventtype=WF"
       }
@@ -874606,9 +874606,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-21T06:45:54Z",
-      "last_changed": "2026-10-21T06:45:54Z",
+      "last_changed": "2026-10-22T05:35:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452796"
       }
@@ -874634,9 +874634,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-21T06:45:54Z",
-      "last_changed": "2026-10-21T06:45:54Z",
+      "last_changed": "2026-10-22T05:35:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75061626"
       }
@@ -874662,9 +874662,9 @@
       "pager_alert": null,
       "reported": false,
       "flash_published": false,
-      "status": "active",
+      "status": "aged_out",
       "first_seen": "2026-10-21T06:45:54Z",
-      "last_changed": "2026-10-21T06:45:54Z",
+      "last_changed": "2026-10-22T05:35:00Z",
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75452791"
       }
@@ -881483,18 +881483,132 @@
       "source_refs": {
         "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av94459973"
       }
+    },
+    "evt-2026-31833": {
+      "hazard": "EQ",
+      "name": "M 0.6 - 3 km W of Cobb, CA",
+      "aliases": [
+        "usgs:nc75453286"
+      ],
+      "location": {
+        "lat": 38.8269996643066,
+        "lon": -122.762664794922,
+        "place": "3 km W of Cobb, CA"
+      },
+      "origin_time": "2026-10-22T05:22:09Z",
+      "magnitude": {
+        "value": 0.57,
+        "type": "md",
+        "depth_km": 1.94000005722046
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-22T05:35:00Z",
+      "last_changed": "2026-10-22T05:35:00Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453286"
+      }
+    },
+    "evt-2026-31834": {
+      "hazard": "EQ",
+      "name": "M 4.8 - Reykjanes Ridge",
+      "aliases": [
+        "usgs:us6000u411",
+        "gdacs:1573068"
+      ],
+      "location": {
+        "lat": 56.9659,
+        "lon": -34.0939,
+        "place": "Reykjanes Ridge"
+      },
+      "origin_time": "2026-10-22T04:44:17Z",
+      "magnitude": {
+        "value": 4.8,
+        "type": "mww",
+        "depth_km": 10
+      },
+      "gdacs_alert": "Green",
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-22T05:35:00Z",
+      "last_changed": "2026-10-22T05:35:00Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u411",
+        "gdacs": "https://www.gdacs.org/report.aspx?eventid=1573068&episodeid=1741752&eventtype=EQ"
+      }
+    },
+    "evt-2026-31835": {
+      "hazard": "EQ",
+      "name": "M 2.8 - 17 km SW of Pozo Almonte, Chile",
+      "aliases": [
+        "usgs:us6000u3ye"
+      ],
+      "location": {
+        "lat": -20.3503,
+        "lon": -69.9156,
+        "place": "17 km SW of Pozo Almonte, Chile"
+      },
+      "origin_time": "2026-10-21T21:15:50Z",
+      "magnitude": {
+        "value": 2.8,
+        "type": "ml",
+        "depth_km": 46.359
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-22T05:35:00Z",
+      "last_changed": "2026-10-22T05:35:00Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ye"
+      }
+    },
+    "evt-2026-31836": {
+      "hazard": "EQ",
+      "name": "M 1.3 - 53 km SW of Adak, Alaska",
+      "aliases": [
+        "usgs:av93068469"
+      ],
+      "location": {
+        "lat": 51.5596666666667,
+        "lon": -177.228333333333,
+        "place": "53 km SW of Adak, Alaska"
+      },
+      "origin_time": "2026-10-21T07:32:46Z",
+      "magnitude": {
+        "value": 1.29,
+        "type": "ml",
+        "depth_km": 19.26
+      },
+      "gdacs_alert": null,
+      "pager_alert": null,
+      "reported": false,
+      "flash_published": false,
+      "status": "active",
+      "first_seen": "2026-10-22T05:35:00Z",
+      "last_changed": "2026-10-22T05:35:00Z",
+      "source_refs": {
+        "usgs": "https://earthquake.usgs.gov/earthquakes/eventpage/av93068469"
+      }
     }
   },
   "feed_status": {
     "usgs": {
-      "last_attempt": "2026-10-22T05:11:25Z",
-      "last_success": "2026-10-22T05:11:25Z",
-      "feed_generated_at": "2026-10-22T05:10:30Z",
+      "last_attempt": "2026-10-22T05:35:00Z",
+      "last_success": "2026-10-22T05:35:00Z",
+      "feed_generated_at": "2026-10-22T05:34:46Z",
       "consecutive_failures": 0
     },
     "gdacs": {
-      "last_attempt": "2026-10-22T05:11:25Z",
-      "last_success": "2026-10-22T05:11:25Z",
+      "last_attempt": "2026-10-22T05:35:00Z",
+      "last_success": "2026-10-22T05:35:00Z",
       "feed_generated_at": null,
       "consecutive_failures": 0
     }
